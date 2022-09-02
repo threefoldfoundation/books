@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Cloud Units - THREEFOLD GRID</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../empty.html"></a></li><li class="chapter-item expanded "><a href="../../tfgrid/intro/intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../tfgrid/howitworks/how_it_works.html"><strong aria-hidden="true">1.1.</strong> Video</a></li><li class="chapter-item expanded "><a href="../../tfgrid/intro/longstoryshort.html"><strong aria-hidden="true">1.2.</strong> A Long Short Story</a></li><li class="chapter-item expanded "><a href="../../tfgrid/intro/why.html"><strong aria-hidden="true">1.3.</strong> Why</a></li><li class="chapter-item expanded "><a href="../../values/ppp/ppp.html"><strong aria-hidden="true">1.4.</strong> Planet People Profit</a></li></ol></li><li class="chapter-item expanded "><a href="../../mission/vision.html"><strong aria-hidden="true">2.</strong> Vision</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../mission/goals/1_concept_realization.html"><strong aria-hidden="true">2.1.</strong> Realize The Promise</a></li><li class="chapter-item expanded "><a href="../../mission/goals/2_internet_GDP_positivity.html"><strong aria-hidden="true">2.2.</strong> GDP Positive Internet</a></li><li class="chapter-item expanded "><a href="../../mission/goals/3_realizing_web_4.html"><strong aria-hidden="true">2.3.</strong> Web 4</a></li><li class="chapter-item expanded "><a href="../../mission/goals/4_bitcoin_for_internet_capacity.html"><strong aria-hidden="true">2.4.</strong> BTC for Internet Capacity</a></li><li class="chapter-item expanded "><a href="../../mission/goals/5_the_internet_infrastructure.html"><strong aria-hidden="true">2.5.</strong> The Internet Infrastructure</a></li></ol></li><li class="chapter-item expanded "><a href="../../tfgrid/grid.html"><strong aria-hidden="true">3.</strong> Grid</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../tfgrid/cloudunits/cloudunits.html" class="active"><strong aria-hidden="true">3.1.</strong> Cloud Units</a></li><li class="chapter-item expanded "><a href="../../tfgrid/cloudunits/resourceunits.html"><strong aria-hidden="true">3.2.</strong> Resource Units</a></li></ol></li><li class="chapter-item expanded "><a href="../../tfgrid/advanced.html"><strong aria-hidden="true">4.</strong> Advanced</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../tfgrid/cloudunits/cloudunits_advanced.html"><strong aria-hidden="true">4.1.</strong> Cloud Units</a></li><li class="chapter-item expanded "><a href="../../tfgrid/cloudunits/resourceunits_advanced.html"><strong aria-hidden="true">4.2.</strong> Resource Units</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">THREEFOLD GRID</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="cloud-units"><a class="header" href="#cloud-units">Cloud Units</a></h1>
+<p><img src="img/cloudunits_abstract.jpg" alt="" /></p>
+<h2 id="what-are-cloud-units"><a class="header" href="#what-are-cloud-units">What are Cloud Units?</a></h2>
+<p>Cloud units are the basis for price calculation for anyone intending to use/deploy on the Threefold Grid. </p>
+<p>Cloud units are a unified way to account for virtual hardware resources on the ThreeFold Grid. They represent compute, storage and network equivalents to energy (kW - kilowatt). The are three categories of cloud units:</p>
+<ul>
+<li>Compute Unit (CU): The amount of data processing power in terms of virtual CPU (vCPU) cores (logical <a href="https://en.wikipedia.org/wiki/Central_processing_unit">CPUs</a>) and Random Access Momory (<a href="https://en.wikipedia.org/wiki/Random-access_memory">RAM</a>).</li>
+<li>Storage Unit (SU): The amount of storage capacity in terms of Hard Disk Drives (HDDs) and Solid State Drives (SSDs) in Gigabytes (GB).</li>
+<li>Network Unit (NU): The amount of data that travels in and out of storage units or compute units expressed in GB.</li>
+</ul>
+<blockquote>
+<p>Note: <a href="resource_units.html">Resource units</a> are used to calculate SU &amp; CU. Resource Units are used to measure compute and storage capacity produced by hardware.</p>
+</blockquote>
+<p>When a solution is deployed on the ThreeFold Grid, the system automatically gathers the required amount of CU, SU, or NU. It is important to note that users are not billed upon reservation but only when utilizing the actualy CU, SU and NU. TF Certified Farmers can define the price of CU, SU, and NU they make available on the ThreeFold Grid. </p>
+<h2 id="how-is-the-price-of-cloud-units-v4-calculated"><a class="header" href="#how-is-the-price-of-cloud-units-v4-calculated">How is the price of Cloud Units (v4) calculated?</a></h2>
+<p>The following tables display how cloud units (v4) are calculated on the ThreeFold Grid. The 4th version of cloud units are used since Grid 2.2+ in mid 2020.</p>
+<h3 id="compute-capacity"><a class="header" href="#compute-capacity">Compute Capacity</a></h3>
+<table><thead><tr><th>CU (Compute Unit)</th><th></th><th></th><th></th><th></th></tr></thead><tbody>
+<tr><td>GB Memory</td><td>4</td><td>8</td><td>2</td><td></td></tr>
+<tr><td>nr vCPU</td><td>2</td><td>1</td><td>4</td><td></td></tr>
+<tr><td>Passmark Minimum (expected is double)</td><td>500</td><td>250</td><td>1000</td><td>CPU performance</td></tr>
+</tbody></table>
+<p>The passmark (CPU benchmark or alternative) is not measured on the grid yet. It is used in simulators to check the mechanisms and ensure enough performance per CU is delivered.</p>
+<p>Example of Compute unit: </p>
+<ul>
+<li>4 GB memory &amp; 2 virtual CPU (and 50GB of SSD disk space)</li>
+<li>Recommended price on TF Grid = 10 USD</li>
+<li>Alternative cloud price = between 40 USD and 180 USD</li>
+</ul>
+<p>See how we compare with the market compute prices <a href="pricing">here</a>.</p>
+<h3 id="storage-capacity"><a class="header" href="#storage-capacity">Storage Capacity</a></h3>
+<table><thead><tr><th>SU (Storage Unit)</th><th>HDD</th><th>SSD</th></tr></thead><tbody>
+<tr><td>GB Storage Capacity</td><td>1200</td><td>200</td></tr>
+</tbody></table>
+<p>HDD is only usable for Zero Database driven storage (e.g. ThreeFold Quantum Safe Storage). 1.2 TB of HDD is provided following the advised storage policy of 16+4 with 20% overhead. So the net usable storage would be 1TB. In other words, the SU corresponds in that case to 1TB of net usable storage and an extra 200GB for redundancy.</p>
+<p>Example of Storage unit:</p>
+<ul>
+<li>1TB of usable storage as provided by the Zero-DBs (the backend storage systems)</li>
+<li>Recommended price on TF Grid for 1 SU = 10 USD</li>
+<li>Alternative cloud price = between 20 USD and 200 USD</li>
+</ul>
+<p>See how we compare with market storage prices <a href="pricing">here</a>.</p>
+<h3 id="network"><a class="header" href="#network">Network</a></h3>
+<table><thead><tr><th>NU (Network Unit = per GB) = NRU per month</th><th>GB (NRU)</th></tr></thead><tbody>
+<tr><td>GB transferred OUT or IN</td><td>1</td></tr>
+</tbody></table>
+<blockquote>
+<p>We use SU-month and CU-month to show SU monthly costs. This can be compared to kilowatts (kW) to see electricity usage per month. Learn more about how this is calculated with <a href="resource_units">Resource units</a>, a way to measure the compute and storage capacity produced by hardware.</p>
+</blockquote>
+<p>!!!def alias:cloudunits</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../tfgrid/grid.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../tfgrid/cloudunits/resourceunits.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../tfgrid/grid.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../tfgrid/cloudunits/resourceunits.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../../mermaid.min.js"></script>
+        <script type="text/javascript" src="../../mermaid-init.js"></script>
+
+
+    </body>
+</html>

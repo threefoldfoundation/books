@@ -67,5 +67,5 @@ function llink {
 }
 
 #MAKE SURE WE HAVE ALL THE RIGHT LINKS
-NAME='technology' && llink
-NAME='mission' && llink
+#NAME='technology' && llink
+#NAME='mission' && llink
