@@ -1,6 +1,6 @@
 set -ex
 
-export DIR_CT=~/code/github/threefoldfoundation
+export DIR_CODE=~/code/github
 export CURDIR=$PWD
 
 if [[ -d "books" ]] && [[ -d "content" ]] && [[ -d "docs" ]];then
@@ -22,19 +22,6 @@ else
     exit 1
 fi
 
-if ! [[ -d "${DIR_CT}/books" ]]; then 
-    echo ' - books have not been checked out yet'
-    pushd ${DIR_CT}
-    git clone git@github.com:threefoldfoundation/books.git
-    popd
-fi
-
-if ! [[ -d "${DIR_CT}/books" ]]; then 
-    echo '**ERROR** Could not find & checkout: ${DIR_CT}/books'
-    exit 1
-else
-    echo ' - books are already checked out'
-fi
 
 #check mdbooks installed
 if ! [ -x "$(command -v cargo)" ]; then
@@ -51,10 +38,62 @@ if ! [ -x "$(command -v mdbook)" ]; then
     #mdbook-mermaid install .
 fi
 
+function template {
+    if ! [[ -d "template" ]]; then 
+        if ! [[ -d "${DIR_CODE}/threefoldfoundation/books" ]]; then 
+            echo ' - books have not been checked out yet'
+            pushd ${DIR_CODE}/threefoldfoundation
+            git clone git@github.com:threefoldfoundation/books.git
+            popd
+        fi
+        TEMPLATEDIR="${DIR_CODE}/threefoldfoundation/books/template"
+    else
+        TEMPLATEDIR="template"
+    fi
+    if ! [[ -d "$TEMPLATEDIR" ]]; then 
+        echo '**ERROR** Could not find templatedir on $TEMPLATEDIR'
+        exit 1
+    fi
+
+    if ! [[ -f "$DEST/book.toml" ]]; then 
+        echo cp $TEMPLATEDIR/books/template/book.toml $DEST/
+    fi
+    if ! [[ -f "$DEST/env.sh" ]]; then 
+        echo cp $TEMPLATEDIR/books/template/env.sh $DEST/
+    fi
+    if ! [[ -f "$DEST/src/SUMMARY.md" ]]; then 
+        echo cp $TEMPLATEDIR/books/template/src/SUMMARY.md $DEST/src/
+    fi
+        
+    echo cp $TEMPLATEDIR/books/template/develop.sh $DEST/
+    echo cp $TEMPLATEDIR/books/template/run.sh $DEST/
+    echo cp $TEMPLATEDIR/books/template/mermaid-init.js $DEST/
+    echo cp $TEMPLATEDIR/books/template/mermaid.min.js $DEST/
+    echo rsync -rav --delete $TEMPLATEDIR/theme/ $DEST/theme/
+
+}
+
 function llink {
+    export DIR_ACCOUNT="${DIR_CODE}/${ACCOUNT}"
+    export DIR_REPO="${DIR_CODE}/${ACCOUNT}/${REPO}"
+    if ! [[ -d "${DIR_REPO}" ]]; then 
+        echo ' - books have not been checked out yet'
+        pushd ${DIR_ACCOUNT}
+        git clone git@github.com:${ACCOUNT}/${REPO}.git
+        popd
+    fi
+
+    if ! [[ -d "${DIR_REPO}" ]]; then 
+        echo '**ERROR** Could not find & checkout: ${DIR_REPO}'
+        exit 1
+    else
+        echo ' - books are already checked out'
+    fi
+
     #CHECK WE CAN FIND THE CONTENT DIR
-    if ! [[ -d "../../threefoldfoundation/books/content/$NAME" ]]; then 
-        echo '**ERROR** Could not find content section in repo of books'
+    CONTENTDIR="${ACCOUNT}/${REPO}/content/$NAME"
+    if ! [[ -d "../../$CONTENTDIR" ]]; then 
+        echo '**ERROR** Could not find content section in repo of books ${CONTENTDIR}'
         exit 1
     fi
 
@@ -62,10 +101,14 @@ function llink {
     if ! [ -L $CURDIR/content/$NAME ];then
         echo ' - link to books does not exist yet or broken'
         rm -f $CURDIR/content/$NAME
-        ln -s ../../../threefoldfoundation/books/content/$NAME $CURDIR/content/$NAME
+        ln -s "../../../${CONTENTDIR}" $CURDIR/content/$NAME
     fi
 }
 
 #MAKE SURE WE HAVE ALL THE RIGHT LINKS
-#NAME='technology' && llink
-#NAME='mission' && llink
+# REPO='threefoldfoundation/books' && NAME='technology' && llink
+# REPO='threefoldfoundation/books' && NAME='mission' && llink
+ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='abundance_internet' && llink
+ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='feasibility_study' && llink
+ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='matrix_already' && llink
+ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='ow_experiences' && llink

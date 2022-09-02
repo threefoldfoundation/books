@@ -1,8 +1,8 @@
-# Internet Should Be Generated Locally
+# What has Internet Farming to do with Solar Panels?
 
 > TODO: What is internet capacity, link to the internet pages at end
 
-> TODO: explain farming
+> TODO: link back to farming what it is
 
 ![](img/like_electricity.jpeg)  
 
@@ -19,5 +19,7 @@
 ![](img/generate_tft_table.jpeg)  
 
 >TODO: link to the internet pages (at end)
+
+For more info about how the internet works see [here](theinternet/theinternet.md)
 
 >TODO: complete

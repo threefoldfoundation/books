@@ -52,8 +52,4 @@ See [POCDAO RULES](poc_dao_rules) for more info about USD price which will be us
 
 The above farming rewards apply for 3Nodes registered in TFChain for ThreeFold Grid v3. Anyone can calculate their potential rewards using the [Farming Reward Calculator](farming_calculator). The same CU, SU, NU and IPAddr principles apply to the sales of Internet capacity in the form [cloud units](cloudunits).
 
-!!!tfpriceinfo
-
-
-!!!include:farming_reward_disclaimer
-
+{{#include poc_dao_rules.md}}

@@ -1,1 +1,0 @@
-> Simulations are NOT investment advice nor should they be looked at in this way. The scenarios shown are by no means a guarantee and no one can predict the future of yields exactly as they are heavily dependent on factors beyond anyone's control. The DAO could also decide to change paramters or farming, which could have a different result.
