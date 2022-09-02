@@ -13,16 +13,15 @@ Most servers that provide these services are today hosted in centralized data ce
 ## The Internet Map
 
 {{#include internet_map.md}}
->TODO: need to explain how cable go around the world and cary our information
+>TODO: need to explain how cable go around the world and cary our information (done in internet_map, please review)
 
-## The Role Of Datacenters
+## The Role Of Data Centers
 
 {{#include internet_datacenters.md}}
->TODO: need to show and explain datacenters
-
+>TODO: need to show and explain datacenters (done in internet_datacenters, please review)
 
 ## Bandwidth Is Not Local
 
 {{#include internet_bandwidth.md}}
->TODO: need to show how bandwidth is not staying local (there is slide already)
+>TODO: need to show how bandwidth is not staying local (there is slide already) (done in internet_bandwidth, please review)
 

@@ -5,9 +5,9 @@ ThreeFold uses a proof-of-blockstake consensus mechanism. By running Zero-OS on 
 
 ![](img/circular_tft3_.jpg ':size=500')
 
-> TODO: we have better one
+> TODO: we have better one (note: image? could not find)
 
-In decentralized systems like ThreeFold, we need to ensure that evereyone is able to provide Internet capacity to the world. Farmers help this happen by connecting hardware that run Zero-OS. Once booted, the hardware is locked to generate Internet capacity for the network. The capacity is registered on TFChain, securing access to a decentralized Internet for users and rewarding farmers with TFT.
+In decentralized systems like ThreeFold, we need to ensure that everyone is able to provide Internet capacity to the world. Farmers help this happen by connecting hardware that run Zero-OS. Once booted, the hardware is locked to generate Internet capacity for the network. The capacity is registered on TFChain, securing access to a decentralized Internet for users and rewarding farmers with TFT.
 
 <!-- 
 

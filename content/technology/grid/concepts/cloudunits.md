@@ -1,6 +1,6 @@
 # Cloud Units
 
-Cloud units are the basis for buying & selling capacity on the ThreeFold Grid (for more info see here.
+Cloud units are the basis for buying & selling capacity on the ThreeFold Grid (for more info see here).
 
 - 1 CU = 1 compute unit
 - 1 SU = 1 storage unit
