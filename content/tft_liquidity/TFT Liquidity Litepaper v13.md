@@ -1,30 +1,6 @@
 ![image alt text](image_0.png)
+{{#include liquidity_intro.md}}
 
-# Together we build our own future with the Internet of Internets.
-
-ThreeFold is a movement. All of us together, we are creating the Internet of Internets – a system of local internets for us to connect and exchange information and value without limitations or intermediaries. 
-
-To learn more about ThreeFold read our litepaper on [http://litepaper.threefold.me](http://litepaper.threefold.me).
-
-Each local Internet is owned by all of us ("people"), together – an equality and abundance-based paradigm to benefit and provide fair value exchange for the collective and each of us individually. A planet-first, people-first philosophy that shapes the future we want to live in. Without our planet, we have nothing. And we believe people need a better system. One they can depend on. One that allows everyone to provide economic flow. One that gives them the opportunity to thrive.
-
-This document describes how liquidity will be the result of real utilization which means:
-
-* Deployment of validators on the main chain (L2 validators = staking).
-
-* Deployment of validators for each regional internet 
-
-* Funding of the liquidity pools in each regional internet (CHI vs TFT).
-
-* Paying for utilization of the TFGrid + staking to get more discount on TFGrid.
-
-* Reserve currency for all regional internets (CHI is only valid in 1 regional Internet, TFT allows bridging)
-
-Because we don’t do fake market making and we didn't accept funding from investors to fund our token raise (some call this pump and dump), we will have to be patient and wait till more utilization is required till we get to enough liquidity. 
-
-Our future is 100% decentralization where our token doesn’t need centralized market makers nor centralized exchanges. Every participant to the network can be a liquidity provider and our token is stored on multiple money blockchains (today we use Stellar, we are considering adding Algorand).
-
-The ThreeFold token TFT is a token with real utility value and as ThreeFold we are only at the start of our journey.
 
 **We are different and need to dare to be different.**
 
@@ -34,7 +10,8 @@ The ThreeFold token TFT is a token with real utility value and as ThreeFold we a
 
 * The Internet of Internets concept will require billions of TFT to support its growth.
 
-* We have a strong community of like minded people who want the ThreeFold project to succeed, so many are willing to offer their time to make it happen, thank you… 
+* We have a strong community of like minded people who want the ThreeFold project to succeed, 
+so many are willing to offer their time to make it happen, thank you… 
 
 * Even country governments and large banking projects start seeing the value of what we do.
 
@@ -46,7 +23,10 @@ The ThreeFold token TFT is a token with real utility value and as ThreeFold we a
 
 # This Is Our Moment
 
-the world needs decentralization now more than ever, crypto is re-inventing itself 		just like what happened in the dot.com crash, this is the ideal moment to break through.We were preparing for this moment:
+the world needs decentralization now more than ever, crypto is re-inventing itself 
+		just like what happened in the dot.com crash, this is the ideal moment to break through.
+
+We were preparing for this moment:
 
 * Product ready, and good enough (yes)
 
@@ -92,13 +72,16 @@ the world needs decentralization now more than ever, crypto is re-inventing itse
 
 * Of course we make mistakes, but because we are flexible and we listen we can always adjust fast
 
-**We have done this 2x before in previous projects , and planned for this, It's time to move & be one of the leaders of a new era.**
+**We have done this 2x before in previous projects , and planned for this, 
+It's time to move & be one of the leaders of a new era.**
 
 # TFT Financial Token Ecosystem
 
 ![image alt text](image_2.png)
 
-It's no longer needed for a currency like TFT to be on a centralized exchange, everything they have to offer is available on these modern money blockchain ecosystems like Stellar & Algorand. It’s incredible to see how mature these platforms became. The process is actually getting very easy. Benefits today:
+It's no longer needed for a currency like TFT to be on a centralized exchange, everything they have to offer is available on these modern money blockchain ecosystems like Stellar & Algorand. It’s incredible to see how mature these platforms became. The process is actually getting very easy. 
+
+Benefits today:
 
 * Availability of stable coins (gold, usdc, …). The ability to use physical gold as an example is amazing.
 
@@ -132,11 +115,13 @@ Imagine your twin is your personal trading and exchange bot, you would become th
 
 * The digital twin will also try to use above mentioned liquidity pools and optionally exchanges on your behalf.
 
-* Each successful peer2peer exchange transaction gets registered in the blockchain, This way we have a market defined price really based on supply and demand.
+* Each successful peer2peer exchange transaction gets registered in the blockchain, 
+This way we have a market defined price really based on supply and demand.
 
 The wallet would use our TF Connect security layer and needs to be the easiest possible wallet to use, we would work with 3e parties to make it easy to use FIAT currency as well to enter this system.
 
-We would like to offer this functionality to other crypto projects as well, as long as they create liquidity pools with TFT as pair (-: We believe this is a very important missing piece for a more sustainable decentralized and safe digital currency world.
+We would like to offer this functionality to other crypto projects as well, as long as they create liquidity pools with TFT as pair (-: 
+We believe this is a very important missing piece for a more sustainable decentralized and safe digital currency world.
 
 This system is not limited to only digital currencies but you can use the twin to find any good or service you are looking for as well as exchange any good/service for any digital currency/token. The twin will take care of all details.
 
@@ -144,7 +129,8 @@ We are working on some huge projects with millions of users who need this functi
 
 The concept of having your own twin which acts on your behalf we call web 4.0.
 
-**DISCLAIMER: this is no investment advice, we do not promise any financial benefit and we do ****not**** suggest or promise any future TFT price.** 
+**DISCLAIMER: this is no investment advice, we do not promise any financial benefit 
+and we do ****not**** suggest or promise any future TFT price.** 
 
 # DAO based TFT Liquidity Pool (Q1 2023)
 
@@ -162,9 +148,11 @@ We are in the process of establishing a community based liquidity pool (addition
 
 * This is a DAO based liquidity pool, the TFT price and the spread 33% at start is voted on a weekly basis.
 
-* TFT to USDC will be 33% lower price compared to USDC/PAXG to TFT. This 33% margin is fully added to the liquidity pool, this means the liquidity pool constantly grows in value (this is the margin for the liquidity pool providers), this is very unique.
+* TFT to USDC will be 33% lower price compared to USDC/PAXG to TFT. 
+This 33% margin is fully added to the liquidity pool, this means the liquidity pool constantly grows in value (this is the margin for the liquidity pool providers), this is very unique.
 
-**DISCLAIMER: this is no investment advice, we do not promise any financial benefit and we do ****not**** suggest or promise any future TFT price.** 
+**DISCLAIMER: this is no investment advice, we do not promise any financial benefit 
+and we do ****not**** suggest or promise any future TFT price.** 
 
 # ThreeFold Project Phases![image alt text](image_5.png)
 
@@ -176,11 +164,14 @@ The first phase has been focused on initial expansion and the creation of all th
 
 * Initial roll out, Proof of technology (we are now gen 3), every day new capacity is extended without our involvement.
 
-**Phase 2 = Expansion Phase = Requires X Billion TFT = STAKING FOR EXPANSION**
+
+**Phase 2 = Expansion Phase = Requires X Billion TFT = STAKING FOR EXPANSION
+**
 
 * This stage will need multiple billions of TFT, this will stabilize the TFT price & drive liquidity.
 
-* Meanwhile the world is becoming less stable, more and more people realize they need a new Internet and more stable digital currency. Because of the underlying tokenomics, TFT might be a good future inflation hedge.
+* Meanwhile the world is becoming less stable, more and more people realize they need a new Internet and more stable digital currency. Because of the underlying tokenomics, TFT might be a good future inflation hedge.
+
 
 **Phase 3 = Web 4.0 Roll out = lots of utilization on TFGrid will be required**
 
@@ -190,7 +181,8 @@ The first phase has been focused on initial expansion and the creation of all th
 
 * Is in parallel with phase 2.
 
-******Phase 4 = Velocity Phase = the engine is running at full speed = the world has a new internet (-: **
+**
+****Phase 4 = Velocity Phase = the engine is running at full speed = the world has a new internet (-: **
 
 * TFT is needed everywhere to get access to 
 
@@ -216,9 +208,12 @@ We have created a simulator in which people can simulate how the Internet of Int
 
 In this simulation it's easy to see how many TFT we need depending on the token price, if the price is only 0.2 we need +4 billion tokens which are not available so in other words, the TFT price needs to be higher to be able this way people need to buy less TFT for their validators and twins. If we put the price on 4 it just works:
 
-![image alt text](image_7.png)****Above simulator see [https://threefold.docsend.com/view/bevgqb3gm2vw2yeu](https://threefold.docsend.com/view/bevgqb3gm2vw2yeu) 
+![image alt text](image_7.png)
+**
+**Above simulator see [https://threefold.docsend.com/view/bevgqb3gm2vw2yeu](https://threefold.docsend.com/view/bevgqb3gm2vw2yeu) 
 
-disclaimer: we are not making any promise about any token price of grid size, it's up to you to make your own assessment. TFT is not an investment instrument.
+disclaimer: we are not making any promise about any token price of grid size, 
+it's up to you to make your own assessment. TFT is not an investment instrument.
 
 # ![image alt text](image_8.png)
 
@@ -246,7 +241,8 @@ The specific case of Neighborhood Clouds (defined as a deployment whereby ThreeF
 
 ![image alt text](image_9.png)
 
-# How do we scale to a Billion People?
+# 
+How do we scale to a Billion People?
 
 Let's play with some numbers.
 
@@ -276,7 +272,8 @@ The following 5 mechanism provide for TFT Utilization (drives scarcity)
 
 3. CHI genesis pool + CHI based personal liquidity pool *(many billions of TFT)*
 
-4. ThreeFold Grid Usage, TFT is needed and also will get tokens to be burned.Digital Twins: Millions of people will need their ThreeFold Keys (or Uhuru Keys) (already in phasee 3)
+4. ThreeFold Grid Usage, TFT is needed and also will get tokens to be burned.
+Digital Twins: Millions of people will need their ThreeFold Keys (or Uhuru Keys) (already in phasee 3)
 
 ## 1. Staking requirement for Regional Internet
 
@@ -398,7 +395,8 @@ Of course there are some known (non blocking) issues
 
 * We don’t have enough IP addresses (being resolved)
 
-* We also need to be more clear about farming quality definition & measurement, it needs to be easier for people to define what a good farmer is.
+* We also need to be more clear about farming quality definition & measurement, 
+it needs to be easier for people to define what a good farmer is.
 
 Is the system good enough
 

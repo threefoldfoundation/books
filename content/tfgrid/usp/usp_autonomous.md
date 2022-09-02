@@ -1,0 +1,3 @@
+# Autonomous deployment
+
+The ThreeFold Grid management and the IT workloads running on it are not handled by humans but by bots. This removes human error and malicious hacking possibilities from the equation. We call them 3Bots. 3Bots are our virtual system administrators (VSA); they execute all workloads on the grid. To better understand how this works, we invite you to go through the [security section](usp_secure), paragraph 'Deployment process'.

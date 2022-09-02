@@ -1,9 +1,8 @@
-![image alt text](img/crisis_waves.jpg)  
-
 # PLANET, PEOPLE, PROFIT
 
-<img src="img/planet_people_profit.png" alt="planetpeopleprofit" width="300" style="float: right"/>
+![image alt text](img/crisis_waves.jpg)  
 
+<img src="img/planet_people_profit.png" alt="planetpeopleprofit" width="300" style="float: right"/>
 
 We believe in:
 
