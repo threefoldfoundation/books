@@ -1,4 +1,4 @@
-## What is the Internet?
+# What is the Internet?
 
 ![](img/theinternet.jpg)
 
@@ -9,3 +9,20 @@ The communications infrastructure of the Internet consists of its hardware compo
 The Internet carries many applications and services, most prominently the World Wide Web, including social media, e-mail, mobile applications, multiplayer online games, Internet telephony (calls), file sharing, and streaming media services.
 
 Most servers that provide these services are today hosted in centralized data centers owned by a few large corporations. This centralized model is inefficient, as through it's centralized model, if the main servers go down, the whole system experiences downtime. Hundreds of downtime events have been recorded throughout the last few years. Also, given these companies own the data centers, they also own the data that is contained in them and use it for profit reasons. 
+
+## The Internet Map
+
+{{#include internet_map.md}}
+>TODO: need to explain how cable go around the world and cary our information
+
+## The Role Of Datacenters
+
+{{#include internet_datacenters.md}}
+>TODO: need to show and explain datacenters
+
+
+## Bandwidth Is Not Local
+
+{{#include internet_bandwidth.md}}
+>TODO: need to show how bandwidth is not staying local (there is slide already)
+

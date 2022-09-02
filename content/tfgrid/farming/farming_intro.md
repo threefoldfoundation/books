@@ -1,16 +1,17 @@
-![](img/farming_.png)
 
 # ThreeFold Farming
 
-![](img/grid_new_.png)
+![](img/farming_intro0.jpeg)  
 
 ThreeFold Farming ("Farming") is the process of connecting Internet capacity to the ThreeFold Grid. This process is undertaken by independent people or organization called ThreeFold Farmers ("Farmers").
 
 ## What is Farming?
 
-!!!include:what_is_farming
+{{#include farming_circular.md}}
 
 ## Who can become a farmer on ThreeFold?
+
+![](img/farming_.png)
 
 Technically, anyone can farm on the ThreeFold Grid using any server-type hardware. By using [Proof-of-Capacity](proof_of_capacity), farming was designed to reward all nodes equally according to the Internt capacity they provide to the ThreeFold Grid. 
 
@@ -19,7 +20,7 @@ Technically, anyone can farm on the ThreeFold Grid using any server-type hardwar
 Anyone can become a Farmer, and there is no technical knowledge required. ThreeFold's autonomous system does all the heavy lifting, making it easy for anyone to join.
 
 - Potential costs of the hardware necessary to provide Internet capacity and maintain a farming setup.
-- -Electrical costs to power the farm.
+- Electrical costs to power the farm.
 - Potential cost of equipment to support larger farming setups such as data centers (ventilation, monitoring, electrical wiring, etc). 
 
 To further explore farming rewards, click [here](@farming_reward). 
