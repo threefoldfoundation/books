@@ -15,3 +15,5 @@
     - [Advanced](tfgrid/advanced.md)
         - [Cloud Units](tfgrid/cloudunits/cloudunits_advanced.md)
         - [Resource Units](tfgrid/cloudunits/resourceunits_advanced.md)
+    - [What Is](whatis.md)
+        - [The Internet](tfgrid/theinternet/theinternet.md)

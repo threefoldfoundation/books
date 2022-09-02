@@ -1,7 +1,7 @@
 
 # Long Story Short
 
-![](img/threefold_intro.png)  
+<!-- ![](img/threefold_intro.png)   -->
 
 
 The truth is that ThreeFold is a big project. Here we will try to make things a little simpler for you.
