@@ -1,11 +1,11 @@
-set -e
+set -ex
 
-bash env.sh
+source env.sh
 
 ##WALK OVER THE BOOKS
 for d in books/*/ ; do
     pushd $d
-    dest=$d && template 
+    export DEST=$d && template     
     popd
 done
 

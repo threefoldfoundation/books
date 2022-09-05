@@ -48,7 +48,7 @@ The main advantage of PoC to farmers it makes it really easy to run a 3Node. It 
 6. Everyone can use the [ThreeFold Explorer](https://explorer.threefold.io/) to see where capacity is available. This info comes from the TFChain.
 
 
-## PoC Rewards
+## TFT Rewards for TFGrid Mainnet
 
 | Percentage                                         | Description    | Remark                           |
 | -------------------------------------------------- | -------------- | -------------------------------- |

@@ -2,4 +2,4 @@
 
 # ![image alt text](img/sky_surfing.png)
 
-{{#include mission_.rs}}
+{{#include mission_.md}}

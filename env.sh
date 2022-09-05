@@ -39,6 +39,12 @@ if ! [ -x "$(command -v mdbook)" ]; then
 fi
 
 function template {
+
+    if ! [ ${#DEST} -ge 3 ];then 
+        echo "DEST is not right length '$DEST'"
+        exit 1
+    fi
+
     if ! [[ -d "template" ]]; then 
         if ! [[ -d "${DIR_CODE}/threefoldfoundation/books" ]]; then 
             echo ' - books have not been checked out yet'
@@ -55,21 +61,24 @@ function template {
         exit 1
     fi
 
-    if ! [[ -f "$DEST/book.toml" ]]; then 
-        echo cp $TEMPLATEDIR/books/template/book.toml $DEST/
+    rm -rf ${DEST}book
+
+    if ! [ -f ${DEST}book.toml ]; then 
+        echo cp $TEMPLATEDIR/books/template/book.toml $DEST
+        exit 1
     fi
-    if ! [[ -f "$DEST/env.sh" ]]; then 
-        echo cp $TEMPLATEDIR/books/template/env.sh $DEST/
+    if ! [ -f "${DEST}env.sh" ]; then 
+        cp $TEMPLATEDIR/books/template/env.sh $DEST
     fi
-    if ! [[ -f "$DEST/src/SUMMARY.md" ]]; then 
-        echo cp $TEMPLATEDIR/books/template/src/SUMMARY.md $DEST/src/
+    if ! [ -f "${DEST}src/SUMMARY.md" ]; then 
+        cp $TEMPLATEDIR/books/template/src/SUMMARY.md ${DEST}src/SUMMARY.md
     fi
         
-    echo cp $TEMPLATEDIR/books/template/develop.sh $DEST/
-    echo cp $TEMPLATEDIR/books/template/run.sh $DEST/
-    echo cp $TEMPLATEDIR/books/template/mermaid-init.js $DEST/
-    echo cp $TEMPLATEDIR/books/template/mermaid.min.js $DEST/
-    echo rsync -rav --delete $TEMPLATEDIR/theme/ $DEST/theme/
+    cp $TEMPLATEDIR/books/template/develop.sh $DEST
+    cp $TEMPLATEDIR/books/template/run.sh $DEST/run.sh 
+    cp $TEMPLATEDIR/books/template/mermaid-init.js $DEST
+    cp $TEMPLATEDIR/books/template/mermaid.min.js $DEST
+    rsync -rav --delete $TEMPLATEDIR/theme/ ${DEST}theme/
 
 }
 
