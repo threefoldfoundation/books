@@ -1,1 +1,0 @@
-# IoI Concept Realization

@@ -1,0 +1,510 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Web 4.0 &amp; Banking 4.0 Platform Whitepaper</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="introduction.html">Introduction</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">History</li><li class="chapter-item expanded "><a href="history/four_challenges.html"><strong aria-hidden="true">1.</strong> The top 4 challenges for Banks and financial institutions in 2021</a></li><li class="chapter-item expanded "><a href="history/99_client_server.html"><strong aria-hidden="true">2.</strong> 99% of all current financial banking solutions are client server</a></li><li class="chapter-item expanded "><a href="history/web_3_vision.html"><strong aria-hidden="true">3.</strong> Blockchain Based Web 3.0 Vision</a></li><li class="chapter-item expanded "><a href="history/web_4_digital_twin.html"><strong aria-hidden="true">4.</strong> Web/Banking 4.0 = digital twin technology</a></li><li class="chapter-item expanded "><a href="history/inspired_by_nature.html"><strong aria-hidden="true">5.</strong> Inspired By Nature</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="solution/digital_ebank.html"><strong aria-hidden="true">6.</strong> Digital e-Bank Solution</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Platform Features</li><li class="chapter-item expanded "><a href="platform_features/wallet_banking.html"><strong aria-hidden="true">7.</strong> Easy To Use Wallet / Banking Apps</a></li><li class="chapter-item expanded "><a href="platform_features/digitial_currency_wrapping.html"><strong aria-hidden="true">8.</strong> Digital Currency Wrapping</a></li><li class="chapter-item expanded "><a href="platform_features/knox_security_vault.html"><strong aria-hidden="true">9.</strong> Knox Security Vault</a></li><li class="chapter-item expanded "><a href="platform_features/metaverse_capabilities.html"><strong aria-hidden="true">10.</strong> Metaverse Capabilities</a></li><li class="chapter-item expanded "><a href="platform_features/defi_p2p_exchange.html"><strong aria-hidden="true">11.</strong> DeFi and Peer To Peer Exchange</a></li><li class="chapter-item expanded "><a href="platform_features/p2p_reputation_system.html"><strong aria-hidden="true">12.</strong> Peer To Peer Reputation System (phase 2)</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="solution/powerful_dev_env.html"><strong aria-hidden="true">13.</strong> Powerful Development Environment</a></li><li class="chapter-item expanded "><a href="solution/blockchain_database.html"><strong aria-hidden="true">14.</strong> BCDB = BlockChain DataBase</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">ThreeFold Infrastructure Features</li><li class="chapter-item expanded "><a href="infrastructure_features/browser_firewall.html"><strong aria-hidden="true">15.</strong> Secure Access Mechanism = Browser Firewall</a></li><li class="chapter-item expanded "><a href="infrastructure_features/legacy_blockchain_compatability.html"><strong aria-hidden="true">16.</strong> Compatible with Blockchain &amp; Legacy Systems</a></li><li class="chapter-item expanded "><a href="infrastructure_features/quantum_safe_storage.html"><strong aria-hidden="true">17.</strong> Quantum Safe Storage</a></li><li class="chapter-item expanded "><a href="infrastructure_features/QSS_twin.html"><strong aria-hidden="true">18.</strong> Quantum Safe Twin Storage System</a></li><li class="chapter-item expanded "><a href="infrastructure_features/zero_os.html"><strong aria-hidden="true">19.</strong> Ultra Secure Operating System = Zero-OS</a></li><li class="chapter-item expanded "><a href="infrastructure_features/blockchain_pruning.html"><strong aria-hidden="true">20.</strong> Blockchain Pruning</a></li><li class="chapter-item expanded "><a href="infrastructure_features/planetary_network.html"><strong aria-hidden="true">21.</strong> Planetary network</a></li><li class="chapter-item expanded "><a href="infrastructure_features/unbreakable_deployment.html"><strong aria-hidden="true">22.</strong> Unbreakable Deployment</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Appendix</li><li class="chapter-item expanded "><a href="appendix/QSS_internals.html"><strong aria-hidden="true">23.</strong> Appendix A: Quantum Safe Storage Internals</a></li><li class="chapter-item expanded "><a href="appendix/appendix_zero_os.html"><strong aria-hidden="true">24.</strong> Appendix B: Zero-OS</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Web 4.0 &amp; Banking 4.0 Platform Whitepaper</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-top-4-challenges-for-banks-and-financial-institutions-in-2021"><a class="header" href="#the-top-4-challenges-for-banks-and-financial-institutions-in-2021">The top 4 challenges for Banks and financial institutions in 2021</a></h1>
+<ul>
+<li>Challenge 1  Growth</li>
+<li>Challenge 2  Digital adoption</li>
+<li>Challenge 3  Process &amp; profitability</li>
+<li>Challenge 4  Systems &amp; security </li>
+</ul>
+<p>We believe Web and Banking 4.0 Solution is able to resolve the above challenges.</p>
+<p>Fully digital and ready for the future, it can provide ‘unlimited’ growth, huge cost benefits, and by design, ultra security and reliability.</p>
+<p>It is essential to make it possible to comply with the regulatory requirements in an easier way.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="99-of-all-current-financial-banking-solutions-are-client-server"><a class="header" href="#99-of-all-current-financial-banking-solutions-are-client-server">99% of all current financial banking solutions are client server</a></h1>
+<p><img src="history/img/client_server.png" alt="alt_text" title="image_tooltip" /></p>
+<ul>
+<li>The servers run as applications inside high security datacenters (complicated and costly),</li>
+<li>Most of the processes in those servers are repetitive = highly inefficient,</li>
+<li>There are many interconnected functions which make the systems error-prone and very expensive to change.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blockchain-based-web-30-vision"><a class="header" href="#blockchain-based-web-30-vision">Blockchain Based Web 3.0 Vision</a></h1>
+<p><img src="history/img/blockchain.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Blockchain decentralizes the server, but in principle it remains a ‘client - server’ model.</p>
+<ul>
+<li>It is definitely a step in the right direction but the paradigm is the same,</li>
+<li>We, as users, still exist in different systems and have to deal with different applications (protocols).</li>
+<li>These blockchains can be integrated, and through Web 2.0 concepts, the web application can interact with multiple blockchains at the same time.</li>
+<li>This is called Web 3.0</li>
+</ul>
+<p><img src="history/img/browser_operating_system.png" alt="alt_text" title="image_tooltip" /></p>
+<p>The browser has now become our operating system, it is running on javascript. All applications run in our browser and interact with multiple blockchains.</p>
+<p>Web 3.0 can be used for fintech applications but there are some issues to consider</p>
+<ul>
+<li>Scalability issues are very hard to resolve if everything is done on blockchain,</li>
+<li>All transactions are visible, this leads to information leakage which is often not wanted,</li>
+<li>DEFI is a great possibility but if done on blockchain, leads to limitations of what can be done, and possible security issues in the future.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="webbanking-40--digital-twin-technology"><a class="header" href="#webbanking-40--digital-twin-technology">Web/Banking 4.0 = digital twin technology</a></h1>
+<p><img src="history/img/digital_twin_technology.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Web 4.0 is user-centric,</p>
+<ul>
+<li>every user is in control of its Fintech and Internet experience,</li>
+<li>blockchain needed for specific functions (money, identity, smart contracts, …),</li>
+<li>Up to 10x more efficient,</li>
+<li>data sovereignity for all (GDPR and other regulations can easily be achieved).</li>
+</ul>
+<p>Web 4.0 alone is not usable for many Fintech applications but, once combined with Blockchain technology, it has the potential to be the most exciting backbone for any future Fintech Applications.</p>
+<p><strong>Hence, our solution to combine Web 4.0 and Blockchain, see below.</strong></p>
+<p><img src="history/img/peer_2_peer_blockchain.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Peer To Peer is the most decentralized way and offers the best possible security, it's much easier for hackers to go after a centralized system.</p>
+<ul>
+<li>All executors talk to each other over private secure links,</li>
+<li>There is no blockchain involved for the compute, storage &amp; network requirements,  <br />
+which keeps data more secure</li>
+<li>Each executor needs compute, network and storage resources that are managed by ‘Validators’,</li>
+<li>The executor (Web 4.0 or twin) is the only entity who has control over the resources it requires,</li>
+<li>It is all 100% private and fully Peer To Peer.</li>
+</ul>
+<p><strong>Imagine a ‘Digital Banking Application’ which is able to mix the benefits of blockchain and Web 4.0, this would lead to huge cost and reliability benefits, while providing the most user friendly experience ever.</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="inspired-by-nature"><a class="header" href="#inspired-by-nature">Inspired By Nature</a></h1>
+<p><img src="history/img/inspired_by_nature.png" alt="alt_text" title="image_tooltip" /></p>
+<ul>
+<li>Just like we have trillions of cells in our body, so can billions of digital twins live next to each other.</li>
+<li>Each twin represents a person with all its digital needs,</li>
+<li>Each twin has memory, knows how to communicate, has knowledge, history, …</li>
+<li>Twins, like cells, cannot live without a body = a secure ThreeFold Grid Cloud (???? )</li>
+<li>can be private per fintech institute.</li>
+</ul>
+<p>This approach scales for ever
+<img src="history/img/unlimited_3nodes.png" alt="alt_text" title="image_tooltip" /></p>
+<ul>
+<li>There can be unlimited amounts of ‘3Nodes’ (= compute/storage boxes producing Internet Capacity), as well as Executors (Digital Twins and Web 4.0),</li>
+<li>There are no bottlenecks nor centralization points,</li>
+<li>Our Peer To Peer network technology takes care of routing and security issues between the Twins and the 3Nodes. The shortest path is always the best.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-e-bank-solution"><a class="header" href="#digital-e-bank-solution">Digital e-Bank Solution</a></h1>
+<p>We aim to deliver a product comparable to Revolut (<a href="https://www.revolut.com/">https://www.revolut.com/</a>) which, in our opinion, did an amazing job in providing a user-friendly interface packed with nice features. Our solution will be based on a more secure blockchain technology (which is not the case for Revolut) and web 4.0, have a lower cost base, much safer, and be future proof.</p>
+<p>We suggest implementing the new platform in multiple phases.</p>
+<h2 id="phase-1"><a class="header" href="#phase-1">Phase 1</a></h2>
+<p>Core banking features of</p>
+<ul>
+<li>Multiple accounts, (Current, Savings, Fix Deposit)</li>
+<li>Account linked with debit cards,</li>
+<li>VISA, MC or Union Pay branded Credit Cards </li>
+<li>Fund Transfer and Remittance</li>
+<li>Exchange between currencies and chosen set of reliable digital currencies,</li>
+<li>Personal finance manager / Coach / Set savings goals /Spend analytics</li>
+<li>KYC/AML verification process,</li>
+<li>Basic internal and external (regulatory) reporting on transactions, </li>
+<li>Review all relevant documents (T&amp;C, agreements, other product related documents …)</li>
+<li>Back office functionalities such as organization setup, set GL,COA, accounting, profit distribution modules, product configuration, process flow, dashboards, other various teller functions/management functions, reporting engine. </li>
+<li>Ecosystem integration ( revenue-producing business processes with ecosystem partners)</li>
+</ul>
+<p>All accounts and account holdings are stored on the banking core blockchain. Identity and verification (e.g. KYC) is also stored on the same blockchain.</p>
+<p>Exchange is implemented using DeFi mechanisms (Atomic Swapps and/or on Chain DeFi).</p>
+<p>Browser Firewall is used to protect all access from customers to their twins. Each twin has all the knowledge required to be an independent actor in the banking system. Each customer can either freeze or delete their twin at any point in time, and close their account following a ‘predefined’ process. </p>
+<p>All data is stored on blockchain and/or on ‘Quantum Safe Storage’ system, the banking system will be 99% ‘self-healing’, and would barely require any human intervention. This leads to incredible security and high up-time. </p>
+<p>The purpose is to automate the full banking process as much as possible. The aim is to have a monthly cost between 1-5 USD per user per month, depending on the size of the deployment and requested features. </p>
+<p>Various freemium and premium plans will be offered to the customer. </p>
+<p>Example of a million user network could cost about 1 million USD per month to operate end to end, which would be  quite exceptional and open the doors to lots of new opportunities. This cost could then be charged to the customer as a Premium model (same as Revolut). </p>
+<h2 id=""><a class="header" href="#"></a></h2>
+<h2 id="phase-2"><a class="header" href="#phase-2">Phase 2</a></h2>
+<p>Possible integration with</p>
+<ul>
+<li>Banking Enabled Metaverse technology,</li>
+<li>Augmented reality,</li>
+<li>AI driven bots helping customers in the secure metaverse to get support,</li>
+<li>Virtual reality banking experience (helpdesk, …),</li>
+<li>Integration with eCommerce systems (allow everyone to seamlessly accept payments) directly onto their banking account.</li>
+</ul>
+<p>Provide a more playful but yet ultra secure experience with the banking applications &amp; services.</p>
+<h2 id="phase-3"><a class="header" href="#phase-3">Phase 3</a></h2>
+<p>Additional banking features</p>
+<ul>
+<li>Digital Currency integration with the outside world,</li>
+<li>Insurance products,</li>
+<li>Investment products,</li>
+<li>Etc.</li>
+</ul>
+<p>Of course, together we will  need to define which if any of these possibilities are of interest.	</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="easy-to-use-wallet--banking-apps"><a class="header" href="#easy-to-use-wallet--banking-apps">Easy To Use Wallet / Banking Apps</a></h1>
+<h2 id="easy-to-use-wallet--banking-apps-1"><a class="header" href="#easy-to-use-wallet--banking-apps-1">Easy To Use Wallet / Banking Apps</a></h2>
+<p><img src="platform_features/img/crypto_wallet.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Together, we will design the customers’ wallet, and leverage our existing platform to create the user experience the Bank wants to provide to its customers.</p>
+<p>The wallet is using the above described ‘Browser Firewall’ technology, with three to four ‘Authentication’ levels.</p>
+<p>The wallet also serves as the ‘Authentication divide’ to any portal, or to any applications the bank wants to deploy.</p>
+<p>The ‘root key’ is stored on the phone, or in the Security Knox Vault (optional). For each use case, a derivative key is being generated which can be revoked by the user or the Fintech party, in case this would be required.</p>
+<p>The ‘root key’ can also be stored on a USB device for users who require even more security.</p>
+<p>The wallet can provide all the required functionalities</p>
+<ul>
+<li>Account management,</li>
+<li>Transfer money to accounts inside &amp; outside,</li>
+<li>Exchange money to other assets (gold, digital currencies),</li>
+<li>Safe Trading (based on our Peer To Peer Exchange),</li>
+<li>Profile Management,</li>
+<li>Reporting spending and other transactions,</li>
+<li>Management of debit and credit cards,</li>
+<li>Status of verification (KYC/AML).</li>
+</ul>
+<p>The functionalities are implemented using Peer to Peer twin technology, as well as, blockchain based backend technology for money, identification, KYC/AML, …</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-currency-wrapping"><a class="header" href="#digital-currency-wrapping">Digital Currency Wrapping</a></h1>
+<p><img src="platform_features/img/cryptocurrency.png" alt="alt_text" title="image_tooltip" /></p>
+<p>In Addition to allowing a user to directly integrate with an outside digital currency, we suggest also allowing wrapping of the outside currencies e.g. a wrapped BitCoin (BTC).</p>
+<p>This Wrapped BTC is then stored on the main or dedicated digital currency chain (can even be one chain per wrapped asset), the IBC (see below) allows the wrapped BTC to be used by the user from their wallet and digital twin.</p>
+<p>The Original BTC is stored offline in the Knox Security Vault using our Quantum Safe Storage Codec. This allows for ultimate security and flexibility for users.</p>
+<p>The bank can choose to allow users to exchange digital currencies with the external world or not, through IBC (Inter Blockchain Protocol, see below), this can be easily achieved.  The bank can even choose to become a liquidity provider for the existing digital currency world (optional).</p>
+<p>Revolut, for example, has chosen to keep the digital currencies in their internal system, and the user can only exchange from their own fiat currency to the digital currency and back. We believe though that it's nicer to allow the user to exchange digital currencies with the outside world if it matches the Bank’s Regulatory requirements.</p>
+<p>It is possible to introduce multiple stages e.g. in the digital bank ecosystem, users can freely exchange currencies with each other (stays on chain). Once they want to go off chain, extra checks are done to make sure there is no fraud involved, and it can take a certain time before it executes.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="knox-security-vault"><a class="header" href="#knox-security-vault">Knox Security Vault</a></h1>
+<h2 id="-1"><a class="header" href="#-1"></a></h2>
+<p><img src="platform_features/img/security_vault.png" alt="alt_text" title="image_tooltip" /></p>
+<p>As an option, one or more secure areas can be used to provide offline storage of keys and digital currency cold wallets.</p>
+<p><img src="platform_features/img/distributed_storage.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Each Knox Security Vault is an ultra safe area. Thanks to our Quantum Safe Storage system, it is not possible to retrieve a key even if a hacker would be in one safe, as a combination of three safes is required to recover information.</p>
+<p>We suggest using one way key storage, e.g. each wallet from a user, stores the encrypted dispersed key distributed over 4 or 5 Knox Security Vaults. Only in case of disaster and user strong identification, users can get access (can also be used to deal with death of the customer, and how to handover to relatives).</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="metaverse-capabilities"><a class="header" href="#metaverse-capabilities">Metaverse Capabilities</a></h1>
+<p><img src="platform_features/img/metaverse1.png" alt="alt_text" title="image_tooltip" /></p>
+<p>The metaverse we have at our disposal is the most complete, useful and beautiful one ever made. </p>
+<p>It can be used to spice up any type of experiences, educational, help desk, meetings, shopping, etc.</p>
+<p><img src="platform_features/img/metaverse3.png" alt="alt_text" title="image_tooltip" /></p>
+<p><img src="platform_features/img/metaverse4.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Shopping experience can be delivered to bank customers (shops and users), with integrated payment for the merchants.</p>
+<p><img src="platform_features/img/metaverse2.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Some videos of our metaverse capabilities: <a href="https://tube.freeflow.life/video-channels/verse/videos">https://tube.freeflow.life/video-channels/verse/videos</a> </p>
+<h2 id="-2"><a class="header" href="#-2"></a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="defi-and-peer-to-peer-exchange"><a class="header" href="#defi-and-peer-to-peer-exchange">DeFi and Peer To Peer Exchange</a></h1>
+<p><img src="platform_features/img/defi_exchange.png" alt="alt_text" title="image_tooltip" /></p>
+<p>DeFi is an amazing trend which banks should try to leverage, if not for internal usage, to provide a more transparent and safe way for their customers to exchange their currencies (digital and fiat) in a fully regulated environment.</p>
+<p>We have all the building blocks available to make this work.</p>
+<p>This can be implemented in a fully peer to peer way, while using DeFi Smart Contracts on the blockchain.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="peer-to-peer-reputation-system-phase-2"><a class="header" href="#peer-to-peer-reputation-system-phase-2">Peer To Peer Reputation System (phase 2)</a></h1>
+<p>Reputation could be a nice add-on to the banking offerings to allow banking customers to see the reputation of the people they are transacting or doing business with.</p>
+<p>We are developing a unique peer to peer reputation system to allow the power of network effects to come with strong verification and reputation proofs. We think that this might become an important added value a bank could deliver to its customers. This is a feature which does not cost money but is of high added value for your customer.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="powerful-development-environment"><a class="header" href="#powerful-development-environment">Powerful Development Environment</a></h1>
+<p>ThreeFold is the main sponsor behind vlang</p>
+<p><img src="solution/img/v_programming_language.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Vlang is a language heavily inspired by google’s GOLANG but faster, and more friendly with resources. It's also a language much easier to understand and code in. This language has 26.000 github stars which is +25% of google itself for golang, this shows the potential.</p>
+<p>We use VLANG for</p>
+<ul>
+<li>Digital twin backend (the main language for our digital life)</li>
+<li>Provisioning language for Threefold Grid (in progress)</li>
+<li>Language integrated with our chosen blockchain Algorand (we are close to having a full VLang compatible SDK for Algorand as well as VTeal smart contract language, this will be the easiest way to integrate and develop on top of Algorand).</li>
+<li>Dynamic Executor Language (fastest way to develop peer2peer on top of ThreeFold Grid).  <br />
+This Dynamic Executor Language is used in 
+<ul>
+<li>Digital Twin</li>
+<li>BCDB = BlockChain Database</li>
+<li>ThreeFold Grid Executors (serverless functions &amp; compatibility layer for old internet)</li>
+</ul>
+</li>
+</ul>
+<p>This approach allows us maximum productivity and minimal resource utilization which leads to a much more power and hardware efficient design.</p>
+<p>Our approach is</p>
+<ul>
+<li>Ultimate simplicity (do more with less)</li>
+<li>Easy to read code (DSL  = Domain Specific Languages)</li>
+<li>Ultra reliable communication thanks to RMB (Reliable Message Bus) </li>
+<li>Safety, only support one best way how to do something</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="bcdb--blockchain-database"><a class="header" href="#bcdb--blockchain-database">BCDB = BlockChain DataBase</a></h1>
+<p>Imagine a database which can scale to a petabyte and be fully integrated in a blockchain like Algorand.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="secure-access-mechanism--browser-firewall"><a class="header" href="#secure-access-mechanism--browser-firewall">Secure Access Mechanism = Browser Firewall</a></h1>
+<p><img src="infrastructure_features/img/browser_firewall.png" alt="alt_text" title="image_tooltip" /></p>
+<p>For ultra secure use cases, the user does not use javascript in their browser, the user connects over a ultra secure end2end encrypted and multi authenticated link from his browser to a secure location. In the secure location, the secure browser engine gives access to the required web and banking applications which connect further.</p>
+<p><img src="infrastructure_features/img/twin_functions.png" alt="alt_text" title="image_tooltip" /></p>
+<p>As an option, the web sessions can be recorded for auditing or anti-hacking/fraud detection, also in a secure location.</p>
+<p>The twin can communicate to other twins, in a close ultra secure closed context, giving no chance to hackers to interfere. The data is stored on a Quantum Safe Storage system (see further).</p>
+<p><img src="infrastructure_features/img/cyber_security.png" alt="alt_text" title="image_tooltip" /></p>
+<p>This leads to very good protection and ‘Auditing’ opportunities.</p>
+<p>Cyber crime will have a much harder time to be successful, way more difficult (we hope impossible).</p>
+<p>Even in the very unlikely event a hacker would succeed, he would only interfere with one twin, which means only one customer would be affected !!!  This makes it so much harder for hackers to deploy capital to hack and social engineer their way into a secure environment.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="compatible-with-blockchain--legacy-systems"><a class="header" href="#compatible-with-blockchain--legacy-systems">Compatible with Blockchain &amp; Legacy Systems</a></h1>
+<p><img src="infrastructure_features/img/web_remade_twin.png" alt="alt_text" title="image_tooltip" /></p>
+<p>The Twins can connect to any blockchain solution, close to the twins which are on safe locations where full blockchain nodes are deployed, this leads to even more security. In other words, it's not the browser of the user who connects to the blockchain, the browser of the user connects over the Browser Firewall to the apps running on the twin which connects the blockchain, hackers have no possibility to abuse javascript or browser vulnerabilities.</p>
+<p><img src="infrastructure_features/img/digital_twin_executor.png" alt="alt_text" title="image_tooltip" /></p>
+<p>This is also compatible with any other classic IT system running behind firewalls in protected environments, the Twins can connect to any possible IT system, blockchain or classic in an ultra secure setting.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quantum-safe-storage"><a class="header" href="#quantum-safe-storage">Quantum Safe Storage</a></h1>
+<p>Imagine a storage system with the following benefits:</p>
+<ul>
+<li>upto 10x more efficient (power and usage of hardware)</li>
+<li>ultra reliable, data can not be lost</li>
+<li>ultra safe &amp; private</li>
+<li>ultra scalable</li>
+<li>sovereign, data is close to you in the country of your choice</li>
+<li>true Peer To Peer, by everyone for everyone.</li>
+</ul>
+<p>It is not a dream, it does already exist, and is the underpinning of the ultra safe <strong>Cloud System</strong> empowering this solution. Our storage architecture follows the true Peer To Peer design. Any participating nodes (can be on ultra safe locations) only store small incomplete parts of data (files, photos, movies, databases…) by only offering a slice of their current (local) storage devices. Managing the storage and retrieval of all these ‘distributed fragments’ is done by a software that creates ‘development and/or end-user interfaces’ for this storage algorithm. We call this ‘dispersed storage‘.</p>
+<p>See in Appendix A to learn more about how Quantum Safe storage works. 
+<img src="infrastructure_features/img/data_security.png" alt="alt_text" title="image_tooltip" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quantum-safe-twin-storage-system"><a class="header" href="#quantum-safe-twin-storage-system">Quantum Safe Twin Storage System</a></h1>
+<p><img src="infrastructure_features/img/quantum_safe_storage.png" alt="alt_text" title="image_tooltip" /></p>
+<p>The Quantum Safe storage solution, as described above, is used to create the Quantum Safe Filesystem.</p>
+<p>Each Twin or Executor stores the data on a quantum safe filesystem, which means data can never be lost, any application just sees a normal filesystem so it's compatible with any application.</p>
+<p>This is an ultra scalable design, there are no limits to the size which can be achieved.</p>
+<p>This is a ‘zero knowledge’ proof system which means that, once the data leaves the twin it is impossible for any hacker or even quantum computer to get access or to modify the data, there is simply not enough information available.</p>
+<p>A redundant filesystem can store PB’s (millions of gigabytes) of information.</p>
+<p>Unique features:</p>
+<ul>
+<li>Unlimited scalable (many petabytes) filesystem</li>
+<li>Quantum Safe: even if used on the ThreeFold Grid, no farmer knows what the data is about</li>
+<li>Even a quantum computer cannot decrypt</li>
+<li>Data can’t be lost</li>
+<li>Protection for datarot, data will auto repair</li>
+<li>Data is kept forever</li>
+<li>Data is dispersed over multiple sites</li>
+<li>Sites can go down, data not lost</li>
+<li>Up to 10x more efficient than storing on classic storage cloud systems</li>
+<li>Can be mounted as a filesystem on any OS or any deployment system (OSX, Linux, Windows, Docker, Kubernetes, ThreeFold Grid, …)</li>
+<li>Compatible with ± all data workloads (not high performance data driven workloads like a database)</li>
+<li>Self-healing: when a node or disk is lost, storage system can get back to the original redundancy level</li>
+<li>Helps with compliance to regulations like GDPR (as the hosting facility has no view on what is stored, information is encrypted and incomplete)</li>
+<li>Hybrid: can be installed onsite, public, private, …</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ultra-secure-operating-system--zero-os"><a class="header" href="#ultra-secure-operating-system--zero-os">Ultra Secure Operating System = Zero-OS</a></h1>
+<p><img src="infrastructure_features/img/zero_os.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Zero-OS is a lightweight and efficient operating system. There is no shell, local nor remote. It supports a small number of primitives; the low-level functions it could perform natively in the operating system. Zero-OS (ZOS) is the operating system which allows the 3Nodes to be used to provide IT capacity in all safety to its applications. ZOS has been developed by ThreeFold from scratch, starting from the Linux kernel with the purpose to improve on efficiency, energy usage, performance, scale, cost of management and security. All applications, twins and blockchains are secured by the Zero-OS operating system.</p>
+<h3 id="why"><a class="header" href="#why">Why?</a></h3>
+<p>Most centrally managed operating systems rely on human management and intervention, which leads to downtime and security issues.</p>
+<p>Since the creation of the Internet, the development of operating systems mostly arises through the addition of further layers of code to improve capabilities and functionalities of software, this leads to too much complexity, performance loss, and energy usage issues.</p>
+<p>To build a truly scalable, private and efficient Internet infrastructure, we had to start from scratch to ensure a minimal hacking surface, improve efficiency, and ensure that anyone who connects hardware to the ThreeFold Grid wouldn’t be able to access the private user data thanks to our Quantum Safe Storage System.</p>
+<p>The result is game-changing as ZOS is able to provide the following benefits:</p>
+<ul>
+<li>Stateless: without shell, local or remote, it does not allow for inbound network connections to happen nor can data be fetched by node operators.</li>
+<li>Lightweight: Zero-OS can save up-to 10X energy on storage workloads.</li>
+<li>Autonomous: it runs by itself and doesn’t require humans to maintain it, removing human error and considerably reducing the hacking surface.</li>
+<li>Decentralized: deploy IT workloads and infrastructures in a private and neutral environment.</li>
+<li>Secure: store workloads in a quantum safe (future proof) way.</li>
+<li>Private: communicate end-to-end without centralized servers or APIs in the middle.</li>
+<li>Compatible: run anything that can run on Linux but in a decentralized environment.</li>
+</ul>
+<p><img src="infrastructure_features/img/zero_os_server.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Imagine an operating system with the following benefits</p>
+<ul>
+<li>Upto 10x more efficient for certain workloads (e.g. storage)</li>
+<li>No installation required</li>
+<li>All files are deduplicated for the VM’s, containers and the ZOS itself, no more data duplicated filesystems</li>
+<li>The hacking footprint is super small, which leads to much more safe systems</li>
+<li>Every file is fingerprinted and gets checked at launch time of an application</li>
+<li>There is no shell or server interface on the operating system</li>
+<li>The networks are end2end encrypted between all Nodes</li>
+<li>There is the possibility to completely disconnect the compute/storage from the network service part which means hackers have a lot less chance to get to the data.</li>
+<li>A smart contract for IT layer allows groups of people to deploy IT workloads with concensus and full control</li>
+<li>All workloads which can run on linux, can run on Zero-OS but in a much more controlled, private and safe way</li>
+</ul>
+<p>More info see <a href="https://library.threefold.me/info/threefold#/technology/zos">https://library.threefold.me/info/threefold#/technology/zos</a> </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blockchain-pruning"><a class="header" href="#blockchain-pruning">Blockchain Pruning</a></h1>
+<p>Existing blockchains don’t have a pruning feature, which means old data cannot get archived, this leads to very large blockchains rather quickly. We have developed a technology which can enable any chosen blockchain and allows old data to be on the Quantum Safe Storage system (means can never be corrupted or lost) and only active data is on the online chain, this allows for much more scalability and better utilization of hardware.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="planetary-network"><a class="header" href="#planetary-network">Planetary network</a></h1>
+<p><img src="infrastructure_features/img/planetary_network.png" alt="alt_text" title="image_tooltip" /></p>
+<p>The planetary network leads to serious benefits in scalability, reliability and security:</p>
+<p><img src="infrastructure_features/img/traditional_threefold_comparison.png" alt="alt_text" title="image_tooltip" /></p>
+<h2 id="-3"><a class="header" href="#-3"></a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="unbreakable-deployment"><a class="header" href="#unbreakable-deployment">Unbreakable Deployment</a></h1>
+<p><img src="infrastructure_features/img/unbreakable_deployment.png" alt="alt_text" title="image_tooltip" /></p>
+<p>Ultra Scalable &amp; Secure Decentralized Deployment</p>
+<p>Example deployment</p>
+<ul>
+<li>100 offices or branches with ATMs (bank) get 1 to 3nodes each providing compute &amp; storage to a private grid.</li>
+<li>Each node runs Zero-OS which has no shell and cannot be accessed by any person in the bank.</li>
+<li>None of the nodes has enough data to allow anyone to reconstruct the data.</li>
+<li>The different nodes together deliver a super resilient network of compute &amp; network resources.</li>
+</ul>
+<p><strong>Even if, in a disaster scenario, 30% of the locations would go down, the system would still function and be available to its users. This is the most reliable deployment possible in IT landscape today.</strong></p>
+<p>What runs on the 3Nodes</p>
+<ul>
+<li>Blockchain Nodes</li>
+<li>The distributed storage system (ultra safe, zero-knowledge proof)</li>
+<li>Digital Twins for users (optional)</li>
+<li>Secure Browser Engines</li>
+<li>Stateless banking apps.</li>
+</ul>
+<p>This can then be combined with super nodes running in even more secure places for more central apps if there are any.</p>
+<p>This system works with and enables the planetary network and quantum safe storage system.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="appendix-a-quantum-safe-storage-internals"><a class="header" href="#appendix-a-quantum-safe-storage-internals">Appendix A: Quantum Safe Storage Internals</a></h1>
+<p><img src="appendix/img/example_distributed_storage.png" alt="alt_text" title="image_tooltip" /></p>
+<p>In a classic system data gets replicated (sometimes shared, means over many locations). To allow 4 nodes to fail, 5 copies would be needed. This leads to some concrete disadvantages as described above.</p>
+<p><img src="appendix/img/quantum_safe_storage_system.png" alt="alt_text" title="image_tooltip" /></p>
+<p>In our system each object is fragmented into 16 parts. So we have 16 original fragments for which we need 16 equations to mathematically describe them. Now let’s make 20 equations and store them dispersedly on 20 devices. To recreate the original object we only need 16 equations, the first 16 that we find and collect which allows us to recover the fragment and in the end the original object. We could lose any 4 of those original 20 equations.</p>
+<p>The likelihood of losing 4 independent, dispersed storage devices at the same time is very low. Since we have continuous monitoring of all of the stored equations, we could create additional equations immediately when one of them is missing, making it an auto-regeneration of lost data and a self-repairing storage system. The overhead in this example is 4 out of 20, which is a mere 20% instead of (up to) 400%.</p>
+<p>More info see <a href="https://library.threefold.me/info/threefold#/technology/qsss/threefold__qss_algorithm">https://library.threefold.me/info/threefold#/technology/qsss/qss_algorithm</a> </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="appendix-b-zero-os"><a class="header" href="#appendix-b-zero-os">Appendix B: Zero-OS</a></h1>
+<p><img src="appendix/img/3node.png" alt="alt_text" title="image_tooltip" /></p>
+<p>More info see <a href="https://library.threefold.me/info/threefold#/technology/zos">https://library.threefold.me/info/threefold#/technology/zos</a> </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>

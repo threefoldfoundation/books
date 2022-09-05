@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Digital e-Bank Solution - Web 4.0 &amp; Banking 4.0 Platform Whitepaper</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../introduction.html">Introduction</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">History</li><li class="chapter-item expanded "><a href="../history/four_challenges.html"><strong aria-hidden="true">1.</strong> The top 4 challenges for Banks and financial institutions in 2021</a></li><li class="chapter-item expanded "><a href="../history/99_client_server.html"><strong aria-hidden="true">2.</strong> 99% of all current financial banking solutions are client server</a></li><li class="chapter-item expanded "><a href="../history/web_3_vision.html"><strong aria-hidden="true">3.</strong> Blockchain Based Web 3.0 Vision</a></li><li class="chapter-item expanded "><a href="../history/web_4_digital_twin.html"><strong aria-hidden="true">4.</strong> Web/Banking 4.0 = digital twin technology</a></li><li class="chapter-item expanded "><a href="../history/inspired_by_nature.html"><strong aria-hidden="true">5.</strong> Inspired By Nature</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../solution/digital_ebank.html" class="active"><strong aria-hidden="true">6.</strong> Digital e-Bank Solution</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Platform Features</li><li class="chapter-item expanded "><a href="../platform_features/wallet_banking.html"><strong aria-hidden="true">7.</strong> Easy To Use Wallet / Banking Apps</a></li><li class="chapter-item expanded "><a href="../platform_features/digitial_currency_wrapping.html"><strong aria-hidden="true">8.</strong> Digital Currency Wrapping</a></li><li class="chapter-item expanded "><a href="../platform_features/knox_security_vault.html"><strong aria-hidden="true">9.</strong> Knox Security Vault</a></li><li class="chapter-item expanded "><a href="../platform_features/metaverse_capabilities.html"><strong aria-hidden="true">10.</strong> Metaverse Capabilities</a></li><li class="chapter-item expanded "><a href="../platform_features/defi_p2p_exchange.html"><strong aria-hidden="true">11.</strong> DeFi and Peer To Peer Exchange</a></li><li class="chapter-item expanded "><a href="../platform_features/p2p_reputation_system.html"><strong aria-hidden="true">12.</strong> Peer To Peer Reputation System (phase 2)</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../solution/powerful_dev_env.html"><strong aria-hidden="true">13.</strong> Powerful Development Environment</a></li><li class="chapter-item expanded "><a href="../solution/blockchain_database.html"><strong aria-hidden="true">14.</strong> BCDB = BlockChain DataBase</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">ThreeFold Infrastructure Features</li><li class="chapter-item expanded "><a href="../infrastructure_features/browser_firewall.html"><strong aria-hidden="true">15.</strong> Secure Access Mechanism = Browser Firewall</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/legacy_blockchain_compatability.html"><strong aria-hidden="true">16.</strong> Compatible with Blockchain &amp; Legacy Systems</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/quantum_safe_storage.html"><strong aria-hidden="true">17.</strong> Quantum Safe Storage</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/QSS_twin.html"><strong aria-hidden="true">18.</strong> Quantum Safe Twin Storage System</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/zero_os.html"><strong aria-hidden="true">19.</strong> Ultra Secure Operating System = Zero-OS</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/blockchain_pruning.html"><strong aria-hidden="true">20.</strong> Blockchain Pruning</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/planetary_network.html"><strong aria-hidden="true">21.</strong> Planetary network</a></li><li class="chapter-item expanded "><a href="../infrastructure_features/unbreakable_deployment.html"><strong aria-hidden="true">22.</strong> Unbreakable Deployment</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Appendix</li><li class="chapter-item expanded "><a href="../appendix/QSS_internals.html"><strong aria-hidden="true">23.</strong> Appendix A: Quantum Safe Storage Internals</a></li><li class="chapter-item expanded "><a href="../appendix/appendix_zero_os.html"><strong aria-hidden="true">24.</strong> Appendix B: Zero-OS</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Web 4.0 &amp; Banking 4.0 Platform Whitepaper</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="digital-e-bank-solution"><a class="header" href="#digital-e-bank-solution">Digital e-Bank Solution</a></h1>
+<p>We aim to deliver a product comparable to Revolut (<a href="https://www.revolut.com/">https://www.revolut.com/</a>) which, in our opinion, did an amazing job in providing a user-friendly interface packed with nice features. Our solution will be based on a more secure blockchain technology (which is not the case for Revolut) and web 4.0, have a lower cost base, much safer, and be future proof.</p>
+<p>We suggest implementing the new platform in multiple phases.</p>
+<h2 id="phase-1"><a class="header" href="#phase-1">Phase 1</a></h2>
+<p>Core banking features of</p>
+<ul>
+<li>Multiple accounts, (Current, Savings, Fix Deposit)</li>
+<li>Account linked with debit cards,</li>
+<li>VISA, MC or Union Pay branded Credit Cards </li>
+<li>Fund Transfer and Remittance</li>
+<li>Exchange between currencies and chosen set of reliable digital currencies,</li>
+<li>Personal finance manager / Coach / Set savings goals /Spend analytics</li>
+<li>KYC/AML verification process,</li>
+<li>Basic internal and external (regulatory) reporting on transactions, </li>
+<li>Review all relevant documents (T&amp;C, agreements, other product related documents …)</li>
+<li>Back office functionalities such as organization setup, set GL,COA, accounting, profit distribution modules, product configuration, process flow, dashboards, other various teller functions/management functions, reporting engine. </li>
+<li>Ecosystem integration ( revenue-producing business processes with ecosystem partners)</li>
+</ul>
+<p>All accounts and account holdings are stored on the banking core blockchain. Identity and verification (e.g. KYC) is also stored on the same blockchain.</p>
+<p>Exchange is implemented using DeFi mechanisms (Atomic Swapps and/or on Chain DeFi).</p>
+<p>Browser Firewall is used to protect all access from customers to their twins. Each twin has all the knowledge required to be an independent actor in the banking system. Each customer can either freeze or delete their twin at any point in time, and close their account following a ‘predefined’ process. </p>
+<p>All data is stored on blockchain and/or on ‘Quantum Safe Storage’ system, the banking system will be 99% ‘self-healing’, and would barely require any human intervention. This leads to incredible security and high up-time. </p>
+<p>The purpose is to automate the full banking process as much as possible. The aim is to have a monthly cost between 1-5 USD per user per month, depending on the size of the deployment and requested features. </p>
+<p>Various freemium and premium plans will be offered to the customer. </p>
+<p>Example of a million user network could cost about 1 million USD per month to operate end to end, which would be  quite exceptional and open the doors to lots of new opportunities. This cost could then be charged to the customer as a Premium model (same as Revolut). </p>
+<h2 id=""><a class="header" href="#"></a></h2>
+<h2 id="phase-2"><a class="header" href="#phase-2">Phase 2</a></h2>
+<p>Possible integration with</p>
+<ul>
+<li>Banking Enabled Metaverse technology,</li>
+<li>Augmented reality,</li>
+<li>AI driven bots helping customers in the secure metaverse to get support,</li>
+<li>Virtual reality banking experience (helpdesk, …),</li>
+<li>Integration with eCommerce systems (allow everyone to seamlessly accept payments) directly onto their banking account.</li>
+</ul>
+<p>Provide a more playful but yet ultra secure experience with the banking applications &amp; services.</p>
+<h2 id="phase-3"><a class="header" href="#phase-3">Phase 3</a></h2>
+<p>Additional banking features</p>
+<ul>
+<li>Digital Currency integration with the outside world,</li>
+<li>Insurance products,</li>
+<li>Investment products,</li>
+<li>Etc.</li>
+</ul>
+<p>Of course, together we will  need to define which if any of these possibilities are of interest.	</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../history/inspired_by_nature.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../platform_features/wallet_banking.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../history/inspired_by_nature.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../platform_features/wallet_banking.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

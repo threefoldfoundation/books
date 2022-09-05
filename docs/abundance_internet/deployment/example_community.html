@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Example Community - DEVXDAO 1-CLICK DEPLOYMENT GRANT 36</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> OurWorld Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ppp/ppp_threefold.html"><strong aria-hidden="true">1.1.</strong> Planet &amp; People First</a></li><li class="chapter-item expanded "><a href="../overview/matrix.html"><strong aria-hidden="true">1.2.</strong> We are in the Matrix!</a></li><li class="chapter-item expanded "><a href="../overview/ourworld_IoI.html"><strong aria-hidden="true">1.3.</strong> Internet of Internets</a></li></ol></li><li class="chapter-item expanded "><a href="../architecture/architecture.html"><strong aria-hidden="true">2.</strong> Architecture</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../architecture/internet_today.html"><strong aria-hidden="true">2.1.</strong> The Internet Today</a></li><li class="chapter-item expanded "><a href="../architecture/remade_architecture.html"><strong aria-hidden="true">2.2.</strong> Web Re-made Architecture</a></li></ol></li><li class="chapter-item expanded "><a href="../deployment/deployment_process.html"><strong aria-hidden="true">3.</strong> Deployment</a></li><li class="chapter-item expanded "><a href="../deployment/example_community.html" class="active"><strong aria-hidden="true">4.</strong> Example Community</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="../conclusion/conclusion.html">Conclusion</a></li><li class="chapter-item expanded affix "><a href="../conclusion/join_the_movement.html">Join the Movement</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">DEVXDAO 1-CLICK DEPLOYMENT GRANT 36</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="example-community-cloud-for-a-small-village-in-zanzibar"><a class="header" href="#example-community-cloud-for-a-small-village-in-zanzibar">EXAMPLE COMMUNITY CLOUD FOR A SMALL VILLAGE IN ZANZIBAR</a></h1>
+<p><img src="img/zanzibar_neighbourhood.png" alt="alt_text" title="image_tooltip" /></p>
+<p>This is an example of a small village of 30 families which might spend 10k USD (can be wholly or in part funded by grants from a DAI) to build out their own peer2peer internet infrastructure. We call this process digital farming.</p>
+<p>The local community deploys storage and compute capacity and also makes fiber network connections to the 3 neighbor villages which are close by. Each village is now connected over multiple gbit links (100x faster compared to today) and 100% redundant, this network can not go down.</p>
+<p>This 10k can come from the village itself or (partially) granted by a DAI. The DAI has a large treasury and can co-invest in infrastructure. The infrastructure (network, compute and storage) produces income per month. A 10k investment can easily return 200k USD for early digital farmers.</p>
+<p>There is very limited knowledge required to start a digital farm. At start we have videos to help out on each required step in the local language, later on there will even be augmented reality courses. The TF DAI motivates villages to help their peers and as such provide knowledge and training to each other, it's in the absolute best interest of a village to help their neighbors. A growing digital ecosystem helps them all.</p>
+<p>As an example in Zanzibar most families can’t afford a decent internet connection, mobile is still very spotty and landlines are not affordable. Thanks to our approach a community will make money rather than having to spend, digital farming generates income.</p>
+<p>In Zanzibar The Internet System will help the participants to get started with projects like:</p>
+<ul>
+<li>Organic regenerative farming (products bought &amp; sold by means of the internet they have farmed)</li>
+<li>Farming of Carbon Credits (a huge possibility for redistribution of wealth)</li>
+<li>Growing of bamboo and hemp for building materials and carbon credit harvesting (serious opportunity)</li>
+<li>Growing of rare herbs, assisted by augmented and video learning programs</li>
+<li>Producing organic fertilizers</li>
+<li>Access to a health information and digital doctors.</li>
+<li>Farm to table programs</li>
+<li>Host conscious communities or help create eco-villages</li>
+<li>Ecological building projects (again using our education systems)</li>
+<li>Education, Coding, Translations, Web Design, … everything will become possible…</li>
+</ul>
+<p><strong>Benefits for the small village</strong></p>
+<ul>
+<li><strong>Free internet (well actually they make money from it, if they are early)</strong></li>
+<li><strong>Education &amp; e-learning (text, video, virtual and augmented reality)</strong></li>
+<li><strong>Fun activities with peers all over the world, cultural expansion (gamified)</strong></li>
+<li><strong>New economic activities (income in regenerative sustainable way)</strong></li>
+<li><strong>Empower young people, don’t lose them to the existing too capitalistic &amp; brainwashing internet</strong></li>
+<li><strong>No need to ruin their farming land, e.g. get access to organic non harmful fertilizers over our internet</strong></li>
+<li><strong>No need to sell off their properties (now often needed to survive)</strong></li>
+<li><strong>Allow others to learn from their knowledge and experience, often they know a lot and are happier compared to the so called “civilized” communities.</strong></li>
+<li><strong>Get access to the external world (digital banking, video conferencing, virtual reality museums…)</strong></li>
+<li><strong>A sense of purpose, because they can build out their own future!</strong></li>
+</ul>
+<p><strong>Benefits for the country they live in</strong></p>
+<ul>
+<li><strong>Money does not leave the nation, this internet is GDP positive!</strong></li>
+<li><strong>The country has sustainable income streams for their citizens, maybe less tax needed</strong></li>
+<li><strong>Less money needed from outside the country (less loans)</strong></li>
+<li><strong>Keep bad influences outside (e.g. chemical fertilizers is bad it enslaves the country)</strong></li>
+<li><strong>New huge opportunities e.g. industrial hemp (nothing to do with cannabis), carbon credits, organic fertilizers, organic regenerative seeds, token models for digital assets, digital banking…</strong></li>
+</ul>
+<h2 id="not-only-for-emerging-countries"><a class="header" href="#not-only-for-emerging-countries">Not only for emerging countries</a></h2>
+<p>This Internet of Internets concept is not only for emerging regions. Each nation has to become sovereign and independent. It's an important step for humanity to grow to the next step of awareness which is urgently needed.</p>
+<h1 id=""><a class="header" href="#"></a></h1>
+<p><img src="img/space_orb.png" alt="alt_text" title="image_tooltip" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../deployment/deployment_process.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../conclusion/conclusion.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../deployment/deployment_process.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../conclusion/conclusion.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../mermaid.min.js"></script>
+        <script type="text/javascript" src="../mermaid-init.js"></script>
+
+
+    </body>
+</html>

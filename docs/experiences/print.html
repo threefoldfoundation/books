@@ -1,0 +1,634 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>FreeFlow Experiences</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Community Tools</li><li class="chapter-item expanded "><a href="community_tools/rooms.html"><strong aria-hidden="true">1.</strong> Community Rooms</a></li><li class="chapter-item expanded "><a href="community_tools/shareitt.html"><strong aria-hidden="true">2.</strong> Share itt</a></li><li class="chapter-item expanded "><a href="community_tools/code_developing.html"><strong aria-hidden="true">3.</strong> Code platform</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Capabilities</li><li class="chapter-item expanded "><a href="capabilities/communication_chat.html"><strong aria-hidden="true">4.</strong> Communication chat</a></li><li class="chapter-item expanded "><a href="capabilities/communication_video.html"><strong aria-hidden="true">5.</strong> Communication video</a></li><li class="chapter-item expanded "><a href="capabilities/code_developing.html"><strong aria-hidden="true">6.</strong> Code developing</a></li><li class="chapter-item expanded "><a href="capabilities/education.html"><strong aria-hidden="true">7.</strong> Education video</a></li><li class="chapter-item expanded "><a href="capabilities/metaverse.html"><strong aria-hidden="true">8.</strong> Metaverse</a></li><li class="chapter-item expanded "><a href="capabilities/office_tools.html"><strong aria-hidden="true">9.</strong> Office tools</a></li><li class="chapter-item expanded "><a href="capabilities/surf_safe.html"><strong aria-hidden="true">10.</strong> Surf safe</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">FreeFlow Experiences</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="community_tools/img/flower.png" alt="commmunity room" /></p>
+</div>
+<p>Rooms are chat rooms which are part of your digital twin.  In these rooms you can invite people that make up / are part of you room, covering a specific topic. Specific topics could be:  my football club, my investment club, my family, my friends.  Anything is possible with regards to rooms, people are bonded together in groups on you personal twin.</p>
+<p>Examples of groups of people using rooms:  local football club,  book club, companies, enterprises, states, countries.</p>
+<p>Within these group functionality can be made available.  Example (and probably first MVP functionality is:</p>
+<ul>
+<li>be be used for simple chat function between all members.</li>
+<li>can be used to create and operate a DAO</li>
+<li>variable (free) consensus rules can be implemented to reflect the rules of the DAO.</li>
+</ul>
+<p>Rooms will provide functionality to non technical groups in an easy way to self organize and create consensus mechanisms to govern activities and transact money all done from you own private digital space.</p>
+<div style="text-align: center;">
+<p><img src="community_tools/img/room_consensus.png" alt="commmunity room" /></p>
+</div>
+<p>The interface will present it self as a chat interface to the members of the group.  In the chat language there will be a very simple language available to create the chains and consensus rules around it.  For consensus a quorum )5 out of 8 members or for larger groups for example 70% of the members) need to agree. Once this quorum has been achieved by a simple poll in the group, the transaction is done, the governance rule is accepted.</p>
+<p>All of this is an individuals twin, in which a room was created which presents this functionality to the group members.</p>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="community_tools/img/left-right.png" alt="share itt" /></p>
+</div>
+<h2 id="share-itt"><a class="header" href="#share-itt">Share itt</a></h2>
+<p>Share itt is an existing platform: The Shareitt platform makes it fun and easy to exchange second-hand used or new items.  This implementation of Shareitt is not a centralized platform on which all items are listed on a single site, no this decentralized version is where the user manages its own platform for their os items on sale.</p>
+<!--
+Insert a graph that shows that everyone has their own marketplace own which they can sell anything.  Meant for communities to enhance local trade without loosing control. 
+-->
+<h3 id="next-generation-marketplace"><a class="header" href="#next-generation-marketplace">Next Generation Marketplace</a></h3>
+<p>Shareitt allows users to exchange items they don't need or are no longer using, no matter the type of item, its size or worth. Each item uploaded to the marketplace gets its own unique value in Shareitt points and becomes available to tens of thousands of users who can request the item in exchange for points. Points earned then allow users to receive items they want from other users, and so on.</p>
+<h3 id="currency-out-points-in"><a class="header" href="#currency-out-points-in">Currency: Out, Points: In</a></h3>
+<p>Shareitt commerce is not based on money. Shareitt points are accumulated by users in different ways and may then be &quot;spent&quot; in our dynamic marketplace, which has tens of thousands of items in different categories. The best way to earn Shareitt points is to upload as many items as possible and exchange them – for points - with other users.</p>
+<h3 id="substantial-social-catalog"><a class="header" href="#substantial-social-catalog">Substantial social catalog</a></h3>
+<p>The items on the Shareitt platform are uploaded to the marketplace by users, in a quick, simple process. The more detailed the item description, the more attractive it is for other users. High-quality pictures, detailed descriptions, diverse categories, and great points value - generate thousands of exchanges every day. Together, we are creating an extensive social catalog being used by tens of thousands of users.</p>
+<h3 id="so-many-gifts"><a class="header" href="#so-many-gifts">So many gifts!</a></h3>
+<p>When you register, each user is awarded with 100 points as a welcome gift so that you may enjoy the experience on your first visit. In order to earn Shareitt points, we recommended uploading and offering as many items as possible to other users. Another way to earn points is by redeeming gifts received for your actions on the platform: uploading items, giving, exchanging, granting wishes, inviting friends, and more.</p>
+<h3 id="a-new-collaborative-economy"><a class="header" href="#a-new-collaborative-economy">A new collaborative economy</a></h3>
+<p>At Shareitt, we believe in a collaborative economy in which the individual gives to the community, the community creates value for the individual, and everyone benefits. Hundreds of communal platforms have been created in different fields in recent years. Shareitt users participate in social commerce by exchanging items for points and create a new collaborative economy together.</p>
+<p>Benefits:</p>
+<ul>
+<li>personal marketplace representing your personal items on sale.</li>
+<li>always compliant with local law as the data and trade stay local to the individual.</li>
+<li>intern community on country trade, seller and buyers have to make themselves compliant with local legislation</li>
+<li></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="community_tools/img/danger.png" alt="Developing Code" /></p>
+</div> 
+<h2 id="developing-code"><a class="header" href="#developing-code">Developing code</a></h2>
+<p>Code development platform that manages you code in a git (like gitea).  Your code is stored in a secure (quantum secure) environment in you own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.</p>
+<p>Features:</p>
+<ul>
+<li>1 </li>
+<li>2 </li>
+<li>3</li>
+</ul>
+<p>Benefits:</p>
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/img/oc.png" alt="communication tool chat" /></p>
+</div>
+<h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
+<p>The chat communication tools presents a simple interface to manage individual and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.</p>
+<p>Centralized messaging service always have a third party (company) involved.  A message would follow the following path:</p>
+<p><img src="capabilities/img/centralized_chat.png" alt="private_chat" /></p>
+<pre class="mermaid">graph LR
+    subgraph Individual A;
+    INDIVIDUALA(Person A);
+    end;
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA;
+    MESSAGINGA --&gt;|browser| INDIVIDUALA;
+    subgraph Messaging provider;
+    MESSAGINGA(messaging platform);
+    end;
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA;
+    subgraph Individual B;
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB;
+    end;
+</pre>
+<p>The problem here is that the messaging provider sits in the middle and has access to all messages passing through its messaging platform.  This also means that messaging providers can (or can be told to) do the following:</p>
+<ul>
+<li>do machine learning on message content and/or message volume, frequency, size and all sort of other data.</li>
+<li>expose, compile and sell machine learning outcome (metadata)</li>
+<li>provide access to meta data or actual messaging information to other companies or governing bodies</li>
+<li>and much, much more.</li>
+</ul>
+<p>There are numerous documentaries and news stories out there that prove that this is the case. A decentralized messaging platform avoids all of this</p>
+<p>Decentralized messaging sends and receives messages from private messaging instances to the receiving party's private (messaging) instance.  It does not have a central man in the middle. There are two main types of decentralized messaging in this capability:</p>
+<ul>
+<li><em>private chat</em>: private entity to private entity</li>
+<li><em>group chat</em>: one private entity creates and <strong>hosts</strong> the &quot;group&quot; and all the other members are invites to post and receives message from this group.  The entity that starts the group also sets the groups &quot;rules&quot;</li>
+</ul>
+<h3 id="private-chat"><a class="header" href="#private-chat">Private Chat</a></h3>
+<p>With private chat we mean a chat between to entities. These entities could be individuals, organizations, companies, clubs, basically anything.  The chat is a one to one chat and information (data) is exchanged between two private, secure and personal messaging platforms.</p>
+<ul>
+<li>a chat starts with inviting the other persons twin (messaging and other services platform ).  In this case the twin of the other person needs to be found and sent an invite message.</li>
+<li>if the person accepts the invite a secure connection allows messages to be send person to person without a third party in the middle.  Only the (twins of) two people involved has access tot he message data (and metadata)</li>
+</ul>
+<!--
+mermaid source code in ./includes/private_chat.md
+-->
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|secure network| TWINB(Twin B)
+    subgraph Individual B
+    TWINB .-&gt;|browser| INDIVIDUALB
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINB
+    TWINB --&gt;|secure network| TWINA
+    end
+</pre>
+<p><img src="capabilities/img/private_chat.png" alt="private_chat" /></p>
+<p>The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:</p>
+<ul>
+<li>send text message</li>
+<li>send voice message</li>
+<li>message reply</li>
+<li>message forward</li>
+<li>send photo/file/</li>
+</ul>
+<p>From the chat function you can also initiate video conference, and have control over accepting, deleting and blocking users.
+<img src="capabilities/img/chat_overview.png" alt="private_chat" /></p>
+<h3 id="group-chat"><a class="header" href="#group-chat">Group Chat</a></h3>
+<p>Group chat is unique to this peer to peer chat platform.  The group functionality is initiated by the group creator and this action creates the group function on the initiators messaging platform (twin).  The group is then formed by inviting other entities and when they accept they get read and write access in the group messaging functionality.</p>
+<!--
+mermaid source code in ./includes/group_chat.md
+-->
+<p><img src="capabilities/img/group_chat.png" alt="group_chat" /></p>
+<pre class="mermaid">graph LR
+    subgraph Individual A
+    PERSONA(Person A) --&gt; TWINA
+    TWINA --&gt; PERSONA
+    TWINA(Twin A) --&gt; GROUP(group)
+    GROUP .-&gt; TWINA
+    end
+    GROUP .-&gt; TWINB
+    subgraph Individual B
+    TWINB(Twin B) --&gt; GROUP
+    TWINB --&gt; PERSONB
+    end
+    PERSONB(Person B) --&gt; TWINB
+    subgraph Individual C
+   GROUP .-&gt; TWINC
+    TWINC(Twin C) --&gt; GROUP
+    TWINC --&gt; PERSONC
+    end
+    PERSONC(Person C) --&gt; TWINC
+       GROUP .-&gt; TWIND
+    subgraph Individual D
+    TWIND(Twin D) --&gt; GROUP
+    TWIND --&gt; PERSOND
+    end
+    PERSOND(Person D) --&gt; TWIND
+</pre>
+<h3 id="look-and-feel-in-a-browser"><a class="header" href="#look-and-feel-in-a-browser">Look and feel in a browser</a></h3>
+<p><img src="capabilities/img/chat_people%20invite.png" alt="groups_and_contacts" /></p>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/img/camera.png" alt="comnunication tool video" /></p>
+</div>
+<h2 id="communication-tool-video"><a class="header" href="#communication-tool-video">Communication tool: Video</a></h2>
+<p>A truly peer to peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.</p>
+<p>Current world video conferencing services use service provider and centralized software installations to present services to businesses and consumers.  Take for example to users in Zanzibar that wish to communicate through zoom (or google meet, or Microsoft Teams, principle stays the same).  The will connect from their laptops/phones to a centralized service and the traffic will be routed from both of their devices to a centralized service datacenter far away.</p>
+<p>In principle this looks like</p>
+<!--
+Needs better quality picture.  Have to find original slide
+-->
+<div style="text-align: center;">
+<p><img src="capabilities/img/videoconferencing_cental.png" alt="alt text" />)</p>
+</div>
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA
+    MESSAGINGA --&gt;|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB
+    end
+</pre>
+<p>And if we expand this to a world map it would look somethingg like this:</p>
+<!--
+mermaid source in: ./includes/centralized_video.md
+-->
+<div style="text-align: left;">
+<p><img src="capabilities/img/videoconference_central-1.png" alt="alt text" />)</p>
+</div>
+<p>This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.</p>
+<p>The solution to this problem is to have a video conference solution that works peer to peer.</p>
+<!--
+mermaid source in: ./includes/private_video.md
+-->
+<div style="text-align: center;">
+<p><img src="capabilities/img/videoconference_decentral.png" alt="" /></p>
+</div>
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALB
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALC
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALD
+    subgraph Individual B
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINA
+    end
+    subgraph Individual C
+    INDIVIDUALC(Person C) --&gt;|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) --&gt;|Browser| TWINA
+    end
+
+</pre>
+<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/videoconference_central-2.png" alt="" /></p>
+</div>
+<h3 id=""><a class="header" href="#"></a></h3>
+<h4 id="product-features"><a class="header" href="#product-features">Product features</a></h4>
+<ul>
+<li>
+<ol>
+<li></li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li></li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li></li>
+</ol>
+</li>
+<li>etc.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="capabilities/img/flower.png" alt="code developing" /></p>
+<h1 id="code-developing"><a class="header" href="#code-developing">Code developing</a></h1>
+<p>Code development platform that manages you code in a git (like gitea).  Your code is stored in a secure (quantum secure) environment in you own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.</p>
+<p>Features:</p>
+<ul>
+<li>1 </li>
+<li>2 </li>
+<li>3</li>
+</ul>
+<p>Benefits:</p>
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/img/oc.png" alt="education" /></p>
+</div>
+<h2 id="education"><a class="header" href="#education">Education</a></h2>
+<p>Education is a sector that still relies on traditional teaching methods, a teacher, a classroom, a black (or white) board, books, paper and pencils.  This method has been in use for hundreds of years.  In this digital age there the classroom can be a digital classroom, with a teacher teaching and all of the rest of the required items can be digitised as well.</p>
+<p>Traditional learning is based on a live teacher, teaching an audience in a classroom. This works, however is has a number of restrictions which makes that work for a limited number of pupils, and not everywhere because of the necessity to have live teachers and pupils.  In this digital world we can record end present the learning materials in a digital manner to a much larger audience that a single classroom.  Classes, or better while curriculum can be digitised and share along a much larger group of pupils spanning a vast geographic area.</p>
+<p>The Covid-19 pandemic has proven that remote teaching is possible and that the current technology allow for this.  This experience was still based on the standard teacher - pupil relationship and numbers for live teaching.  Another technology, a video sharing platform has proven that storing videos and sharing videos is a effective manner to reach a very large number of viewers (youtube.com).</p>
+<p>Taking the learnings from both of these current use cases we have created Sikana. Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 billion views, aiming to deliver quality education and necessary skills to everyone. The software can be installed on threefold nodes and deployed regionally so that bandwidth requirements are minimised because it is a decentralized online education platform.</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/central_education.png" alt="central_video" /></p>
+</div>
+<pre class="mermaid">graph LR
+    VIDEOPLATFORM .-&gt; INDIVIDUALA
+    VIDEOPLATFORM .-&gt; INDIVIDUALB
+    VIDEOPLATFORM .-&gt; INDIVIDUALC
+    VIDEOPLATFORM .-&gt; INDIVIDUALD
+    
+    subgraph Class A
+    INDIVIDUALA(Student A)
+    INDIVIDUALB(Student B)
+    INDIVIDUALH(Student ...)
+    INDIVIDUALI(Student N)
+    end
+    
+    VIDEOPLATFORM(central video sharing platform)
+    
+    subgraph Class B
+    INDIVIDUALC(Student 1)
+    INDIVIDUALD(Student 2)
+    INDIVIDUALJ(Student ...)
+    INDIVIDUALK(Student N)
+    end
+
+
+
+    VIDEOPLATFORM .-&gt; INDIVIDUALH
+    VIDEOPLATFORM .-&gt; INDIVIDUALI
+    VIDEOPLATFORM .-&gt; INDIVIDUALJ
+    VIDEOPLATFORM .-&gt; INDIVIDUALK
+
+</pre>
+<p>To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.</p>
+<p>Decentralized video sharing as an education platform as a platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school.  This allows this education solution to educate everywhere, even if there is no internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/decentral_education.png" alt="central_video" /></p>
+</div>
+<pre class="mermaid">graph LR
+    subgraph Region A
+    INDIVIDUALAA(Student A)
+    INDIVIDUALAB(Student B)
+    INDIVIDUALAC(Student ...)
+    INDIVIDUALAD(Student N)
+    VIDEOPLATFORMA(Local video sharing platform)
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAA
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAB
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAC
+    VIDEOPLATFORMA .-&gt; INDIVIDUALAD
+    end
+
+    subgraph Region B
+    INDIVIDUALBA(Student A)
+    INDIVIDUALBB(Student B)
+    INDIVIDUALBC(Student ...)
+    INDIVIDUALBD(Student N)
+    VIDEOPLATFORMB(Local video sharing platform)
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBA
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBB
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBC
+    VIDEOPLATFORMB .-&gt; INDIVIDUALBD
+    end   
+
+    subgraph Region C
+    INDIVIDUALCA(Student A)
+    INDIVIDUALCB(Student B)
+    INDIVIDUALCC(Student ...)
+    INDIVIDUALCD(Student N)
+    VIDEOPLATFORMC(Local video sharing platform)
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCA
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCB
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCC
+    VIDEOPLATFORMC .-&gt; INDIVIDUALCD
+    end   
+    VIDEOPLATFORMA --&gt; VIDEOPLATFORMB
+    VIDEOPLATFORMB --&gt; VIDEOPLATFORMA
+    VIDEOPLATFORMA --&gt; VIDEOPLATFORMC
+    VIDEOPLATFORMC --&gt; VIDEOPLATFORMA
+    VIDEOPLATFORMB --&gt; VIDEOPLATFORMC
+    VIDEOPLATFORMC --&gt; VIDEOPLATFORMB
+</pre>
+<p>4BILLION  COURSES DELIVERED</p>
+<p>Our local infrastructure ensures data locality.</p>
+<p>Over 3,000 Videos</p>
+<p>We fuel content production through our network.</p>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+![metaverse](img/smiley.png)
+</div>
+<h2 id="metaverse"><a class="header" href="#metaverse">Metaverse</a></h2>
+<p>State of the art rendering and experiences beyond e-commerce and marketing. A metaverse built by and for the people using it, with worthwhile capabilities that enhance your virtual experience. </p>
+<p>A high quality metaverse experience cannot be delivered from far away datacenter, just like a very high resolution and action intense games cannot be delivered by central large datacenters.  Local gaming consoles are top of the market and present the best gaming experience to gamers. Gaming consoles are local to gamers for optimum performance and experience. For immersive metaverse high quality and responsive metaverse experiences you need local data compute and storage and GPU rendering.</p>
+<h3 id="local-gpu-rendering"><a class="header" href="#local-gpu-rendering">Local GPU Rendering</a></h3>
+<p>OurVerse’s proximity by ThreeFold’s edge computing allows rendering proximity (low latency) and speed unmatched in the industry.</p>
+<p>This allows streaming and graphic rendering at super high speeds with pixel perfect imagery, making OurVerse the first metaverse to achieve this status.</p>
+<p>Even on mobile devices, GPU rendering shows quality previously not available for such experiences.</p>
+<h2 id="metaverse-is-making-remote-local"><a class="header" href="#metaverse-is-making-remote-local">Metaverse is making remote local</a></h2>
+<p>The metaverse allows to create physical world experiences and in general things we are used to available in the digital space.  We do so much in our personal and professional lifes online that is replaces a lot of physcial times being with others.  In order to make that digital online life more like our day to day physical life.  Email, Todo lists, video conferences they can all be redone and redesigned into somthing that is more personal and provides everyone with more detailed input and feedback about the situation we are in.</p>
+<h2 id="example-experiences"><a class="header" href="#example-experiences">Example experiences</a></h2>
+<h3 id="personal-todo-list"><a class="header" href="#personal-todo-list">Personal ToDo list</a></h3>
+<p>The metaverse presents real work experiences in a new an innovative way.  For example a wall with ToDo list functionality will present different personal ToDo lists for any that is looking at the same wall. Also, when two people want to share their todo lists they can make their private todo list viewable for other digital avatars in the digital space.
+<img src="capabilities/img/metaverse_todo.png" alt="" /></p>
+<h3 id="meeting-and-presentation-capabilities"><a class="header" href="#meeting-and-presentation-capabilities">Meeting and presentation capabilities</a></h3>
+<p>Covid-19 has put digital meetings in everyones agenda.  From business meetings to school classes, we all have been using industry standard video conferencing tools.  This is a step forward from having audio conferences only, but a lot can be improved if all participants are part of and in a virtual space where everyone has 3D virtual representation and experiences the same (virtual) environment as one would in the real world in a conference room.</p>
+<p>This is make possible in the metaverse and proximity of the virtual world rendering makes the experiences high quality and latency free.
+<img src="capabilities/img/metaverse_conference.png" alt="metaverse" /></p>
+<h3 id="internal-and-outside-work-meet-and-greet-spaces"><a class="header" href="#internal-and-outside-work-meet-and-greet-spaces">Internal and outside work, meet and greet spaces</a></h3>
+<p>Larger rooms allow for digital roaming and impromptu meetings.  Just like working in an office building (or any other physical setting) having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains storming sessions or just that little chat near the coffee machine in the cafeteria.</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/metaverse_kitchen.png" alt="" /></p>
+</div>
+<p>Remote working has taken away these little distractions and creative moments and a metaverse is able to bring this back to the remote working / social locations.</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/metaverse_pool.png" alt="" /></p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/img/file.png" alt="office tool" /></p>
+</div>
+<h2 id="office-tools"><a class="header" href="#office-tools">Office Tools</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/img/search.png" alt="surf safe" /></p>
+</div>
+<h2 id="surf-safe"><a class="header" href="#surf-safe">Surf safe</a></h2>
+<p>Browsing the internet present risks.  There are many sites which have malicious code embedded in what look like harmless web pages.  This malicious content gets uploaded to your browser and might trick you in agreeing malicious code in your local browser on you local machine.  This is a fairly common practice and people are being tricked into providing information of access to information which they should not.</p>
+<p>The Surf Safe option of the twin provider a virtual browser on the twin that browses the internet on behalf off the person who operates the twin.</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/internet_browsing.png" alt="surf safe" /></p>
+</div>
+<pre class="mermaid">graph RL
+    subgraph Person A
+    PERSONA(Browser A)
+    end
+
+    Internet
+    PERSONA .-&gt; Internet
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    Internet .-&gt; WEB
+
+    WEB --&gt; Internet
+    Internet --&gt; PERSONA
+
+</pre>
+<p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
+<div style="text-align: center;">
+<p><img src="capabilities/img/safe_browsing.png" alt="surf safe" /></p>
+</div>
+<pre class="mermaid">graph RL
+    subgraph Person A
+        PERSONA(Browser A)
+        TWINA(Twin A)
+    end
+    PERSONA .-&gt; TWINA
+    subgraph Internet
+        NETWORK(Internet)
+    end
+
+    TWINA .-&gt; NETWORK
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    NETWORK .-&gt; WEB
+
+    WEB --&gt; NETWORK
+    NETWORK --&gt; TWINA
+    TWINA --&gt; PERSONA
+</pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
