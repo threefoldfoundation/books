@@ -95,6 +95,7 @@ function llink {
     export DIR_REPO="${DIR_CODE}/${ACCOUNT}/${REPO}"
     if ! [[ -d "${DIR_REPO}" ]]; then 
         echo ' - books have not been checked out yet'
+        mkdir -p ${DIR_ACCOUNT}
         pushd ${DIR_ACCOUNT}
         git clone git@github.com:${ACCOUNT}/${REPO}.git
         popd
