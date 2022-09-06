@@ -29,6 +29,7 @@ if ! [ -x "$(command -v cargo)" ]; then
     pushd /tmp
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     popd
+    export PATH=~/.cargo/bin:$PATH
 fi
 
 if ! [ -x "$(command -v mdbook)" ]; then
@@ -37,6 +38,13 @@ if ! [ -x "$(command -v mdbook)" ]; then
     cargo install mdbook-mermaid
     #mdbook-mermaid install .
 fi
+
+if ! [ -x "$(command -v mdbook-mermaid)" ]; then
+    echo ' - mdbooks-mermaid is not installed, do install.'
+    cargo install mdbook-mermaid
+    #mdbook-mermaid install .
+fi
+
 
 function template {
 
