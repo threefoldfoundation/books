@@ -123,6 +123,18 @@ function llink {
     fi
 }
 
+function update_git {
+    export DIR_ACCOUNT="${DIR_CODE}/${ACCOUNT}"
+    export DIR_REPO="${DIR_CODE}/${ACCOUNT}/${REPO}"
+
+    if ! [[ -d "${DIR_REPO}" ]]; then 
+        echo '**ERROR** Could not find & checkout: ${DIR_REPO}'
+        exit 1
+    fi
+    git pull
+}
+
+
 #MAKE SURE WE HAVE ALL THE RIGHT LINKS
 # REPO='threefoldfoundation/books' && NAME='technology' && llink
 # REPO='threefoldfoundation/books' && NAME='mission' && llink
@@ -130,3 +142,5 @@ ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='abundance_internet' && 
 ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='feasibility_study' && llink
 ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='matrix_already' && llink
 ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='ow_experiences' && llink
+
+
