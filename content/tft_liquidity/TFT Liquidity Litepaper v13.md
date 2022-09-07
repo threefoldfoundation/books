@@ -1,6 +1,26 @@
 ![image alt text](image_0.png)
-{{#include liquidity_intro.md}}
 
+# Together we build our own future with the Internet of Internets.
+
+ThreeFold is a movement. All of us together, we are creating the Internet of Internets – a system of local internets for us to connect and exchange information and value without limitations or intermediaries. 
+
+To learn more about ThreeFold read our litepaper on [http://litepaper.threefold.me](http://litepaper.threefold.me).
+
+Each local Internet is owned by all of us ("people"), together – an equality and abundance-based paradigm to benefit and provide fair value exchange for the collective and each of us individually. A planet-first, people-first philosophy that shapes the future we want to live in. Without our planet, we have nothing. And we believe people need a better system. One they can depend on. One that allows everyone to provide economic flow. One that gives them the opportunity to thrive.
+
+This document describes how liquidity will be the result of real utilization which means:
+
+* Deployment of validators on the main chain (L2 validators = staking).
+* Deployment of validators for each regional internet 
+* Funding of the liquidity pools in each regional internet (CHI vs TFT).
+* Paying for utilization of the TFGrid + staking to get more discount on TFGrid.
+* Reserve currency for all regional internets (CHI is only valid in 1 regional Internet, TFT allows bridging)
+
+Because we don’t do fake market making and we didn't accept funding from investors to fund our token raise (some call this pump and dump), we will have to be patient and wait till more utilization is required till we get to enough liquidity. 
+
+Our future is 100% decentralization where our token doesn’t need centralized market makers nor centralized exchanges. Every participant to the network can be a liquidity provider and our token is stored on multiple money blockchains (today we use Stellar, we are considering adding Algorand).
+
+The ThreeFold token TFT is a token with real utility value and as ThreeFold we are only at the start of our journey.
 
 **We are different and need to dare to be different.**
 
@@ -77,7 +97,7 @@ It's time to move & be one of the leaders of a new era.**
 
 # TFT Financial Token Ecosystem
 
-![image alt text](image_2.png)
+![image alt text](img/image_2.png)
 
 It's no longer needed for a currency like TFT to be on a centralized exchange, everything they have to offer is available on these modern money blockchain ecosystems like Stellar & Algorand. It’s incredible to see how mature these platforms became. The process is actually getting very easy. 
 
@@ -99,7 +119,7 @@ We are working on a new set of manuals to make it easier for people to understan
 
 # ThreeFold Twin with integrated DEFI Wallet (Q4 2022)
 
-![image alt text](image_3.png)
+![image alt text](img/image_3.png)
 
 We are launching our Digital Twin (FreeFlow-Uhuru) at the end of summer 2022 and by the end of the year latest Q1 2023 our Digital Twin will have true decentralized finance capabilities.
 
@@ -134,7 +154,7 @@ and we do ****not**** suggest or promise any future TFT price.**
 
 # DAO based TFT Liquidity Pool (Q1 2023)
 
-![image alt text](image_4.png)
+![image alt text](img/image_4.png)
 
 There are +-40m USD worth TFT, from which a small minority is liquid, there are billions of TFT required (see [litepaper](http://litepaper.threefold.me) and scarcity simulator below) this will lead to upward price pressure. We believe in organic growth of our token.
 
@@ -154,7 +174,7 @@ This 33% margin is fully added to the liquidity pool, this means the liquidity p
 **DISCLAIMER: this is no investment advice, we do not promise any financial benefit 
 and we do ****not**** suggest or promise any future TFT price.** 
 
-# ThreeFold Project Phases![image alt text](image_5.png)
+# ThreeFold Project Phases![image alt text](img/image_5.png)
 
 The first phase has been focused on initial expansion and the creation of all the technology required (this is now completed). The next two phases are all about accelerated expansion, and this requires many billions of tokens and tens of thousands of servers, neither of which are available today. 
 
@@ -204,18 +224,18 @@ The first phase has been focused on initial expansion and the creation of all th
 
 We have created a simulator in which people can simulate how the Internet of Internets strategy needs billions of TFT which are not there yet. This simulator allows you to simulate the relation between size of grid and token scarcity.
 
-![image alt text](image_6.png)
+![image alt text](img/image_6.png)
 
 In this simulation it's easy to see how many TFT we need depending on the token price, if the price is only 0.2 we need +4 billion tokens which are not available so in other words, the TFT price needs to be higher to be able this way people need to buy less TFT for their validators and twins. If we put the price on 4 it just works:
 
-![image alt text](image_7.png)
+![image alt text](img/image_7.png)
 **
-**Above simulator see [https://threefold.docsend.com/view/bevgqb3gm2vw2yeu](https://threefold.docsend.com/view/bevgqb3gm2vw2yeu) 
+**Above simulator see [https://threefold.docsend.com/view/bevgqb3gm2vw2yeu](img/https://threefold.docsend.com/view/bevgqb3gm2vw2yeu) 
 
 disclaimer: we are not making any promise about any token price of grid size, 
 it's up to you to make your own assessment. TFT is not an investment instrument.
 
-# ![image alt text](image_8.png)
+# ![image alt text](img/image_8.png)
 
 # Internet of Internets Concept Provides Planetary Scale
 
@@ -239,7 +259,7 @@ The specific case of Neighborhood Clouds (defined as a deployment whereby ThreeF
 
 * A part of the funds received from a Neighborhood cloud can be used to support the TFT price.
 
-![image alt text](image_9.png)
+![image alt text](img/image_9.png)
 
 # 
 How do we scale to a Billion People?
@@ -260,7 +280,7 @@ This provides for a very healthy start for our completely decentralized Internet
 
 						*(*) the nr’s are not mathematically correct, they are rounded for nicer representation.*
 
-![image alt text](image_10.png)
+![image alt text](img/image_10.png)
 
 # TFT Utilization Model
 
@@ -335,7 +355,7 @@ In the last phase ThreeFold Grid usage leads to burning of ThreeFold token (see 
 
 # Expansion of our community building activities
 
-![image alt text](image_11.png)
+![image alt text](img/image_11.png)
 
 Next year, we want to organize a ThreeFold Caravan of Light. 
 

@@ -1,0 +1,1500 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Tanzania feasibility study</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="frontpage.html"><strong aria-hidden="true">1.</strong> Frontpage</a></li><li class="chapter-item expanded "><a href="intro/executive_summary.html"><strong aria-hidden="true">2.</strong> Executive Summary</a></li><li class="chapter-item expanded "><a href="intro/project_description.html"><strong aria-hidden="true">3.</strong> Description of the Project</a></li><li class="chapter-item expanded "><a href="market/market_assessment_and_strategy.html"><strong aria-hidden="true">4.</strong> Market Feasibility</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="market/market_feasibility.html"><strong aria-hidden="true">4.1.</strong> Market Feasibility Study</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="market/market_feasibility_criteria.html"><strong aria-hidden="true">4.1.1.</strong> Market Feasibility Study Criteria</a></li><li class="chapter-item expanded "><a href="market/market_feasibility_results.html"><strong aria-hidden="true">4.1.2.</strong> Market Feasibility Study Results</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="economic/economic_empowerment.html"><strong aria-hidden="true">5.</strong> Economic Empowerment</a></li><li class="chapter-item expanded "><a href="social/social_impact.html"><strong aria-hidden="true">6.</strong> Social Upliftment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="use_cases/health/healthcare_use_case.html"><strong aria-hidden="true">6.1.</strong> Virtual Healthcare</a></li></ol></li><li class="chapter-item expanded "><a href="digital/digital_enablement.html"><strong aria-hidden="true">7.</strong> Digital Enablement</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> Digital Capabilities and Experiences</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="capabilities/communication_chat.html"><strong aria-hidden="true">7.1.1.</strong> Communication: chat</a></li><li class="chapter-item expanded "><a href="capabilities/communication_video.html"><strong aria-hidden="true">7.1.2.</strong> Communication: video</a></li><li class="chapter-item expanded "><a href="capabilities/education.html"><strong aria-hidden="true">7.1.3.</strong> Education Tools</a></li><li class="chapter-item expanded "><a href="capabilities/office_tools.html"><strong aria-hidden="true">7.1.4.</strong> Office Tools</a></li><li class="chapter-item expanded "><a href="capabilities/surf_safe.html"><strong aria-hidden="true">7.1.5.</strong> Surf Safe</a></li><li class="chapter-item expanded "><a href="capabilities/river.html"><strong aria-hidden="true">7.1.6.</strong> River</a></li><li class="chapter-item expanded "><a href="capabilities/wallet_exchange.html"><strong aria-hidden="true">7.1.7.</strong> Wallet Exchange</a></li><li class="chapter-item expanded "><a href="capabilities/code_developing.html"><strong aria-hidden="true">7.1.8.</strong> Code development</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="technology_considerations.html"><strong aria-hidden="true">8.</strong> Technology Feasibility</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="technology/technical_requirements.html"><strong aria-hidden="true">8.1.</strong> Requirements</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="technology/requirements_population_density.html"><strong aria-hidden="true">8.1.1.</strong> Population density</a></li><li class="chapter-item expanded "><a href="technology/requirements_power.html"><strong aria-hidden="true">8.1.2.</strong> Power availability and reliability</a></li><li class="chapter-item expanded "><a href="technology/requirements_composite.html"><strong aria-hidden="true">8.1.3.</strong> Composite overview of areas of interest</a></li><li class="chapter-item expanded "><a href="technology/realestate_options.html"><strong aria-hidden="true">8.1.4.</strong> Real estate availability and reliability</a></li></ol></li><li class="chapter-item expanded "><a href="technology/deployment_types.html"><strong aria-hidden="true">8.2.</strong> Deployment types</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> Operational Feasibility</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="operational/operational_feasibility.html"><strong aria-hidden="true">9.1.</strong> Operational Approach</a></li><li class="chapter-item expanded "><a href="operational/operational_strategy.html"><strong aria-hidden="true">9.2.</strong> Operational strategy</a></li></ol></li><li class="chapter-item expanded "><a href="financial/financial_feasibility.html"><strong aria-hidden="true">10.</strong> Financial Feasibility</a></li><li class="chapter-item expanded "><a href="legal/legal_compliance.html"><strong aria-hidden="true">11.</strong> Legal/Regulatory Compliance</a></li><li class="chapter-item expanded "><a href="legal/risk_factors.html"><strong aria-hidden="true">12.</strong> Risk Factors &amp; Mitigation</a></li><li class="chapter-item expanded "><a href="outro/schedule.html"><strong aria-hidden="true">13.</strong> Schedule</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Tanzania feasibility study</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><strong><p style="text-align: center;">UNITED REPUBLIC OF TANZANIA</p></strong></p>
+<div style="text-align: center;">
+<p><img src="../img/tanzania_flag.png" alt="alt_text" title="image_tooltip" /></p>
+</div>
+<p><strong><p style="text-align: center;">FEASIBILITY STUDY</p></strong></p>
+<p><strong><p style="text-align: center;">FOR</p></strong></p>
+<p><strong><p style="text-align: center;">TANZANIA SOVEREIGN INTERNET AND DIGITAL BACKBONE PLATFORM (“TSI”)</p></strong></p>
+<p><strong><p style="text-align: center;">BETWEEN</p></strong></p>
+<p><strong><p style="text-align: center;">MINISTRY OF INFORMATION, COMMUNICATION and INFORMATION TECHNOLOGY</p></strong></p>
+<p><strong><p style="text-align: center;">AND</p></strong></p>
+<p><strong><p style="text-align: center;">THREEFOLD NV</p></strong></p>
+<p><strong><p style="text-align: center;">AUGUST 2022</p></strong></p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="executive-summary"><a class="header" href="#executive-summary">Executive Summary</a></h2>
+<p>Affordable, performant and accessible internet for everyone, empowering the people of Tanzania and Zanzibar</p>
+<p>If the Covid-19 pandemic has taught us anything, it is that digital is a necessity. It guarantees the continuity of services in the event of a crisis, and is also essential for ensuring a country’s competitiveness and growth.</p>
+<p>To initiate Tanzania’s digital transformation and ensure the social, financial and digital inclusion of all its citizens, the country needs to embark on a digitisation strategy focused on:</p>
+<p><strong>Digital sovereignty and Unlocking of the Internet Economy</strong>
+Today, Tanzanias digitial economy wholly relies on US, Asia and European technologies, deployed and operated in these remote areas. This is a GDP drain for Tanzania as a country, it is GDP negative.  To make Tanzanias economy GPD positive it has to start deploying, operating and creating local technology and use it to increase sovereignty of the country instead of digital dependency on the rest of the world.</p>
+<p>A sustainable digital transformation can only be achieved if it is founded on digital sovereignty, which is the primary reason for the PPP between the Tanzanian public sector, private sector and Threefold to unlock the Tanzanian internet eocnomy.</p>
+<p>Key to this strategy is establishing a sovereign internet infrastructure that ensures Tanzania's digital sovereignty and, more generally, the successful digitalisation of the economy and unlocking of the internet economy.</p>
+<p>Three initiatives will spearhead the realization of Tanzania Digital Sovereignty and the unlocking of its Internet Economy. </p>
+<p><strong>1. Digitisation of Key Economic Sectors:</strong> Increasing national wealth through the building of an innovation and start-up ecosystem looks at digitalising key sectors of Togo’s economy (logistics, trade, agriculture, etc.), creating support programs for start-ups and using big data to help public and private sector decision-making processes.</p>
+<p><strong>2. Digitisation of Civil Services:</strong> The objectives pursued here aim to offer citizens better access to public services and to speed up administrative procedures Focused on , on the administrative gains made possible by digital technology, It covers the digitisation of administrative procedures and basic social services, the paperless management of financial flows (tokenization of civil services) and the training of the various segments of society in the use of technological tools. </p>
+<p><strong>3. Universal Access to Information:</strong> Knowledge is power and ensuring every Tanzanian citizen has affordable access to the wealth of information made possible by the www is key in the empowerment of the Tanzanian population. </p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="description-of-the-project"><a class="header" href="#description-of-the-project">Description of the Project</a></h2>
+<p>The Tanzania Sovereign Internet Platform (“TSIP”) as envisaged in the memorandum of understanding (see appendix A), is a end to end ecosystem blending people, technology and key principles in order to deliver Internet Infrastructure and digital services that ensure the privacy, sovereignty and empowerment of Tanzania and its people. </p>
+<p>The purpose of the TSIP ecosystem is to UNLOCK THE INTERNET ECONOMY in Tanzania and empower ECONOMIC DEVLOPEMENT and SOCIAL UPLIFTMENT of its people.</p>
+<p>The make up of such an ecosystem includes:</p>
+<p><img src="intro/./../img/ecosystem.png" alt="ecosystem" /></p>
+<h3 id="soveriegn-internet-grid-powered-by-threefold"><a class="header" href="#soveriegn-internet-grid-powered-by-threefold">Soveriegn Internet Grid (powered by Threefold)</a></h3>
+<ul>
+<li>a network of decentralised, autonomous and distributed edge micro data centre infrastructure forming a meshed internet grid.</li>
+<li>located entirely within Tanzania, providing national sovereignty over data and all associated revenue streams as well as security and immunity from disruption</li>
+<li>the foundational layer of the TSIP ecosystem, powered by Threefold technology, providing the compute, storage and network resources, enabling FreeFlow Life and further digital services to empower the nation of Tanzania</li>
+</ul>
+<h3 id="digital-experiences"><a class="header" href="#digital-experiences">Digital Experiences</a></h3>
+<ul>
+<li>the layer of digital services running of top of the grid infrastructure that give purpose to the soverign internet grid and bring true value to the people of tanznaia</li>
+<li>example: FREEFLOW LIFE
+<ul>
+<li>a prime example of such a digital service is FREEFLOW LIFE, the primary internet experience of TSIP giving every TZN citizen their digital life in one experience. </li>
+<li>a universally accessible digital platform through which Tanzanians can access improved alternatives to commonly used global communications, media and productivity software;</li>
+<li>Freeflow Life ensures every citizen is guaranteed their privacy, sovereignty and all the digital services they need to not only exist, but to thrive in the TZN digital economy </li>
+</ul>
+</li>
+<li>other key digital experiences intended for TSIP include:
+<ul>
+<li>VIRTUAL HEALTHCARE DELIVERY </li>
+<li>REMOTE EDUCATION </li>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<h3 id="incubation-hub-mama-samia-institute"><a class="header" href="#incubation-hub-mama-samia-institute">Incubation Hub (Mama Samia Institute)</a></h3>
+<ul>
+<li>An incubation hub to empower the development of further digital services to run on top of the TSIP platform and further empower and uplift the community of Tanzania.  Such examples include:
+<ul>
+<li>Virtual healthcare delivery</li>
+<li>Online education curriculum</li>
+<li>Agriculture improvements through data ownership</li>
+<li>Digital banking</li>
+<li>and much, much, much more possibilities</li>
+</ul>
+</li>
+</ul>
+<p>Three initiatives will spearhead the realization of Tanzania Digital Sovereignty and the unlocking of its Internet Economy. </p>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="market-assessment-and-strategy"><a class="header" href="#market-assessment-and-strategy">Market Assessment and Strategy</a></h2>
+<h3 id="current-economic-landscape"><a class="header" href="#current-economic-landscape">Current Economic Landscape</a></h3>
+<ul>
+<li>The Economy of Tanzania in 2021  With an average real GDP growth rate of 6.3% over the past decade (2010-2019), </li>
+<li>Tanzania is among the fastest-growing economies in Africa and in the world. </li>
+<li>Yet, widespread poverty persists with 49 percent of Tanzania’s population living below the international extreme poverty line of $1.90 per day (World Bank, 2011)</li>
+<li>In 2020, the real GDP of Tanzania grew by +4.8% reaching USD 64.4 billion, and grew by +7% in 2019  to reach USD 60.8 billion In April 2021, </li>
+<li>Tanzania’s new president Samia Suluhu Hassan gave her first speech to the parliament, mentioning the priorities of the Sixth Phase Government in the next five years to reach a GDP growth rate of at least 8% yearly. </li>
+<li>Notable sectors of the Tanzanian economy are tourism, mining, construction, agriculture, and manufacturing. Tanzania Key Economic Sectors According to the economic data included in the National Data of Tanzania Mainland of 2013-2019 by the National Bureau of Statistics, at current market prices, 
+<ul>
+<li>Services made the highest shares of GDP (40.0%) </li>
+<li>followed by Industry and Construction (31.1%) </li>
+<li>Agriculture, Forestry and Fishing  (28.9%) </li>
+</ul>
+</li>
+</ul>
+<p><img src="market/./../img/tanzania_gdp.png" alt="Tanzania GDP" title="image_tooltip" /></p>
+<p>Among Tanzania’s predominantly rural population (73 percent), economic growth has been limited. Inclusive, broad-based growth is hindered by low productivity growth in labour-intensive sectors like agriculture, which employs 77 percent of working age adults. The agriculture sector grew just 4 percent per year over the past decade.</p>
+<p>The Tanzanian private sector’s vast financial resources and expertise in market-based solutions have the potential for tackling systemic societal challenges. Currently employing about 70 percent of the youth in Tanzania, the private sector provides a critical pathway to self-reliance.</p>
+<p>USAID objectives include advancing Tanzania’s socio-economic status toward middle-income status by 2025; sustaining inclusive, broad-based economic growth; supporting private sector investment in energy as well as agriculture and natural resource-based tourism; and increasing the access of women and youth to resources and knowledge that allow them to take advantage of opportunities in these sectors.</p>
+<p>Source: (https://<a href="market/www.tanzaniainvest.com/economy">www.tanzaniainvest.com/economy</a>)</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="market-feasibility-study"><a class="header" href="#market-feasibility-study">Market Feasibility Study</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="market-feasibility-study-criteria"><a class="header" href="#market-feasibility-study-criteria">Market Feasibility Study Criteria</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="market-feasibility-study-results"><a class="header" href="#market-feasibility-study-results">Market Feasibility Study Results</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h3 id="economic-empowerment"><a class="header" href="#economic-empowerment">Economic Empowerment</a></h3>
+<p>TSIP must enable the economic empowerment of Tanzania, ensure the digital sovereignty of the nation and unlock the Tanzanian internet economy. TSIP is the secure, sovereign and sustainable digital infrastructure and services that empowers each and every TZN citizen to thrive in the digital economy and partake in the economic success of their country.</p>
+<p>TSIP should empower the economic and overall well being of every citizen, promoting new job creation and contributing toward the following metrics of Tanzania economy:</p>
+<ul>
+<li>Accelerate Existing Industry Performance: Accelerating performance in existing industry sectors
+<ul>
+<li>Tourism</li>
+<li>Mining</li>
+<li>Construction</li>
+<li>Agriculture</li>
+<li>Manufacturing</li>
+<li>Agriculture</li>
+</ul>
+</li>
+<li>New industry development: opening new industry sectors and contributing nett new GDP to Tanzania overall economic development
+<ul>
+<li>Healthcare</li>
+<li>information technology</li>
+<li>Healthcare</li>
+<li>Financial services</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h3 id="social-impact"><a class="header" href="#social-impact">Social Impact</a></h3>
+<p>The World Bank (WB) upgraded Tanzania’s country classification by income level from low income to lower-middle income in 2020-21. The WB assigns the world’s economies to four income groups—low, lower-middle, upper-middle, and high-income countries, based on their GNI per capita in current USD. </p>
+<ul>
+<li>Low income is defined as less than USD 1,036 in 2020 (USD 1,026 in 2019)</li>
+<li>Lower-middle income is between USD 1,036 and USD 4,045 (USD 1,026 – 3,995 in 2019)</li>
+<li>upper-middle income is between USD 4,046 – USD 12,535 (USD 3,996 – 12,375 in 2019)</li>
+<li>high income is any higher than USD 12,535 (&gt;USD12,375 in 2019).</li>
+</ul>
+<p>Read more at: https://www.tanzaniainvest.com/economy/middle-income-country-status and follow us on <a href="social/www.twitter.com/tanzaniainvest">www.twitter.com/tanzaniainvest</a></p>
+<p>TSIP must enable the social upliftment of Tanzanian people and afford every citizen universal and impartial access to the necessary civil services to ensure their individual success and well being, Critical success factors in delivering on the above are the fundamental attributes of TSIP, including:</p>
+<p><strong>Sovereign Digital Identity</strong> </p>
+<p>In the digital era, the starting point to our success as digital citizens is ensuring our digital sovereignty identity. Freeflow life is our digital twin in the internet economy and is a verified and immutable representation of us as a digital citizen.</p>
+<p>Looking at all of us as an internet and a country citizens our identities are not linked between the physical and the digital world.  Almost every country, region, city or social community has their own requirements and way of handling identity.  This is replicated in the digital world a 100 times over where every online company, service or platform has their own digital identity requirements.</p>
+<p>This complete fragmentation of identities leads to a lot of complexity for people (citizens) to manage their identity. Most people manage this complexity by using the same username and password everywhere.  This lowers the security of these identities and causes a lot of breaches because once one service or platform is hacked this potentialy  exposes the username and password for many other platforms as well.</p>
+<p>One, souvereign, technically well designed and built digitial identity solves all of these issues.</p>
+<p><strong>Data Sovereignty &amp; Privacy</strong></p>
+<p>For Tanzanian people most (if not all) of the internet services that are available are invented and operated by foreign companies using private technology.  The result of this a working service, but also that all (meta) data created and stored is governed by foreign laws.</p>
+<p>Citizens, companies and the government of Tanzania have little to no control over what happens with the data processes and stored in these online services. The use of foreign services results in a net negative contribution to the Gross Domestic Product.</p>
+<p>To achieve data sovereignty and privacy the data and processing of it needs to be done on Tanzanian soil, governed by Tanzanian law and create plus operated by Tanzanian inhabitants.</p>
+<p><strong>Digital Productivity</strong></p>
+<p>Digital disruption may be an accomplished fact for consumers enjoying ever more innovation, and for the firms driving it, but there is little evidence of macroeconomic disruption. Despite the relentless transformation of the user experience, the idea of meaningfully higher productivity growth across the economy remains wishful thinking. Especially for Tanzania where most of the digitial disruption has happened by large foreign companies who have extracted a lot of value from the Tanzanian economy.</p>
+<p>To make the maximum productivity impact first the value extraction from tha Tanzanian economy to the digital giants has to decrease and if possible stopped. For this to happen Tanzania needs to invest and create sovereign solutions to these global giants.  This is the first step to start building local momentum to help to increase the productivity in the broadest sense to help the Tanzanian economy to get a boost from digitial services and enablement.</p>
+<p><strong>Universal Digital Access</strong></p>
+<ul>
+<li>Affording every citizen universal access to valuable content, networks and resources to promote the health, education and welfare of the people of Tanzania, including:
+<ul>
+<li>Universal access to education</li>
+<li>Universal access to financial services</li>
+<li>Universal access to healthcare services</li>
+<li>Universal access to information in general</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tsip-healthcare-use-case"><a class="header" href="#tsip-healthcare-use-case">TSIP: Healthcare Use Case</a></h1>
+<p>Healthcare is a fundamental right for every single member of society and the Tanzaznian goverment carries the responsibility for healthcare delivery as a primary civil service. </p>
+<p>The challenge in most emerging markets is the lack of healthcare professionals and infrastructure relative to the needs of the community and the size of the population itself. This imbalance poses significant challenges for goverment who simply do not have enough budget, skilled professionals nor infrastructure to meet the needs of its citizens in this regard.</p>
+<p>Based on our research, the situation on the ground in Tanzania mirrors this exact dilemma whereby the shortage of budget, infrastructure and healthcare professionals relative to the needs of the cmmunity results in sub par service delivery on behalf of the government. </p>
+<p>INSERT TZN HEALTHCARE STATS HERE ****</p>
+<h3 id="so-how-do-we-scale-and-optimise-healthcare-delivery-given-these-constraints-"><a class="header" href="#so-how-do-we-scale-and-optimise-healthcare-delivery-given-these-constraints-">So how do we scale and optimise healthcare delivery given these constraints ?</a></h3>
+<p>The simple answer to scaling healthcare delivery given these constraints is:</p>
+<h3 id="1-datafication"><a class="header" href="#1-datafication">1. DATAFICATION</a></h3>
+<h3 id="2-virtualisation"><a class="header" href="#2-virtualisation">2. VIRTUALISATION</a></h3>
+<h3 id="3-tokenisation"><a class="header" href="#3-tokenisation">3. TOKENISATION</a></h3>
+<p>explained as follows...</p>
+<h2 id="1-datafication-1"><a class="header" href="#1-datafication-1">1. Datafication</a></h2>
+<p>By definition,  is a technological trend turning many aspects of our life into datail which is subsequently transferred into information realised as a new form of value</p>
+<p>In simple terms, this is the collection of healthcare data and aggregation of medical records to establish a full patient medical history (medical 360), gain key insights and idenitfy macro health trends and unlock the value of real time data for the benefit of every citizen/ patient.</p>
+<p>This process involves both historical data aggregation and real time data collection:</p>
+<h3 id="historical-data"><a class="header" href="#historical-data">Historical Data</a></h3>
+<p>Based on a an EMR (electronic medical record) is the aggregation of all historical data from all possible legacy data sources to establish a single and full perspective on a patient history. This single healthcare record per citizen is:</p>
+<ul>
+<li>guaranteed private and always in the control of the citizen who owns that data</li>
+<li>stored in quantum safe storage on the TSIP network</li>
+<li>secured and ensured immutable by the TSIP blockchain </li>
+</ul>
+<h3 id="real-time-data"><a class="header" href="#real-time-data">Real Time Data</a></h3>
+<p>Based on being able to collect and diagnose real time information from patients via a cirtual healthcare platform, enabling healthecare professionals more insights and data points on which they can make a diagnosis and recommend an appropriate treatment protocol. In this case:</p>
+<ul>
+<li>data collection is deviceless meaning the patient needs nothing more than a smartphone to provide this information realtime, in virtual consultation</li>
+<li>data is measured by the smartphone camera and uploaded to the patient EMR record for diagnosis by the healthcare professional</li>
+<li>data is collecte dreal time but is stored and associated to an active consultation which can be queued awaiuting the availability of a healtcare professional who can in due course, use the data to formulate a diagnosis and recommedn a treatment proitocol. </li>
+</ul>
+<h2 id="1-virtualisation"><a class="header" href="#1-virtualisation">1. VIrtualisation:</a></h2>
+<p>In computing terms, virtualisation is the act of creating a virtual (rather than actual) version of something at the same abstraction level.</p>
+<p>In simple terms, to virtualise healthcare delivery means to digitalise the whole patient experience so far as possible. In essence, make the end to end healthcare process an online experience and minimise the need for a patient to visit a healthcare facility and see a healthcare professionals in person.</p>
+<p>In practice, this is essentially telemedicine, but in this case, with some fundamental diofferences vs  what the industry today recognises. Telemendicine has advanced our ability to deliver healthcare signifucantly by virtuakisibg the atient epxerince and essentially bringing healthcare professionals to the patient via an application. Hoiwever, whist this has realised signifuicant efficiency in healthcare service delivery, there are stiull obvious limitations in telemedicine as it is today with regards to the scope of practice that can be delivered via a virtual service.</p>
+<p>The limitations referred to above is that only minor conditions can be consulted and diagnosed via a virtual platform given the lack of data available between the patienta nd the healthcare proifessional. This lack of hiostiorical and more importantly, real time data is a major limiting factor in the types of cases that can be dealt with in an online virtual experience</p>
+<p>More on this key constraint and this can be overcome in the s ection below: ###</p>
+<h2 id="tokenisation"><a class="header" href="#tokenisation">Tokenisation:</a></h2>
+<p>In technical terms, Tokenisation is the process by which an issuer creates digital tokens on a distributed ledger or blockchain, which represent either digital or physical assets.</p>
+<p>In simple terms, a token is a digital representation of something that has inherent value. This can be financial, asset based or other.</p>
+<p>Relative to this context, tokenisation means the digitisation of the health budget to allow for simple and fair distribution of value. </p>
+<p>In this case, we refer to a ditial token, backed and representing the national health budget, remittable for the redemption of healthcare services on behalf of the government by the citizens of Tazania.</p>
+<p>In practice, the process can be as simple as follows:</p>
+<ul>
+<li>the national healthcare budget is tokenised and minted on the blockchain in a fully automated process</li>
+<li>these digital tokens, representing healthcare services by the government, are distributed electronically to the digital wallet of each citizen (typically the digital wallet is on their cellular phone) on a equitable basis.</li>
+<li>citizens then have the means to redeem virtual healthcare services redeemed using the inherent value ion the digital tokens they were issued.</li>
+</ul>
+<p>This process of tokenisation ensures:</p>
+<ul>
+<li>equitable distribution of value between all citizens</li>
+<li>concise and immutable management of budget and resources</li>
+<li>key insights and data trends such as:
+<ul>
+<li>how healthcare infrastructure and resources are utilised</li>
+<li>spend per citizen on healthcare</li>
+<li>annual cycles in health related problems</li>
+<li>geographical data insights realtive to spending and health trends</li>
+<li>etc</li>
+</ul>
+</li>
+</ul>
+<h2 id="solution-overview"><a class="header" href="#solution-overview">Solution Overview</a></h2>
+<p>A truly virtualised healthcare solution, including tokenisation and datafication (as above) is underpinned by the decentralised, autonomous infrastructure of TSIP.</p>
+<p>TSIP delivers on the fundamental requirements to ensure the Virtual Healthcare solution lives up to its promise of:</p>
+<ul>
+<li>privacy</li>
+<li>soverigenty</li>
+<li>security (quantum safe)</li>
+<li>immutability</li>
+<li>scalability</li>
+<li>...</li>
+</ul>
+<p>Architecturally, the virtual healthcare solution is depicted as follows:</p>
+<p>Layer 0: TSIP Network
+Layer 1: Threefold Blockchain
+Layer 2: Experiences layer where virtual healthcare platform is deployed</p>
+<h2 id="key-desigbn-principles"><a class="header" href="#key-desigbn-principles">Key desigbn principles:</a></h2>
+<ul>
+<li>Patient Centric: conversely to the industry norm, VHP is designed around the patient, putting the patient first. Historically, the patient would always go tot he practitioner, at the halethcare facility. Medi.me is 100% patient centric and birng all practitioners, insurers, service providers to the patient</li>
+<li>Verifiable Identification: all actors within the ecosystem are verified by a soveriegn identity. No BAD Actors</li>
+<li>Immutable Records:</li>
+<li>Tokenised Assets</li>
+<li></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="digital-enablement"><a class="header" href="#digital-enablement">Digital enablement</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../img/oc.png" alt="communication tool chat" /></p>
+</div>
+<h2 id="communication-tool-chat"><a class="header" href="#communication-tool-chat">Communication tool: Chat</a></h2>
+<p>The chat communication tools presents a simple interface to manage individual and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.</p>
+<p>Centralized messaging service always have a third party (company) involved.  A message would follow the following path:</p>
+<pre class="mermaid">graph LR
+    subgraph Individual A;
+    INDIVIDUALA(Person A);
+    end;
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA;
+    MESSAGINGA --&gt;|browser| INDIVIDUALA;
+    subgraph Messaging provider;
+    MESSAGINGA(messaging platform);
+    end;
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA;
+    subgraph Individual B;
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB;
+    end;
+</pre>
+<p>The problem here is that the messaging provider sits in the middle and has access to all messages passing through its messaging platform.  This also means that messaging providers can (or can be told to) do the following:</p>
+<ul>
+<li>do machine learning on message content and/or message volume, frequency, size and all sort of other data.</li>
+<li>expose, compile and sell machine learning outcome (metadata)</li>
+<li>provide access to meta data or actual messaging information to other companies or governing bodies</li>
+<li>and much, much more.</li>
+</ul>
+<p>There are numerous documentaries and news stories out there that prove that this is the case. A decentralized messaging platform avoids all of this</p>
+<p>Decentralized messaging sends and receives messages from private messaging instances to the receiving party's private (messaging) instance.  It does not have a central man in the middle. There are two main types of decentralized messaging in this capability:</p>
+<ul>
+<li><em>private chat</em>: private entity to private entity</li>
+<li><em>group chat</em>: one private entity creates and <strong>hosts</strong> the &quot;group&quot; and all the other members are invites to post and receives message from this group.  The entity that starts the group also sets the groups &quot;rules&quot;</li>
+</ul>
+<h3 id="private-chat"><a class="header" href="#private-chat">Private Chat</a></h3>
+<p>With private chat we mean a chat between to entities. These entities could be individuals, organizations, companies, clubs, basically anything.  The chat is a one to one chat and information (data) is exchanged between two private, secure and personal messaging platforms.</p>
+<ul>
+<li>a chat starts with inviting the other persons twin (messaging and other services platform ).  In this case the twin of the other person needs to be found and sent an invite message.</li>
+<li>if the person accepts the invite a secure connection allows messages to be send person to person without a third party in the middle.  Only the (twins of) two people involved has access tot he message data (and metadata)</li>
+</ul>
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A - Chat Functionality) .-&gt;|secure network| TWINB(Twin B - Chat Functionality)
+    subgraph Individual B
+    TWINB .-&gt;|browser| INDIVIDUALB
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINB
+    TWINB --&gt;|secure network| TWINA
+    end
+</pre>
+<p>The chat functionality allows most (if not all) of the standard functionality know from many centralized platforms:</p>
+<ul>
+<li>send text message</li>
+<li>send voice message</li>
+<li>message reply</li>
+<li>message forward</li>
+<li>send photo/file/</li>
+</ul>
+<p>From the chat function you can also initiate video conference, and have control over accepting, deleting and blocking users.
+<img src="capabilities/../capabilities/../img/chat_overview.png" alt="private_chat" /></p>
+<h3 id="group-chat"><a class="header" href="#group-chat">Group Chat</a></h3>
+<p>Group chat is unique to this peer to peer chat platform.  The group functionality is initiated by the group creator and this action creates the group function on the initiators messaging platform (twin).  The group is then formed by inviting other entities and when they accept they get read and write access in the group messaging functionality.</p>
+<!--
+mermaid source code in ./includes/group_chat.md
+-->
+<pre class="mermaid">graph LR
+    subgraph Individual A
+    PERSONA(Person A) --&gt; TWINA
+    TWINA --&gt; PERSONA
+    TWINA(Twin A - Chat Functionality) --&gt; GROUP(group)
+    GROUP .-&gt; TWINA
+    end
+    GROUP .-&gt; TWINB
+    subgraph Individual B
+    TWINB(Twin B - Chat Functionality) --&gt; GROUP
+    TWINB --&gt; PERSONB
+    end
+    PERSONB(Person B) --&gt; TWINB
+    subgraph Individual C
+   GROUP .-&gt; TWINC
+    TWINC(Twin C - Chat Functionality) --&gt; GROUP
+    TWINC --&gt; PERSONC
+    end
+    PERSONC(Person C) --&gt; TWINC
+       GROUP .-&gt; TWIND
+    subgraph Individual D
+    TWIND(Twin D - Chat Functionality) --&gt; GROUP
+    TWIND --&gt; PERSOND
+    end
+    PERSOND(Person D) --&gt; TWIND
+</pre>
+<h3 id="look-and-feel-in-a-browser"><a class="header" href="#look-and-feel-in-a-browser">Look and feel in a browser</a></h3>
+<p><img src="capabilities/../capabilities/../img/chat_people%20invite.png" alt="groups_and_contacts" /></p>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../img/camera.png" alt="comnunication tool video" /></p>
+</div>
+<h2 id="communication-tool-video"><a class="header" href="#communication-tool-video">Communication tool: Video</a></h2>
+<p>A truly peer to peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.</p>
+<p>Current world video conferencing services use service provider and centralized software installations to present services to businesses and consumers.  Take for example to users in Zanzibar that wish to communicate through zoom (or google meet, or Microsoft Teams, principle stays the same).  The will connect from their laptops/phones to a centralized service and the traffic will be routed from both of their devices to a centralized service datacenter far away.</p>
+<p>In principle this looks like</p>
+<!--
+Needs better quality picture.  Have to find original slide
+-->
+<pre class="mermaid">graph RL
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA
+    MESSAGINGA --&gt;|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB
+    end
+</pre>
+<p>And if we expand this to a world map it would look somethingg like this:</p>
+<!--
+mermaid source in: ./includes/centralized_video.md
+-->
+<div style="text-align: center;">
+<p><img src="capabilities/../capabilities/../img/videoconference_central-1.png" alt="alt text" />)</p>
+</div>
+<p>This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.</p>
+<p>The solution to this problem is to have a video conference solution that works peer to peer.</p>
+<!--
+mermaid source in: ./includes/private_video.md
+-->
+<pre class="mermaid">graph RL
+    
+    subgraph Individual A
+        INDIVIDUALA(Person A)
+        INDIVIDUALA .-&gt;|browser| TWINA
+        TWINA --&gt;|browser| INDIVIDUALA
+    end
+
+        TWINA(Twin A - Video Conference capability) .-&gt;|Browser| INDIVIDUALB
+        TWINA .-&gt;|Browser| INDIVIDUALC
+        TWINA .-&gt;|Browser| INDIVIDUALD
+    subgraph Individual B
+        INDIVIDUALB(Person B) --&gt;|Browser| TWINA
+    end
+    subgraph Individual C
+        INDIVIDUALC(Person C) --&gt;|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) --&gt;|Browser| TWINA
+    end
+
+</pre>
+<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:</p>
+<div style="text-align: center;">
+<p><img src="capabilities/../capabilities/../img/videoconference_central-2.png" alt="" /></p>
+</div>
+<h3 id=""><a class="header" href="#"></a></h3>
+<h4 id="product-features"><a class="header" href="#product-features">Product features</a></h4>
+<ul>
+<li>
+<ol>
+<li></li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li></li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li></li>
+</ol>
+</li>
+<li>etc.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../img/oc.png" alt="education" /></p>
+</div>
+<h2 id="education"><a class="header" href="#education">Education</a></h2>
+<p>Education is a sector that still relies on traditional teaching methods, a teacher, a classroom, a black (or white) board, books, paper and pencils.  This method has been in use for hundreds of years.  In this digital age there the classroom can be a digital classroom, with a teacher teaching and all of the rest of the required items can be digitised as well.</p>
+<p>Traditional learning is based on a live teacher, teaching an audience in a classroom. This works, however is has a number of restrictions which makes that work for a limited number of pupils, and not everywhere because of the necessity to have live teachers and pupils.  In this digital world we can record end present the learning materials in a digital manner to a much larger audience that a single classroom.  Classes, or better while curriculum can be digitised and share along a much larger group of pupils spanning a vast geographic area.</p>
+<p>The Covid-19 pandemic has proven that remote teaching is possible and that the current technology allow for this.  This experience was still based on the standard teacher - pupil relationship and numbers for live teaching.  Another technology, a video sharing platform has proven that storing videos and sharing videos is a effective manner to reach a very large number of viewers (youtube.com).</p>
+<p>Taking the learnings from both of these current use cases we have created Sikana. Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 billion views, aiming to deliver quality education and necessary skills to everyone. The software can be installed on threefold nodes and deployed regionally so that bandwidth requirements are minimised because it is a decentralized online education platform.</p>
+<pre class="mermaid">graph TD
+
+    
+    subgraph Region A
+        subgraph Class A
+            INDIVIDUALA(Student 1)
+            INDIVIDUALB(Student ...)
+            INDIVIDUALC(Student N)
+        end
+        subgraph Class B
+            INDIVIDUALD(Student 1)
+            INDIVIDUALE(Student ...)
+            INDIVIDUALF(Student N)
+        end
+    end
+    
+    VIDEOPLATFORM(central video sharing platform)
+    
+    subgraph Region B
+        subgraph Class C
+            INDIVIDUALG(Student 1)
+            INDIVIDUALH(Student ...)
+            INDIVIDUALI(Student N)
+        end
+    end
+
+    VIDEOPLATFORM .-&gt; INDIVIDUALA
+    VIDEOPLATFORM .-&gt; INDIVIDUALB
+    VIDEOPLATFORM .-&gt; INDIVIDUALC
+
+    VIDEOPLATFORM .-&gt; INDIVIDUALD
+    VIDEOPLATFORM .-&gt; INDIVIDUALE
+    VIDEOPLATFORM .-&gt; INDIVIDUALF
+
+    VIDEOPLATFORM .-&gt; INDIVIDUALG
+    VIDEOPLATFORM .-&gt; INDIVIDUALH
+    VIDEOPLATFORM .-&gt; INDIVIDUALI
+</pre>
+<p>To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.</p>
+<p>Decentralized video sharing as an education platform as a platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school.  This allows this education solution to educate everywhere, even if there is no internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.</p>
+<pre class="mermaid">graph TD
+    subgraph Region A
+        INDIVIDUALAA(Student 1)
+        INDIVIDUALAC(Student ...)
+        INDIVIDUALAD(Student N)
+        VIDEOPLATFORMA(Local video sharing Capability)
+        VIDEOPLATFORMA .-&gt; INDIVIDUALAA
+        VIDEOPLATFORMA .-&gt; INDIVIDUALAC
+        VIDEOPLATFORMA .-&gt; INDIVIDUALAD
+    end
+
+    subgraph Region B
+        INDIVIDUALBA(Student 1)
+        INDIVIDUALBC(Student ...)
+        INDIVIDUALBD(Student N)
+        VIDEOPLATFORMB(Local video sharing Capability)
+        VIDEOPLATFORMB .-&gt; INDIVIDUALBA
+        VIDEOPLATFORMB .-&gt; INDIVIDUALBC
+        VIDEOPLATFORMB .-&gt; INDIVIDUALBD
+    end   
+
+    subgraph Region C
+        INDIVIDUALCA(Student A)
+        INDIVIDUALCC(Student ...)
+        INDIVIDUALCD(Student N)
+        VIDEOPLATFORMC(Local Video sharing capability)
+        VIDEOPLATFORMC .-&gt; INDIVIDUALCA
+        VIDEOPLATFORMC .-&gt; INDIVIDUALCC
+        VIDEOPLATFORMC .-&gt; INDIVIDUALCD
+    end   
+
+    VIDEOPLATFORMA .-&gt;|curriculum updates| VIDEOPLATFORMB
+    VIDEOPLATFORMB .-&gt;|curriculum updates| VIDEOPLATFORMC
+    VIDEOPLATFORMA .-&gt;|curriculum updates| VIDEOPLATFORMC
+
+    VIDEOPLATFORMC .-&gt;|curriculum updates| VIDEOPLATFORMB
+    VIDEOPLATFORMC .-&gt;|curriculum updates| VIDEOPLATFORMA
+    VIDEOPLATFORMB .-&gt;|curriculum updates| VIDEOPLATFORMA
+</pre>
+<p>4BILLION  COURSES DELIVERED</p>
+<p>Our local infrastructure ensures data locality.</p>
+<p>Over 3,000 Videos</p>
+<p>We fuel content production through our network.</p>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../img/file.png" alt="office tool" /></p>
+</div>
+<h2 id="office-tools"><a class="header" href="#office-tools">Office Tools</a></h2>
+<p>The internet offers a number of office suites that you can use as a service.  Microsoft 365, Google Doc are the marketleaders and then there are a number of alternatives in local markets or in the oupen source community.</p>
+<p>All office tools are provided in a centralised manner which means that all application and data processing activities happen in a large central datacenters and also data storage is done in that same datacente.</p>
+<pre class="mermaid">graph RL
+    subgraph Location B
+        subgraph Individual B
+            INDIVIDUALB(Individual B)
+        end
+        subgraph Individual A
+            INDIVIDUALA(Individual A)
+        end 
+    end
+
+    INDIVIDUALA .-&gt;|browser| OFFICETOOLA
+    OFFICETOOLA --&gt;|browser| INDIVIDUALA
+
+    INDIVIDUALB .-&gt;|browser| OFFICETOOLA
+    OFFICETOOLA --&gt;|browser| INDIVIDUALB
+
+    subgraph Location A
+        subgraph Office Tool Provider
+            OFFICETOOLA(Office Tool Platform)
+            DATASTORE(Data Storage)
+            OFFICETOOLA --&gt; DATASTORE
+            DATASTORE --&gt; OFFICETOOLA
+        end
+    end
+</pre>
+<p>Although functionally this setup provides good co-working capabilities we see that both co-workers are using a central facility and the data is stored in that serivce provides datacenter.  This is how most online services work and most online service provider exist in the US, Europe and Asia.  This present challenges with regards to data ownership, sovereignty and all sort of other legal challenges.</p>
+<p>Office tools can be deployed locally if and when there is a digital infrastucture that can process and store data.  The Twin technology allows the office tools to be run in country, owned by the individual or company and therefore all the names challenges and legal complexity fade.</p>
+<p>The principle of doing it that way would look as follows:</p>
+<pre class="mermaid">graph RL
+
+    subgraph Location A
+        INDIVIDUALA(Individual A)
+        subgraph Twin A
+            OFFICETOOL(Office Capability)
+            DATASTORE(Data Storage)
+            OFFICETOOL --&gt; DATASTORE
+            DATASTORE --&gt; OFFICETOOL 
+        end
+        INDIVIDUALA .-&gt;|browser| OFFICETOOL
+        OFFICETOOL --&gt;|browser| INDIVIDUALA
+
+    end
+
+    subgraph Location B
+        INDIVIDUALB(Individual B)
+    end 
+        INDIVIDUALB .-&gt;|browser| OFFICETOOL
+        OFFICETOOL --&gt;|browser| INDIVIDUALB
+   
+    subgraph Location C
+        INDIVIDUALC(Individual C)
+    end 
+        INDIVIDUALC .-&gt;|browser| OFFICETOOL
+        OFFICETOOL --&gt;|browser| INDIVIDUALC
+
+    subgraph Location ...
+        INDIVIDUALD(Individual ...)
+    end 
+        INDIVIDUALD .-&gt;|browser| OFFICETOOL
+        OFFICETOOL --&gt;|browser| INDIVIDUALD
+</pre>
+<p>This way, person A is providing the Office tool from his twin and invites other people to cooperate in this office tool. The Twin can run anywhere (as determined by the operator, person A).  With this priciple we can create individuals or companies that operate and own their own office tool and datastorage platform.</p>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../img/search.png" alt="surf safe" /></p>
+</div>
+<h2 id="surf-safe"><a class="header" href="#surf-safe">Surf safe</a></h2>
+<p>Browsing the internet present risks.  There are many sites which have malicious code embedded in what look like harmless web pages.  This malicious content gets uploaded to your browser and might trick you in agreeing malicious code in your local browser on you local machine.  This is a fairly common practice and people are being tricked into providing information of access to information which they should not.</p>
+<p>The Surf Safe option of the twin provider a virtual browser on the twin that browses the internet on behalf off the person who operates the twin.</p>
+<pre class="mermaid">graph RL
+    subgraph Person A
+    PERSONA(Browser A)
+    end
+
+    subgraph Website
+    WEB(Any website)
+    end
+    
+    PERSONA .-&gt;|Content GET request| WEB
+
+    WEB --&gt;|Content| PERSONA
+
+</pre>
+<p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
+<pre class="mermaid">graph RL
+    subgraph Person A
+        PERSONA(Browser A)
+        TWINA(Twin A - virtual browser)
+    end
+    PERSONA .-&gt;|Stream Input| TWINA
+
+    TWINA .-&gt;|Content GET request| WEB
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+
+    WEB --&gt;|Content| TWINA
+    TWINA --&gt;|Stream Internet Content| PERSONA
+</pre>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../img/camera.png" alt="river" /></p>
+</div>
+<h2 id="river"><a class="header" href="#river">River</a></h2>
+<p>Need to research what the river service is.</p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="capabilities/./../img/file.png" alt="wallet exchange" /></p>
+<h2 id="wallet-exchange"><a class="header" href="#wallet-exchange">Wallet exchange</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><div style="text-align: center;">
+<p><img src="capabilities/./../capabilities/../img/flower.png" alt="code developing" /></p>
+</div>
+<h1 id="code-developing"><a class="header" href="#code-developing">Code developing</a></h1>
+<p>Code development platform that manages you code in a git (like gitea).  Your code is stored in a secure (quantum secure) environment in you own digital sovereign space.  All the regular interfaces (ssh, https and more) are available to users and to groups of users allowing you and your development group.</p>
+<p>Features:</p>
+<ul>
+<li>1 Hello World!</li>
+<li>2 </li>
+<li>3</li>
+</ul>
+<p>Benefits:</p>
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="technology-feasibility"><a class="header" href="#technology-feasibility">Technology Feasibility</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h3 id="technical-requirements"><a class="header" href="#technical-requirements">Technical requirements</a></h3>
+<p>The feasibility study is architected around the Tanzanian countries demographics and technical infrastructure availability.  For a  decentralized internet priority number one is to model it around communities and size around community / population density. The driver is to have digital assets located as close as possible to the actual owner of the digital asset (data).  Demographic data drives the initial layout of the local internet structure.</p>
+<p>The second driver is utility availability. The country utilities which are major drivers for this are power and network (internet) connectivity.  Power and internet access availability is considered in two categories:</p>
+<ul>
+<li>existing real estate with reliable power and network connectivity</li>
+<li>existing real estate without reliable power and network connectivity</li>
+</ul>
+<p>Initially we are going to focus on real estate that has existing reliable power and network available. The process to determine what areas are in scope for the feasibility study to prove that the internet infrastructure is able to power enablement use cases will follow these technical requirements, in the following order:</p>
+<ol>
+<li>population density</li>
+<li>power and  network availability and reliability</li>
+<li>access to real estate</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h4 id="population-density"><a class="header" href="#population-density">Population density</a></h4>
+<p>Decentralised internet deployments follow population distribution. Denser areas require more local capacity (more and larger deployments) while less densely populated areas can have sparser (and smaller deployments).  For the technical design of capacity instances and sizing  population demographics are key drivers.</p>
+<p>Categories:</p>
+<ol>
+<li>Densely populated (numbers to be defined)</li>
+<li>Medium populated (numbers to be defined)</li>
+<li>Sparsely populated (numbers to be defined)</li>
+</ol>
+<p><img src="technology/./../img/tanzania_pop_original.png" alt="population original" title="image_tooltip" /></p>
+<p>This is a dated population density overview which provides a first insight into the population spread in Tanzania.  From the density map we can extract a key focus are map which looks liek this:</p>
+<p><img src="technology/./../img/tanzania_pop_meta.png" alt="population meta" title="image_tooltip" /></p>
+<p>These highlighted areas are the areas that are of interest because they will have more likely than not all the required infrastructure and utility available to do a simple rollout of digital enabling infrastructure layer.</p>
+<div style="break-before: page; page-break-before: always;"></div><h4 id="power-availability-and-reliability"><a class="header" href="#power-availability-and-reliability">Power availability and reliability</a></h4>
+<p>Power availability is a key technical driver for capacity deployments.  Power availability, quality and reliability are significant drivers for deployments</p>
+<p>Categories:</p>
+<ol>
+<li>Power type 1: Grid power, 24*7 available grid power + backup facility</li>
+<li>Power type 2: Grid power, 24*7 available grid power - no backup facility</li>
+<li>Power type 3: Grid power, sporadically available </li>
+<li>Power type 4: No grid power (solar, battery, generator).</li>
+</ol>
+<p>The national grid (needs more research) is looking as follows:</p>
+<p><img src="technology/./../img/tanzania_power_original.png" alt="power original" title="image_tooltip" /></p>
+<!-->
+<img src="technology/./../img/tanzania_power_original.png" alt="drawing" width="200"/>
+-->
+<p>We are getting more detailed and recent information on the power grid in Tanzania but this represents a first good start.  Everything that is considers close to the major power distribution lines is meant to be stable and reliable.  The further aways from these major power distribution lines, available power becomes scarcer and less reliable.</p>
+<p><img src="technology/./../img/tanzania_power_meta.png" alt="power meta" /></p>
+<p>Extracting the areas where major powerlines bring sufficient quantity and quality power to operate installations.  These areas are the preferred areas to build a proof of concept in.</p>
+<!--
+<img src="technology/./../img/tanzania_power_meta.png" alt="drawing" width="200"/>
+--><div style="break-before: page; page-break-before: always;"></div><h4 id="composite-overview-of-areas-of-interest-composite-overview-of-areas-of-interest"><a class="header" href="#composite-overview-of-areas-of-interest-composite-overview-of-areas-of-interest">Composite overview of areas of interest. {#composite-overview-of-areas-of-interest}</a></h4>
+<p>Combining the power infrastructure and densely populated ares delivers the following primary areas of interest to consider for deploying decentralized internet capacity.</p>
+<table><thead><tr><th>Population density</th><th>Power grid availability</th></tr></thead><tbody>
+<tr><td><img src="technology/./../img/tanzania_pop_meta.png" alt="drawing" height="300"/></td><td><img src="technology/./../img/tanzania_power_meta.png" alt="drawing" height="300"/></td></tr>
+</tbody></table>
+<p>Making these two source of areas of interest overlap we can clearly identify what the areas of interest are combined
+<img src="technology/./../img/tanzania_conbined_meta.png" alt="combined_meta" title="image_tooltip" /></p>
+<p>The combination of this information leads to a phased approach for the feasibility study.  These phases look as follows:</p>
+<p><img src="technology/./../img/tanzania_phases.png" alt="phasing" title="image_tooltip" /></p>
+<p>Combined:</p>
+<table><thead><tr><th>Data overlay</th><th>Feasibility phasing</th></tr></thead><tbody>
+<tr><td><img src="technology/./../img/tanzania_conbined_meta.png" alt="drawing" height="300"/></td><td><img src="technology/./../img/tanzania_phases.png" alt="drawing" height="300"/></td></tr>
+</tbody></table>
+<p>Main focus fof the feasibility study wil be nio the phase1 area, which include the following main islands and cities:</p>
+<ul>
+<li>Dar Es Salam (7,404,689)</li>
+<li>Pemba Island (406,808)</li>
+<li>Morogoro (305,840)</li>
+<li>Tanga (273,332)</li>
+<li>Dodoma  (410,956)</li>
+<li>Zanzibar Island (766, 392)</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h4 id="real-estate-availability-and-reliability-real-estate-availability-and-reliability"><a class="header" href="#real-estate-availability-and-reliability-real-estate-availability-and-reliability">Real estate availability and reliability {#real-estate-availability-and-reliability}</a></h4>
+<p>A decentralized internet depends on capacity deployments in existing real estate. It uses data centers and telco space for some more densely populated areas but for the other (edge) deployments it requires existing real estate.  Also here deployments follow availability of reliable real estate.  To find appropriate locations of capacity deployments we should identify where:</p>
+<ul>
+<li>Realestate have utility rooms facilitation power and other utility in the building</li>
+<li>Reliable power and power backup (if available)</li>
+<li>Reliable network and network backup (if available)</li>
+</ul>
+<p>Based on these criteria we can define technical feasibility for internet capacity deployments based on real estate characteristics availability.</p>
+<p>Categories:</p>
+<ol>
+<li>Telco grade datacenter or POP (including mobile mast).</li>
+<li>Concrete and brick commercial, tower or office building (government, university, school or company owned)</li>
+<li>Concrete and brick  Villa / Home  (individually owned)</li>
+<li>Other</li>
+</ol>
+<p>More detailed information on the rollout is formulated as follows:</p>
+<table><thead><tr><th>Priority / Phase</th><th>Private/Public sector sites</th><th>Community sites</th></tr></thead><tbody>
+<tr><td>1</td><td>Telco (National and International) sites</td><td>Edge DC sites</td></tr>
+<tr><td>2</td><td>Goverment sites, Colleges / School University sites</td><td></td></tr>
+<tr><td>3</td><td>Airports / Seaports</td><td>Homes</td></tr>
+</tbody></table>
+<p>Alternative table definition (choose - above or below)</p>
+<table>
+  <tr>
+   <td><strong>Priority / Phase</strong>
+   </td>
+   <td><strong>Private/Public sector sites</strong>
+   </td>
+   <td><strong>Community sites</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>Telco (National and International) sites
+   </td>
+   <td>Edge DC sites
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >2
+   </td>
+   <td>Goverment sites
+   </td>
+   <td rowspan="2" >Colleges / School
+   </td>
+  </tr>
+  <tr>
+   <td>University sites
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >3
+   </td>
+   <td>Airports / Seaports
+   </td>
+   <td rowspan="3" >Homes
+   </td>
+  </tr>
+  <tr>
+   <td>Railway sites
+   </td>
+  </tr>
+  <tr>
+   <td>Waterway sites
+   </td>
+  </tr>
+</table><div style="break-before: page; page-break-before: always;"></div><h3 id="deployment-types-deployment-types"><a class="header" href="#deployment-types-deployment-types">Deployment types {#deployment-types}</a></h3>
+<p>Depending on the demograpics requirements identifies in the previous paragraph we can now defined a number of deployments types that create internet capacity.</p>
+<ol>
+<li>Deployment 1: Telco. Rack of equipment that provides
+<ol>
+<li>compute, storage and (local) networking. </li>
+<li>no backup power infrastructure required</li>
+</ol>
+</li>
+<li>Deployment 2: Real estate 1: Rack of equipment that provides
+3. compute, storage, local and area networking
+4. no backup power infrastructure required</li>
+<li>Deployment 3: Real estate 2: Rack of equipment that provides
+5. compute, storage, local and area networking
+6. backup power infrastructure required</li>
+<li>Deployment 4: Home:  Single device in private living space.</li>
+</ol>
+<p>Based on the previous technical criteria we would see the following deployment types to be feasible:</p>
+<table>
+  <tr>
+   <td>
+   </td>
+   <td>Power type
+   </td>
+   <td colspan="4" >
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+<strong>Real Estate Type</strong></p>
+</td>
+   <td>
+   </td>
+   <td><p style="text-align: right">
+1</p>
+</td>
+   <td><p style="text-align: right">
+2</p>
+</td>
+   <td><p style="text-align: right">
+3</p>
+</td>
+   <td><p style="text-align: right">
+4</p>
+</td>
+  </tr>
+  <tr>
+   <td rowspan="4" >
+   </td>
+   <td><p style="text-align: right">
+1</p>
+</td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+2</p>
+</td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+3</p>
+</td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+4</p>
+</td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+<table>
+  <tr>
+   <td><p style="text-align: right">
+Telco deployment</p>
+</td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+real estate deployment 1</p>
+</td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+real estate deployment 2</p>
+</td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><p style="text-align: right">
+Home deployment</p>
+</td>
+   <td>
+   </td>
+  </tr>
+</table><div style="break-before: page; page-break-before: always;"></div><h2 id="operational-feasibility"><a class="header" href="#operational-feasibility">Operational Feasibility</a></h2>
+<!--
+Operations – Global; Local (land availability, proposed locations for servers)
+ 
+- Global Team
+- Management structure; organogram
+  -  Personnel
+  -  Finance & Budget
+
+Local (ZNZ)
+-  Footprint – HQ location, management, staff
+-  Responsibilities (vis-à-vis Global Team)        
+
+- TNZ Deployment
+  - Requirements for locations (map some maps)
+  - Locations, …
+  - Link between m2 land & generator or power feed
+    - Connectivity
+    - Link to other projects e/g. Fiber backend
+    - Link to telcos
+    - Deployment Specs (Kristof)
+    - Explain the 3 options how it can be deployed (2-3 pages), explain pros and cons for each 
+    - More detailed specs container version (kristof, 5-8 pages)
+    - Calculations Container (kristof, 2 pages)
+    - Link to other projects like … also working in TNZ/ZNZ
+    - https://bluetown.com/
+-->
+<h3 id="tanzania-farm-designs"><a class="header" href="#tanzania-farm-designs">Tanzania farm designs</a></h3>
+<p>The farm design need to follow population density numbers, power and network strengths and real estate options available. The initial <a href="operational/./requirements_composite.html">research</a> shows that the following areas are the most densely populated areas:</p>
+<ul>
+<li>Dar Es Salam (7,404,689)</li>
+<li>Pemba Island (406,808)</li>
+<li>Morogoro (305,840)</li>
+<li>Tanga (273,332)</li>
+<li>Dodoma  (410,956)</li>
+<li>Zanzibar Island (766, 392)</li>
+</ul>
+<p>Let's design 3 types of nodes that covers more than 12.5% of the Tanzanian population.  Two type of 3nodes setups for Dar Es Salam and Zanzibar.</p>
+<h4 id="design-1"><a class="header" href="#design-1">Design 1</a></h4>
+<p>A farm that consists of a rack of x nodes, with the following characteristics:</p>
+<ul>
+<li>resides in a state owned or government building
+<ul>
+<li>government building</li>
+<li>university</li>
+<li>libraries</li>
+<li>...</li>
+</ul>
+</li>
+<li>redundant and reliable power</li>
+<li>redundant and reliable network</li>
+<li>physical security of the farm</li>
+</ul>
+<h4 id="design-2"><a class="header" href="#design-2">Design 2</a></h4>
+<p>A number of servers (x) that exits in</p>
+<ul>
+<li>solid stone real estate</li>
+<li>single power availability with UPS system providing 2 hr power failure coverage</li>
+<li>single network connection</li>
+<li>reasonable physical security</li>
+</ul>
+<h4 id="design-3"><a class="header" href="#design-3">Design 3</a></h4>
+<p>Single unit that can exist anywhere.</p>
+<ul>
+<li>property that can sustain a computer of sorts</li>
+<li>power, no redundancy</li>
+<li>network, no redundancy</li>
+<li></li>
+</ul>
+<h3 id="node-purchase-operations"><a class="header" href="#node-purchase-operations">Node purchase operations</a></h3>
+<h3 id="node-deployment-operations"><a class="header" href="#node-deployment-operations">Node deployment operations</a></h3>
+<h3 id="node-monitoring"><a class="header" href="#node-monitoring">Node monitoring</a></h3>
+<h3 id="training"><a class="header" href="#training">Training</a></h3>
+<h3 id="-1"><a class="header" href="#-1"></a></h3>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="operational-strategy"><a class="header" href="#operational-strategy">Operational strategy</a></h1>
+<h2 id="operations-strategy"><a class="header" href="#operations-strategy">Operations strategy</a></h2>
+<p>The operations od the TSI os meant to be done by Tanazanians.  Obviously the people involved will receive the appropriate training and will be support for the first xx months.</p>
+<h3 id="operations-teams"><a class="header" href="#operations-teams">Operations teams.</a></h3>
+<h4 id="global-tanzania-team"><a class="header" href="#global-tanzania-team">Global Tanzania team</a></h4>
+<p>Global team responsibilities</p>
+<ul>
+<li>Tanzania wide planning 
+<ul>
+<li>site surveying </li>
+<li>site readiness assessment</li>
+<li>site updates or upgrades</li>
+</ul>
+</li>
+<li>Tanzania wide operational readiness assessment </li>
+<li>Tanzania wide operational logistics strategy</li>
+<li>Tanzania wide farm design control</li>
+<li>Tanzania wide purchase strategy</li>
+</ul>
+<h4 id="local-zanzibar-team"><a class="header" href="#local-zanzibar-team">Local Zanzibar team</a></h4>
+<p>Local team responsibilities</p>
+<ul>
+<li>zanzibar planning (detail)
+<ul>
+<li>site surveying </li>
+<li>site readiness assessment</li>
+<li>site updates upgrade if or when needed</li>
+</ul>
+</li>
+<li>zanzibar operational readiness assessment</li>
+<li>zanzibar operational logistics</li>
+<li>zanzibar purchasing</li>
+</ul>
+<h3 id="tanzania-rollout-plan-example"><a class="header" href="#tanzania-rollout-plan-example">Tanzania rollout plan (example)</a></h3>
+<p>The feasibility study shows that there rolling out a digitalenablement program is resulting in a positive GDP contribution.</p>
+<pre class="mermaid">gantt
+dateFormat  YYYY-MM-DD
+title Tanzania rollout plan
+excludes weekdays 2022-08-15
+
+section Design Rollout
+
+Dsign 3node setups          :           des1, 2022-10-01, 7d
+Design 3node locations      :           des2, 2022-10-01, 7d
+Future task                 :           des3, after des2, 5d
+
+section Placeholder
+placeholder                 :            des3, 22-10-01, 5d          
+
+</pre>
+<!--
+section Purchase
+Design 3node configration   :           des1, 2022-10-06, 1d
+Active task                 :           des2, 2022-10-09, 3d
+Future task                 :           des3, after des2, 5d
+Future task2                :           des4, after des3, 5d
+
+section Deploy
+Design 3node configration   :           des1, 2022-10-06, 1d
+Active task                 :           des2, 2022-10-09, 3d
+Future task                 :           des3, after des2, 5d
+Future task2                :           des4, after des3, 5d
+
+section Operate
+Design 3node configration   :           des1, 2022-10-06, 1d
+Active task                 :           des2, 2022-10-09, 3d
+Future task                 :           des3, after des2, 5d
+Future task2                :           des4, after des3, 5d
+--><div style="break-before: page; page-break-before: always;"></div><ul>
+<li>
+<p>Financial Feasibility</p>
+</li>
+<li>
+<p>Business Model – value proposition, sustainability; stress value to individuals, government</p>
+</li>
+<li>
+<p>o   <span style="text-decoration:underline;">Digital Nomads</span></p>
+</li>
+<li>
+<ul>
+<li>Massive market – pandemic upended the way we think about work/life balance; conflict has accelerated the world’s increasing intransigence; millions of people – and their businesses – are on the move.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>As a result, they have challenges (e.g., no residence for underwriting  <br />
+purposes, confusion about tax), and would benefit from:</li>
+</ul>
+</li>
+<li>
+<p>·  	ease of company registration,</p>
+</li>
+<li>
+<p>·  	smart contracts,</p>
+</li>
+<li>
+<p>·  	a single monthly subscription gets access to services (bookkeeping, accounting, contracts, software, etc.)</p>
+</li>
+<li>
+<p>·  	tax incentives [0-5% income tax],</p>
+</li>
+<li>
+<p>·  	transparency = accountability</p>
+</li>
+<li>
+<p>·  	community validation,</p>
+</li>
+<li>
+<p>·  	reliable dispute resolution,</p>
+</li>
+<li>
+<p>·  	facilitated access to e-banking (?)</p>
+</li>
+<li>
+<ul>
+<li>Significant source of revenue to government</li>
+</ul>
+</li>
+<li>
+<p>·  	Collect regular monthly fee</p>
+</li>
+<li>
+<p>·  	Virtually no impact on resources (land, environment, <br />
+personnel)</p>
+</li>
+<li>
+<p>·  	Increased local capacity; improve service delivery</p>
+</li>
+<li></li>
+<li>
+<p>o   <span style="text-decoration:underline;">e-Banking Hub</span></p>
+</li>
+<li>
+<ul>
+<li>facilitate license for e-Banking entities within the ZDFZ,</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>provide software backbone for e-Banking platform</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>provide easy access to e-Banking for other ZDFZ entities, nomads</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>revenue model [TBD?]</li>
+</ul>
+</li>
+<li></li>
+<li>
+<p>o   <span style="text-decoration:underline;">Unbreakable Internet</span></p>
+</li>
+<li>
+<ul>
+<li>Data Sovereignty</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Income generation</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Security, reliability</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Data as a Valuable Resource – to be monetized by citizens, govt</li>
+</ul>
+</li>
+<li>
+<p>·  Examples – healthcare, agriculture, tourism</p>
+</li>
+<li></li>
+<li>
+<p>o   <span style="text-decoration:underline;">Incubator</span> – contributes to sustainability of all projects</p>
+</li>
+<li>
+<ul>
+<li>value of products/apps/new tech to individual citizens &amp; overall  <br />
+economy</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>job creation; technology transfer</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>unlock power of the digital marketplace</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>growth across the board – education, healthcare, agriculture</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>driven by local conditions, talent and resources – key to sustainability.</li>
+</ul>
+</li>
+<li>
+<p>Project Financial Model</p>
+</li>
+<li>
+<p>o   Key Assumptions</p>
+</li>
+<li>
+<ul>
+<li>commercial agreement between TF and GoZ includes 50/50 revenue  <br />
+share</li>
+</ul>
+</li>
+<li>
+<p>·  QUERY:  do we want to propose 75/25 until TF investment is  <br />
+repaid?</p>
+</li>
+<li>
+<p>·  Include Term Sheet with FS?</p>
+</li>
+<li>
+<ul>
+<li>favorable tax treatment for ThreeFold (i.e., tax free operation in first 5  <br />
+yrs?)</li>
+</ul>
+</li>
+<li>
+<p>o   Will Require Financial Model for each individual project as well as for projects  <br />
+together on aggregated basis</p>
+</li>
+<li></li>
+<li>
+<ul>
+<li>
+<pre><code>Investment Strategy
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>o   Funding for initial stages (staff, local presence, legal, FS prep) by TF;</p>
+</li>
+<li>
+<p>o   Additional funding to come from equity raise</p>
+</li>
+<li>
+<ul>
+<li>Identified $[XXm] of capital available for investment upon signature of     <br />
+[Concession Agreement] with GoZ</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Plans for raise</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<p>Economics the new internet (Kristof)</p>
+<pre><code>* Why tokens = CHI
+</code></pre>
+<ul>
+<li>Internet Economics (Kristof)
+<ul>
+<li>Cost per user</li>
+<li>Power Usage</li>
+<li>…</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="legalregulatory-compliance-legal-regulatory-compliance"><a class="header" href="#legalregulatory-compliance-legal-regulatory-compliance">Legal/Regulatory Compliance {#legal-regulatory-compliance}</a></h2>
+<pre><code>-   	Description of Legal/Regulatory Context (ZNZ – TZ relationship; duties &amp;  \
+responsibilities)
+
+
+-   	Specific Legal / Regulatory Framework for each element of the various projects.
+
+
+-   	Identify Responsible ministries; authorities
+
+
+-   	Where there is potential conflict – how to mitigate, modalities of each
+
+
+    `o`   Interpretation (with GoZ confirmation of interpretation)
+
+
+    `o`   Executive action
+
+
+    `o`   Legislative action
+
+
+-   	Consolidated list of requirements; provide Annex w proposed changes/language
+
+CHRIS WAS HERE again</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="risk-factors--mitigation-risk-factors--mitigation"><a class="header" href="#risk-factors--mitigation-risk-factors--mitigation">Risk Factors &amp; Mitigation {#risk-factors-&amp;-mitigation}</a></h2>
+<pre><code>-	Additional risks (mitigation measures) to be developed during FS prep; to start:   	
+
+
+    `O `Theft of equipment (redundancy, planning)
+
+
+    `O `Lack of land availability (survey, letters of intent?)
+
+
+    `O `Failure to obtain permits, licenses (govt to assist)
+
+
+`O `Content – illegal, immoral, political (no anonymity, GoZ/GoTZ monitoring)
+
+
+`O `Lack of uptake (digital marketing, flexibility)
+
+
+`O `Misuse – e.g., money laundering, criminal activity (KYC/AML diligence, no  \
+     anonymity)</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="schedule-schedule"><a class="header" href="#schedule-schedule">Schedule {#schedule}</a></h2>
+<pre><code>-   	Notional implementation schedule – keyed off of signature of Concession \
+Agreement.</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:8887/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
