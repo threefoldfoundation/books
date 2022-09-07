@@ -1,0 +1,1 @@
+# TFT Scarcity Simulator
