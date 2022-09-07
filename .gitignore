@@ -28,7 +28,6 @@ static/assets/version
 logs/
 repos/
 archives/
-books/
 _docs/
 *.code-workspace
 .vscode

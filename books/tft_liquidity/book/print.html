@@ -1,0 +1,487 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Threefold&#x27;s Mission</title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="liquidity/together_we_build.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="liquidity/index.html"><strong aria-hidden="true">1.1.</strong> Index</a></li><li class="chapter-item expanded "><a href="liquidity/this_is_our_moment.html"><strong aria-hidden="true">1.2.</strong> This is Our Moment</a></li></ol></li><li class="chapter-item expanded "><a href="liquidity/token_ecosystem.html"><strong aria-hidden="true">2.</strong> TFT Financial Token Ecosystem</a></li><li class="chapter-item expanded "><a href="liquidity/twin_with_wallet.html"><strong aria-hidden="true">3.</strong> TheeFold Twin with integrated DEFI Wallet (Q4 2022)</a></li><li class="chapter-item expanded "><a href="liquidity/dao_liquidity_pool.html"><strong aria-hidden="true">4.</strong> TFT DAO Liquidity Pool (Q1 2023)</a></li><li class="chapter-item expanded "><a href="liquidity/project_phases.html"><strong aria-hidden="true">5.</strong> ThreeFold Project Phases</a></li><li class="chapter-item expanded "><a href="liquidity/scarcity_simulator.html"><strong aria-hidden="true">6.</strong> TFT Scarcity Simulator</a></li><li class="chapter-item expanded "><a href="liquidity/internet_of_internets.html"><strong aria-hidden="true">7.</strong> Internet of Internets Concept Provides Planetary Scale</a></li><li class="chapter-item expanded "><a href="liquidity/scale_up.html"><strong aria-hidden="true">8.</strong> How do we scale to a Billion People</a></li><li class="chapter-item expanded "><a href="liquidity/utilization_model.html"><strong aria-hidden="true">9.</strong> TFT Utilization Model</a></li><li class="chapter-item expanded "><a href="liquidity/community_building.html"><strong aria-hidden="true">10.</strong> Expansion of our community building activities</a></li><li class="chapter-item expanded "><a href="liquidity/more_info.html"><strong aria-hidden="true">11.</strong> More Info</a></li><li class="chapter-item expanded "><a href="liquidity/faq.html"><strong aria-hidden="true">12.</strong> FAQ</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Threefold&#x27;s Mission</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><img src="liquidity/img/build_our_own_future_header.pngimage_0.png" alt="image alt text" />
+{{#include liquidity_intro.md}}</p>
+<h2 id="we-are-different-and-need-to-dare-to-be-different"><a class="header" href="#we-are-different-and-need-to-dare-to-be-different">We are different and need to dare to be different.</a></h2>
+<ul>
+<li>We have a real valuable and technically advanced product, ready for a future the planet needs.</li>
+<li>We have a strong token, with a good tokenomics model, not made for pump and dump but for real value.</li>
+<li>The Internet of Internets concept will require billions of TFT to support its growth.</li>
+<li>We have a strong community of like minded people who want the ThreeFold project to succeed, 
+so many are willing to offer their time to make it happen, thank you… </li>
+<li>Even country governments and large banking projects start seeing the value of what we do.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="index"><a class="header" href="#index">Index</a></h1>
+<ol>
+<li>Introduction
+<ul>
+<li><a href="liquidity/together_we_build.html">Together we build our own future with the internet of internet</a></li>
+<li><a href="liquidity/index.html">Index</a></li>
+<li><a href="liquidity/this_is_our_moment.html">This is Our Moment</a></li>
+</ul>
+</li>
+<li><a href="liquidity/TFT_financial_token_ecosystem.html">TFT Financial Token Ecosystem</a></li>
+<li><a href="liquidity/twin_with_wallet.html">TheeFold Twin with integrated DEFI Wallet (Q4 2022)</a></li>
+<li><a href="liquidity/dao_liquidity_pool.html">TFT DAO Liquidity Pool (Q1 2023)</a></li>
+<li><a href="liquidity/project_phases.html">ThreeFold Project Phases</a></li>
+<li><a href="liquidity/scarcity_simulator.html">TFT Scarcity Simulator</a></li>
+<li><a href="liquidity/internet_of_internets.html">Internet of Internets Concept Provides Planetary Scale</a></li>
+<li><a href="liquidity/scale_up.html">How do we scale to a Billion People</a></li>
+<li><a href="liquidity/TFT_utilization_model.html">TFT Utilization Model</a></li>
+<li><a href="liquidity/community_building.html">Expansion of our community building activities</a></li>
+<li><a href="liquidity/more_info.html">More Info</a></li>
+<li><a href="liquidity/faq.html">FAQ</a></li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="liquidity/img/this_is_our_moment_quote.png" alt="image alt text" title="image_tooltip" /></p>
+<h1 id="this-is-our-moment"><a class="header" href="#this-is-our-moment">This Is Our Moment</a></h1>
+<p>the world needs decentralization now more than ever, crypto is re-inventing itself </p>
+<blockquote>
+<p>just like what happened in the dot.com crash, this is the ideal moment to break through.</p>
+</blockquote>
+<h2 id="we-were-preparing-for-this-moment"><a class="header" href="#we-were-preparing-for-this-moment">We were preparing for this moment:</a></h2>
+<ul>
+<li>Product ready, and good enough (yes)</li>
+<li>First traction for large projects which many users (yes)</li>
+<li>Community traction proven (yes)</li>
+<li>Ready to go viral (cheapest and only way it can work in a down market) (some more work)</li>
+<li>A team and core community capable to execute which is lean &amp; mean (yes)</li>
+<li>A lot of cash on the bank, so it's easier to break through (not yet)</li>
+<li>Good values in place, and ready for the future (planet/people first model) (yes)</li>
+<li>Governance (working on DAO)</li>
+</ul>
+<h2 id="our-valuesstrategy-reminded"><a class="header" href="#our-valuesstrategy-reminded">Our values/strategy reminded:</a></h2>
+<ul>
+<li>Right mix of Planet, People, Profit (no profit without taking care of planet and people on it)</li>
+<li>We will not do pump/dump, we will not do fake market making</li>
+<li>We will not do big marketing unless we get the right funding and now exactly who to target and when/why.</li>
+<li>We need product to be ready for the world (that's why we kept on pushing and we are there now)</li>
+<li>We should not do things which we can’t do yet (don’t run before you can walk, e.g. going too operational with the Grid we can’t we dont have the team nor funding for it, we are now fundraising to make this happen).</li>
+</ul>
+<h2 id="next-steps"><a class="header" href="#next-steps">Next steps</a></h2>
+<ul>
+<li>Fundraise to support global expansion as well as support community building (promotion, events, …)</li>
+<li>Expansion phase (get hundreds of thousands of nodes on the TFGrid as well as many regional internets)</li>
+<li>Launch first big usecases e.g. freeflow/uhuru (our digital twin)</li>
+<li>Deliver some of the big projects (millions of users)</li>
+</ul>
+<h2 id="we-are-a-startup-and-community-based-organization"><a class="header" href="#we-are-a-startup-and-community-based-organization">We are a startup and community based organization</a></h2>
+<ul>
+<li>Which means we have to improvise, we need to see what works and what doesn’t</li>
+<li>Of course we make mistakes, but because we are flexible and we listen we can always adjust fast</li>
+</ul>
+<blockquote>
+<p><strong>We have done this 2x before in previous projects , and planned for this, 
+It's time to move &amp; be one of the leaders of a new era.</strong></p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tft-financial-token-ecosystem"><a class="header" href="#tft-financial-token-ecosystem">TFT Financial Token Ecosystem</a></h1>
+<p><img src="liquidity/img/TFT_ecosystem_infographic.png" alt="image alt text" title="image_tooltip" /></p>
+<p>It's no longer needed for a currency like TFT to be on a centralized exchange, everything they have to offer is available on these modern money blockchain ecosystems like Stellar &amp; Algorand. It’s incredible to see how mature these platforms became. The process is actually getting very easy. </p>
+<h2 id="benefits-today"><a class="header" href="#benefits-today">Benefits today:</a></h2>
+<ul>
+<li>Availability of stable coins (gold, usdc, …). The ability to use physical gold as an example is amazing.</li>
+<li>Easy ways to exchange currencies against each other, there is support for automatic DEFI exchange as well as orderbook based exchange built into Algorand &amp; Stellar. Some of the wallets are super easy to use and make it easy for users to exchange their TFT for other digital currencies like USDC.</li>
+<li>Easy onramp with debit/credit cards (upto couple of thousand of USD).</li>
+<li>If you want to work with larger budgets, you have to choose your onboarding platform (can be a CEX, but there are also specialized services doing just this), do your KYC and send the money to that platform. Once on board the digital currency e.g. USDC can easily be transferred to your wallet on Stellar or Algorand.</li>
+<li>Once in the digital realm, your life becomes so much easier. Transferring or exchanging money becomes super easy and more reliable, the transaction fees on Stellar and Algorand are super low, the transaction happens immediately, you get full transparency when doing an exchange on the chosen DEX. Using a centralized exchange is much more complicated and dangerous.</li>
+<li>Your digital assets are potentially much safer compared to a bank or central exchange. Most banks do play with your money which means you cannot be sure that you will never lose it. Central exchanges, well… don’t get me started, most of them are even much worse compared to a bank, and many have very poor moral standards. There are some good exchanges of course, but only use them when you need them e.g. they can be good to find more liquidity for certain popular currency pairs or as an on/off ramp of your digital assets.</li>
+</ul>
+<p>We are working on a new set of manuals to make it easier for people to understand how to use this ecosystem.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="threefold-twin-with-integrated-defi-wallet-q4-2022"><a class="header" href="#threefold-twin-with-integrated-defi-wallet-q4-2022">ThreeFold Twin with integrated DEFI Wallet (Q4 2022)</a></h1>
+<p><img src="liquidity/img/wallet_infographic.png" alt="image alt text" title="image_tooltip" /></p>
+<p>We are launching our Digital Twin (FreeFlow-Uhuru) at the end of summer 2022 and by the end of the year latest Q1 2023 our Digital Twin will have true decentralized finance capabilities.</p>
+<p>Imagine your twin is your personal trading and exchange bot, you would become the exchange. You instruct your twin with e.g. I want to buy TFT at a maximum price of X, if that does not work in a certain time then pay 20% more. Now the twin on your behalf will talk with the other twins and the connected blockchain systems to see if a deal can be made and on your behalf get the best possible price. This twin doesn’t have to sleep and can work nonstop until your required result has been achieved. We can even implement personal liquidity pool functionality, so you can make some gain by providing liquidity to others.</p>
+<ul>
+<li>The minimum price will be defined by the DAO but not lower than 0.15 USD.</li>
+<li>People can define min price to sell, max price to buy and duration of their offer</li>
+<li>The order books are not visible, this makes it much harder for bots to manipulate the price and volume. </li>
+<li>The process is managed by your digital twin also a peer2peer defi system.</li>
+<li>The digital twin will also try to use above mentioned liquidity pools and optionally exchanges on your behalf.</li>
+<li>Each successful peer2peer exchange transaction gets registered in the blockchain, 
+This way we have a market defined price really based on supply and demand.</li>
+</ul>
+<p>The wallet would use our TF Connect security layer and needs to be the easiest possible wallet to use, we would work with 3e parties to make it easy to use FIAT currency as well to enter this system.</p>
+<p>We would like to offer this functionality to other crypto projects as well, as long as they create liquidity pools with TFT as pair (-: 
+We believe this is a very important missing piece for a more sustainable decentralized and safe digital currency world.</p>
+<p>This system is not limited to only digital currencies but you can use the twin to find any good or service you are looking for as well as exchange any good/service for any digital currency/token. The twin will take care of all details.</p>
+<p>We are working on some huge projects with millions of users who need this functionality (banks &amp; countries).
+The concept of having your own twin which acts on your behalf we call web 4.0.</p>
+<pre><code>**DISCLAIMER: this is no investment advice, we do not promise any financial benefit 
+and we do ****not**** suggest or promise any future TFT price.** </code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="dao-based-tft-liquidity-pool-q1-2023"><a class="header" href="#dao-based-tft-liquidity-pool-q1-2023">DAO based TFT Liquidity Pool (Q1 2023)</a></h1>
+<p><img src="liquidity/img/TFT_liquidity_pool_infographic.png" alt="image alt text" title="image_tooltip" /></p>
+<p>There are +-40m USD worth TFT, from which a small minority is liquid, there are billions of TFT required (see <a href="http://litepaper.threefold.me">litepaper</a> and scarcity simulator below) this will lead to upward price pressure. We believe in organic growth of our token.</p>
+<p>The liquidity on the exchanges (even on Algorand or Stellar) is low, this leads to inability for people who want to buy a lot of TFT, we don’t feel comfortable using commercial liquidity providers, we would rather work with our community and have our own community funded decentralized liquidity pool.</p>
+<p>We are in the process of establishing a community based liquidity pool (additional to the DEFI pool of today):</p>
+<ul>
+<li>
+<p>This liquidity pool is funded by USDC and TFT (and maybe a gold token).</p>
+</li>
+<li>
+<p>The min price the TFT will sell for from this pool is DAO defined price e.g. 0.15 USD </p>
+</li>
+<li>
+<p>This is a DAO based liquidity pool, the TFT price and the spread 33% at start is voted on a weekly basis.</p>
+</li>
+<li>
+<p>TFT to USDC will be 33% lower price compared to USDC/PAXG to TFT. 
+This 33% margin is fully added to the liquidity pool, this means the liquidity pool constantly grows in value (this is the margin for the liquidity pool providers), this is very unique.</p>
+<p><strong>DISCLAIMER: this is no investment advice, we do not promise any financial benefit 
+and we do <strong><strong>not</strong></strong> suggest or promise any future TFT price.</strong> </p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="threefold-project-phases"><a class="header" href="#threefold-project-phases">ThreeFold Project Phases</a></h1>
+<p><img src="liquidity/img/TF_project_phases_graph.png" alt="image alt text" title="image_tooltip" /></p>
+<p>The first phase has been focused on initial expansion and the creation of all the technology required (this is now completed). The next two phases are all about accelerated expansion, and this requires many billions of tokens and tens of thousands of servers, neither of which are available today. </p>
+<h2 id="phase-1--the-creation--initial-roll-out-phase-completed"><a class="header" href="#phase-1--the-creation--initial-roll-out-phase-completed">Phase 1 = The Creation &amp; Initial Roll out Phase (Completed)</a></h2>
+<ul>
+<li>Creation of the ThreeFold Grid, rewards for all early farmers &amp; technology providers. +50m USD invested.</li>
+<li>Initial roll out, Proof of technology (we are now gen 3), every day new capacity is extended without our involvement.</li>
+</ul>
+<h2 id="phase-2--expansion-phase--requires-x-billion-tft--staking-for-expansion"><a class="header" href="#phase-2--expansion-phase--requires-x-billion-tft--staking-for-expansion">Phase 2 = Expansion Phase = Requires X Billion TFT = STAKING FOR EXPANSION</a></h2>
+<ul>
+<li>This stage will need multiple billions of TFT, this will stabilize the TFT price &amp; drive liquidity.</li>
+<li>Meanwhile the world is becoming less stable, more and more people realize they need a new Internet and more stable digital currency. Because of the underlying tokenomics, TFT might be a good future inflation hedge.</li>
+</ul>
+<h2 id="phase-3--web-40-roll-out--lots-of-utilization-on-tfgrid-will-be-required"><a class="header" href="#phase-3--web-40-roll-out--lots-of-utilization-on-tfgrid-will-be-required">Phase 3 = Web 4.0 Roll out = lots of utilization on TFGrid will be required</a></h2>
+<ul>
+<li>A first roll out for web 4.0 will be called Freeflow (Uhuru) , our alternative to +10 digital experiences.</li>
+<li>We are working on some big projects with huge communities which want to onboard our FreeFlow concept, some NEO banks as well as countries. This can lead to millions of twins which will lead to real utilization of the grid.</li>
+<li>Is in parallel with phase 2.</li>
+</ul>
+<h2 id="phase-4--velocity-phase--the-engine-is-running-at-full-speed--the-world-has-a-new-internet--"><a class="header" href="#phase-4--velocity-phase--the-engine-is-running-at-full-speed--the-world-has-a-new-internet--">Phase 4 = Velocity Phase = the engine is running at full speed = the world has a new internet (-:</a></h2>
+<ul>
+<li>TFT is needed everywhere to get access to 
+<ul>
+<li>Web 4.0 - hundreds of millions of twins</li>
+<li>TFGrid Internet Capacity </li>
+<li>Rendering &amp; Streaming capacity for Gaming &amp; Metaverse Capacity (this will be HUGE)</li>
+<li>DEFI Pools for more P2P currencies</li>
+</ul>
+</li>
+<li>This will lead to increased velocity and flow, this is how a valuable digital currency is being created</li>
+<li>As part of this phase we burn (take out of circulation) more tokens than we create because of our burning concept.</li>
+</ul>
+<p><em>For Phase 2 and 3, we would require +100 Billion of TFT if the TFT price were not to rise from current absurdly low prices, there is simply nowhere near enough TFT available so the TFT price must rise as a consequence.</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tft-scarcity-simulator"><a class="header" href="#tft-scarcity-simulator">TFT Scarcity Simulator</a></h1>
+<p>We have created a simulator in which people can simulate how the Internet of Internets strategy needs billions of TFT which are not there yet. This simulator allows you to simulate the relation between size of grid and token scarcity.</p>
+<p><img src="liquidity/img/TFT_%20scarcity_simulator_1.png" alt="image alt text" title="image_tooltip" /></p>
+<p>In this simulation it's easy to see how many TFT we need depending on the token price, if the price is only 0.2 we need +4 billion tokens which are not available so in other words, the TFT price needs to be higher to be able this way people need to buy less TFT for their validators and twins. If we put the price on 4 it just works:</p>
+<p><img src="liquidity/img/TFT_scarcity_simulator_2.png" alt="image alt text" title="image_tooltip" /></p>
+<p>Above simulator see <a href="https://threefold.docsend.com/view/bevgqb3gm2vw2yeu">https://threefold.docsend.com/view/bevgqb3gm2vw2yeu</a> </p>
+<pre><code>disclaimer: we are not making any promise about any token price of grid size, 
+it's up to you to make your own assessment. TFT is not an investment instrument.
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="internet-of-internets-concept-provides-planetary-scale"><a class="header" href="#internet-of-internets-concept-provides-planetary-scale">Internet of Internets Concept Provides Planetary Scale</a></h1>
+<p><img src="liquidity/img/internet_of_internets_header.png" alt="image alt text" title="image_tooltip" /></p>
+<p>The Internet of Internets system has one Mother DAI (Decentralized Autonomous Internet), which supports lots of regional Internets protected by Daughter DAIs. Each Regional Internet supports unlimited Community and Neighborhood Clouds which provide the Internet Experiences and Capacity (storage, compute) for its local users.</p>
+<p>This provides for a scalable internet infrastructure which can scale to billions of people.</p>
+<p>Community or Neighborhood Clouds are the foundation of this model, each of them providing all the required tools and applications for equal access to knowledge, education, business, financial systems, collaboration, communication and experiences for the community to thrive. A Community or Neighborhood Cloud is owned by its community members and provides for a completely decentralized Internet, by the people, for the people. Our Internet. Your Internet. </p>
+<p>The specific case of Neighborhood Clouds (defined as a deployment whereby ThreeFold Internet Capacity is deployed as part of a real estate project) is a good way to expand the Internet of Internets for the following reasons.</p>
+<ul>
+<li>The quality of computer hardware and associated equipment is high, reliable and well optimized </li>
+<li>We can optimize the connectivity (e.g. fiber) and the operations cost is super low (power is free, zero data center cost)</li>
+<li>We can help emerging countries faster, they have many real estate projects being built.</li>
+<li>Utilization is built in, because the community will use the grid as well as government departments or surrounding businesses, and there is vested interest for the community to promote their Neighborhood Cloud.</li>
+<li>It's highly decentralized, each project is independent.</li>
+<li>A part of the funds received from a Neighborhood cloud can be used to support the TFT price.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="how-do-we-scale-to-a-billion-people"><a class="header" href="#how-do-we-scale-to-a-billion-people">How do we scale to a Billion People?</a></h1>
+<p><img src="liquidity/img/scale_up_visual.png" alt="image alt text" title="image_tooltip" /></p>
+<p>Let's play with some numbers.</p>
+<p>Together we grow an organic structure of 9,999 DAI’s, A DAI is a Decentralized Autonomous Internet.</p>
+<ul>
+<li>We need a MotherDAO with 99 validators which protects TFT (our own internet currency) and all DaughterDAIs.</li>
+<li>We need 99 DaughterDAO’s with 99 validators each to build our Regional Internets with own currency called CHI (local TFT)</li>
+<li>We need 99 interconnected Community/Neighborhood Clouds per Regional Internet, farming our CHI and providing our Internet Capacity (storage, network, compute) and all our Internet Experiences (apps).</li>
+</ul>
+<p>This results in 9,999 (*) Validator nodes globally with a total of 9,999 Community/Neighborhood Clouds. If each community cloud is 999 nodes then we have a network of 9,999,999 nodes, this is enough to support 999,999,999 people. </p>
+<p>This provides for a very healthy start for our completely decentralized Internet of Internets.</p>
+<pre><code>					*(*) the nr’s are not mathematically correct, they are rounded for nicer representation.*
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tft-utilization-model"><a class="header" href="#tft-utilization-model">TFT Utilization Model</a></h1>
+<p><img src="liquidity/img/BTC_vs_TFT_infographic.png" alt="image alt text" title="image_tooltip" /></p>
+<p>The following 5 mechanism provide for TFT Utilization (drives scarcity)</p>
+<ol>
+<li>Regional Internets: staking of TFT to establish the 99 validators per Daughter DAI* (many billions of TFT)*</li>
+<li>Neighborhood Clouds buy back more tokens over the next few years. We expect to have +50m USD buying power over the next 24 months. It might well be impossible to spend this budget, because there is a possibility that there will not be enough tokens liquid to buy them as part of Neighborhood Clouds projects.</li>
+<li>CHI genesis pool + CHI based personal liquidity pool <em>(many billions of TFT)</em></li>
+<li>ThreeFold Grid Usage, TFT is needed and also will get tokens to be burned.
+Digital Twins: Millions of people will need their ThreeFold Keys (or Uhuru Keys) (already in phasee 3)</li>
+</ol>
+<h2 id="1-staking-requirement-for-regional-internet"><a class="header" href="#1-staking-requirement-for-regional-internet">1. Staking requirement for Regional Internet</a></h2>
+<p>Each Regional Internet (Daughter DAI) is created by up-to 99 people deploying blockchain validator nodes. Each validator node needs about 50k USD worth of TFT staked. We are repeating this hundreds of times. This leads to +10.000 validators.</p>
+<p>Once the blockchain validator nodes have enough funding then they secure the regional internet which provides completely independent Internet experience for millions of users. This allows for Community/Neighborhood Clouds to be established.</p>
+<h2 id="2-neighborhood-clouds-buyback-tft-from-market"><a class="header" href="#2-neighborhood-clouds-buyback-tft-from-market">2. Neighborhood Clouds Buyback TFT from Market</a></h2>
+<p>A Neighborhood Cloud is a special type of Community Cloud project where a special purpose vehicle receives 1-5% of a real estate project. This 1-5% is used to farm TFT in and around the project as well as acquire tokens from the market if the price is low enough. The homeowner receives a certain amount of TFT over 5 years. Example in our first project, TFTech receives 5m USD, and the home owners receive 7 TFT per USD. This is a win-win for everyone involved. As a result the real estate project has their own internet with all the features required for the digital life of its citizens. </p>
+<p>About 20% of every Neighborhood Cloud proceeds is used to buy tokens from the market (if still possible at that time). Each Neighborhood Cloud has their price of TFT at start defined (we call it strike price) e.g. today we sold at about 0.1 over 5 Y, next deal 0.12, … If tokens today are &lt; 0.12 we buy all tokens we can till 0.12, this way each Neighborhood Cloud project defines a next price for the token… It's a gradual token price increase in line to expansion of the grid and a bigger economical ecosystem.</p>
+<p>There are now 2 projects </p>
+<ul>
+<li>Paradise Hills -&gt; 5m USD (signed)</li>
+<li>A new project in Dubai -&gt; 8-10m USD (to sign &lt; 4 weeks)</li>
+</ul>
+<p>There is a large funnel, we expect to book more than 50m USD this year, this means +- 10m USD can be used over next year or so to buy back TFT as long as the price is lower than the strike price of the Neighborhood Cloud.</p>
+<p>This shows how the Neighborhood Cloud concept has the potential to keep on supporting the TFT price in an organic way and this way provides benefit for the local community as well as the ThreeFold community in general.</p>
+<h2 id="3-chi-liquidity-pools"><a class="header" href="#3-chi-liquidity-pools">3. CHI Liquidity Pools</a></h2>
+<p>Each Daughter DAI has its own colored TFT and DEFI system. **This local TFT is also called CHI **and can only be used inside the Daughter DAI ecosystem. A CHI is generated as a result of people providing storage, network and compute resources to their local Daughter DAI system. CHI farming rules are defined by the local DAI and will be different region to region. Each Daughter DAI starts with 99,999,999 of genesis CHI which need to be bought from the Mother DAI by means of TFT. These genesis CHI are managed by the Daughter DAI and can be granted for work done or funds provided by the community. </p>
+<p>The DEFI system uses CHI as reserve currency, all trades in the peer2peer system are done against CHI. CHI is for Threefold what BNB is for Binance Smartchain. If you need CHI from another DAI you will have to go over TFT which is the reserve currency of the ThreeFold Mother DAI. This happens seamlessly for you, as part of your Twin For Life experience.</p>
+<p>Everyone, by design, has the right and ability to become a liquidity provider. It won’t be like any centralized exchange platform. Instead it will be an organic experience attached to your digital self which allows you to create flow. Each and every one of us can decide how to provide liquidity and flow on a personal level – which allows for a self-governing system to emerge.</p>
+<p>Each Twin For Life has its own set of Liquidity Pools.</p>
+<p>You define per personal liquidity pool</p>
+<ul>
+<li>Amount digital currencies available to the pool (e.g. 1000 USDT, 0.2 BTC …).</li>
+<li>Amount of CHI or TFT available is the reserve currency (you can use TFT and CHI as reserve currency).</li>
+<li>Your liquidity pool Exchange Rules, assets you want to exchange and at what price
+<ul>
+<li>e.g. buy max 100,000 TFT &lt; 0.15 USD, optionally linked to a specific group of people (we call circle)</li>
+<li>e.g. sell max 10,000 TFT &gt; 0.2 USD</li>
+</ul>
+</li>
+</ul>
+<p><em>Your liquidity pool will at any point in time have a basket of your digital currencies and TFT/CHI. Important remark, you can use any currency in your ruleset, but exchange always happens against TFT or CHI. TFT or CHI is the reserve currency. Importantly, a pool always needs at least 30% of its value in CHI/TFT, otherwise the pool will not function, this makes sure there is enough liquidity available.</em></p>
+<p>More currencies will enter this liquidity model. With time we will integrate gold, carbon and other (value-backed) utility or monetary digital currencies.</p>
+<p>The aggregation of the above individual pools will aggregate themselves to balance the whole economy – a peer-to-peer alternative to centralized liquidity pools – a real economy based on real demand and supply – an economy based on the golden rule and free will. It's important for everyone to provide liquidity, this keeps the system flowing.</p>
+<h2 id="4-threefold-grid-usage-growth"><a class="header" href="#4-threefold-grid-usage-growth">4. ThreeFold Grid Usage Growth</a></h2>
+<p>While the grid is usable today the big growth is only expected once we reach more expansion and global reach.</p>
+<p>In the last phase ThreeFold Grid usage leads to burning of ThreeFold token (see phase 4), this is another mechanism for scarcity.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="expansion-of-our-community-building-activities"><a class="header" href="#expansion-of-our-community-building-activities">Expansion of our community building activities</a></h1>
+<p><img src="liquidity/img/caravan_of_light_picture.png" alt="image alt text" title="image_tooltip" /></p>
+<p>Next year, we want to organize a ThreeFold Caravan of Light. </p>
+<p>A series of &quot;plant the flag&quot; events, starting in the US and Latin America where a group of people as a caravan of light go to places to plant a flag for a new internet.</p>
+<p>This will happen by means of knowledge sharing motivational events combined with music and dance. For this we have support from an amazing team which is called Caravan of Light. It's a beautiful group of talented event organizers and network of artists.</p>
+<p>We have now done a couple of events and it's incredible and very effective.</p>
+<p>We will also continue our events on the Nile, 2 maximum 3 times per year we come together on the Nile expanding our community.</p>
+<p>So far each event has been amazing accelerators for our growth, we just need to do it more and more organized, this in our opinion is the best spend marketing budget, it's much more concrete and allows a solid community to be born.</p>
+<p>Community is what we are, this is the most solid foundation for our project to grow on. We are and need to be a globally happy connected family who chose to go out of victimhood and make change happen.</p>
+<p>These events do cost money, but we believe they are the absolute most effective way to build community. </p>
+<h2 id="next-events"><a class="header" href="#next-events">Next events</a></h2>
+<ul>
+<li>Nile Oct 2022</li>
+<li>Zanzibar TBD in collaboration with government</li>
+<li>June 2023 Event in Greece (300+ people on a remote island, the celebrate the birth of our digital twin on ThreeFold)</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="more-info"><a class="header" href="#more-info">More Info</a></h1>
+<p><a href="http://litepaper.threefold.me/">http://litepaper.threefold.me/</a> </p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="faq"><a class="header" href="#faq">FAQ</a></h1>
+<h2 id="i-like-what-i-see-how-do-i-take-action"><a class="header" href="#i-like-what-i-see-how-do-i-take-action">I like what I see, how do I take action?</a></h2>
+<p>Contact us, we will help you to get on the liquidity pool or acquire a validator and start your own Internet of Internets.</p>
+<h2 id="how-do-you-see-the-future-of-crypto"><a class="header" href="#how-do-you-see-the-future-of-crypto">How do you see the future of crypto?</a></h2>
+<p>We believe it will be great but just like in the dot com crash, some correction is needed.</p>
+<h2 id="how-important-are-centralized-exchanges-these-days"><a class="header" href="#how-important-are-centralized-exchanges-these-days">How important are centralized exchanges these days?</a></h2>
+<p>These days it's not really needed any longer to list on big exchanges , see an article Kristof wrote recently <a href="https://medium.com/@despiegk/crypto-is-dead-long-live-crypto-c3d1d774630c">https://medium.com/@despiegk/crypto-is-dead-long-live-crypto-c3d1d774630c</a> </p>
+<p>Ecosystems like Algorand and Stellar are amazing and have everything required to let us grow our token organically.</p>
+<p>We are 100% compatible with market standards today like order book exchange and AMM Defi Pool (on stellar and on algorand, defi pool on algorand). Everything we use from echanges is natively available on modern blockchains these days, we support them on 2 major platforms.</p>
+<h2 id="is-the-grid-usable"><a class="header" href="#is-the-grid-usable">Is the grid usable?</a></h2>
+<p>Of course it is, people are expanding &amp; using the grid today. See <a href="https://library.threefold.me/info/manual/#//manual__manual3_home_new">https://library.threefold.me/info/manual/#/manual3_home_new</a> how to get started. Today everything which can run on linux can run on the cloud.</p>
+<p>Of course there are some known (non blocking) issues</p>
+<ul>
+<li>The UI is not user friendly enough (will be fixed in next release).</li>
+<li>The documentation needs improvement</li>
+<li>We don’t have enough IP addresses (being resolved)</li>
+<li>We also need to be more clear about farming quality definition &amp; measurement, 
+it needs to be easier for people to define what a good farmer is.</li>
+</ul>
+<p>Is the system good enough</p>
+<ul>
+<li>We believe so, if not let us know why not and what we need to improve.</li>
+</ul>
+<p>We keep on working on improvements to of course address above, but first priority is on tools to do with VALIDATORS and FARMING and our DAO, this is the first requirement now.</p>
+<p>The TFGrid has been fully functional since the start of this year in version 3.0. We have chosen to keep the Grid in an Alpha/Beta state for now, Google did this for years. There is an operational devnet, testnet and mainnet.</p>
+<p>Version 4.0 is the version where we roll out support for the Regional Internet support.</p>
+<p>We are launching end user facing projects like Uhuru over summer who have the potential to bring millions of users.</p>
+<h2 id="what-is-your-future-plan-for-your-financial-ecosystem"><a class="header" href="#what-is-your-future-plan-for-your-financial-ecosystem">What is your future plan for your financial ecosystem?</a></h2>
+<p>We are partnering with a project which is creating a regulated licensed 3 party financial system, in a whitelisted country without exchange control (means money can freely go in/out) with full support of the government.</p>
+<ul>
+<li>The **digital bank **allows for a personal bridge between digital twin, fiat, credit cards &amp; digital assets.</li>
+<li>The <strong>custodial bank</strong> allows us to create and hold any digital assets (tokens) on behalf of our users.</li>
+<li>The <strong>exchange</strong> allows us to exchange regulated between any asset class in safe ways</li>
+</ul>
+<p>The 3 financial institutions will be relying on threefold digital twin technology (web 4) and as such offer a super safe, sovereign, powerful but easy to use experience.</p>
+<p>This is a huge opportunity for ourselves and our partners. We can help any partner crypto or digital currency project to allow people to work with their tokens in a fully regulated way.</p>
+<p>This is becoming very important because certain crypto friendly areas are becoming greylisted like the UAE (see <a href="https://complyadvantage.com/insights/fatf-blacklists-greylists/">https://complyadvantage.com/insights/fatf-blacklists-greylists/</a>) .</p>
+<p>Our bank will be based in Mauritius which has no exchange control, is whitelisted and has lots of double tax treaties in place. More info see <a href="https://www.trade.gov/country-commercial-guides/mauritius-trade-financing">https://www.trade.gov/country-commercial-guides/mauritius-trade-financing</a> </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>
