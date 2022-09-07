@@ -1,1 +1,0 @@
-# ThreeFold Project Phases
