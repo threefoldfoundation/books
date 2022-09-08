@@ -1,6 +1,8 @@
 # Summary
 
-- [Intro](./intro.md)
+
+- [Capabilities](twin/capabilities/capabilities.md) 
+<!-- - [Intro](./intro.md)
 - [Mission](./mission.md)
 - [Purpose](purpose.md)
 - [Architecture](architecture/architecture.md)
@@ -16,7 +18,7 @@
 - [Team](team/team.md) 
     - [Gava](team/gava.md) 
     - [Kristof](team/kristof.md)
-- [Conclusion](conclusion.md)
+- [Conclusion](conclusion.md) -->
 <!-- - [V API](v/readme.md)
   - [Crypto](v/crypto.md)
   - [TFGrid](v/tfgrid.md)- 
