@@ -9,15 +9,15 @@ This is a very different paradigm compared to current web or mobile applications
 
 I am powerful and can use my skills wherever I go.
 
-- [Communicate](skills/communicate.md)
-- [Create](skills/creativity/creativity.md)
-- [Share](skills/share.md)
-- [Discover](skills/discover.md)
-- [Develop](skills/develop.md)
-- [Exchange](skills/exchange.md)
-- [Organize](skills/organize.md)
-- [Publish](skills/publish.md)
-- [Collaborate](skills/collaborate.md)
+- [Communicate](communicate.md)
+- [Create](creativity/creativity.md)
+- [Share](share.md)
+- [Discover](discover.md)
+- [Develop](develop.md)
+- [Exchange](exchange.md)
+- [Organize](organize.md)
+- [Publish](publish.md)
+- [Collaborate](collaborate.md)
 
 Our twins represent us in our digital life and have following skills:
 

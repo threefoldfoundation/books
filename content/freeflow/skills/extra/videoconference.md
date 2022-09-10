@@ -41,6 +41,8 @@ mermaid source in: ./includes/centralized_video.md
 
 </div>
 
+>TODO: pictures are too small, need to make new ones, also revisit text & flow
+
 This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.
 
 The solution to this problem is to have a video conference solution that works peer to peer.

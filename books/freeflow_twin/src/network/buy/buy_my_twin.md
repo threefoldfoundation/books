@@ -55,3 +55,6 @@ The FF Treasury will be using these funds to pay for the Network/Compute and Sto
 
 
 > TODO: mistake: its actually less than 1 watt for your digital life
+
+
+{{#include disclaimer.md}}

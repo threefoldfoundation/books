@@ -1,11 +1,5 @@
 # Video Share
 
-<div style="text-align: center;">
-
-![education](img/oc.png)
-
-</div>
-
 ![](img/video_share.png)  
 
 > TODO: explain more
@@ -43,6 +37,8 @@ graph LR
     VIDEOPLATFORM .-> INDIVIDUALK
 
 ```
+
+versus a more decentralized approach:
 
 ```mermaid
 graph LR

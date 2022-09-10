@@ -19,3 +19,5 @@ Each Twin has following capabilities:
 Twins are unique they talk directlty to each other, there are no centralized datacenters or server farms needed.
 
 ![](img/twin2twin.png)  
+
+>TODO: need to explain how we can farm for people around us, and make money that way, also how we need this money to buy the services.

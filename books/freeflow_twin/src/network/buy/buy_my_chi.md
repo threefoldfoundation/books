@@ -17,7 +17,7 @@ It corresponds to Internet (storage, compute, network) capacity on the FreeFlow 
 
 **IMPORTANT**
 
-> The price of CHI might go up as FreeFlow gets more demand.
+> The price of CHI should go up in relation to the amount of farming and TWINS in the field.
 
 <br>
 
@@ -52,4 +52,8 @@ You need some TFT, there are quite some ways how to buy TFT, e.g. there is gettf
 (**) When you buy using USDC, the treasury will use this USDC to buy TFT and then switch to CHI. There are no CHI minted !!! The price of TFT and CHI will change over time.
 
 (***) The exhange rate between CHI and TFT is defined regulary by the DAO to be market conform. We start with 1 CHI = 2 TFT.
+
+
+{{#include disclaimer.md}}
+
 

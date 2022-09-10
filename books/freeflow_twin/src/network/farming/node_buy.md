@@ -45,3 +45,6 @@ Only limited amount of nodes will be sold using above commercials, make sure to 
 > - 2TB SSD (fast storage)
 > - 8 TB HD
 > - 60 watt power utilization
+
+
+{{#include ../buy/disclaimer.md}}
