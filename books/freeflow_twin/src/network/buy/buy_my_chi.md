@@ -54,6 +54,9 @@ You need some TFT, there are quite some ways how to buy TFT, e.g. there is gettf
 (***) The exhange rate between CHI and TFT is defined regulary by the DAO to be market conform. We start with 1 CHI = 2 TFT.
 
 
+
+![](img/twin_green.png)  
+
+
+
 {{#include disclaimer.md}}
-
-

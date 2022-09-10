@@ -38,8 +38,8 @@ FFK are digital assets as stored on the Algorand blockchain.
 
 - There are only 1.000.000 FFK's in the ecosystem.
 - FFKs are the alternative to a license fee for having access to technology
-    - 40% of the sales goes to ThreeFold (see www.threefold.io) to keep on further creation of the tech.
-    - 60% goes to the FreeFlow Treasury of the FreeFlow DAO which will use to fund the growth of ecosystem.
+    - 30% of the sales goes to ThreeFold (see www.threefold.io) to keep on further creation of the tech.
+    - 70% goes to the FreeFlow Treasury of the FreeFlow DAO which will use to fund the growth of ecosystem.
 - FFK's can only be bought by [CHI's](chi.md), see [here](../buy/buy_my_twin.md)
 - CHI's can only be farmed or bought with TFT (the utility token of ThreeFold).
 - FFKs can be rented from the Freeflow DAO or any FFK holder at a to be defined price (prob around 5 USD per month). 
@@ -51,3 +51,7 @@ FFK are digital assets as stored on the Algorand blockchain.
 > Price of CHI at start is 0.1 USD. CHI is the utility token of freeflow and represents Internet Capacity on the ThreeFold grid. CHI is created by [FreeFlow Farmers](../farming/farming_intro.md). You can buy CHI from the Algorand Blockchain. Be aware that the price per FFK in CHI will be variable over time as CHI price changes in USD.
 
 Each CHI links into the ThreeFold Token called TFT, at this stage the currency exchange rate is 0.5 CHI corresponds to 1 TFT. Every TFT holder can exchange their TFT for CHI at this rate, or the other way around. ThreeFold is the capacity layer on top of which FreeFlow has been built.
+
+## Internet Resources Available for a FFK Enabled Twin
+
+A FreeFlow Twin linked to a FFK has following default resources available for the first 1 year: 0.1 CU and 0.1 SU. All additional resources used or after the first year the twin owner has to use his/her CHI to pay the energy fees (storage, compute and network). All the capabilities are for free for ever and all upgrades as developed by FF will remain free of charge as well.

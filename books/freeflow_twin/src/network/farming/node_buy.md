@@ -6,14 +6,14 @@
 
 ## FreeFlow Node Silver
 
-This is a node enough to host the digital life of about 30 people but limited storage 
+This is a node enough to host the digital life of about 30 people
 
 > COMMERCIALS
 > 
 > - 999,- USD (without transport costs)
 > - reward: 
->     - 250 CHI per month during 5 years (*)
->     - 150 CHI boosters for achievements accomplished (*)
+>     - 300 CHI per month during 5 years
+>     - upto 500 CHI boosters for achievements accomplished  see in farming reward section.
 
 Only limited amount of nodes will be sold using above commercials, make sure to do your pre-purchase online soon.
 
@@ -27,14 +27,14 @@ Only limited amount of nodes will be sold using above commercials, make sure to 
 
 ## FreeFlow Node Gold
 
-This is a node enough to host the digital life of about 50 people but storage.
+This is a node enough to host the digital life of about 50 people with more storage.
 
 > COMMERCIALS
 >
 > - 1599,- USD (without transport costs)
 > - reward: 
->     - 400 CHI per month during 5 years (*)
->     - 200 CHI boosters for achievements accomplished (*)
+>     - 500 CHI per month during 5 years
+>     - upto 500 CHI boosters for achievements accomplished  see in farming reward section.
 
 Only limited amount of nodes will be sold using above commercials, make sure to do your pre-purchase online soon.
 

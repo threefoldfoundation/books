@@ -44,17 +44,14 @@ The DAO will use the treasury to fund development work for the FreeFlow Project 
 
 (*) FreeFlow DAO is the ultimate governance mechanism of the FreeFlow DAO and as such might always change certain of the above described mechanisms.
 
-The FF Treasury will be using these funds to pay for the Network/Compute and Storage capacity as required to provide you with your digital life.
+<br>
+<br>
+<br>
+<br>
 
-<br>
-<br>
-<br>
-<br>
 
 ![](img/twin_green.png)  
 
-
-> TODO: mistake: its actually less than 1 watt for your digital life
 
 
 {{#include disclaimer.md}}

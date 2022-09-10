@@ -4,7 +4,7 @@
 
 </div>
 
-## Share itt
+## Floweavers
 
 Share itt is an existing platform: The Shareitt platform makes it fun and easy to exchange second-hand used or new items.  This implementation of Shareitt is not a centralized platform on which all items are listed on a single site, no this decentralized version is where the user manages its own platform for their os items on sale.
 

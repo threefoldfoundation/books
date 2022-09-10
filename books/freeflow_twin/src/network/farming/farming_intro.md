@@ -21,4 +21,8 @@ Costs to provide Internet capacity to allow FreeFlow twins to be hosted:
 - Electrical costs to power the farm.
 - Potential cost of equipment to support larger farming setups such as data centers (ventilation, monitoring, electrical wiring, etc).
 
+
+![](../buy/img/twin_green.png)  
+
+
 {{#include ../buy/disclaimer.md}}

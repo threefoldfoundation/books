@@ -1,17 +1,19 @@
-<div style="text-align: center;">
-
-![communication tool chat](img/oc.png)
-
-</div>
 
 ## Communication tool: Chat
+
+
+![groups_and_contacts](img/chat_people_invite.png)
+
+Private version of the chat:
+
+![private_chat](img/chat_overview.png)
+
 
 The chat communication tools presents a simple interface to manage individual and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.
 
 Centralized messaging service always have a third party (company) involved.  A message would follow the following path:
 
-
-
+## Chat Architecture
 
 ```mermaid
 graph LR
@@ -43,13 +45,10 @@ Decentralized messaging sends and receives messages from private messaging insta
 
 
 ### Private Chat
+
 With private chat we mean a chat between to entities. These entities could be individuals, organizations, companies, clubs, basically anything.  The chat is a one to one chat and information (data) is exchanged between two private, secure and personal messaging platforms.
 - a chat starts with inviting the other persons twin (messaging and other services platform ).  In this case the twin of the other person needs to be found and sent an invite message.
 - if the person accepts the invite a secure connection allows messages to be send person to person without a third party in the middle.  Only the (twins of) two people involved has access tot he message data (and metadata)
-
-<!--
-mermaid source code in ./includes/private_chat.md
--->
 
 ```mermaid
 graph LR
@@ -76,7 +75,6 @@ The chat functionality allows most (if not all) of the standard functionality kn
 
 From the chat function you can also initiate video conference, and have control over accepting, deleting and blocking users.
 
-![private_chat](img/chat_overview.png)
 
 ### Group Chat
 
@@ -110,7 +108,10 @@ graph LR
     PERSOND(Person D) --> TWIND
 ```
 
-### Look and feel in a browser
 
-![groups_and_contacts](img/chat_people_invite.png)
 
+<div style="text-align: center;">
+
+<!-- ![communication tool chat](img/oc.png) -->
+
+</div>

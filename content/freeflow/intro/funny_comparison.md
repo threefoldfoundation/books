@@ -1,11 +1,11 @@
 
-# Let's compare how the web works with real physical life.
+# Web vs real physical life.
 
 ![](img/welcome_back.png)  
 
-To make this more tangible, let's compare a digital experience with a real life one like going to an educational event.
+Lets make a comparison of how our digital systems work in relation to how we do things in day to day life, in this case we compare with an educational event.
 
-We hope you will see how existing web experiences have as funny way how to lock us in.
+We hope you will see how existing web experiences are not logical and are designed to lock us in and treat us like their product rather than being only at service of us.
 
 ### The Web 2 way = the current internet.
 
