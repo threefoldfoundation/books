@@ -46,3 +46,5 @@ Remote working has taken away these little distractions and creative moments and
 ![](img/metaverse_pool.png)
 </div>
 
+> TODO: need more pages about collaboration capabilities, ask omrey
+

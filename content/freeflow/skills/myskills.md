@@ -10,7 +10,7 @@ This is a very different paradigm compared to current web or mobile applications
 I am powerful and can use my skills wherever I go.
 
 - [Communicate](skills/communicate.md)
-- [Create](skills/create.md)
+- [Create](skills/creativity/creativity.md)
 - [Share](skills/share.md)
 - [Discover](skills/discover.md)
 - [Develop](skills/develop.md)

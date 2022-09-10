@@ -2,6 +2,8 @@
 
 # collaborate and communicate in ourLife
 
+![](img/freeflow_intro_screen.png)  
+
 <br>
 
 OurLife can be used for professional and private usecases.
