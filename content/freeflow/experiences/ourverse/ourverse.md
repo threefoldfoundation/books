@@ -1,5 +1,5 @@
 
-## Metaverse
+## OurVerse
 
 ![ourverse](img/smiley.png)
 

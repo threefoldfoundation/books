@@ -18,8 +18,7 @@
         - [expand the metaverse](mytwin/skills/creativity/creativity_metaverse.md)
         - [education content](mytwin/skills/creativity/creativity_education.md)
         - [websites](mytwin/skills/creativity/creativity_web.md)
-    - [Share](mytwin/skills/share.md)
-        - [Video](mytwin/skills/extra/video_share.md) 
+    - [Share](mytwin/skills/extra/video_share.md)
     - [Discover](mytwin/skills/discover.md)
         - [browse](mytwin/skills/extra/browse.md)  
     - [Develop](mytwin/skills/creativity/coding/creativity_coder.md)
@@ -38,7 +37,6 @@
     - [metaverse - ourverse](mytwin/experiences/ourverse/ourverse.md)
     - [learning system - sikana](mytwin/experiences/sikana/sikana.md)
 - [My Creativity](mytwin/creativity/creativity.md)
-
 - [Details](mytwin/details.md)
     - [chi](network/tokens/chi.md)
     - [ffk](network/tokens/ffk.md)
