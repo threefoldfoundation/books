@@ -7,7 +7,7 @@ In the current internet system I exist many times, each application provider own
 
 We are sovereign:
 
-- I am me, I am sovereign, I am capabable to make my own decisions.
+- I am me, I am sovereign, I am capable of making my own decisions.
 - I have an identity, I do exist, I want to be able to control my own destiny.
 - What I learn and experience is mine. 
 - I do not exist for the benefit of others. 
