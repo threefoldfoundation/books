@@ -9,11 +9,11 @@ This is a very different paradigm compared to current web or mobile applications
 
 I am powerful and can use my skills wherever I go.
 
-- [Meet and Communicate](skills/communicate.md)
-- [Be Creative](skills/creative.md)
+- [Communicate](skills/communicate.md)
+- [Create](skills/create.md)
 - [Share](skills/share.md)
 - [Discover](skills/discover.md)
-- [Develop and Expand](skills/develop.md)
+- [Develop](skills/develop.md)
 - [Exchange](skills/exchange.md)
 - [Organize](skills/organize.md)
 - [Publish](skills/publish.md)

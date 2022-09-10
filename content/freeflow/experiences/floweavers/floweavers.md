@@ -12,6 +12,8 @@ Features:
 
 ![](img/shareit_1.png)  
 
+> More info see this [document](floweavers_2.md)
+
 ## Usecase 2: Schools: Pupils help each other
 
 Lacking the tools to enable effective and sustainable
