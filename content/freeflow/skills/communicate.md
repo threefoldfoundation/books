@@ -15,3 +15,4 @@ Any communication you do is directly between you and your peer, twin to twin. Yo
 
 Unique is that all communication fill follow the shortest path.
 
+![](img/communicate2.png)  

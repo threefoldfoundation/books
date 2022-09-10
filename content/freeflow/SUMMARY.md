@@ -36,7 +36,6 @@
     - [sharing economoy - floweaver](mytwin/experiences/floweavers/floweavers.md)
     - [metaverse - ourverse](mytwin/experiences/ourverse/ourverse.md)
     - [learning system - sikana](mytwin/experiences/sikana/sikana.md)
-- [My Creativity](mytwin/creativity/creativity.md)
 - [Details](mytwin/details.md)
     - [chi](network/tokens/chi.md)
     - [ffk](network/tokens/ffk.md)

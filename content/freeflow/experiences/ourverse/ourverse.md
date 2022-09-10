@@ -1,7 +1,13 @@
 
 ## OurVerse
 
+<div style="text-align: center;">
+
 ![ourverse](img/smiley.png)
+
+</div>
+
+
 
 State of the art rendering and experiences beyond e-commerce and marketing. A metaverse built by and for the people using it, with worthwhile capabilities that enhance your virtual experience. 
 
