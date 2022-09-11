@@ -3,7 +3,7 @@
 ![](img/become_farmer.png)  
 
 
-Farming means you buy  a freeflow node and you host this node in your home or any other location of your chose. 
+Farming means you buy  a freeflow node and you host this node in your home or any other location of your choice. 
 
 Each node produces internet capacity for the people around you, which allows them to host their digital life on your box.
 
@@ -26,3 +26,5 @@ Costs to provide Internet capacity to allow FreeFlow twins to be hosted:
 
 
 {{#include ../buy/disclaimer.md}}
+
+

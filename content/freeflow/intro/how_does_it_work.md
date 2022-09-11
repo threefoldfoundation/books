@@ -1,6 +1,7 @@
-# How Does It Work
+# I am Powerful, I am alive, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; meet my Digital Twin
 
-![](img/intro000.png)  
+![](img/my_freeflow_life.png)  
+
 
 You get a digital twin, which is your personal application running on a location of your choice in the FreeFlow Network. Each twin is owned by only 1 owner. The Twin has lots of capabilities and serves its owner 24h a day, 7/7.
 

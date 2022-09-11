@@ -1,8 +1,5 @@
-# expand the metaverse
 
-![](img/metaverse_create.png)  
-
-## Walk Through
+# Example how to create your own virtual shopping environment
 
 ![](img/ourverse_welcome.png)  
 

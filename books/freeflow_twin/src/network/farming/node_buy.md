@@ -15,7 +15,7 @@ This is a node enough to host the digital life of about 30 people
 >     - 300 CHI per month during 5 years
 >     - upto 500 CHI boosters for achievements accomplished  see in farming reward section.
 
-Only limited amount of nodes will be sold using above commercials, make sure to do your pre-purchase online soon.
+Only a limited amount of nodes will be sold using above commercials, make sure to do your pre-purchase online soon.
 
 > TECH SPECS
 >
@@ -36,7 +36,7 @@ This is a node enough to host the digital life of about 50 people with more stor
 >     - 500 CHI per month during 5 years
 >     - upto 500 CHI boosters for achievements accomplished  see in farming reward section.
 
-Only limited amount of nodes will be sold using above commercials, make sure to do your pre-purchase online soon.
+Only limited number of nodes will be sold using above commercials, make sure to do your pre-purchase online soon.
 
 > TECH SPECS
 >
@@ -48,3 +48,4 @@ Only limited amount of nodes will be sold using above commercials, make sure to 
 
 
 {{#include ../buy/disclaimer.md}}
+

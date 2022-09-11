@@ -7,7 +7,7 @@
 
 </div>
 
-
+> see [some examples how virtual worlds can be created with OurVerse](/mytwin/skills/creativity/creativity_metaverse.md)
 
 State of the art rendering and experiences beyond e-commerce and marketing. A metaverse built by and for the people using it, with worthwhile capabilities that enhance your virtual experience. 
 
@@ -52,5 +52,5 @@ Remote working has taken away these little distractions and creative moments and
 ![](img/metaverse_pool.png)
 </div>
 
-> TODO: need more pages about collaboration capabilities, ask omrey
+
 
