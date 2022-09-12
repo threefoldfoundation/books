@@ -1,13 +1,12 @@
 # create and publish a website
 
-We have created some amazing tools to create websites starting from our coding development environment.
+We have created some amazing capabilities to create websites starting from our coding development environment.
 
-We are partering with
+One of the tools we see a lot of potential in is:
 
 ![](img/htmx.png)  
 
-to provide the best possible experience for you to migrate websites onto FreeFlow Net.
-
+to provide the best possible experience for you to migrate websites onto FreeFlow Network.
 
 We support
 
