@@ -1,7 +1,8 @@
 # ThreeFold Vision
 
-Create the infrastructure layer for an upgraded internet:
+![](solutions_issues_intro/img/high_level_country_overview.png)
 
+Create the infrastructure layer for an upgraded internet:
 
 - A more reliable internet, one which can meet the challenges of the future 
 (climate change issues, possibility of unrest, financial crisis, …). 

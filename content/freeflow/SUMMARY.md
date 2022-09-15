@@ -4,6 +4,7 @@
     - [Own Your Digital Life](mytwin/intro/internet_sovereignity.md) 
     - [How Does It Work](mytwin/intro/how_does_it_work.md) 
     - [Funny Comparison With Life](mytwin/intro/funny_comparison.md)
+    - [Planet First](ppp/ppp.md)
     - [Architecture](mytwin/intro/twin_architecture.md) 
 - [I want to join](network/contribute.md)
     - [Buy a twin](network/buy/buy_my_twin.md)

@@ -33,8 +33,6 @@ Companies and investors that fail to be part of this needed movement will seem l
             <li>Gratefulness (planet and people first)</li>
             <li>Authenticity (I can be the true me and in my power)</li>
         </ul>
-
-    </td>
   </tr>
 </table>
 

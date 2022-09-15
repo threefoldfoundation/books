@@ -7,6 +7,7 @@
     - [](digitalfreezone/)
     - [](digitalfreezone/)
 - [Executive Summary](./intro/executive_summary.md)
+- [Planet First](ppp/ppp.md)
 - [Description of the Project](./intro/project_description.md)
 - [Market Feasibility](./market/market_assessment_and_strategy.md)
   - [Market Feasibility Study](./market/market_feasibility.md)

@@ -9,5 +9,6 @@
     - [antidote cyberpandemic](solutions/solution_cyberpandemic.md)
     - [sovereign internet](solutions/solution_sovereign_internet.md)
     - [sovereign cbdc](solutions/solution_sovereign_cbdc.md)
+- [Planet First](ppp/ppp.md)
 
 <!-- - [tznite](solutions/tznite.md) -->

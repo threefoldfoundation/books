@@ -91,19 +91,7 @@ Following information and content will be available
 ## Countries do need their own Internet !
 
 
-# 
 
-
-
-![alt_text](img/centralized_internet.png "image_tooltip")
-
-
-We want to help countries, many countries find themselves in a challenging situation where they run out of money, have too much debt, people are potentially unhappy, there could be a risk of conflict, … We believe a decentralized Internet of Internets could help. Some very concrete benefits for a country to get started now.
-
-
-
-* Today's internet is extracting money from countries rather than adding
-* By implementing the peer2peer internet this gets turned around.
 
 On the security side, the Internet is super centralized today and actually very vulnerable. The Cyber Pandemic is a reality, see [opinionated security brief for a government (long document).](https://docsend.com/view/amg5jnmcwaejehju) We need to act now, our internet is at risk !!!
 

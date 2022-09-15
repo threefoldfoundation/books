@@ -10,5 +10,6 @@
     - [inca_proj_tnz](inca_litepaper/inca_proj_tnz.md)
 - [grid_usable](inca_litepaper/grid_usable.md)
     - [chi_scarcity](inca_litepaper/chi_scarcity.md)
+- [Planet First](ppp/ppp.md)
 - [details](inca_litepaper/details.md)
 

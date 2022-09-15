@@ -35,3 +35,4 @@ _docs/
 node_modules/
 .DS_Store
 books/
+book/
