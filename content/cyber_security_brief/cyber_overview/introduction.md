@@ -1,4 +1,4 @@
-![alt_text](cyber_overview/img/ghost_hacker.png)
+![alt_text](cybersecurity/img/ghost_hacker.png)
 
 # Introduction
 
