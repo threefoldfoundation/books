@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Inca Litepaper</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="inca_litepaper/intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="inca_litepaper/inca.html"><strong aria-hidden="true">2.</strong> Inca</a></li><li class="chapter-item expanded "><a href="inca_litepaper/compare_electricity.html"><strong aria-hidden="true">3.</strong> Electricity</a></li><li class="chapter-item expanded "><a href="inca_litepaper/quantum_safe.html"><strong aria-hidden="true">4.</strong> Quantum Safe</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="inca_litepaper/cyber_pandemic.html"><strong aria-hidden="true">4.1.</strong> Antitdote Cyber Pandemic</a></li><li class="chapter-item expanded "><a href="inca_litepaper/scale.html"><strong aria-hidden="true">4.2.</strong> Scale</a></li></ol></li><li class="chapter-item expanded "><a href="inca_litepaper/inca_certificates.html"><strong aria-hidden="true">5.</strong> inca_certificates</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="inca_litepaper/inca_proj_tnz.html"><strong aria-hidden="true">5.1.</strong> inca_proj_tnz</a></li></ol></li><li class="chapter-item expanded "><a href="inca_litepaper/grid_usable.html"><strong aria-hidden="true">6.</strong> grid_usable</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="inca_litepaper/chi_scarcity.html"><strong aria-hidden="true">6.1.</strong> chi_scarcity</a></li></ol></li><li class="chapter-item expanded "><a href="inca_litepaper/details.html"><strong aria-hidden="true">7.</strong> details</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Inca Litepaper</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><img src="inca_litepaper/img/demand_never_higher.png" alt="image alt text" /></p>
+<h1 id="edge-inca-generators-as-complement-to-centralized-datacenters"><a class="header" href="#edge-inca-generators-as-complement-to-centralized-datacenters">EDGE INCA GENERATORS AS COMPLEMENT TO CENTRALIZED DATACENTERS</a></h1>
+<p>INCA stands for INternet CApacity (storage, compute and network) and is today mainly delivered from out of large centralized datacenters, which were and still are fundamental for the further internet growth, but this is not enough; we believe they need to be complemented by quantum safe edge datacenters.</p>
+<p><img src="inca_litepaper/img/centralized_dc_issues.png" alt="image alt text" /></p>
+<p><strong>together we can deliver an decentralized internet capacity datacenter approach which is more:</strong></p>
+<ul>
+<li>safe</li>
+<li>war proof (see what happened with Ukraine), we are much more decentralized.</li>
+<li>scalable (billions of users are possible)</li>
+<li>more bandwidth efficient (closer to where the users are)</li>
+<li>cost effective and green</li>
+<li>potentially carbon neutral</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="inca--the-token-fueling-internet-capacity-generation"><a class="header" href="#inca--the-token-fueling-internet-capacity-generation">INCA = The Token fueling INternet CApacity Generation</a></h1>
+<p>INCA Farmers (Edge Datacenters) generate Internet Capacity (Storage, Compute and Network). The INCA Farmers are rewarded tokens for doing so, TFT or the local CHI is like a kwath for electricity but in this case it does represent internet capacity.</p>
+<h1 id=""><a class="header" href="#"><img src="inca_litepaper/img/chi_tokens.png" alt="image alt text" /></a></h1>
+<p>There are many drivers why CHI will be scarce per regional Internet, some more info further in this document.</p>
+<h2 id="inca-investment-best-of-both-worlds"><a class="header" href="#inca-investment-best-of-both-worlds">INCA INVESTMENT BEST OF BOTH WORLDS</a></h2>
+<p><img src="inca_litepaper/img/regional_internet_capacity.png" alt="image alt text" /></p>
+<p>As an INCA investor I have the best of both worlds, I get a modern investment instrument which is protected by blockchain, real assets (edge datacenters) and legal documents as well as a known understood financial instrument called Sukuk.</p>
+<p>This Investment Instrument INCA represents the digital gold of the future = Internet Capacity and is backed by the technology of an exciting technology company called ThreeFold who has already a lot of capacity deployed in many countries.</p>
+<h2 id="the-inca-farmer-generates-chi-or-tft-and-is-super-valuable"><a class="header" href="#the-inca-farmer-generates-chi-or-tft-and-is-super-valuable">THE INCA FARMER generates CHI or TFT and is super valuable</a></h2>
+<p><img src="inca_litepaper/img/tft_hourse.png" alt="image alt text" /></p>
+<p>A CHI is a valuable token which has real utility and can be exchanged for USD and TFT which is the reserve currency for the full ecosystem. The TFT/CHI is needed for people to buy Internet Capacity as hosted on this network. This token system allows for a great economical model.</p>
+<p><strong>PLEASE DO NOTE: we can deploy INCA projects in such a way that the customers (users of capacity) and or suppliers have nothing to do with Digital currencies. We can park all of this in an SPV which will deal with the fiat currency to token and back conversion.</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="compare-to-electricity-generation"><a class="header" href="#compare-to-electricity-generation">Compare to Electricity Generation</a></h1>
+<p><img src="inca_litepaper/img/compare_solar.png" alt="image alt text" /></p>
+<ul>
+<li>
+<p>TFT and CHI are the Internet Energy Token which represents Internet Capacity (Storage, Compute, Network)
+A TFT/CHI can be thought of like kwatth in electricity generation. CHI is generated by ThreeFold Farmers.</p>
+</li>
+<li>
+<p>Investors can buy an INCA (INternet CApacity) Certificate which is a digital certificate. An INCA is a certificate, which allows the owner to convert an INCA Certificate into a certain amount of TFT or CHI at a certain time from predefined parties (farmers).</p>
+</li>
+</ul>
+<table><thead><tr><th>Energy Solar Panel Production</th><th>ThreeFold Internet Capacity Production</th></tr></thead><tbody>
+<tr><td>Unit of generation</td><td>= kwatth</td></tr>
+<tr><td>Ownership Proof</td><td>= shares in special purpose vehicle</td></tr>
+<tr><td>Liquidity</td><td>Low requires exit, or IPO</td></tr>
+<tr><td>Security</td><td>Backed by all assets.</td></tr>
+<tr><td>Utility</td><td>Electricity Energy</td></tr>
+<tr><td></td><td></td></tr>
+<tr><td>Expected ROI (per year)</td><td>5-12% IRR</td></tr>
+</tbody></table>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quantum-safe-edge-datacenter-concept"><a class="header" href="#quantum-safe-edge-datacenter-concept">QUANTUM SAFE EDGE DATACENTER CONCEPT</a></h1>
+<p>ThreeFold has created super efficient <strong>IN</strong>ternet <strong>CA</strong>pacity generation technology. This INternet CApacity is compute, storage and network capacity which is green, secure, sovereign and private. This capacity layer is compatible with +- all workloads which would otherwise run in a centralized datacenter.</p>
+<p><img src="inca_litepaper/img/3node_concept.png" alt="image alt text" /></p>
+<p>The 3Nodes are the efficient INCA generators and can be deployed in homes, offices, buildings, parking spots or deep down in basements or even vaults or bunkers. This allows for the creation of a super secure decentralized datacenter approach.</p>
+<p><img src="inca_litepaper/img/tf_network.png" alt="image alt text" /></p>
+<p>A node can be as small as a 1.000 USD cost box or as expensive as 50.000 USD per node.</p>
+<p>The nodes can be connected over a multitude of networking technologies and even a combination, our technology is capable of looking for the shortest path in relation to connectivity on top of existing infrastructure. The network layer inside a Quantum Safe Virtual Datacenter is end2end encrypted and private. If somewhere an internet connectivity path is broken, the technology will look for alternative paths automatically, this happens without having to use Internet Routing protocols which might be too slow and possibly not secure enough.</p>
+<h2 id="scalable-inca-super-node-approach"><a class="header" href="#scalable-inca-super-node-approach">Scalable INCA Super Node Approach</a></h2>
+<p>The Edge datacenter concept is able to create and deliver mainstream datacenter services from non datacenter locations, at the so called edge.  However at the edge there might not be all the needed (technical) components to create and operate internet services equal to what can be done in the super nodes. </p>
+<p><img src="inca_litepaper/img/supernodes.png" alt="image alt text" /></p>
+<h2 id="quantum-safe-decentralized-datacenter-benefits"><a class="header" href="#quantum-safe-decentralized-datacenter-benefits">Quantum Safe Decentralized Datacenter Benefits</a></h2>
+<p><img src="inca_litepaper/img/tf_benefits.png" alt="image alt text" /></p>
+<h2 id="quantum-safe-decentralized-datacenter-technology"><a class="header" href="#quantum-safe-decentralized-datacenter-technology">Quantum Safe Decentralized Datacenter Technology</a></h2>
+<p>More information in <a href="https://threefoldfoundation.github.io/books/technology/">https://threefoldfoundation.github.io/books/technology/</a> </p>
+<p>There are 3 major parts to it</p>
+<ul>
+<li>Zero-OS = our own low level operating system providing compute capabilities</li>
+<li>Quantum Safe Storage System</li>
+<li>Planetary Network = an overlay end2end encrypted network layer</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-cyber-pandemic-is-a-reality-we-need-better-solutions"><a class="header" href="#the-cyber-pandemic-is-a-reality-we-need-better-solutions">The Cyber Pandemic is a Reality, we need better solutions.</a></h1>
+<p><img src="inca_litepaper/img/cyber_costs.png" alt="image alt text" /></p>
+<p>Countries have a hard time to defend themselves against cyber security threats, the main issue is that technology available might come from compromised sources in the first place. Where better to put backdoors than in the tools which should defend you? Lots of issues have never been intended but because of history we now end up with IT infrastructure which is incredibly hard to make secure.</p>
+<p>EXISTING SOLUTIONS ARE TOO COMPLICATED AND OUTDATED A NEW APPROACH IS NEEDED.</p>
+<p>See <a href="https://threefoldfoundation.github.io/books/cyber_security_brief">cyber security brief</a> for more information.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-threefold-decentralized-datacenter-approach-can-scale-to-billions-of-users"><a class="header" href="#the-threefold-decentralized-datacenter-approach-can-scale-to-billions-of-users">The ThreeFold Decentralized Datacenter approach can scale to Billions of users</a></h1>
+<p><img src="inca_litepaper/img/internet_internets.png" alt="image alt text" /></p>
+<p>Each Regional Internet is created by a Genesis Farmer (a genesis farmer can be a local or federal government or tribe, but also a property development company,  university or even an Enterprise) who will look for investors who will receive INCA tokens in return for their investment. The INCA Certificates are a regulated investment instrument also registered on the blockchain and are structured as Sukuk certificates.</p>
+<p>Each Genesis Farmer and its investors will deploy 50 Validators for the regional Internet and will fund a liquidity pool, this is a pool for making exchange between TFT and CHI easy and fluid.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-inca-certificates"><a class="header" href="#the-inca-certificates">THE INCA CERTIFICATES</a></h1>
+<p>Investors in decentralized datacenter infrastructure can receive INCA certificates as proof of ownership and reward. These Certificates are valuable and can be made tradeable. We can also provide alternative investment mechanisms.</p>
+<p><img src="inca_litepaper/img/inca_certificate.png" alt="image alt text" /></p>
+<p>A Sukuk (&quot;Sharia-compliant&quot; bond) is an Islamic financial certificate that represents a portion of ownership in a portfolio of eligible existing or future assets. The INCA is technically created as a digital token (also called NFT) which represents value and is unique.</p>
+<p>The INCA Certificates are transferable through blockchain technology.</p>
+<p>Each INCA Certificate represents a certain amount of Internet Capacity value and is backed by guarantees.</p>
+<p>Each INCA is linked to the following Certificate Properties</p>
+<ul>
+<li>The generator of the CHIs = the farmer who will convert INCA to CHI</li>
+<li>The conditions of this conversion (nr of CHI per INCA), from which date.</li>
+<li>The guarantees of this INCA e.g. the farmer uses their shares and assets as backing for the value of the INCA, so in case the INCA cannot be converted to the right amount of CHI at the right value the INCA owner has the option to convert into shares or demand FIAT currency.</li>
+</ul>
+<p>All of this happens in an automated way by blockchain technology but can also be legally backed by contractual documents between the INCA Investor and the Farmer.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="example-inca-project-90m-usd-edge-datacenter-deployment-tanzania"><a class="header" href="#example-inca-project-90m-usd-edge-datacenter-deployment-tanzania">EXAMPLE INCA PROJECT: 90M USD EDGE DATACENTER DEPLOYMENT TANZANIA</a></h1>
+<p><img src="inca_litepaper/img/edge_datacenter.png" alt="image alt text" /></p>
+<p>This project will deploy 30 edge datacenters. Each edge datacenter generates CHI Tokens (CHI represent energy) which represent compute, storage and network capacity (think about it like kilowatt/h in electricity power generation facilities).</p>
+<p>The earlier in the life cycle of ThreeFold a farmer generates capacity the more ThreeFold Tokens will be created (farmed/mined). The investor of those datacenters has INCA Certificates to prove ownership and receives the CHI as they are being farmed over time.</p>
+<p>An investment of 90m USD has the potential to return 450m USD or more, this is possible thanks to the unique structure of the ThreeFold grid and how we generate INternet CApacity.</p>
+<p><img src="inca_litepaper/img/inca_2.png" alt="image alt text" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="the-threefold-grid-is-usable"><a class="header" href="#the-threefold-grid-is-usable">The ThreeFold Grid Is Usable</a></h1>
+<p>Not only this returns profit for the investor but as important is that the Internet Capacity generated is usable for many different use cases and provides prosperity for the country which gets their own Regional Internet.</p>
+<p><img src="inca_litepaper/img/usecases.png" alt="image alt text" /></p>
+<p>A regional Internet created by the genesis farmers and financially supported by the INCA investors is able to function on its own.  The capacity created inside such a regional setup presents sovereign capacity carrying regional workloads without dependency on anything outside resulting in  true independence and resilience for that region.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="chi-scarcity-and-lifecycle"><a class="header" href="#chi-scarcity-and-lifecycle">CHI SCARCITY AND LIFECYCLE</a></h1>
+<p><img src="inca_litepaper/img/3nodeA.png" alt="image alt text" /></p>
+<p>CHI is the energy token of the ThreeFold Internet. CHI is scarce and valuable.</p>
+<p><img src="inca_litepaper/img/cycles_tokens.png" alt="image alt text" /></p>
+<p>CHI Farmers who start at creation mode can farm upto 10x more CHI compared to someone who enters the ecosystem at the end of the expansion phase. </p>
+<p>This is because the CHI farming reward is locked in at the point when the 3Node gets registered and this is in line with the CHI price at that stage. Each Regional internet starts with a CHI price of USD 0.1, the first deployments will be locked for a CHI farming reward at USD 0.1. If in the expansion phase the CHI goes to e.g. 0.5 USD it means that farmers at that stage will get 5x less reward for the same investment.</p>
+<h3 id="creation-phase"><a class="header" href="#creation-phase">Creation Phase</a></h3>
+<ul>
+<li>Initial farmers deploy enough capacity to make the TF Grid (Internet Capacity Network) large enough to support expansion by everyone.</li>
+<li>Initial farmers deploy the first 50 validators and have to stake Threefold Tokens for it and will also put initial liquidity in the Liquidity pool.</li>
+<li>All initial deployed capacity is certified and does not require staking. In this stage the CHI price will be rather low and fluctuate until the network is ready for expansion.</li>
+<li>The CHI generated are put into a liquidity pool of the regional internet, whoever needs CHI for Internet Capacity or for Staking in expansion mode can buy the CHI from the liquidity pool, this generates income for the early farmers and potential possibility of early liquidity (in FIAT currency e.g. USD).</li>
+</ul>
+<h3 id="expansion"><a class="header" href="#expansion">Expansion</a></h3>
+<ul>
+<li>New farmers will have to stake CHI to get rewards, the amount to stake is in line with the reward as well as certification level. Any home, government entity, university or commercial provider can deploy additional capacity to the grid by means of deploying 3Nodes.</li>
+<li>This requires a lot of CHI to be locked into the network, people will have to buy these CHI which means liquidity is being created.</li>
+<li>The network now grows autonomous to a much larger scale as compared to the creation mode.</li>
+</ul>
+<h3 id="web-4"><a class="header" href="#web-4">Web 4</a></h3>
+<ul>
+<li>The picture is probably misleading, Web4 and Expansion goes in parallel.</li>
+<li>Web4 expansion means use cases are being deployed on the grid which require buying CHI, these CHI can be bought from the liquidity pool providing early liquidity for who wants to (in FIAT currency e.g. USD).</li>
+<li>This will create a lot of extra scarcity &amp; utilization of CHI which means price goes up.</li>
+</ul>
+<h3 id="velocity-mode"><a class="header" href="#velocity-mode">Velocity Mode</a></h3>
+<ul>
+<li>The grid is now fully established and lots of people are using it.</li>
+<li>Velocity (means liquidity) now goes up dramatically and the CHI now becomes liquid.</li>
+<li>Everyone can now choose when to convert CHI to USD in line with liquidity.</li>
+<li>We are now 100% operational, a new internet has been created which is fully independent, green, performant, local and secure.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="inca_litepaper/img/boxes3.png" alt="image alt text" /></p>
+<h1 id="chi--internet-energy-token-details"><a class="header" href="#chi--internet-energy-token-details">CHI = INTERNET ENERGY TOKEN DETAILS</a></h1>
+<ul>
+<li>CHI = Internet Energy Token = is like kwatth for electricity</li>
+<li>1 CHI presents compute storage, network capacity in the ThreeFold Network</li>
+<li>The first CHI token created was called TFT and represents Internet Capacity on the original ThreeFold grid.</li>
+</ul>
+<h2 id="farming--the-creation-of-the-tokens"><a class="header" href="#farming--the-creation-of-the-tokens">Farming = the creation of the tokens</a></h2>
+<p>Each <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__3node">3Node</a> (a part of an edge datacenter) has certain amount of compute, storage and network resources:</p>
+<ul>
+<li>Compute Capacity (CPU)</li>
+<li>Memory Capacity (RAM)</li>
+<li>Storage Capacity (SSD/HDD)</li>
+<li>Network Capacity (Bandwidth, IP Addresses)
+For making this Internet Capacity available, Farmers are rewarded with CHI.</li>
+</ul>
+<p>The amount of resources available in a <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__3node">3Node</a> are translated into compute units (CU), storage units (SU), Network units (NU) and IP addresses (IPAddr) to calculate farming rewards. See also <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__resource_units_calc_cloudunits">Cloud Units Calculation For Farming</a>.</p>
+<p><img src="inca_litepaper/img/tft_earned.png" alt="image alt text" /></p>
+<p><img src="inca_litepaper/img/farming_reward_calc.png" alt="image alt text" /></p>
+<h2 id="utilization--the-use-of-the-tokens--the-utility"><a class="header" href="#utilization--the-use-of-the-tokens--the-utility">Utilization = the use of the tokens = the utility</a></h2>
+<ol>
+<li>A user reserves Internet capacity on a given set of <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__3node">3Nodes</a>.</li>
+<li><a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__zos">Zero-OS</a> records the reserved and used CU, SU, NU and IPAddresses in correlation with <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__tfchain">TFChain</a> records.</li>
+<li>The <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__tfchain">TFChain</a> <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__dao">DAO</a> will charge the costs to the user in line with the <a href="https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__staking_discount_levels">discount mechanism</a>.</li>
+<li>CHI from the user account are burned/distributed in line to the table below.</li>
+</ol>
+<p><img src="inca_litepaper/img/utilization_tokens_calc.png" alt="image alt text" /></p>
+<p>The burning makes sure that eventually more tokens will be burned compared to created.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="mermaid.min.js"></script>
+        <script type="text/javascript" src="mermaid-init.js"></script>
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
