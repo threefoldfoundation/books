@@ -33,9 +33,9 @@
     - [Sovereignity](cybersecurity/solution/sovereignity.md)
     - [Sandboxes](cybersecurity/solution/sandbox.md)
 - [Opportunities](cybersecurity/opportunities/opportunities.md)
-    - [Decentralized Datacenter](cybersecurity/opportunities/decentralized_datacenter.md)
-    - [Antidote For Cyber Pandemic](cybersecurity/opportunities/antidote.md)
-    - [Own Your Internet](cybersecurity/opportunities/own_your_internet.md)
+    - [Antidote For Cyber Pandemic](solutions/solution_cyberpandemic.md)
+    - [Own Your Internet](solutions/solution_sovereign_internet.md)
+    - [Sovereign CBDC](solutions/solution_sovereign_cbdc.md)
 ---
 
 - [Appendix](appendix/appendix.md)

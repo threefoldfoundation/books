@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Own Your Internet - Opinionated Cyber Security Brief</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../cybersecurity/red/red_risks.html"><strong aria-hidden="true">2.</strong> Priority Red Risks</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cybersecurity/red/cyber_pandemic.html"><strong aria-hidden="true">2.1.</strong> Cyber Pandemic</a></li><li class="chapter-item expanded "><a href="../cybersecurity/red/war_on_data.html"><strong aria-hidden="true">2.2.</strong> 3e world war, war on data</a></li><li class="chapter-item expanded "><a href="../cybersecurity/red/manipulation_info.html"><strong aria-hidden="true">2.3.</strong> Manipulation of Information</a></li><li class="chapter-item expanded "><a href="../cybersecurity/red/internet_vulnerable.html"><strong aria-hidden="true">2.4.</strong> Internet Vulnerable</a></li><li class="chapter-item expanded "><a href="../cybersecurity/red/mental_health.html"><strong aria-hidden="true">2.5.</strong> Mental Health</a></li><li class="chapter-item expanded "><a href="../cybersecurity/red/africa_target.html"><strong aria-hidden="true">2.6.</strong> Africa Target</a></li></ol></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/why_possible.html"><strong aria-hidden="true">3.</strong> Why is this possible?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/backdoors.html"><strong aria-hidden="true">3.1.</strong> backdoors</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/compromised.html"><strong aria-hidden="true">3.2.</strong> security products compromised?</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/vulnerable.html"><strong aria-hidden="true">3.3.</strong> people vulnerable</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/centralization.html"><strong aria-hidden="true">3.4.</strong> centralization</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/hacking.html"><strong aria-hidden="true">3.5.</strong> hacking is business</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/web_browsers.html"><strong aria-hidden="true">3.6.</strong> web browsers</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/iot.html"><strong aria-hidden="true">3.7.</strong> IoT</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/its_easy.html"><strong aria-hidden="true">3.8.</strong> its easy and rewarding</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/its_fun.html"><strong aria-hidden="true">3.9.</strong> its fun to hack</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/cloud.html"><strong aria-hidden="true">3.10.</strong> cloud is not safe by design</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/computers.html"><strong aria-hidden="true">3.11.</strong> desktops are unsafe</a></li><li class="chapter-item expanded "><a href="../cybersecurity/why_possible/misinfo.html"><strong aria-hidden="true">3.12.</strong> misinformation</a></li></ol></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/solution.html"><strong aria-hidden="true">4.</strong> Solution</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../cybersecurity/solution/no_centralization.html"><strong aria-hidden="true">4.1.</strong> Avoid Centralization</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/opensource.html"><strong aria-hidden="true">4.2.</strong> OpenSource</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/less_complexity.html"><strong aria-hidden="true">4.3.</strong> Less Complexity</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/blockchain.html"><strong aria-hidden="true">4.4.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/no_datacenters.html"><strong aria-hidden="true">4.5.</strong> Careful With Datacenters</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/better_storage.html"><strong aria-hidden="true">4.6.</strong> Better Storage System</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/self_healing.html"><strong aria-hidden="true">4.7.</strong> Self Healing</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/sovereignity.html"><strong aria-hidden="true">4.8.</strong> Sovereignity</a></li><li class="chapter-item expanded "><a href="../cybersecurity/solution/sandbox.html"><strong aria-hidden="true">4.9.</strong> Sandboxes</a></li></ol></li><li class="chapter-item expanded "><a href="../cybersecurity/opportunities/opportunities.html"><strong aria-hidden="true">5.</strong> Opportunities</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../solutions/solution_cyberpandemic.html"><strong aria-hidden="true">5.1.</strong> Antidote For Cyber Pandemic</a></li><li class="chapter-item expanded "><a href="../solutions/solution_sovereign_internet.html" class="active"><strong aria-hidden="true">5.2.</strong> Own Your Internet</a></li><li class="chapter-item expanded "><a href="../solutions/solution_sovereign_cbdc.html"><strong aria-hidden="true">5.3.</strong> Sovereign CBDC</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../appendix/appendix.html"><strong aria-hidden="true">6.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../appendix/appendix_a.html"><strong aria-hidden="true">6.1.</strong> A: security stats</a></li><li class="chapter-item expanded "><a href="../appendix/appendix_b.html"><strong aria-hidden="true">6.2.</strong> B: vulnerability information</a></li><li class="chapter-item expanded "><a href="../appendix/appendix_c.html"><strong aria-hidden="true">6.3.</strong> C: should we be paranoid?</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Opinionated Cyber Security Brief</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="sovereign-country-internet-with-many-use-cases-inside"><a class="header" href="#sovereign-country-internet-with-many-use-cases-inside">SOVEREIGN COUNTRY INTERNET with many use cases inside</a></h2>
+<p><img src="img/country_gdp_pos.png" alt="image alt text" /></p>
+<p><strong>Your Internet needs to be more GDP Positive</strong></p>
+<p>There needs to be a decentralized but ultra sovereign digital backbone created which can deliver on following requirements. This is for all citizens in the country (unlike as described in the previous section).</p>
+<ul>
+<li>
+<p>All data stays in country</p>
+</li>
+<li>
+<p>All users have a unique strongly authenticated identity (using novel mechanisms like proof of authenticity by means of peer review, which is much stronger compared to classic KYC/AML), this identity needs to be unique on country scale and usable for all digital services of the government as well as private sector if they would like to.</p>
+</li>
+<li>
+<p>All critical data is stored on a quantum safe storage system which means</p>
+<ul>
+<li>Data can never be lost.</li>
+<li>Data can never be corrupted.</li>
+<li>The storage system used needs to self heal in case of disaster or corruption.</li>
+<li>All history stays intact, data cannot be modified.</li>
+<li>Encryption technology is NOT enough for security, because this is not quantum safe.</li>
+<li>The system needs to be ultra scalable, support tens of millions of users and needs to be able to scale to at least 1000 petabyte to be ready for the future.</li>
+<li>Reliability policy needs to be configurable, so the data provider/user can decide the level of protection (redundancy) required.</li>
+<li>Even if the main datacenters go down, the data should stay intact &amp; uncorrupted &amp; online.</li>
+</ul>
+</li>
+<li>
+<p>Critical data means</p>
+<ul>
+<li>All billing records.</li>
+<li>Identity.</li>
+<li>Utilization records.</li>
+<li>Government information.</li>
+<li>Government archives.</li>
+<li>… to be further defined …</li>
+</ul>
+</li>
+<li>
+<p>The backbone needs to be scalable</p>
+<ul>
+<li>At least 100m users need to be supported</li>
+</ul>
+</li>
+<li>
+<p>The backbone needs to be flexible, which means usable for all required digital services</p>
+</li>
+<li>
+<p>The backbone needs to be truly decentralized</p>
+<ul>
+<li>Co-owned by the private sector as well as government institutions.</li>
+</ul>
+</li>
+<li>
+<p>The backbone needs to be truly sovereign</p>
+<ul>
+<li>Delivered by local team operating in country (living &amp; working)</li>
+<li>Guided by a non corruptible entity (not for profit might be a good idea) as a supervising entity.</li>
+<li>All source code is open (open source)</li>
+<li>Enough technically skilled people in the country to work &amp; understand this code.</li>
+<li>The code is unlimited usable and there are no hidden costs (licenses, …) </li>
+<li>All improvements can be done from out of country</li>
+</ul>
+</li>
+</ul>
+<p><img src="img/gdp_pos2.png" alt="image alt text" /></p>
+<p>Internet &amp; datacenter services need to contribute to the GDP of Country, today the Internet probably costs more money than it brings. By using a better digital system and new regulations Country can improve its revenue collection.</p>
+<h3 id="more-decentralized-and-fair-internet-connectivity-solution"><a class="header" href="#more-decentralized-and-fair-internet-connectivity-solution">More Decentralized And Fair Internet Connectivity Solution</a></h3>
+<p>We have our own 5G capable technology available which can be made part of the INCA project model, this allows thousands if not millions of users to co-own their own Telecom Infrastructure to give them access to their future digital life.</p>
+<h3 id="digital-healthcare--digital-empowered-education-system"><a class="header" href="#digital-healthcare--digital-empowered-education-system">Digital HealthCare + Digital Empowered Education System</a></h3>
+<p>Deliver solutions which cost less than what is available today and provide more inclusion, millions of people don’t have access to decent healthcare or education, this might improve that situation. Digital future Technology is very capable to make that happen. Super important that this technology stays in line with the above requirements.</p>
+<h3 id="digital-future-life"><a class="header" href="#digital-future-life">Digital Future Life</a></h3>
+<p>Allow everyone in the country to participate in a more GDP positive inclusive internet experience. There are a vast number of projects which fit underneath this category, but it's all about providing a sovereign digital future for every Country citizen.</p>
+<h3 id="a-public-unified-and-sovereign-country-digital-backbone"><a class="header" href="#a-public-unified-and-sovereign-country-digital-backbone">A Public Unified and Sovereign Country Digital Backbone</a></h3>
+<p>The upgraded sovereign internet digital backbone needs to be able to support:</p>
+<ul>
+<li>Digital countrywide identity.</li>
+<li>Central Bank Currency (CBDC)</li>
+<li>Voting and other Government Services</li>
+<li>Government Collaboration system with way better security and data privacy measurements</li>
+<li>Education (deliver cost effective but capable education for everyone)</li>
+<li>Healthcare (medical records, global scalable healthcare for everyone)</li>
+<li>Mining Industry (more fair redistribution for natural country resources)</li>
+<li>Land Bank (register all land)</li>
+<li>Transparent Revenue Collection</li>
+<li>Port Authorities (avoid fraud)</li>
+</ul>
+<h3 id="a-government-collaboration-system"><a class="header" href="#a-government-collaboration-system">A government collaboration system</a></h3>
+<p>Without going into detail National Cyber Security is becoming a major topic of the future, see what happened with Ukraine, first this which happened was elimination of their core digital backbone and datacenters.</p>
+<p>We believe the government needs to get a sovereign system where only opensource components are used which are understood by technical teams with deep level expertise on those components.</p>
+<p>Some ideas</p>
+<ul>
+<li>Highly secure phones running non Google or Apple OS.</li>
+<li>Compute equipment in liquid cooled nodes, <a href="https://www.govinfo.gov/content/pkg/CHRG-112hhrg80856/html/CHRG-112hhrg80856.htm">EMP</a> safe.</li>
+<li>Collaboration systems use fully decentralized but end2end encrypted infrastructure.</li>
+<li>Strong authentication.</li>
+<li>Entry points are in super safe but stateless environments, this means even if they get lost, data is never lost.</li>
+<li>Data storage is quantum safe</li>
+<li>Browsers CANNOT run Javascript in the browser on the computer (need to use a virtual browser in a secure vault environment).</li>
+</ul>
+<p>This system can be integrated in the Sovereign Internet (also public), or as part of the more expensive but highly secure and reliable PRIVATE QUANTUM SAFE DIGITAL BACKBONE.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../solutions/solution_cyberpandemic.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../solutions/solution_sovereign_cbdc.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../solutions/solution_cyberpandemic.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../solutions/solution_sovereign_cbdc.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../mermaid.min.js"></script>
+        <script type="text/javascript" src="../mermaid-init.js"></script>
+
+
+    </body>
+</html>
