@@ -12,14 +12,13 @@ It corresponds to Internet (storage, compute, network) capacity on the FreeFlow 
 ## How can I buy CHI?
 
 ### Method 1, use USDC on Algorand Network
-<br>
+
 > price for 1 CHI = 0.1 USD (**)
 
 **IMPORTANT**
 
 > The price of CHI should go up in relation to the amount of farming and TWINS in the field.
 
-<br>
 
 **how**
 
@@ -31,11 +30,10 @@ It corresponds to Internet (storage, compute, network) capacity on the FreeFlow 
 
 
 ### Method 2, use your TFT
-<br>
+
 > price for 1 CHI = 2 TFT (***) (see www.threefold.io to get TFT).
 
 You need some TFT, there are quite some ways how to buy TFT, e.g. there is gettft.com
-<br>
 
 **how**
 

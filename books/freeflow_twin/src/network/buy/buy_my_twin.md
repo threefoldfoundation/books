@@ -8,21 +8,25 @@ You can buy more than one FFK and keep them for later, or give or re-sell them t
 
 A FFK is valuable, it gives you access to a digital life for a lifetime.
 
-> Some estimate that our digital life is worth 10.000 USD per year, you can now buy an alternative way for 60-200 USD for a lifetime.
+> Some estimate that our digital life is worth thousands of USD per year, whatif you can own your digital life for only 10 USD per month, wouldn't that be better?
 
 <br>
 
 ### Reserve your twin now:
-<br>
+
+> - price for 1 Owned FreeFlow Key (FFK) will be 200 USD for a lifetime (99 years)
+> - price for 1 Rented FreeFlow Key (FFK) will be 5-10 USD per month
+
+*In other words its much more cost effective to own then to rent and you can always resell.*
 
 SOON: you will be able to go onto the Freeflow portal and reserve your twin.
 
-| # Twin    | Price per FFK | Discount | Total Price |
+<!-- | # Twin    | Price per FFK | Discount | Total Price |
 | --------- | ------------- | -------- | ----------- |
 | 1 Twin    | $200          | 0%       | $200        |
 | 35 Twin   | $140          | -30%     | $4.900      |
-| 500 Twin  | $100          | -50%     | $50.000     |
-| 2500 Twin | $60           | -70%     | $150.000    |
+| 500 Twin  | $120          | -40%     | $60.000     |
+| 2500 Twin | $80           | -60%     | $200.000    | -->
 
 
 ## SHARING ECONOMY
@@ -30,7 +34,7 @@ SOON: you will be able to go onto the Freeflow portal and reserve your twin.
 **SPECIAL, YOU CAN GIFT 3 TWINS per TWIN bought:**
 > each FFK gives you the right to give away 3 other FFK’s to people who cannot afford to buy or rent an FFK, or to your friends. A free FFK is the same as a normal FFK but has less storage & compute capacity, and certain features may not be available on a free FFK. 
 
-*This will be enabled later this year.*
+*This will be enabled next year (2023).*
 
 ## FFK's are scarce
 
