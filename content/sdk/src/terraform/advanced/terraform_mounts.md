@@ -1,4 +1,4 @@
-![](img/terraform_.png)
+![](terraform/img//terraform_.png)
 
 # Deploying a VM with Mounts using terraform
 

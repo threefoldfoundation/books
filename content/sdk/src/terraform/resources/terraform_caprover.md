@@ -1,4 +1,4 @@
-![](img/terraform_.png)
+![](terraform/img//terraform_.png)
 
 # Terraform Caprover
 

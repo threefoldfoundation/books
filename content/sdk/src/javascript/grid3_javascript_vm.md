@@ -1,10 +1,9 @@
-!!!include:grid3_javascript_loadclient
 
 ## Deploying a VM
 
 ### Example code
 
-!!!code url:https://github.com/threefoldtech/grid3_client_ts/blob/development/scripts/single_vm.ts
+check code example [here](https://github.com/threefoldtech/grid3_client_ts/blob/development/scripts/single_vm.ts)
 
 
 ### Detailed explanation

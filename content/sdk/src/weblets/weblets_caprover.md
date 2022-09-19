@@ -1,6 +1,6 @@
 # CapRover
 
-![](img/caprover_1.png)
+![](weblets/img/caprover_1.png)
 
 About CapRover
 
@@ -28,14 +28,13 @@ It has following benefits :
 ### Requirements
 
 - you need an account on TF-Chain, and there needs to be TFT on the account (see getting started)
-- [Make sure your profile is activated](weblets_profile_manager)
+- [Make sure your profile is activated](weblets/weblets_profile_manager)
 - [Unlock your profile on profile manager, if already filled in before](profile_manager_unlock)
 
 ### Usage
 
-!!!include:weblets_play_go
 
-![](img/new_cap1.png)
+![](weblets/img/new_cap1.png)
 
 - Select a capacity package:
     - **Minimum**: {cpu: 1, memory: 1024, diskSize: 50 }
@@ -59,7 +58,7 @@ Deployment will take couple of minutes.
 
 - e.g. I picked ```apps.openly.life``` which is a domain name that will point to the ip address of the CapRover instance (which we only know after deployment).
 
-![](img/domain_name_caprover_config.png)
+![](weblets/img/domain_name_caprover_config.png)
 
 
 > Note how the *.apps.openly.life points to the public IPv4 address that has been returned from the deployment.
@@ -68,7 +67,7 @@ Deployment will take couple of minutes.
 
 Go back to your CapRover weblet and go to the deployment list. Click on `Show Details`.
 
-![](img/caprover_detail_weblet.png)
+![](weblets/img/caprover_detail_weblet.png)
 
 - The public IPv4 address is visible in here
 - Now you can configure the domain name (see above, don't forget to point the wildcard domain to the public IP address)
@@ -128,12 +127,12 @@ Click on details if you want to see more details
 <br> 
 > The password is generated and visible behind the `Show Details` button of your CapRover deployment. 
 
-![](img/caprover_login.png)
+![](weblets/img/caprover_login.png)
 
 You should now see
 
-![](img/captain_login+weblet_caprover_.png)
+![](weblets/img/captain_login+weblet_caprover_.png)
 
 ### How to work with CapRover
 
-> [see our caprover admin small tutorial](weblets_caprover_admin)
+> [see our caprover admin small tutorial](weblets/weblets_caprover_admin)

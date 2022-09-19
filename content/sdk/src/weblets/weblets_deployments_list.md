@@ -2,11 +2,10 @@
 
 Deployments List is a generic weblet for listing deployments on Threefold Grid
 
-!!!include:weblets_play_go
-- make sure you have a [profile](weblets_profile_manager) activated
+- make sure you have a [profile](weblets/weblets_profile_manager) activated
 - click on Deployments
 
-![](img/deplist1.png)
+![](weblets/img/deplist1.png)
 
 There you can see tabs representing the known solutions supported e.g `VM`, `Kubernetes`, `CapRover`.. etc
 

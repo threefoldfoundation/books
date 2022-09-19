@@ -1,4 +1,4 @@
-![](img/terraform_.png)
+![](terraform/img//terraform_.png)
 
 # Terraform Delete
 
@@ -20,7 +20,7 @@ or
 
 https://play.grid.tf/#/contractslist
 
-![](img/weblets_contracts.png)
+![](terraform/img//weblets_contracts.png)
 
 select the contracts you want to cancel.
 

@@ -4,7 +4,7 @@ Weblets are a UI tool helps to deploy solutions on TF Grid v3.
 
 A weblet is a compiled javascript web component which can be embedded in HTML page of a web app.
 
-The backend for the weblets is introduced with [grid client](../manual3_iac/grid3_javascript/grid3_javascript_home) which communicate to TF Chain and TF Grid over RMB.
+The backend for the weblets is introduced with [grid client](manual3_iac/grid3_javascript/grid3_javascript_home.md) which communicate to TF Chain and TF Grid over RMB.
 
 __Advantages__ :
 
@@ -16,24 +16,24 @@ __Advantages__ :
 There are several weblets you can use like: 
 
 - Basic Environments:
-  - [Virtual Machine](weblets_vm)
-  - [Kubernetes](weblets_k8s)
+  - [Virtual Machine](weblets/weblets_vm.md)
+  - [Kubernetes](weblets/weblets_k8s.md)
 
 - Ready Community Solutions:
-  - [Caprover](weblets_caprover)
-  - [Funkwhale](weblets_funkwhale)
-  - [Peertube](weblets_peertube)
-  - [Taiga](weblets_taiga)
-  - [Owncloud](weblets_owncloud)
-  - [Discourse](weblets_discourse)
-  - [Mattermost](weblets_mattermost)
-  - [Presearch](weblets_presearch)
-  - [CasperLabs](weblets_casper)
-  - [Node Pilot](weblets_nodepilot)
+  - [Caprover](weblets/weblets_caprover.md)
+  - [Funkwhale](weblets/weblets_funkwhale.md)
+  - [Peertube](weblets/weblets_peertube.md)
+  - [Taiga](weblets/weblets_taiga.md)
+  - [Owncloud](weblets/weblets_owncloud.md)
+  - [Discourse](weblets/weblets_discourse.md)
+  - [Mattermost](weblets/weblets_mattermost.md)
+  - [Presearch](weblets/weblets_presearch.md)
+  - [CasperLabs](weblets/weblets_casper.md)
+  - [Node Pilot](weblets/weblets_nodepilot.md)
 
 - Some utils:
-  - [Profile Manager](weblets_profile_manager)
-  - [Deployment List](weblets_deployments_list)
+  - [Profile Manager](weblets/weblets_profile_manager.md)
+  - [Deployment List](weblets/weblets_deployments_list.md)
 
 ## Playground
 Playground is a Vue app that has the weblets embedded. so you can try it out on different TF Chain networks.

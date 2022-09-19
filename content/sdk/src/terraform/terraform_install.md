@@ -1,4 +1,4 @@
-![](img/terraform_install.png)
+![](terraform/img//terraform_install.png)
 
 ### Terraform Install
 

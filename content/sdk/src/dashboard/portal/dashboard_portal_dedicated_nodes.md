@@ -17,23 +17,16 @@ A user can reserve an entire node then use it exclusively to deploy solutions.
   - 70% for dedicated node (TF Pricing policies)
   - a second level discount up to 60% for balance level see [Discount Levels](https://library.threefold.me/info/threefold/#/tfgrid/grid/pricing?id=discount-levels)
 
-### Mark node as Dedicated
-
-> TODO...
-<!-- 
-- who mark as dedicated? you. and you will not recharge bill just for that
-- We can allow farmers only to mark up to 50% of their nodes as dedicated
--->
 
 ### Usage
 
 - See list of all dedicated node on `Dedicated Nodes` tab on the portal.
 
-    ![ ](../img/dedicated_nodes.png)
+    ![ ](dashboard/img/dedicated_nodes.png)
   - Hover on price to see discount
   - Expand row to see more info on the node:
   
-    ![ ](../img/node_info.png)
+    ![ ](dashboard/img/node_info.png)
     - Resources
     - Location
     - Possible Public Ips *this dependes on the farm it belongs to*
@@ -47,7 +40,7 @@ A user can reserve an entire node then use it exclusively to deploy solutions.
   - Type your password on the polkadot pop up window.
   - Wait for the pop up message said `Transaction succeeded`
 
-    ![ ](../img/rented_succeeded.png)
+    ![ ](dashboard/img/rented_succeeded.png)
 
 - Unreserve a node:
   - Simply as reserving but another check will be done to check you don't have any active workoad on the node before unreserving.

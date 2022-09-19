@@ -1,5 +1,5 @@
 
-![](img/terraform_.png)
+![](terraform/img//terraform_.png)
 
 ## VM Deployment
 

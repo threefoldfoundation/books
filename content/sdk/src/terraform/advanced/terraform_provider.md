@@ -1,4 +1,4 @@
-![](img/terraform_.png)
+![](terraform/img//terraform_.png)
 
 # Terraform Provider
 
@@ -37,10 +37,6 @@ provider "threefold" {
 }
 
 ```
-
-### Deployment example
-
-!!!include:terraform_basic_example
 
 ### Remarks
 

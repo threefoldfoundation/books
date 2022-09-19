@@ -3,13 +3,12 @@
 [ownCloud](https://owncloud.com/) develops and provides open-source software for content collaboration, allowing teams to easily share and work on files seamlessly regardless of device or location.
 
 
-!!!include:weblets_play_go
-- Make sure you have an activated [profile](weblets_profile_manager)
+- Make sure you have an activated [profile](weblets/weblets_profile_manager)
 - Click on the **Owncloud** tab
 
 __Process__ :
 
-![](img/owncloud1.png)
+![](weblets/img/owncloud1.png)
 
 - Enter an Application Name. It's used in generating a unique subdomain on one of the gateways on the network alongside your twin ID. Ex. ***oc98newcloud*.gent02.dev.grid.tf**
 
@@ -34,12 +33,12 @@ __Process__ :
 
 There's also an optional **Mail Server** tab if you'd like to have your Owncloud instance configured with an SMTP server.
 
-![](img/owncloud4.png)
+![](weblets/img/owncloud4.png)
 
 After that is done you can see a list of all of your deployed instances
 
-![](img/owncloud5.png)
+![](weblets/img/owncloud5.png)
 
 Click on ***Visit*** to go to the homepage of your Owncloud instance! If you'd like to be able to use TFConnect to login, you need to login using your admin username and password first and allow TFConnect login from settings.
 
-![](img/owncloud6.png)
+![](weblets/img/owncloud6.png)

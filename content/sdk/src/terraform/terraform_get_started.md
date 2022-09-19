@@ -1,4 +1,4 @@
-![](img/terraform_.png)
+![](terraform/img//terraform_.png)
 
 
 ## Using Terraform
@@ -7,7 +7,6 @@
 - `cd myfirstproject`
 - create `main.tf`  <- creates the terraform main file 
 
-!!!include:terraform_basic_example
 
 
 ## Create
@@ -55,7 +54,7 @@ export NETWORK="....."
 
 ```
 
-For more info see [Provider Manual](terraform_provider)
+For more info see [Provider Manual](terraform/advanced/terraform_provider.md)
 
 ### output section
 
@@ -83,7 +82,7 @@ Output parameters show what has been done:
 
 ### Which flists to use in VM
 
-see [list of flists](grid3_supported_flists)
+see [list of flists](manual3_iac/grid3_supported_flists.md)
 
 
 
