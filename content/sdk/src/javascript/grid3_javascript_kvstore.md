@@ -5,9 +5,50 @@
 As part of the tfchain, we support a keyvalue store module that can be used for any value within `2KB` range. practically it's used to save the user configurations state, so it can be built up again on any machine, given they used the same mnemonics and same secret. 
 
 ### Example code
+```
+import "reflect-metadata";
 
-!!!code url:https://github.com/threefoldtech/grid3_client_ts/blob/a72f9b0a45/scripts/kvstore_example.ts
+import { getClient } from "./client_loader";
 
+const exampleObj = {
+    key1: "value1",
+    key2: 2,
+};
+
+/*
+KVStore example usage:
+*/
+async function main() {
+    //For creating grid3 client with KVStore, you need to specify the KVStore storage type in the pram:
+
+    const gridClient = await getClient();
+
+    //then every module will use the KVStore to save its configuration and restore it.
+
+    // also you can use it like this:
+    const db = gridClient.kvstore;
+
+    // set key
+    const key = "hamada";
+    await db.set({ key, value: JSON.stringify(exampleObj) });
+
+    // list all the keys
+    const keys = await db.list();
+    console.log(keys);
+
+    // get the key
+    const data = await db.get({ key });
+    console.log(JSON.parse(data.toString()));
+
+    // // remove the key
+    // await db.remove({ key });
+
+    // disconnect
+    await gridClient.disconnect();
+}
+
+main();
+```
 
 
 #### setting values
