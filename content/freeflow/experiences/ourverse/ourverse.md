@@ -7,7 +7,7 @@
 
 </div>
 
-> see [some examples how virtual worlds can be created with OurVerse](/mytwin/skills/creativity/creativity_metaverse.md)
+> see [some examples how virtual worlds can be created with OurVerse](/ourtwin/skills/creativity/creativity_metaverse.md)
 
 State of the art rendering and experiences beyond e-commerce and marketing. A metaverse built by and for the people using it, with worthwhile capabilities that enhance your virtual experience. 
 

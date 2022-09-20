@@ -16,7 +16,7 @@
 
 The freeflow system is different, you are in the center of your digital life.
 
-We made a funny comparison with our real life, [read here](../../mytwin/intro/internet_sovereignity.md)
+We made a funny comparison with our real life, [read here](../../ourtwin/intro/internet_sovereignity.md)
 
 
 ![](img/experiences3.png)  
