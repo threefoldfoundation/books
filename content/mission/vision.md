@@ -1,6 +1,6 @@
 # ThreeFold Vision
 
-![](solutions_issues_intro/img/high_level_country_overview.png)
+![](img/high_level_country_overview.png)
 
 Create the infrastructure layer for an upgraded internet:
 

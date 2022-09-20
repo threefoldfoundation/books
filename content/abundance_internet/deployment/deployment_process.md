@@ -3,7 +3,6 @@
 ![alt_text](img/zanzibar_landscape.png "image_tooltip")
 
 
-
 # INTERNET OF INTERNETS DEPLOYMENT PROCESS
 
 We foresee a world with thousands of regional Internet Systems, they are all interconnected, but each of them is ultra reliable for millions of people. This approach allows unlimited scalability and equal chances for everyone in the world.
