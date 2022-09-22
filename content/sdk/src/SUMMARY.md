@@ -1,7 +1,10 @@
 ## Learn The Basics
 
 
-- [Introduction](sdk_intro.md)
+- [Introduction](getstarted/grid3_howitworks.md)
+    - [What to know](getstarted/tfgrid3_what_to_know.md)
+    - [Storage Concepts](getstarted/tfgrid3_storage_concepts.md)
+    - [Network Concepts](getstarted/tfgrid3_network_concepts.md)
 - [Getting Started](getstarted/tfgrid3_getstarted.md)
     - [Installing Polkadot extension](dashboard/portal/dashboard_portal_polkadot_widget.md)
     - [Create Account](dashboard/portal/dashboard_portal_polkadot_create_account.md)
