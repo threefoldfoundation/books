@@ -26,14 +26,7 @@ There are 3 main mechanisms which make this possible:
 What if we together create a new type of Internet not based on scarcity and fear, but based on trust and abundance? A system which gives everyone equal chances and allows us to together create a new world called “OURWORLD”. \
 
 
-**OUR SOLUTION:  \
-an abundance based OURWORLD. \
- \
-**
-
-
-
-
+# OUR SOLUTION: Abundance Based Internet of Internets System. 
 
 ![alt_text](img/positive_impact.png "image_tooltip")
 
@@ -68,13 +61,6 @@ Imagine an economical system
 * Which is not based on the “money as drug” concept where money flies from people who don’t have enough to people who have too much. Money is not the path to happiness.
 * Where money is not something dirty but represents “frozen time” energy, a mechanism of <span style="text-decoration:underline;">exchange</span>.
 * Which is based on safe digital currencies like carbon removal credits, threefold tokens, …. \
-
-
-**JOIN US IN THIS GAME OF LIFE.     LET'S PLAY.**
-
-
-# 
-
 
 
 ![alt_text](img/internet_of_internets.png "image_tooltip")
