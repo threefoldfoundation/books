@@ -90,13 +90,3 @@ If we build a video conferencing system that follows this principle we can be mu
 ![](img/videoconference_central-2.png)
 
 </div>
-
-### 
-
-#### Video Conference features
-
-- 1. 
-- 2. 
-- 3. 
-
->TODO: 

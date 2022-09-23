@@ -15,10 +15,6 @@ Within these group functionality can be made available.  Example (and probably f
 
 Rooms will provide functionality to non technical groups in an easy way to self organize and create consensus mechanisms to govern activities and transact money all done from you own private digital space.
 
-```mermaid
-```
-
-
 The interface will present it self as a chat interface to the members of the group.  In the chat language there will be a very simple language available to create the chains and consensus rules around it.  For consensus a quorum )5 out of 8 members or for larger groups for example 70% of the members) need to agree. Once this quorum has been achieved by a simple poll in the group, the transaction is done, the governance rule is accepted.  
 
 All of this is an individuals twin, in which a room was created which presents this functionality to the group members.

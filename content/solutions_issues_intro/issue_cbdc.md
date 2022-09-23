@@ -1,12 +1,12 @@
-## CBDC SOLUTIONS MIGHT NOT BE SOVEREIGN 
+## OurLedgerC SOLUTIONS MIGHT NOT BE SOVEREIGN 
 
-![](img/cbdc.png)  
+![](img/OurLedgerc.png)  
 
-> CBDC = Central Bank Digital Currencies
+> OurLedgerC = Central Bank Digital Currencies
 
-CBDC’s are an incredibly exciting possible innovation for a country. But, we realize that there are serious challenges and requirements not met in relation to sovereignty, security, and scalability in many of the current project proposals.
+OurLedgerC’s are an incredibly exciting possible innovation for a country. But, we realize that there are serious challenges and requirements not met in relation to sovereignty, security, and scalability in many of the current project proposals.
 
-This is not only for CBDC’s, but blockchain technology in general.
+This is not only for OurLedgerC’s, but blockchain technology in general.
 
 We want to make sure that this does not happen for your country. We want to make sure your country stays and is in control over their country's money supply. Right now in some deployments we see that this is a real risk, countries could lose control to other countries or hackers.
 
