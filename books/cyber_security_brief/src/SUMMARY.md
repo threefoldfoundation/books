@@ -1,1 +1,0 @@
-../../../content/cyber_security_brief/SUMMARY.md

@@ -16,5 +16,6 @@ git add * -f
 popd
 mdbook build
 rsync -rav --delete book/ ../../docs/$NAME/
+rsync -rav --delete book/ ~/Documents/tfbooks/output/$NAME/
 rm -rf book
 

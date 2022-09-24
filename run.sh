@@ -5,7 +5,9 @@ bash env.sh
 ##WALK OVER THE BOOKS
 for d in books/*/ ; do
     pushd $d
-    bash run.sh
+    if [[ -f "run.sh" ]];then
+        bash run.sh
+    fi
     popd
 done
 

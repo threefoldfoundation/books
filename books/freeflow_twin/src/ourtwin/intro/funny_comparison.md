@@ -1,0 +1,1 @@
+# Funny Comparison With Life

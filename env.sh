@@ -138,9 +138,9 @@ function update_git {
 #MAKE SURE WE HAVE ALL THE RIGHT LINKS
 # REPO='threefoldfoundation/books' && NAME='technology' && llink
 # REPO='threefoldfoundation/books' && NAME='mission' && llink
-ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='abundance_internet' && llink
-ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='feasibility_study' && llink
-ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='matrix_already' && llink
-ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='ow_experiences' && llink
+# ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='abundance_internet' && llink
+# ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='feasibility_study' && llink
+# ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='matrix_already' && llink
+# ACCOUNT='ourworld-tsc' && REPO='ourworld_books' && NAME='ow_experiences' && llink
 
 
