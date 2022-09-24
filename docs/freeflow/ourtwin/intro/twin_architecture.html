@@ -142,7 +142,112 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="architecture"><a class="header" href="#architecture">Architecture</a></h1>
+                        <h1 id="twin-architecture"><a class="header" href="#twin-architecture">Twin Architecture</a></h1>
+<pre class="mermaid">graph TD
+    U[YOU as a user] --&gt;|http| A(Your Twin Web Interface)
+    A --&gt;|owns| C[[Your Data]]
+    A --&gt;|owns| D[[Your Capabilities]]
+    A --&gt;|owns| E[[Your Identity]]
+    C --- F((Experience &lt;br&gt; e.g.&lt;br&gt;Climate&lt;br&gt;Education))
+    D --- F
+    E --- F
+    C --- G((Experience &lt;br&gt; e.g.&lt;br&gt;Collaboration&lt;br&gt;Work))
+    D --- G
+    E --- G
+    G --- C1[Web Company X]
+    F --- C2[Web Company Y]
+</pre>
+<p>you are sovereign, you can use any web browser to access the capabilities of your twin.</p>
+<p>You have many <a href="myskills.html">skills</a> and can use them to experience your digital life. The web-providers become experience creators in which you can be alive and experiment with your skills.</p>
+<blockquote>
+<p>Web Companies (or anyone who wants to develop experiences) is working with you to let you use your skills inside their experience, using your tools, data and identity. You truly exist only once and own your digital past and future.</p>
+</blockquote>
+<h2 id="to-compare-how-do-i-work-in-the-current-web-web-2"><a class="header" href="#to-compare-how-do-i-work-in-the-current-web-web-2">To Compare: how do I work in the current Web (Web 2)?</a></h2>
+<pre class="mermaid">graph TD
+    U[YOU as a user] --&gt;|http| A(Centralized Application)
+    A --&gt;|owns| C[[Your Data]]
+    A --&gt;|owns| D[[Your Web Capability&lt;br&gt; = functionality]]
+    A --&gt;|owns| E[[Your Identity]]
+</pre>
+<p>The application provider owns your experience, the experience is the combination of your data on which they develop functionality strictly controlled by their server infrastructure.</p>
+<pre class="mermaid">graph TD
+    U1[User 1] --&gt;|http| A(Centralized Application)
+    U2[User 2] --&gt;|http| A(Centralized Application)
+    U3[User 3] --&gt;|http| A(Centralized Application)
+    U4[User 4] --&gt;|http| A(Centralized Application)
+    A --&gt;|owns| C[[Your Data]]
+    A --&gt;|owns| D[[Your Web Capability&lt;br&gt; = functionality]]
+    A --&gt;|owns| E[[Your Identity]]
+</pre>
+<p>We all exist many times, for each application we exist, it actually is very messy and leads to manipulation and also complexity. Its not convenient having to use 3 different messaging apps. The current providers don't care about your sovereignity or improving your skills, they care about what they can get from you (money, data..).</p>
+<pre class="mermaid">graph TD
+    U1[User 1] --&gt;A(App 1&lt;br&gt;e.g. facebook)
+    U1[User 1] --&gt; B(App 2&lt;br&gt;e.g. linked in)
+    U1[User 1] --&gt; C(App 3&lt;br&gt;e.g. airbnb)
+    U2[User 2] --&gt; A
+    U3[User 3] --&gt; A
+    U4[User 4] --&gt; A
+    U2[User 2] --&gt; B
+    U3[User 3] --&gt; B
+    U4[User 4] --&gt; B
+    U2[User 2] --&gt; C
+    U3[User 3] --&gt; C
+    U4[User 4] --&gt; C
+
+</pre>
+<p>This is not logical, efficient and for sure not in your best interest.</p>
+<h3 id="to-compare-blockchain-web-3"><a class="header" href="#to-compare-blockchain-web-3">To Compare: Blockchain: web 3</a></h3>
+<p>Definately a good step in the right direction but not enough.</p>
+<pre class="mermaid">graph TD
+    U1[User 1] --&gt;A(DApp 1)
+    U1[User 1] --&gt; B(DApp 2)
+    U1[User 1] --&gt; C(DApp 3)
+    U2[User 2] --&gt; A
+    U3[User 3] --&gt; A
+    U4[User 4] --&gt; A
+    U2[User 2] --&gt; B
+    U3[User 3] --&gt; B
+    U4[User 4] --&gt; B
+    U2[User 2] --&gt; C
+    U3[User 3] --&gt; C
+    U4[User 4] --&gt; C
+    A --&gt; B11((BC1.1))
+    A --&gt; B12((BC1.2))
+    A --&gt; B13((BC1.3))
+    A --&gt; B14((BC1.X...))
+    B --&gt; B21((BC2.1))
+    B --&gt; B22((BC2.2))
+    B --&gt; B23((BC2.X...))
+    C --&gt; B21
+    C --&gt; B22
+    C --&gt; B23
+</pre>
+<p>BC stands for BlockChain, so BC1.1 is Blockchain 1 Validator Node 1.</p>
+<p>Each DAPP lives on many blockchain nodes, can be thousands. Many dapps live on different blockchain nodes, sometimes on the same. You still exist many times and each Dapp is developed using different technologies and duplicating your digital life which you don't own but now share with others and co-own.</p>
+<h2 id="the-twin-alternative-details-web-remade"><a class="header" href="#the-twin-alternative-details-web-remade">the twin alternative Details (web remade)</a></h2>
+<p>This is a very different design, the experience is using your capabilities, but these are yours, not owned nor provided by the web company.</p>
+<pre class="mermaid">graph TD
+    A---|peer2peer&lt;br&gt;local&lt;br&gt;safe|B
+    B---|p2p|C
+    C---|p2p|A
+
+    U1[User 1] --&gt;|http| A(Your Twin Web Interface)
+    U2[User 2] --&gt;|http| B(Your Twin Web Interface)
+    U3[User 3] --&gt;|http| C(Your Twin Web Interface)
+    subgraph TWIN1[twin 1 private env]
+        A[TWIN 1&lt;br&gt;Process]
+        A --&gt;|owns| X[[Twin1 Data &amp;&lt;br&gt;Capabilities]]
+    end
+    subgraph TWIN2[twin 2 private env]
+        B[TWIN 2&lt;br&gt;Process]
+        B --&gt;|owns| Y[[Twin2 Data &amp;&lt;br&gt;Capabilities]]
+    end
+    subgraph TWIN3[twin 3 private env]
+        C[TWIN 3&lt;br&gt;Process]
+        C --&gt;|owns| Z[[Twin3 Data &amp;&lt;br&gt;Capabilities]]
+    end
+
+</pre>
 
                     </main>
 

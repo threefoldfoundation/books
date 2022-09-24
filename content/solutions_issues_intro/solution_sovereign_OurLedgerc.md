@@ -1,1 +1,1 @@
-# sovereign OurLedgerc
+# sovereign CBDc

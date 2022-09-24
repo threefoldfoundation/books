@@ -60,7 +60,7 @@ Allow everyone in the country to participate in a more GDP positive inclusive in
 The upgraded sovereign internet digital backbone needs to be able to support:
 
 * Digital countrywide identity.
-* Central Bank Currency (OurLedgerC)
+* Central Bank Currency (CBDC)
 * Voting and other Government Services
 * Government Collaboration system with way better security and data privacy measurements
 * Education (deliver cost effective but capable education for everyone)

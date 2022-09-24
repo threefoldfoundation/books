@@ -1,1 +1,0 @@
-# learning system - sikana

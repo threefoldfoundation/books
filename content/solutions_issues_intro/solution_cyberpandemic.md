@@ -13,7 +13,7 @@ Some possibilities:
 * Provide a quantum safe storage system, make sure data can never get corrupted, lost or stolen. Not even a quantum computer can hack into it. Ultra scalable system.
 * In country owned multilayer network communication encryption for government and other collaborators.
 * Fortify your existing web (and other) applications, to not allow access over default browsers, a standard browser is a huge security risk and needs to be avoided. We can sandbox access and hosting of these apps.
-* Use blockchain technology (BUT in country) deployed in a decentralized way by local teams, do not rely on public blockchain technology or technology which might be compromised or owned too much by coders outside of the country. This can be used for OurLedgerCs.
+* Use blockchain technology (BUT in country) deployed in a decentralized way by local teams, do not rely on public blockchain technology or technology which might be compromised or owned too much by coders outside of the country. This can be used for CBDCs.
 * Block backdoors (vulnerabilities as used by hackers) to communicate to the internet, not by means of firewalls (proven not to work), but by means of a very different approach (not available publicly today).
 
 The more expensive goodies:

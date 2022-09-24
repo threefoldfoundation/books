@@ -1,1 +1,0 @@
-# OurLedgerc not sovereign

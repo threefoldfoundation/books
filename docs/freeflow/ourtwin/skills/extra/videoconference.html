@@ -142,7 +142,72 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="video-conference"><a class="header" href="#video-conference">video conference</a></h1>
+                        <p><img src="img/camera.png" alt="comnunication tool video" /></p>
+<h2 id="communication-tool-video"><a class="header" href="#communication-tool-video">Communication tool: Video</a></h2>
+<p>A truly peer to peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.</p>
+<p>Current world video conferencing services use service provider and centralized software installations to present services to businesses and consumers.  Take for example to users in Zanzibar that wish to communicate through zoom (or google meet, or Microsoft Teams, principle stays the same).  The will connect from their laptops/phones to a centralized service and the traffic will be routed from both of their devices to a centralized service datacenter far away.</p>
+<p>In principle this looks like</p>
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    end
+    INDIVIDUALA .-&gt;|browser| MESSAGINGA
+    MESSAGINGA --&gt;|browser| INDIVIDUALA
+    subgraph Video service provider
+    MESSAGINGA(Video service platform)
+    end
+    INDIVIDUALB(Person B) --&gt;|browser| MESSAGINGA
+    subgraph Individual B
+    MESSAGINGA .-&gt;|browser| INDIVIDUALB
+    end
+</pre>
+<p>And if we expand this to a world map it would look somethingg like this:</p>
+<!--
+mermaid source in: ./includes/centralized_video.md
+-->
+<div style="text-align: left;">
+<p><img src="img/videoconference_central-1.png" alt="alt text" />)</p>
+</div>
+<blockquote>
+<p>TODO: pictures are too small, need to make new ones, also revisit text &amp; flow</p>
+</blockquote>
+<p>This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.</p>
+<p>The solution to this problem is to have a video conference solution that works peer to peer.</p>
+<!--
+mermaid source in: ./includes/private_video.md
+-->
+<div style="text-align: center;">
+<p><img src="img/videoconference_decentral.png" alt="" /></p>
+</div>
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALB
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALC
+    TWINA(Twin A) .-&gt;|Browser| INDIVIDUALD
+    subgraph Individual B
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINA
+    end
+    subgraph Individual C
+    INDIVIDUALC(Person C) --&gt;|Browser| TWINA
+    end
+    subgraph Individual D
+    INDIVIDUALD(Person D) --&gt;|Browser| TWINA
+    end
+
+</pre>
+<blockquote>
+<p>TODO: not ok</p>
+</blockquote>
+<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:</p>
+<div style="text-align: center;">
+<p><img src="img/videoconference_central-2.png" alt="" /></p>
+</div>
 
                     </main>
 

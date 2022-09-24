@@ -1,6 +1,6 @@
-## A SOVEREIGN OurLedgerC SOLUTION
+## A SOVEREIGN CBDC SOLUTION
 
-![](img/OurLedgercfix.png)  
+![](img/cbdcfix.png)  
 
 Central Bank Digital Currencies are a great solution to provide a better money system for your citizens.
 

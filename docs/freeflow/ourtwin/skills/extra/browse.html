@@ -142,7 +142,71 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="browse"><a class="header" href="#browse">browse</a></h1>
+                        <div style="text-align: center;">
+<p><img src="img/search.png" alt="surf safe" /></p>
+</div>
+<h2 id="my-private-safe-browser"><a class="header" href="#my-private-safe-browser">My Private Safe Browser</a></h2>
+<p>Browsing the internet present risks.  There are many sites which have malicious code embedded in what look like harmless web pages.  This malicious content gets uploaded to your browser and might trick you in agreeing malicious code in your local browser on you local machine.  This is a fairly common practice and people are being tricked into providing information of access to information which they should not.</p>
+<p>The Surf Safe option of the twin provider a virtual browser on the twin that browses the internet on behalf off the person who operates the twin.</p>
+<pre class="mermaid">graph RL
+    subgraph Person A
+    PERSONA(Browser A)
+    end
+
+    Internet
+    PERSONA .-&gt; Internet
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    Internet .-&gt; WEB
+
+    WEB --&gt; Internet
+    Internet --&gt; PERSONA
+
+</pre>
+<p>In order to make this safe, the Twin can perform the browsing activities and send the rendered screen(s) back to the person that is browsing as a stream, much like a netflix stream comes to the browser.</p>
+<pre class="mermaid">graph RL
+    subgraph Person A
+        PERSONA(Browser A)
+        TWINA(Twin A)
+    end
+    PERSONA .-&gt; TWINA
+    subgraph Internet
+        NETWORK(Internet)
+    end
+
+    TWINA .-&gt; NETWORK
+
+    subgraph Wesite
+    WEB(Any website)
+    end
+    
+    NETWORK .-&gt; WEB
+
+    WEB --&gt; NETWORK
+    NETWORK --&gt; TWINA
+    TWINA --&gt; PERSONA
+</pre>
+<blockquote>
+<p>TODO:</p>
+</blockquote>
+<pre class="mermaid">graph LR
+    
+    subgraph Individual A
+    INDIVIDUALA(Person A)
+    INDIVIDUALA .-&gt;|browser| TWINA
+    TWINA --&gt;|browser| INDIVIDUALA
+    end
+    TWINA(Twin A) .-&gt;|secure network| TWINB(Twin B)
+    subgraph Individual B
+    TWINB .-&gt;|browser| INDIVIDUALB
+    INDIVIDUALB(Person B) --&gt;|Browser| TWINB
+    TWINB --&gt;|secure network| TWINA
+    end
+</pre>
+<pre><code></code></pre>
 
                     </main>
 
