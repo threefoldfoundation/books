@@ -1,5 +1,5 @@
 
-## **Goal 5: Make ThreeFold the most useful Internet Infrastructure in the world.**
+## **Goal: Deliver a True Decentralized Internet System.**
 
 ![image alt text](img/threefold_infrastructure.png)
 

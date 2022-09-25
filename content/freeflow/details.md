@@ -1,5 +1,0 @@
-# Details
-
-![](img/details.png)  
-
-- []()

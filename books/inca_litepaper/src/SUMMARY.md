@@ -1,1 +1,1 @@
-../../../content/inca_litepaper/SUMMARY.md
+../../../content/BOOKS/inca_litepaper/SUMMARY.md

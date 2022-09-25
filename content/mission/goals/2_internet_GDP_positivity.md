@@ -1,5 +1,5 @@
 
-## **Goal 2: Help Countries to make their Internet GDP Positive.**
+## **Goal: Help Countries to make their Internet GDP Positive.**
 
 ![image alt text](img/undersea_cables.png)
 
@@ -8,11 +8,8 @@ Many countries don’t have an internet, they have a long cable to the Internet,
 Key Words:
 
 * Sovereignty
-
 * Security
-
 * Flexibility
-
 * Cost
 
 Today most countries lose money because of the Internet, e.g. their citizens using services outside of their country, having to pay a lot for expensive Internet backbone (fiber) services, monetization of citizens data, …

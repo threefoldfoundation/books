@@ -1,1 +1,1 @@
-../../../content/solutions_issues_intro/SUMMARY.md
+../../../content/BOOKS/intro_solutions/SUMMARY.md

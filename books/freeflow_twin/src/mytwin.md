@@ -1,1 +1,2 @@
-/Users/despiegk1/code/github/threefoldfoundation/books/content/freeflow/mytwin.md
+
+{{#include mytwin/intro/mytwin.md}}

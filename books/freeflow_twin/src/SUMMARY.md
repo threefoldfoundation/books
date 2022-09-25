@@ -1,1 +1,1 @@
-../../../content/freeflow/SUMMARY.md
+../../../content/BOOKS/freeflow/SUMMARY.md

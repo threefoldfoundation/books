@@ -6,3 +6,4 @@ The internet is not optimized, most data should stay local but it actually trave
 
 ![alt_text](img/internet_distance.png "image_tooltip")
 
+> TODO: (jonathan) (vic) we need more explanation

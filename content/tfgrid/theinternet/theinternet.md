@@ -2,7 +2,7 @@
 
 ![](img/theinternet.jpg)
 
-The Internet (or internet) is the global system of interconnected [computer networks](https://en.wikipedia.org/wiki/Computer_network) that uses the [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite) (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. 
+The Internet is the global system of interconnected [computer networks](https://en.wikipedia.org/wiki/Computer_network) that uses the [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite) (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. 
 
 The communications infrastructure of the Internet consists of its hardware components and a system of software layers that control various aspects of the architecture. As with any computer network, the Internet physically consists of routers, cabling or radio links, repeaters, modems etc. An Internet Protocol address (IP address), a numerical label assigned to each device connected to a computer network, enables us to the Internet Protocol for communication and store/run data on the infrastructure.
 
@@ -14,17 +14,17 @@ Most servers that provide these services are today hosted in centralized data ce
 
 {{#include internet_map.md}}
 
->TODO: need to explain how cable go around the world and cary our information (done in internet_map, please review)
+>TODO: need to explain how cable go around the world and cary our information (done in internet_map, please review) (vic)
 
 ## The Role Of Data Centers
 
 {{#include internet_datacenters.md}}
 
->TODO: need to show and explain datacenters (done in internet_datacenters, please review)
+>TODO: need to show and explain datacenters (done in internet_datacenters, please review)  (vic)
 
 ## Bandwidth Is Not Local
 
 {{#include internet_bandwidth.md}}
 
->TODO: need to show how bandwidth is not staying local (there is slide already) (done in internet_bandwidth, please review)
+>TODO: need to show how bandwidth is not staying local (there is slide already) (done in internet_bandwidth, please review)  (vic)
 

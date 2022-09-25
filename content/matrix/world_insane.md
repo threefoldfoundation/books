@@ -1,7 +1,7 @@
 # We already live in the matrix.
 
 
-![alt_text](matrix_overview/img/world_matrix.png "image_tooltip")
+![alt_text](img/world_matrix.png "image_tooltip")
 
 
 
@@ -14,7 +14,7 @@
 <table>
   <tr>
    <td>
-<img src="matrix_overview/img/earth.png" width="" alt="alt_text" title="image_tooltip">
+<img src="img/earth.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td><strong>Our major currencies are no longer Money</strong>
@@ -42,10 +42,7 @@ Interest is dangerous, it has the ability to paralyze economies, once countries 
 
 ## Moral degradation of values
 
-We have lost our ability to  \
-
-
-
+We have lost our ability to 
 
 * make our own decisions
 * understand compassion
@@ -66,7 +63,6 @@ We have lost our ability to  \
 **Fear, lying & ego became the new normal.**
 
 Example
-
 
 
 * Lying became an acceptable practice
@@ -103,7 +99,7 @@ Link to money
 ## Climate Change - is real, and happening too fast
 
 
-![alt_text](matrix_overview/img/red_blue_pill.png "image_tooltip")
+![alt_text](img/red_blue_pill.png "image_tooltip")
 
 
 **Some facts**
@@ -120,7 +116,7 @@ Link to money
 * ​​Climate change is already happening, and it’s detrimental to human life.
 * Many leaders still aren’t taking it seriously enough.
 
-**Hope 												_[source](https://www.conservation.org/stories/11-climate-change-facts-you-need-to-know) and [source](https://www.earthday.org/5-terrifying-climate-change-facts-scare-halloween/)_**
+**Hope _[source](https://www.conservation.org/stories/11-climate-change-facts-you-need-to-know) and [source](https://www.earthday.org/5-terrifying-climate-change-facts-scare-halloween/)_**
 
 
 

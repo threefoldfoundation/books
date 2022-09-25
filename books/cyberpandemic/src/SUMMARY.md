@@ -1,1 +1,1 @@
-../../../content/cyberpandemic/SUMMARY.md
+../../../content/BOOKS/cyberpandemic/SUMMARY.md

@@ -15,11 +15,6 @@ Let's create a system which follows another paradigm:
 |The power is within us. We need to choose that we have a choice, we are not powerless.|Stardom, we need heroes, we want what they achieved, the so-called “way” out of the matrix.|
 
 
-
-
-## 
-
-
 ## Our kids are afraid, they don’t see a future. 
 
 The world is a challenging place today, climate change is real, abuse of full countries is real, a constant war is going on, war has never been out of our life, we only choose to blind ourselves to it…
