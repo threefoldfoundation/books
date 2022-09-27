@@ -45,11 +45,9 @@ Now that's very cool, we now already know about `TFChain`, `Farmers`, `3Nodes` a
 
 The provisioning process is done mainly using two systems.
 
-- [Terraform](/terraform/grid3_terraform_home.md) 
+- [Terraform](terraform/grid3_terraform_home.md) 
 - [Typescript Client](javascript/grid3_javascript_home.md)
 
-> More will be coming in the future e.g Ansible support.
 
 
-
-So what happens is we build the deployment information (what workloads we want to deploy) and create a contract(s) on the blockchain between us and a 3Node that will fulfil the provisioning of the resources needed in the contract for us, and automatically the node reports to the blockchain periodically to deduct the money from the user account based on the consumption.
+So what happens is we build the deployment information (what workloads we want to deploy) and create a contract(s) on the blockchain between us and a 3Node that will fulfill the provisioning of the resources needed in the contract for us, and automatically the node reports to the blockchain periodically to deduct the money from the user account based on the consumption.

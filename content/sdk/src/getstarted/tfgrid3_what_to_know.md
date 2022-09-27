@@ -1,7 +1,7 @@
 # TFGrid 3.0 Whats There To Know
 
-- [Storage Concepts](getstarted/tfgrid3_storage_concepts.md)
-- [Network Concepts](/getstarted/tfgrid3_network_concepts.md)
+- [Storage Concepts](./tfgrid3_storage_concepts.md)
+- [Network Concepts](./tfgrid3_network_concepts.md)
 
 ## Networking
 

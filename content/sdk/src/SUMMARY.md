@@ -2,9 +2,6 @@
 
 
 - [Introduction](getstarted/grid3_howitworks.md)
-    - [What to know](getstarted/tfgrid3_what_to_know.md)
-    - [Storage Concepts](getstarted/tfgrid3_storage_concepts.md)
-    - [Network Concepts](getstarted/tfgrid3_network_concepts.md)
 - [Getting Started](getstarted/tfgrid3_getstarted.md)
     - [Installing Polkadot extension](dashboard/portal/dashboard_portal_polkadot_widget.md)
     - [Create Account](dashboard/portal/dashboard_portal_polkadot_create_account.md)
@@ -61,7 +58,7 @@
 - [Dashboard](dashboard/dashboard.md)
     - [Dasboard Explorer](dashboard/explorer/explorer_home.md)
         - [find capacity](dashboard/explorer/explorer_find_capacity.md)
-        - [a little bit about graphql](dashboard/explorer/explorer_graphql_intro.md)
+        - [A Glimpse into GraphQL](dashboard/explorer/explorer_graphql_intro.md)
     - [TFChain Portal](dashboard/portal/dashboard_portal_home.md)
         - [Activate your farmer account and nodes on TFChain](dashboard/portal/dashboard_portal_ui_farming.md)
         - [Dedicated Nodes](dashboard/portal/dashboard_portal_dedicated_nodes.md)

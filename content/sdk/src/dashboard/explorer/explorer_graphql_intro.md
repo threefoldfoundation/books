@@ -8,5 +8,3 @@ Info on TFChain is indexed over GraphQL and is available for queries.
 - [Mainnet GraphQL](https://graphql.grid.tf/graphql)
 
 The GraphQL interface used to query TF-Chain is the one offered by [Subsquid](https://docs.subsquid.io/). See more info on supported queries [here](https://docs.subsquid.io/queries).
-
-!!!include:explorer_toc
