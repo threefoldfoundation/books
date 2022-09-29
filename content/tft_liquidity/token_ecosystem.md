@@ -1,6 +1,6 @@
 # TFT Financial Token Ecosystem
 
-![image alt text](img/TFT_ecosystem_infographic.png "image_tooltip")
+![image alt text](img/TFT_ecosystem_infographic.png )
 
 It's no longer needed for a currency like TFT to be on a centralized exchange, everything they have to offer is available on these modern money blockchain ecosystems like Stellar & Algorand. It’s incredible to see how mature these platforms became. The process is actually getting very easy. 
 

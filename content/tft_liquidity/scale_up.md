@@ -1,6 +1,6 @@
 # How do we scale to a Billion People?
 
-![image alt text](img/scale_up_visual.png "image_tooltip")
+![image alt text](img/scale_up_visual.png )
 
 Let's play with some numbers.
 

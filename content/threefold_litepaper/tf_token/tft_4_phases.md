@@ -1,6 +1,6 @@
 # 4 phases, TFT is Scarce and Valuable
 
-![alt_text](img/velocity_phase.png "image_tooltip")
+![alt_text](img/velocity_phase.png )
 
 
 The first phase has been focused on the initial expansion and the creation of all the technology required (this phase is now completed. The next two phases are all about accelerated expansion, and this requires many billions of tokens and tens of thousands of servers, neither of which are available today.  To support the accelerated expansion phase, we are now establishing a set of liquidity pools.The more TFT flow, the more successful ThreeFold will become. 

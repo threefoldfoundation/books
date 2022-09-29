@@ -1,14 +1,15 @@
 # DAO 3 Layer Approach
 
-![](img/3layers_tf_.jpg)
+
+![](img/3layers_tf.png)  
 
 
-There are 3 layers in our ThreeFold GRID DAO
+The threefold grid has 3 layers:
 
 - Layer 2 = ecosystem security layer
   - only 1 blockchain with 100 validators, secures the multiple Layer 1 networks.
 - Layer 1 = internet of blockchains layer
-  - ultimate scale because of thousands or millions of blockchains
+  - ultimate scale because of thousands (or more) of blockchains
 - Layer 0 = the IT capacity layer
   - cloud computing layer, provide compute, storage and network resources to L1 and L2
 

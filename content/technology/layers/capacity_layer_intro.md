@@ -29,7 +29,7 @@ The purpose of the smart contract for IT is to create and enable autonomous IT. 
 
 Once a smart contract for IT is created, it will be registered in the TFChain Blockchain.
 
-Learn more about smart contract for IT [here](../smartcontract_it/smartcontract_tfgrid3.md).
+Learn more about smart contract for IT [here](../smartcontract_it/smartcontract_it_full.md).
 
 ### TFChain
 

@@ -1,4 +1,4 @@
-![image alt text](img/this_is_our_moment_quote.png "image_tooltip")
+![image alt text](img/this_is_our_moment_quote.png )
 
 # This Is Our Moment
 

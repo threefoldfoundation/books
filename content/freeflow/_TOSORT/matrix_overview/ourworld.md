@@ -2,7 +2,7 @@
 # OURWORLD is a decentralized movement for change
 
 
-![alt_text](img/coins_minimum_wage.png "image_tooltip")
+![alt_text](img/coins_minimum_wage.png )
 
 
 Our decentralized group of projects and people have already achieved a lot.

@@ -1,6 +1,6 @@
 # TFT Utilization Model
 
-![image alt text](img/BTC_vs_TFT_infographic.png "image_tooltip")
+![image alt text](img/BTC_vs_TFT_infographic.png )
 
 The following 5 mechanism provide for TFT Utilization (drives scarcity)
 
