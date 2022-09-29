@@ -5,7 +5,7 @@
 
 - Just like we have trillions of cells in our body, so can billions of twins live next to each other
 - Each twin has memory, knows how to communicate, has knowledge, history, ...
-- Twins like cells cannot live without a body = TFGrid
+- Twins like cells cannot live without a body = TFGrid.
 
 ## This approach scales for ever
 
@@ -13,12 +13,12 @@
 
 - There can be unlimited amounts of 3Nodes as well as Executors (Digital Twins and Web4)
 - There are no bottlenecks nor centralization points
-- Our peer2peer network technology takes care of routing and security issues between the Twins and the 3Nodes. The shortest paths is always looked for
+- Our peer2peer network technology takes care of routing and security issues between the Twins and the 3Nodes. The shortest paths is always looked for.
 
 
 ## ThreeFold is compatible with the current IT world.
 
-While we push for a new possible, in the meantime our TFGrid infrastructure is compatible with the existing IT and internet ecosystem
+While we push for a new possible, in the meantime our TFGrid infrastructure is compatible with the existing IT and internet ecosystem.
 
 ![](img/worldview_executors_.jpg)
 

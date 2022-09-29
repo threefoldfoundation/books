@@ -1,6 +1,6 @@
 # Protect
 
-- Make sure that only the right people have access to my digital assets
+- Make sure only the right people have access to my digital assets
 - What happens if I die, make sure my loved once can inherit my digital assets
 - Make sure my digital life is secure (give access to my assets to my circles)
 - Give proof of authenticity to assets and information from others

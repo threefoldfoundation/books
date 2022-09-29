@@ -143,20 +143,20 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="znet"><a class="header" href="#znet">ZNET</a></h1>
-<p>Decentralized networking platform allowing any compute and storage workload  to be connected together on a private (overlay) network and exposed to the existing internet network. The Peer2Peer network platform allows any workload  to be connected over secure encrypted networks which will look for the shortest path between the nodes.</p>
+<p>Decentralized networking platform allowing any compute and storage workload to be connected together on a private (overlay) network and exposed to the existing internet network. The Peer2Peer network platform allows any workload to be connected over secure encrypted networks which will look for the shortest path between the nodes.</p>
 <p><img src="img/zos_network_overlay.jpg" alt="" /></p>
 <h3 id="secure-mesh-overlay-network-peer2peer"><a class="header" href="#secure-mesh-overlay-network-peer2peer">Secure mesh overlay network (peer2peer)</a></h3>
-<p>Z_NET is the foundation of any architecture running on the TF Grid.  It can be seen as a virtual private datacenter and the network allows all of the <em>N</em> containers to connected to all of the <em>(N-1)</em> other containers. Any network connection is a secure network connection between your containers and creates  peer 2 peer network between containers. </p>
+<p>Z_NET is the foundation of any architecture running on the TF Grid. It can be seen as a virtual private datacenter and the network allows all of the <em>N</em> containers to connect to all of the <em>(N-1)</em> other containers. Any network connection is a secure network connection between your containers, it creates peer 2 peer network between containers. </p>
 <p><img src="img/overlay_net1.jpg" alt="" /></p>
-<p>No connection is made with the internet.The ZNet is a single tenant network and by default not connected to the public internet.  Everything stays private. For connecting to the public internet a Web Gateway is included in the product to allows for public access if and when required.</p>
+<p>No connection is made with the internet. The ZNet is a single tenant network and by default not connected to the public internet. Everything stays private. For connecting to the public internet, a Web Gateway is included in the product to allows for public access if and when required.</p>
 <h3 id="redundancy"><a class="header" href="#redundancy">Redundancy</a></h3>
 <p>As integrated with <a href="webgw">WebGW</a>:</p>
 <p><img src="img/znet_redundancy.jpg" alt="" /></p>
 <ul>
-<li>Any app can get (securely) connected to the internet by any chosen IP address made available by ThreeFold network farmers through <a href="webgw">WebGW</a>.</li>
-<li>An app can be connected to multiple web gateways at once, the DNS round robin principle will provide load balancing and redundancy.</li>
-<li>An easy clustering mechanism where web gateways and nodes can be lost and the public service will still be up and running.</li>
-<li>Easy maintenance. When containers are moved or re-created the same end user connection can be reused as that connection is terminated on the Web Gateway. The moved or newly created Web Gateway will recreate the socket to the Web Gateway and receive inbound traffic.</li>
+<li>Any app can get (securely) connected to the internet by any chosen IP address made available by ThreeFold network farmers through <a href="webgw">WebGW</a></li>
+<li>An app can be connected to multiple web gateways at once, the DNS round robin principle will provide load balancing and redundancy</li>
+<li>An easy clustering mechanism where web gateways and nodes can be lost and the public service will still be up and running</li>
+<li>Easy maintenance. When containers are moved or re-created, the same end user connection can be reused as that connection is terminated on the Web Gateway. The moved or newly created Web Gateway will recreate the socket to the Web Gateway and receive inbound traffic.</li>
 </ul>
 <h3 id="interfaces-in-zero-os"><a class="header" href="#interfaces-in-zero-os">Interfaces in Zero-OS</a></h3>
 <p><img src="img/znet_znic1.jpg" alt="" /></p>

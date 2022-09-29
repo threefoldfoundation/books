@@ -3,13 +3,13 @@
 ![](img/ownyourdata.png)  
 
 
-- How can I share my creations to the rest of the world.
+- How can I share my creations to the rest of the world
 - How can I promote my products & services
 - How can I share my knowledge and help others to grow
 
 ## Specific for Web Sites
 
-Wouldn't it be nice you can publish/share anything and it barely cost you any money, you can seamless integrate with the FreeFlow Search engine.
+Wouldn't it be nice if you can publish/share anything and it barely costs you any money, you can seamlessly integrate with the FreeFlow Search engine.
 
 For more info see [creativity web publishing](creativity/creativity_web.md)
 

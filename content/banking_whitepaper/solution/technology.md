@@ -1,5 +1,5 @@
 # ThreeFold Technology
 
-![](img/technology_overview.png)  
+![](img/technology_overview.jpg)  
 
 

@@ -164,8 +164,8 @@
 <li>Sites can go down, data not lost</li>
 <li>Up to 10x more efficient than storing on classic storage cloud systems</li>
 <li>Can be mounted as filesystem on any OS or any deployment system (OSX, Linux, Windows, Docker, Kubernetes, TFGrid, ...)</li>
-<li>Compatible with +- all data workloads (not high performance data driven workloads like a database)</li>
-<li>Self-healing: when a node or disk lost, storage system can get back to original redundancy level</li>
+<li>Compatible with ± all data workloads (not high performance data driven workloads like a database)</li>
+<li>Self-healing: when a node or disk is lost, the storage system can get back to the original redundancy level</li>
 <li>Helps with compliance to regulations like GDPR (as the hosting facility has no view on what is stored, information is encrypted and incomplete)</li>
 <li>Hybrid: can be installed onsite, public, private, ...</li>
 <li>Read-write caching on encoding node (the front end)</li>
@@ -173,7 +173,7 @@
 <p><img src="img/planet_fs.jpg" alt="" /></p>
 <h2 id="mount-any-files-in-your-storage-infrastructure"><a class="header" href="#mount-any-files-in-your-storage-infrastructure">Mount Any Files in your Storage Infrastructure</a></h2>
 <p>The QSFS is a mechanism to mount any file system (in any format) on the grid, in a quantum-secure way. </p>
-<p>This storage layer relies on relies on 3 primitives of the ThreeFold technology : </p>
+<p>This storage layer relies on 3 primitives of the ThreeFold technology : </p>
 <ul>
 <li>
 <p><a href="https://github.com/threefoldtech/0-db">0-db</a> is the storage engine.
@@ -181,7 +181,7 @@ It is an always append database, which stores objects in an immutable format. It
 </li>
 <li>
 <p><a href="https://github.com/threefoldtech/0-stor_v2">0-stor-v2</a> is used to disperse the data into chunks by performing 'forward-looking error-correcting code' (FLECC) on it and send the fragments to safe locations.
-It takes files in any format as input, encrypts this file with AES based on a user-defined key, then FLECC-encodes the file and spreads out the result
+It takes files in any format as input, encrypts the file with AES based on a user-defined key, then FLECC-encodes the file and spreads out the result
 to multiple 0-DBs. The number of generated chunks is configurable to make it more or less robust against data loss through unavailable fragments. Even if some 0-DBs are unreachable, you can still retrieve the original data, and missing 0-DBs can even be rebuilt to have full consistency. It's an essential element of the operational backup. </p>
 </li>
 <li>
@@ -200,7 +200,7 @@ to multiple 0-DBs. The number of generated chunks is configurable to make it mor
 </ul>
 <p><img src="img/quantum_safe_storage_scale.jpg" alt="" /></p>
 <h2 id="architecture"><a class="header" href="#architecture">Architecture</a></h2>
-<p>By using our filesystem inside a Virtual Machine or Kubernetes the TFGrid user can deploy any storage application on top e.g. Minio for S3 storage, OwnCloud as online fileserver.</p>
+<p>By using our filesystem inside a Virtual Machine or Kubernetes, the TFGrid user can deploy any storage application on top e.g. Minio for S3 storage, OwnCloud as online fileserver.</p>
 <p><img src="img/qsstorage_architecture.jpg" alt="" /></p>
 <p>Any storage workload can be deployed on top of the zstor.</p>
 <pre class="mermaid">graph TD
