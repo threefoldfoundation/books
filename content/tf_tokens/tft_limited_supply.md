@@ -44,9 +44,9 @@ The ThreeFold_Grid will attract individuals and communities to build, host and u
 
 - 100% ownership of their data, no more intermediaries.
 - Superior reliability through peer-to-peer (decentralized) hosting
-- Guaranteed and transparent execution of software through the [Smart Contract for IT](smartcontract_it).
+- Guaranteed and transparent execution of software through the Smart Contract for IT.
 
-Developers can rent capacity from the ThreeFold_Grid in exchange for TFT only – no other currencies are used. This creates a natural economic demand and we call this process [utilization](utilization).
+Developers can rent capacity from the ThreeFold_Grid in exchange for TFT only – no other currencies are used. This creates a natural economic demand and we call this process utilization.
 
 Learn more on how to deploy applications and other workloads on the ThreeFold_Grid [here](https://cloud.threefold.io/).
 
@@ -56,7 +56,7 @@ Learn more on how to deploy applications and other workloads on the ThreeFold_Gr
 
 While we might already be the largest network today of peer-to-peer (decentralized) capacity, it's still insignificant compared to the big centralized cloud vendors. Given our technology is more advanced and represents an opportunity to decentralize the cloud industry, we expect there is a lot of room for growth.
 
-The [Grid Valuation](grid_valuation) page shows how the ThreeFold_Grid could grow to having a 10% market share of the current public cloud market. This would be equal to 500 billion USD by 2025 and translate to a 50 billion USD demand to utilize the capacity of the TF Grid, with TFT as the medium of exchange for capacity. This will eventually drive liquidity.
+The grid valuation page shows how the ThreeFold_Grid could grow to having a 10% market share of the current public cloud market. This would be equal to 500 billion USD by 2025 and translate to a 50 billion USD demand to utilize the capacity of the TF Grid, with TFT as the medium of exchange for capacity. This will eventually drive liquidity.
 
 > Note that we can't and won't make price predictions on TFT valuation and that all calculations made here are purely hypothetical.
 

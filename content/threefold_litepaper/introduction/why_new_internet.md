@@ -6,7 +6,7 @@ The digital economy and our future as digital citizens are wholly dependent on t
 
 More than 80% of today's Internet infrastructure is owned by less than 20 organizations. The lack of ownership of our own data and the consequent commercialization of that data is a major concern for both individuals and governments alike. The future neutrality and democratization of the Internet is an absolute necessity in this regard.
 
-![alt_text](img/centralized_problems.png "image_tooltip")
+![alt_text](img/centralized_problems_.jpg )
 
 The Internet is growing like crazy. Today the Internet is mainly delivered out of data centers, which are huge buildings containing up to millions of servers. They consume a lot of energy and are very expensive to build. Building more data centers is not enough…
 

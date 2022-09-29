@@ -1,6 +1,6 @@
 # Blockchain Based Web 3.0 Vision
 
-![alt_text](img/blockchain.png "image_tooltip")
+![alt_text](img/blockchain.png )
 
 
 Blockchain decentralizes the server, but in principle it remains a ‘client - server’ model.
@@ -13,7 +13,7 @@ Blockchain decentralizes the server, but in principle it remains a ‘client - s
 * This is called Web 3.0
 
 
-![alt_text](img/browser_operating_system.png "image_tooltip")
+![alt_text](img/browser_operating_system.png )
 
 
 The browser has now become our operating system, it is running on javascript. All applications run in our browser and interact with multiple blockchains.

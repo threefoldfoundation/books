@@ -1,7 +1,7 @@
 
 ## The Internet Today
 
-![alt_text](img/today_internet.png "image_tooltip")
+![alt_text](img/today_internet.png )
 
 
 The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on, there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and not able to deliver equality. Still more than half of this planet does not have decent affordable access to the internet.

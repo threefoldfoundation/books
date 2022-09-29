@@ -52,7 +52,7 @@ There are 800m TFT right now. The above described staking requirement needs +50 
 
 
 ## 
-![alt_text](img/market_value.png "image_tooltip")
+![alt_text](img/market_value.png )
 
 
 ### 3. Proof of Utilization = Cultivation
@@ -82,4 +82,4 @@ More info see [https://library.threefold.me/info/threefold#/tfgrid/farming/proof
 
 
 # 
-![alt_text](img/threefold_city.png "image_tooltip")
+![alt_text](img/threefold_city.png )

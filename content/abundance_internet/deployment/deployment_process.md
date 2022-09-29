@@ -1,6 +1,6 @@
 
 
-![alt_text](img/zanzibar_landscape.png "image_tooltip")
+![alt_text](img/zanzibar_landscape.png )
 
 
 # INTERNET OF INTERNETS DEPLOYMENT PROCESS

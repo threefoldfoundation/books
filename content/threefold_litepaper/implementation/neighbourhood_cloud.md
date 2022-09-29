@@ -34,7 +34,7 @@ We expect 1 INCA to generate up to 2 to 3x less TFT over 5 years by the end of t
 ### Simulation For Homeowner
 
 
-![alt_text](img/price_simulation.png "image_tooltip")
+![alt_text](img/price_simulation.png )
 
 
 In this simulation, if the TFT price would go to $3, the homeowner would have their home for free.

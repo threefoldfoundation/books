@@ -3,7 +3,7 @@
 
 ![image alt text](img/waterfall.png)
 
-OurWorld Internet of Internets, is not one Internet as owned by the very few. It's thousands of interconnected Internets, where each Internet is founded and grown by a local community. YOU become The Internet.
+OurWorld Internet of Internets, is not one Internet as owned by the very few. It is thousands of interconnected Internets, where each Internet is founded and grown by a local community. YOU become Troadmaphe Internet.
 
 OurWorld Internet of Internets is our chance to create a beautiful digital world in which we are free and powerful, a world where we can co-create a better future for everyone. We need to say NO to being a product of the large centralized corporations. We need to free ourselves, even from our own brainwashing.
 

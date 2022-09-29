@@ -1,1 +1,1 @@
-../../../content/BOOKS/freeflow/SUMMARY.md
+../../../content/BOOKS/freeflow_twin/SUMMARY.md
