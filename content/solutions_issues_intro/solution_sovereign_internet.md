@@ -85,3 +85,4 @@ Some ideas
 * Browsers CANNOT run Javascript in the browser on the computer (they need to use a virtual browser in a secure vault environment).
 
 This system can be integrated in the sovereign and public internet, or as part of the more expensive but highly secure and reliable [PRIVATE QUANTUM SAFE DIGITAL BACKBONE](solution_cyberpandemic.md).
+
