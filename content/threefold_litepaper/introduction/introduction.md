@@ -1,5 +1,5 @@
 
-![alt_text](img/threefold_internet_of_internets.png )
+![alt_text](img/threefold_internet_of_internets.png "image_tooltip")
 
 # Introduction
 

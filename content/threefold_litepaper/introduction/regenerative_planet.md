@@ -1,6 +1,6 @@
 # Regenerative planet and people first approach
 
-![alt_text](img/crises_waves.jpg )
+![alt_text](img/crises_waves.jpg "image_tooltip")
 
 **The world is changing in front of us, we cannot deny it and we need to act now.** \
 
@@ -12,7 +12,7 @@ Companies and investors that fail to be part of this needed movement will seem l
 <table>
   <tr>
    <td>
-        <img src="img/people_planet_profit.png" width="600" alt="alt_text" title=>
+        <img src="img/people_planet_profit.png" width="600" alt="alt_text" title="image_tooltip">
    </td>
    <td>We believe in:
         <ul>

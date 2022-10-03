@@ -1,6 +1,6 @@
 
 
-# Collaborate and communicate in ourLife
+# collaborate and communicate in ourLife
 
 ![](img/freeflow_intro_screen.png)  
 

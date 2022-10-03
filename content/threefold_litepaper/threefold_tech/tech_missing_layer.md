@@ -3,7 +3,7 @@
 ## Develop For Digital Twin  versus Your Own Apps On Capacity Layer (TF Grid)
 
 
-![alt_text](img/javascript_digital_twin.png )
+![alt_text](img/javascript_digital_twin.png "image_tooltip")
 
 
 Zero-OS (see further) is used on the 3Nodes and provides the base layer with storage, compute & network capacity. 

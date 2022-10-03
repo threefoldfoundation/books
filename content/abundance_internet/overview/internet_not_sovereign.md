@@ -1,6 +1,6 @@
 ## The Internet Is Not Sovereign
 
-![alt_text](img/centralized_internet.png )
+![alt_text](img/centralized_internet.png "image_tooltip")
 
 
 We want to help countries, many countries find themselves in a challenging situation where they  have too much debt, people are potentially unhappy, there could be a risk of conflict, ...

@@ -1,4 +1,4 @@
-![alt_text](../img/nax.png )
+![alt_text](../img/nax.png "image_tooltip")
 
 # NAX/Algorand
 

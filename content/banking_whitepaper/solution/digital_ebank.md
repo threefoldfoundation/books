@@ -9,6 +9,8 @@ We suggest implementing the new platform in multiple phases.
 
 Core banking features of
 
+
+
 * Multiple accounts, (Current, Savings, Fix Deposit)
 * Account linked with debit cards,
 * VISA, MC or Union Pay branded Credit Cards 
@@ -35,6 +37,8 @@ Various freemium and premium plans will be offered to the customer.
 
 Example of a million user network could cost about 1 million USD per month to operate end to end, which would be  quite exceptional and open the doors to lots of new opportunities. This cost could then be charged to the customer as a Premium model (same as Revolut). 
 
+
+## 
 
 
 ## Phase 2

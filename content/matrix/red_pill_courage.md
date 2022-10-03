@@ -2,7 +2,7 @@
 # Do we have the courage to take the red pill?
 
 
-![alt_text](img/matrix_leo.png )
+![alt_text](img/matrix_leo.png "image_tooltip")
 
 
 Morpheus gives a choice to Neo to escape the Matrix he lives in. We all should make that choice, do we stay in the Matrix, do we keep on pretending all is well and act as a victim and expect others to resolve it for us. 

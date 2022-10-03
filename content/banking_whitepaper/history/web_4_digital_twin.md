@@ -1,6 +1,6 @@
 # Web/Banking 4.0 = digital twin technology
 
-![alt_text](img/digital_twin_technology.png )
+![alt_text](img/digital_twin_technology.png "image_tooltip")
 
 
 Web 4.0 is user-centric,  
@@ -17,7 +17,7 @@ Web 4.0 alone is not usable for many Fintech applications but, once combined wit
 **Hence, our solution to combine Web 4.0 and Blockchain, see below.**
 
 
-![alt_text](img/peer_2_peer_blockchain.png )
+![alt_text](img/peer_2_peer_blockchain.png "image_tooltip")
 
 
 Peer To Peer is the most decentralized way and offers the best possible security, it's much easier for hackers to go after a centralized system.

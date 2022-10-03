@@ -42,5 +42,5 @@ Components of the Regional Internet
 * Initial Internet Capacity to host the base Information & Educational Layer (+40 Petabytes needed at this stage)
 
 
-![alt_text](img/house_web.png )
+![alt_text](img/house_web.png "image_tooltip")
 

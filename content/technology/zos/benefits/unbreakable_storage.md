@@ -7,7 +7,7 @@
 - survives network, datacenter or node breakdown
 - no silent corruption possible
 - quantum safe (data cannot be decrypted by quantum computers) as long as quantum computer has no access to the metadata
-- self healing and autocorrecting
+- self healing & autocorrecting
 
 
 If you deploy a container with simple disk access, you don’t have it. 

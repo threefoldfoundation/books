@@ -10,6 +10,6 @@ Let's take the example of filling a swimming pool with water. If the hose has a 
 
 There are many factors that go into both bandwidth and speed. An end-to-end network path usually consists of multiple connections, each with different bandwidth capacity. And the link with the lowest bandwidth can limit the overall capacity of all connections in the path. When data travels shorter distances, this is less of a factor. Network congestion (usage) is also a major factor. And it's pretty clear to see how by traveling long distances, this would become a bigger problem.
 
-> TODO: Kristof please review, this should be moved to 11.1.3 Bandwidth Problem section
+> TODO: Kristof please review
 
 For more info about how the Internet works see [here](theinternet.md).

@@ -2,7 +2,7 @@
 
 ![](img/qss_scaleout.png)  
 
-The Quantum Safe Storage Algorithm is the heart of the Storage engine. The storage engine takes the original data objects and creates data part descriptions that it stores over many virtual storage devices (ZDB/s)
+The Quantum Safe Storage Algorithm is the heart of the Storage engine.  The storage engine takes the original data objects and creates data part descriptions that it stores over many virtual storage devices (ZDB/s)
 
 Data gets stored over multiple ZDB's in such a way that data can never be lost.
 
@@ -28,7 +28,7 @@ a=1
 b=2
 c=3
 ```
-(and for reference the part of real-world objects is not a simple number like `1` but a unique digital number describing the part, like the binary code for it `110101011101011101010111101110111100001010101111011.....`). With these numbers we could create endless amounts of equations:
+(and for reference that part of real-world objects is not a simple number like `1` but a unique digital number describing the part, like the binary code for it `110101011101011101010111101110111100001010101111011.....`). With these numbers we could create endless amounts of equations:
 ```
 1: a+b+c=6
 2: c-b-a=0
@@ -37,7 +37,7 @@ c=3
 5: 5c-b-a=12
 ......
 ```
-Mathematically we only need 3 to describe the content (=value) of the fragments. But creating more adds reliability. Now store those equations distributed (one equation per physical storage device) and forget the original object. So we no longer have access to the values of a, b, c and see, and we just remember the locations of all the equations created with the original data fragments. Mathematically we need three equations (any 3 of the total) to recover the original values for a, b or c. So do a request to retrieve 3 of the many equations and the first 3 to arrive are good enough to recalculate the original values. Three randomly retrieved equations are:
+Mathematically we only need 3 to describe the content (=value) of the fragments. But creating more adds reliability. Now store those equations distributed (one equation per physical storage device) and forget the original object. So we no longer have access to the values of a, b, c and see and we just remember the locations of all the equations created with the original data fragments. Mathematically we need three equations (any 3 of the total) to recover the original values for a, b or c. So do a request to retrieve 3 of the many equations and the first 3 to arrive are good enough to recalculate the original values. Three randomly retrieved equations are:
 
 ```
 5c-b-a=12
@@ -51,7 +51,8 @@ And this is a mathematical system we could solve:
 
 Now that we know `a=1` we could solve the rest `c=a+2=3` and `b=c-a=2`. And we have from 3 random equations regenerated the original fragments and could now recreate the original object. 
 
-The redundancy and reliability in such system comes in the form of creating (more than needed) equations and storing them. As shown these equations in any random order could recreate the original fragments and therefore redundancy comes in at a much lower overhead.
+The redundancy and reliability in such system comes in the form of creating (more than needed) equations and storing them. As shown these equations in any random order could recreate the original fragments and therefore
+redundancy comes in at a much lower overhead.
 
 ### Example of 16/4
 
@@ -68,13 +69,13 @@ This system can be used as backend for content delivery networks.
 
 Imagine a movie being stored on 60 locations from which we can loose 50 at the same time.
 
-If someone now wants to download the data, the first 10 locations who answer fastest will provide enough of the data parts to allow the data to be rebuild.
+If someone now wants to download the data the first 10 locations who answer fastest will provide enough of the data parts to allow the data to be rebuild.
 
-The overhead here is much more, compared to previous example, but stil order of magnitude lower compared to other cdn systems.
+The overhead here is much more compared to previous example but stil order of magnitude lower compared to other cdn systems.
 
 ### Datarot
 
-> Datarot cannot happen on this storage system.
+> Datarot cannot happen on this storage system
 
 Fact that data storage degrades over time and becomes unreadable, on e.g. a harddisk.
 The storage system provided by ThreeFold intercepts this silent data corruption, making that it can pass by unnotified.
@@ -83,10 +84,10 @@ The storage system provided by ThreeFold intercepts this silent data corruption,
 
 ### Zero Knowledge Proof
 
-The quantum save storage system is zero knowledge proof compliant. The storage system is made up / split into 2 components: the actual storage devices use to store the data (ZDB's) and the Quantum Safe Storage engine. 
+The quantum save storage system is zero knowledge proof compliant. The storage system is made up / split into 2 components:  The actual storage devices use to store the data (ZDB's) and the Quantum Safe Storage engine. 
 
 
 ![](img/qss_system.jpg)
 
-The zero proof knowledge compliancy comes from the fact that all the physical storage nodes (3nodes) can proof that they store a valid part of what data the quantum safe storage engine (QSSE) has stored on multiple independent devices. The QSSE can validate that all the QSSE storage devices have a valid part of the original information. The storage devices however have no idea what the original stored data is as they only have a part (description) of the origina data, and have no access to the original data part or the complete origal data objects.
+The zero proof knowledge compliancy comes from the fact the all the physical storage nodes (3nodes) can proof that they store a valid part of what data the quantum safe storage engine (QSSE) has stored on multiple independent devices.  The QSSE can validate that all the QSSE storage devices have a valid part of the original information.  The storage devices however have no idea what the original stored data is as they only have a part (description) of the origina data and have no access to the original data part or the complete origal data objects.
 

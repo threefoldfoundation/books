@@ -18,7 +18,7 @@ graph TD
 
 you are sovereign, you can use any web browser to access the capabilities of your twin.
 
-Your digital twin has many skills (capabilities) and you can use them to experience your digital life. The web-providers become experience creators in which you can be alive and experiment with your skills.
+You have many [skills](myskills.md) and can use them to experience your digital life. The web-providers become experience creators in which you can be alive and experiment with your skills.
 
 > Web Companies (or anyone who wants to develop experiences) is working with you to let you use your skills inside their experience, using your tools, data and identity. You truly exist only once and own your digital past and future.
 

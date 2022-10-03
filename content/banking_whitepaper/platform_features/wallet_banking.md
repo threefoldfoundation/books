@@ -3,7 +3,7 @@
 ## Easy To Use Wallet / Banking Apps
 
 
-![alt_text](img/crypto_wallet.png )
+![alt_text](img/crypto_wallet.png "image_tooltip")
 
 
 Together, we will design the customers’ wallet, and leverage our existing platform to create the user experience the Bank wants to provide to its customers.

@@ -1,5 +1,5 @@
 # ThreeFold Project Phases
-![image alt text](img/TF_project_phases_graph.png )
+![image alt text](img/TF_project_phases_graph.png "image_tooltip")
 
 The first phase has been focused on initial expansion and the creation of all the technology required (this is now completed). The next two phases are all about accelerated expansion, and this requires many billions of tokens and tens of thousands of servers, neither of which are available today. 
 

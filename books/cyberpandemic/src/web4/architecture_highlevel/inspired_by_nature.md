@@ -1,1 +1,0 @@
-# Inspired By Nature

@@ -2,10 +2,10 @@
 
 ![](img/organie.png)  
 
-Your twin can help you to organize your digital life
+Your twin can help you to organize your digital life.
 
 - How can I manage my agenda and time
-- How to organize my digital content so I can find it back and it is nicely organized
+- How to organize my digital content so I can find it back and its nicely organized
 - Manage my circles (groups of people)
 - Edit your content
 

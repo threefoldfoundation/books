@@ -7,7 +7,7 @@ Our team has multiple world records for scaling projects on the Internet, invent
 Our ThreeFold system brings us back to the Internet as originally conceived. A collaborative and community-based network of compute, storage and network resources, peer-to-peer connected and delivered by all. Only this time, we can use advanced technologies and structures which were only developed very recently.
 
 
-![alt_text](img/threefold_leaders.png )
+![alt_text](img/threefold_leaders.png "image_tooltip")
 
 
 Kristof De Spiegeleer: Founder/Chairman ([linkedin](https://www.linkedin.com/in/despiegk/))

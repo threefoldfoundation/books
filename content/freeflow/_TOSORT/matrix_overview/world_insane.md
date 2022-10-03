@@ -1,7 +1,7 @@
 # We already live in the matrix.
 
 
-![alt_text](img/world_matrix.png )
+![alt_text](img/world_matrix.png "image_tooltip")
 
 
 
@@ -14,7 +14,7 @@
 <table>
   <tr>
    <td>
-<img src="img/earth.png" width="" alt="alt_text" title=>
+<img src="img/earth.png" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td><strong>Our major currencies are no longer Money</strong>
@@ -103,7 +103,7 @@ Link to money
 ## Climate Change - is real, and happening too fast
 
 
-![alt_text](img/red_blue_pill.png )
+![alt_text](img/red_blue_pill.png "image_tooltip")
 
 
 **Some facts**

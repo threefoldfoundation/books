@@ -4,7 +4,7 @@
 ![alt_text](img/today_internet.png "image_tooltip")
 
 
-The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on; there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and unable to deliver equality. Still, more than half of our planet does not have decent affordable access to the internet.
+The internet today is constructed in a centralized way, we exist many times and became a product of big centralized corporations. There is also a real cyber pandemic going on, there are cyber attacks everywhere and backdoors in most of the electronic equipment we use. This architecture is unsafe, not scalable, power hungry and not able to deliver equality. Still more than half of this planet does not have decent affordable access to the internet.
 
 
-Blockchain technology is a huge step in the right direction but it's a shared architecture distributed over the world where data gets replicated in many locations. It is a good technology choice for use-cases like money, smart contracts, voting, digital notary services and identity management but not at all suited for building a new internet. This is also called web4. Developers still need to develop applications connecting to multiple blockchains and centralization is often not good enough.
+Blockchain is a huge step in the right direction but it's a shared architecture distributed over the world where data gets replicated on many locations. It's a good technology choice for use cases like money, smart contracts, voting, digital notary and identity but not at all suited for building a new internet with. This is also called web 4. Developers still need to develop applications connecting to multiple blockchains and centralization is often not good enough.

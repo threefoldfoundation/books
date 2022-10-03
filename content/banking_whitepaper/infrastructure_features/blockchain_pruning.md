@@ -1,1 +1,3 @@
-../../web4/ourledger/blockchain_pruning.md
+# Blockchain Pruning
+
+Existing blockchains don’t have a pruning feature, which means old data cannot get archived, this leads to very large blockchains rather quickly. We have developed a technology which can enable any chosen blockchain and allows old data to be on the Quantum Safe Storage system (means can never be corrupted or lost) and only active data is on the online chain, this allows for much more scalability and better utilization of hardware.

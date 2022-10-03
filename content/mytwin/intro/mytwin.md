@@ -2,7 +2,7 @@
 
 ![](img/betheinternet.png)  
 
-# My Personal Digita Twin
+# My Personal Digital Twin
 
 ## I am Powerful, I am alive, <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; meet my Digital Twin
 
@@ -15,8 +15,8 @@ A crazy world
 - creating and owning information is unlimited
 - exchanging value is free and unlimited as well, no borders
 - telling about your product or services is free, no need to pay for promotion
-- finding products or services is free, no need to pay for an aggregation site such as Airbnb
-- communication is free, it follows the shortest path, and not listened too (no influence)
+- finding products or services is free, no need to pay for an aggregation site Airbnb
+- communication is free follows shortest path and not listened too
 - co-ownership is easy to organize
 - collaboration is easy and based on your digital skills
 

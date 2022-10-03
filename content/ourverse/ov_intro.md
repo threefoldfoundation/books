@@ -8,11 +8,11 @@
 
 State of the art rendering and experiences beyond e-commerce and marketing. A metaverse built by and for the people using it, with worthwhile capabilities that enhance your virtual experience. 
 
-A high quality metaverse experience cannot be delivered from far away datacenters, just like a very high resolution and action intense games cannot be delivered by central large datacenters.  Local gaming consoles are top of the market and present the best gaming experience to gamers. Gaming consoles are local to gamers for optimum performance and experience. For immersive metaverse high quality and responsive metaverse experiences you need local data compute, storage and GPU rendering.
+A high quality metaverse experience cannot be delivered from far away datacenter, just like a very high resolution and action intense games cannot be delivered by central large datacenters.  Local gaming consoles are top of the market and present the best gaming experience to gamers. Gaming consoles are local to gamers for optimum performance and experience. For immersive metaverse high quality and responsive metaverse experiences you need local data compute and storage and GPU rendering.
 
 ### Local GPU Rendering
 
-OurVerse’s proximity of ThreeFold’s edge computing allows rendering proximity (low latency) and speed unmatched in the industry.
+OurVerse’s proximity by ThreeFold’s edge computing allows rendering proximity (low latency) and speed unmatched in the industry.
 
 This allows streaming and graphic rendering at super high speeds with pixel perfect imagery, making OurVerse the first metaverse to achieve this status.
 
@@ -29,13 +29,13 @@ The metaverse presents real work experiences in a new an innovative way.  For ex
 
 ### Meeting and presentation capabilities
 
-Covid-19 has put digital meetings in everyones agenda. From business meetings to school classes, we all have been using industry standard video conferencing tools.  This is a step forward from having audio conferences only, but a lot can be improved if all participants are part of and in a virtual space where everyone has 3D virtual representation, and experiences the same (virtual) environment as one would in the real world in a conference room.
+Covid-19 has put digital meetings in everyones agenda.  From business meetings to school classes, we all have been using industry standard video conferencing tools.  This is a step forward from having audio conferences only, but a lot can be improved if all participants are part of and in a virtual space where everyone has 3D virtual representation and experiences the same (virtual) environment as one would in the real world in a conference room.
 
-This is possible in the metaverse, and proximity of the virtual world rendering makes the experiences high quality and latency free.
+This is make possible in the metaverse and proximity of the virtual world rendering makes the experiences high quality and latency free.
 ![metaverse](img/metaverse_conference.png)
 
 ### Internal and outside work, meet and greet spaces
-Larger rooms allow for digital roaming and impromptu meetings. Just like working in an office building (or any other physical setting), having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains storming sessions or just that little chat near the coffee machine in the cafeteria.  
+Larger rooms allow for digital roaming and impromptu meetings.  Just like working in an office building (or any other physical setting) having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains storming sessions or just that little chat near the coffee machine in the cafeteria.  
 
 <div style="text-align: center;">
 

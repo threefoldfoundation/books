@@ -1,4 +1,4 @@
-# Expand the metaverse
+# expand the metaverse
 
 ![](img/metaverse_create.png)  
 
@@ -44,7 +44,7 @@ Our FreeFlow Twin is integrating with the OurVerse development platform and as s
 - Q1 2023: 
     - authentication with our freeflow twin
     - everyone can expand the metaverse starting from their twin
-    - integrated education & e-commerce capabilities
+    - integrated education & ecommerce capabilities
     - use digital currencies for developing your own metaverse experiences
 - Q2 2023
     - the introduction of OurVerse Token (OVT) which allows anyone to earn money by expanding the metaverse

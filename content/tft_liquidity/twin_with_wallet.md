@@ -1,6 +1,6 @@
 # ThreeFold Twin with integrated DEFI Wallet (Q4 2022)
 
-![image alt text](img/wallet_infographic.png )
+![image alt text](img/wallet_infographic.png "image_tooltip")
 
 We are launching our Digital Twin (FreeFlow-Uhuru) at the end of summer 2022 and by the end of the year latest Q1 2023 our Digital Twin will have true decentralized finance capabilities.
 
