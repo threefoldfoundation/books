@@ -22,7 +22,7 @@ Your digital twin has many skills (capabilities) and you can use them to experie
 
 > Web Companies (or anyone who wants to develop experiences) is working with you to let you use your skills inside their experience, using your tools, data and identity. You truly exist only once and own your digital past and future.
 
-## To Compare: how do I work in the current Web (Web 2)?
+## To Compare: how do I work in the current Web?
 
 ```mermaid
 graph TD
@@ -100,32 +100,3 @@ graph TD
 BC stands for BlockChain, so BC1.1 is Blockchain 1 Validator Node 1.
 
 Each DAPP lives on many blockchain nodes, can be thousands. Many dapps live on different blockchain nodes, sometimes on the same. You still exist many times and each Dapp is developed using different technologies and duplicating your digital life which you don't own but now share with others and co-own.
-
-## Twin Communication (web4 base architecture)
-
-This is a very different design, the experience is using your capabilities, but these are yours, not owned nor provided by the web company.
-
-
-```mermaid
-graph TD
-    A---|peer2peer<br>local<br>safe|B
-    B---|p2p|C
-    C---|p2p|A
-
-    U1[User 1] -->|http| A(Your Twin Web Interface)
-    U2[User 2] -->|http| B(Your Twin Web Interface)
-    U3[User 3] -->|http| C(Your Twin Web Interface)
-    subgraph TWIN1[twin 1 private env]
-        A[TWIN 1<br>Process]
-        A -->|owns| X[[Twin1 Data &<br>Capabilities]]
-    end
-    subgraph TWIN2[twin 2 private env]
-        B[TWIN 2<br>Process]
-        B -->|owns| Y[[Twin2 Data &<br>Capabilities]]
-    end
-    subgraph TWIN3[twin 3 private env]
-        C[TWIN 3<br>Process]
-        C -->|owns| Z[[Twin3 Data &<br>Capabilities]]
-    end
-
-```

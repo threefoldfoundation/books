@@ -1,9 +1,11 @@
 
 ## Integration to Web 2
 
+Each Digital Twin can talk to the classic internet and web 2 interfaces.
+
+
 ![](img/web2_integration_w4.png)  
  
-Each Digital Twin can talk to the classic internet and web 2 interfaces.
 
 Each Twin knows how to talk legacy protocols like SMTP, POP3, DNS, ... (in development) to allow seamless integration.
 

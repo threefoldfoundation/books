@@ -1,5 +1,5 @@
 
-![alt_text](img/threefold_internet_of_internets_.jpg )
+![alt_text](img/threefold_internet_of_internets.png )
 
 # Introduction
 

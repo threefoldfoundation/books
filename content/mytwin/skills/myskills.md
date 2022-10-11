@@ -10,17 +10,17 @@ This is a very different paradigm compared to current web or mobile applications
 I am powerful and can use my skills wherever I go.
 
 - [Communicate](communicate.md)
-    - How can I chat, video conference, send messages with every of my contacts & circles
+    - How can I chat, video conference, send messages with every of my contacts and circles
 - [Create](creativity.md)
     - How to create content, any content (metaverse, video, websites, ...)
 - [Share and Promote](share.md)
-    - How can I share my creations to the rest of the world.
-    - How can I promote my products & services
+    - How can I share my creations to the rest of the world
+    - How can I promote my products and services
     - How can I share my knowledge and help others to grow
 - [Discover and Learn](discover.md)
     - How can I find information, alternative indexing engine (neutral)
-    - How can I know what is truthful and what not (proof of authenticity)
-    - How can I learn and become smarter.
+    - How can I know what is truthful and what is not (proof of authenticity)
+    - How can I learn and become smarter
 - [Economy](economy.md)
     - How can I manage my digital wealth (digital currencies)
     - How can I exchange anything for anything else (money for tokens, services, products)
@@ -30,7 +30,7 @@ I am powerful and can use my skills wherever I go.
     - How can I manage a project, plan events, define deadlines
 - [Organize](organize.md)
     - How can I manage my agenda and time
-    - How to organize my digital content so I can find it back and its nicely organized
+    - How can I organize my digital content so I can find it back, and its nicely organized
     - Manage my circles (groups of people)
 - [Protect](protect.md)
     - Make sure that only the right people have access to my digital assets

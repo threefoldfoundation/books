@@ -17,5 +17,3 @@ Why did we choose vlang as a first language to support on the TF Executors?
 - As smart contract language inside chosen blockchain
 - As provisioning layer for TFGrid
 - As serverless function layer for Executors (super exciting)
-
-> Coming H1 2023

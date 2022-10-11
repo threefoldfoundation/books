@@ -1,12 +1,12 @@
 # How does it work?
-![alt_text](img/centralized_servers_solution_.png )
+![alt_text](img/centralized_servers_solution.png )
 
 
 
 ## You can become an Internet Farmer today:
 
 
-![alt_text](img/node_guide_.png )
+![alt_text](img/node_guide.png )
 
 
 Farming Internet capacity is really easy and you can do it yourself today. Just buy a computer, go to our website, download our boot loader (which is a software which loads our operating system) and your computer is now a farming (mining) device that farms TFT, our Internet capacity reward token. If you do this yourself then we call this DIY (Do It Yourself) Internet Farming, more info see [https://library.threefold.me/info/threefold#/tfgrid/farming/farming_intro](https://library.threefold.me/info/threefold#/tfgrid/farming/farming_intro) 
@@ -20,7 +20,7 @@ We call this: a “ThreeFold **Neighborhood Cloud.”**
 
 
 ## 
-![alt_text](img/community_driven_.png )
+![alt_text](img/community_driven.png )
 
 
 

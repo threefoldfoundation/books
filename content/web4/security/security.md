@@ -1,3 +1,3 @@
 # Security
 
-Security is a super important element of web 4.
+Security is a super important element of our Solution.

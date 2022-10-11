@@ -4,13 +4,13 @@
 
 - Alternative to tools like Ansana, Trello, ...
 - Integrated forum alike features
-- Ofcourse needs our communication and other skills.
+- Of course needs our communication and other skills
 
 ## Work Together On Office Documents (Q2 2022)
 
 ![](img/onlyoffice.png)  
 
-We have integrated onlyoffice into the freeflow twin this allows you to collaborate on spreadsheets, word documents and presentations.
+We have integrated onlyoffice into the freeflow twin, this allows you to collaborate on spreadsheets, word documents and presentations.
 
 Other collaboration tools are coming soon.
 

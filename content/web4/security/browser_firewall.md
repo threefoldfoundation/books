@@ -1,4 +1,4 @@
-# Secure Access Mechanism = Browser Firewall
+## Secure Access Mechanism = Browser Firewall
 
 ![alt_text](img/browser_firewall.png )
 
@@ -9,7 +9,7 @@ For ultra secure use cases, the user doesn't use javascript in his browser, he c
 ![alt_text](img/twin_functions.png )
 
 
-As an option, the web cessions can be recorded for auditing or anti-hacking/fraud detection, also in a secure location.
+As an option, the web sessions can be recorded for auditing or anti-hacking/fraud detection, also in a secure location.
 
 The twin can communicate with other twins, in a close ultra secure context, giving no chance to hackers to interfere. The data is stored on a Quantum Safe Storage system (see further).
 

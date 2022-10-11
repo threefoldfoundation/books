@@ -13,5 +13,3 @@ This provides the following unique Features
 - unbreakable storage for IPFS
 - more distribution on global scale
 - more performance for the enduser
-
-> Planned 2023

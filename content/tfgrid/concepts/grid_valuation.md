@@ -42,7 +42,7 @@ While demand for the Internet and cloud is growing globally, the distribution of
 
 The weak distribution of Internet capacity can be explained by the large amount of monetary, infrastructural, electricity, and security resources needed to operate hyper-scale data centers. The current model is not affordable to the developing regions of our world and the cost and complexity involved in producing compute and storage capacity can be covered only by current market leaders. This also means that all the data economy of these countries isn't owned by them, but by the tech giants. 
 
-With about 45% of the global population that remains unconnected to the Internet, ThreeFold's scalable and efficient Internet infrastructure can provide and affordable way for emerging countries to expand their own soverign cloud infrastructure at an affordable price. Instead of building billion dollar data centers at one go, a city can expand it's Internet infrastructure in a decentralized and incremental way
+With about 45% of the global population that remains unconnected to the Internet, ThreeFold's scalable and efficient Internet infrastructure can provide and affordable way for emerging countries to expand their own sovereign cloud infrastructure at an affordable price. Instead of building billion dollar data centers at one go, a city can expand it's Internet infrastructure in a decentralized and incremental way
 
 > Note: With Zero-OS being able to run on any Intel or AMD  hardware, refurbished hardware can also be used to lower the required investments. With such a model, hosting the digital lives of 1,000 people can be as low as a couple thousands of dollars in Internet ifnrastructure costs. 
 

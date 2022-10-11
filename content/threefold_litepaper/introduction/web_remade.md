@@ -1,5 +1,5 @@
 # Web Re-Made Architecture
-![alt_text](img/web_remade_architect_.png )
+![alt_text](img/web_remade_architect.png )
 
 
 We are brainwashed about the need to centralize & control everything, this leads to suboptimal systems and a lot of waste. Web 1,2,3,4 are all centralized by nature. The best the world has been able to come up with is a shared consensus driven architecture called blockchain which is good for certain use cases but suboptimal for many more. 

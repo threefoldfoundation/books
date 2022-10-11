@@ -1,7 +1,7 @@
 
 ## Integration with blockchain (web 3)
 
-While the twin is a better alternative than the blockchain for many protocols, certain tasks still require a blockchain, such as
+The twin integrates with web 3 or blockchain for the following functions:
 
 - money
 - smart contract between people
