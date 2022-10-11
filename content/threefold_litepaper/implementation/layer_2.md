@@ -26,4 +26,4 @@ Each Regional Internet will have a read only Validator as part of their Region, 
 ### 
 
 
-![alt_text](img/threefold_phones.png "image_tooltip")
+![alt_text](img/threefold_phones.png )

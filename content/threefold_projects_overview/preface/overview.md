@@ -1,4 +1,4 @@
-![alt_text](../img/connected_world.png "image_tooltip")
+![alt_text](../img/connected_world.png )
 
 
 

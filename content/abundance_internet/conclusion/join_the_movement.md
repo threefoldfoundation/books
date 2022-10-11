@@ -2,7 +2,7 @@
 
 # JOIN THE MOVEMENT
 
-![alt_text](img/egypt_nile.png "image_tooltip")
+![alt_text](img/egypt_nile.png )
 
 
 Come meet us at one of our planned events

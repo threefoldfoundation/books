@@ -1,4 +1,4 @@
-![alt_text](../img/bangladesh.png "image_tooltip")
+![alt_text](../img/bangladesh.png )
 
 
 

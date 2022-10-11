@@ -1,6 +1,6 @@
 # 99% of all current financial banking solutions are client server
 
-![alt_text](img/client_server.png "image_tooltip")
+![alt_text](img/client_server.png )
 
 
 
