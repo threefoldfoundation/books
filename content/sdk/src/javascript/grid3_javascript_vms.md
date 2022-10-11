@@ -93,4 +93,4 @@ async function main() {
 main();
 ```
 
-It's similiar to the previous section of [deploying a single VM](javascript/grid3_javascript_vm.md), but just adds more vm objects to vms collection. 
+It's similiar to the previous section of [deploying a single VM](../javascript/grid3_javascript_vm.md), but just adds more vm objects to vms collection. 

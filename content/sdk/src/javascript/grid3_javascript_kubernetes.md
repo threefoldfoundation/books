@@ -1,4 +1,4 @@
-!!!include:grid3_javascript_loadclient
+first, make sure you have your [client](./grid3_javascript_loadclient.md) prepared
 
 ## Deploying a kubernetes cluster
 

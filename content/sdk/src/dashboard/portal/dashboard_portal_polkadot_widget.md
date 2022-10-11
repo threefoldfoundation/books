@@ -1,7 +1,7 @@
 
 # Polkadot Extension
 
-![ ](dashboard/img/polkadot_extension_.png)
+![ ](../img/polkadot_extension_.png)
 
 ## What does it do
 

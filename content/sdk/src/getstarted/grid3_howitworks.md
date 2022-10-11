@@ -43,11 +43,8 @@ The `Zero-OS` handles
 #### Provisioning 
 Now that's very cool, we now already know about `TFChain`, `Farmers`, `3Nodes` and `Zero-OS`, but still one major thing is still missing is how can we send a provisioning request to `Zero-OS`?
 
-The provisioning process is done mainly using two systems.
-
-- [Terraform](terraform/grid3_terraform_home.md) 
-- [Typescript Client](javascript/grid3_javascript_home.md)
-
-
+The provisioning process is done mainly using two tools which you can read about in this manual; 
+ - [Terraform](../terraform/terraform_readme.md)
+ - [Typescript Client](../javascript/grid3_javascript_readme.md)
 
 So what happens is we build the deployment information (what workloads we want to deploy) and create a contract(s) on the blockchain between us and a 3Node that will fulfill the provisioning of the resources needed in the contract for us, and automatically the node reports to the blockchain periodically to deduct the money from the user account based on the consumption.

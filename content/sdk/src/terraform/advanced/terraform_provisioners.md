@@ -1,4 +1,4 @@
-![](terraform/img//terraform_.png)
+![ ](./img//terraform_.png)
 
 # Deploying a VM and apply provisioner commands after deployment
 

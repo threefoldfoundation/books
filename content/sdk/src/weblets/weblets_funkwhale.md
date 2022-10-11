@@ -4,12 +4,12 @@
 Funkwhale is a community-driven project that lets you listen and share music and audio within a decentralized, open network.
 
 
-- Make sure you have an activated [profile](weblets/weblets_profile_manager)
+- Make sure you have an activated [profile](./weblets_profile_manager.md)
 - Click on the **Funkwhale** tab
 
 __Process__ :
 
-![](weblets/img/new_funk1.png)
+![ ](./img/new_funk1.png)
 
 - Enter an Application Name. It's used in generating a unique subdomain on one of the gateways on the network alongside your twin ID. Ex. ***fw100myfunk*.gent02.dev.grid.tf**
 
@@ -31,8 +31,8 @@ __Process__ :
 
 After that is done you can see a list of all of your deployed instances
 
-![](weblets/img/funkwhale2.png)
+![ ](./img/funkwhale2.png)
 
 Click on ***Visit*** to go to the homepage of your Funkwhale instance!
 
-![](weblets/img/funkwhale3.png)
+![ ](./img/funkwhale3.png)

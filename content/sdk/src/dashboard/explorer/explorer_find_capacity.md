@@ -1,7 +1,7 @@
 # Find Capacity on the Grid
 
-![ ](dashboard/img/explorer_basics_.png)
-![ ](dashboard/img/explorer_basics_2.png)
+![ ](../img/explorer_basics_.png)
+![ ](../img/explorer_basics_2.png)
 
 Before you can deploy on the TFGrid you need to find a node which fits your requirements, in terms of location, available resources, ... .
 
@@ -11,7 +11,7 @@ Before you can deploy on the TFGrid you need to find a node which fits your requ
 
 ## Use filter to select Country & Requirement for Public IP's
 
-![ ](dashboard/img/explorer_find_country_pubip.png)
+![ ](../img/explorer_find_country_pubip.png)
 
 In this case 17 nodes are found with that requirement.
 
@@ -28,5 +28,5 @@ Remember the ID, this is the number you will need to specify your node.
 
 ## Node details
 
-![ ](dashboard/img/node_detail_.png)
-![ ](dashboard/img/node_detail_1.png)
+![ ](../img/node_detail_.png)
+![ ](../img/node_detail_1.png)

@@ -2,10 +2,12 @@
 
 ## Deploying a VM and exposing it over a Gateway Prefix
 
-After the [deployment of a VM](grid3_javascript_vm), now it's time to expose it to the world 
+After the [deployment of a VM](../javascript/grid3_javascript_vm.md), now it's time to expose it to the world 
+
+
 
 ### Example code
-
+```
 import { FilterOptions, GatewayNameModel } from "../src";
 import { getClient } from "./client_loader";
 import { log } from "./utils";
@@ -43,7 +45,7 @@ async function main() {
 
 main();
 
-
+```
 ### Detailed explanation
 
 ```javascript

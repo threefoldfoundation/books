@@ -1,4 +1,4 @@
-![](terraform/img//terraform_.png)
+![ ](./advanced/img/terraform_.png)
 
 # Terraform Delete
 
@@ -14,13 +14,13 @@ terraform destroy
 
 ## Use Weblets To Delete From Blockchains
 
-go to https://play.dev.grid.tf/#/contractslist
+go to [https://play.dev.grid.tf/#/contractslist](https://play.dev.grid.tf/#/contractslist)
 
 or
 
-https://play.grid.tf/#/contractslist
+[https://play.grid.tf/#/contractslist](https://play.grid.tf/#/contractslist)
 
-![](terraform/img//weblets_contracts.png)
+![ ](./img/weblets_contracts.png)
 
 select the contracts you want to cancel.
 

@@ -7,7 +7,7 @@ Steps :
 - 1 CPU is enough for a PRE node. As we still need to install Docker on the VM before deploying a PRE node, please choose 8192 memory size. 
 - Once your VM is set up, SSH into our machine. 
 
-![](weblets/img/weblet_vm_overview.png)
+![ ](./weblets/img/weblet_vm_overview.png)
 
 For the VM having an IP address you can enter the terminal command 
 ```
@@ -48,4 +48,4 @@ docker stop presearch-node ; docker rm presearch-node ; docker stop presearch-au
 
 And you're done ! 
 
-![](weblets/img/weblet_vm_presearch_result.jpg)
+![ ](./weblets/img/weblet_vm_presearch_result.jpg)

@@ -3,12 +3,12 @@
 [Taiga](https://www.taiga.io/) is the project management tool for multi-functional agile teams. It has a rich feature set and at the same time it is very simple to start with through its intuitive user interface.
 
 
-- Make sure you have an activated [profile](weblets/weblets_profile_manager)
+- Make sure you have an activated [profile](./weblets_profile_manager.md)
 - Click on the **Taiga** tab
 
 __Process__ :
 
-![](weblets/img/taiga1.png)
+![ ](./img/taiga1.png)
 
 - Enter an Application Name. It's used in generating a unique subdomain on one of the gateways on the network alongside your twin ID. Ex. ***tg98taigar*.gent02.dev.grid.tf**
 
@@ -33,12 +33,12 @@ __Process__ :
 
 There's also an optional **Mail Server** tab if you'd like to have your Taiga instance configured with an SMTP server.
 
-![](weblets/img/taiga4.png)
+![ ](./img/taiga4.png)
 
 After that is done you can see a list of all of your deployed instances
 
-![](weblets/img/taiga5.png)
+![ ](./img/taiga5.png)
 
 Click on ***Visit*** to go to the homepage of your Funkwhale instance!
 
-![](weblets/img/taiga6.png)
+![ ](./img/taiga6.png)

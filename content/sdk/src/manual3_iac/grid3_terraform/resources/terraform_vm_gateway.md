@@ -1,5 +1,5 @@
 
-![](img/terraform_.png)
+![ ](./img/terraform_.png)
 
 # Terraform Web Gateway With VM
 
@@ -11,7 +11,7 @@ A complete list of gateway name workload parameters can be found [here](https://
 
 
 please note to use grid_name_proxy you should choose a node that has public config and has a domain in its public config like node 7 in the following example
-![](img/graphql_publicconf.png)
+![ ](./img/graphql_publicconf.png)
 
 
 

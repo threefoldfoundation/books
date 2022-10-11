@@ -2,12 +2,12 @@
 
 [Presearch](https://www.presearch.io/) is a community-powered, decentralized search engine that provides better results while protecting your privacy and rewarding you when you search. This weblet deploys a Presearch node. Presearch Nodes are used to process user search requests, and node operators earn Presearch PRE tokens for joining and supporting the network.
 
-- Make sure you have an activated [profile](weblets/weblets_profile_manager)
+- Make sure you have an activated [profile](./weblets_profile_manager.md)
 - Click on the **Presearch** tab
 
 __Process__
 
-![](weblets/img/presearch1.png)
+![ ](./img/presearch1.png)
 
 - Enter an instance name.
 
@@ -28,14 +28,14 @@ We got you! All you need to do is:
 2. Run `docker cp presearch-node:/app/node/.keys presearch-node-keys` in order to generate your key-pair.
 3. Head to the *Restore* tab in the Presearch weblet and paste your key-pair in the fields below and you'll be good to deploy!
 
-![](weblets/img/presearch6.png)
+![ ](./img/presearch6.png)
 
 After that is done you can see a list of all of your deployed instances
 
-![](weblets/img/presearch4.png)
+![ ](./img/presearch4.png)
 
 Now head to your [dashboard](https://nodes.presearch.org/dashboard)again and scroll down to **Current Nodes**, you'll see your newly created node up and connected!
 
-![](weblets/img/presearch5.png)
+![ ](./img/presearch5.png)
 
 You should visit Presearch's [docs](https://docs.presearch.org/) if you want to learn more!

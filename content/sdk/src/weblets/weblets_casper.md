@@ -1,13 +1,13 @@
 # CasperLabs
 
-[Casper Network](https://casperlabs.io/)is a blockchain protocol built from the ground up to remain true to core Web3 principles and adapt to the needs of our evolving world.
+[Casper Network](https://casperlabs.io/) is a blockchain protocol built from the ground up to remain true to core Web3 principles and adapt to the needs of our evolving world.
 
-- Make sure you have an activated [profile](weblets/weblets_profile_manager)
+- Make sure you have an activated [profile](./weblets_profile_manager.md)
 - Click on the **Casperlabs** tab
 
 __Process__ :
 
-![](weblets/img/casper1.png)
+![ ](./img/casper1.png)
 
 - Enter an Application Name. It's used in generating a unique subdomain on one of the gateways on the network alongside your twin ID. Ex. ***cl98casp*.gent02.dev.grid.tf**
 
@@ -29,8 +29,8 @@ __Process__ :
 
 After that is done you can see a list of all of your deployed instances
 
-![](weblets/img/casper4.png)
+![ ](./img/casper4.png)
 
 Click on ***Visit*** to go to the homepage of your Casperlabs instance! The node takes a long time in order for the RPC service to be ready so be patient!
 
-![](weblets/img/casper5.png)
+![ ](./img/casper5.png)

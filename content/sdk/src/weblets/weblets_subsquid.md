@@ -2,12 +2,12 @@
 
 [Subsquid](https://www.subsquid.io/) indexer is a piece of software that reads all the blocks from a Substrate based blockchain, decodes and stores them for processing in a later stage.
 
-- Make sure you have an activated [profile](weblets/weblets_profile_manager)
+- Make sure you have an activated [profile](./weblets_profile_manager.md)
 - Click on the **Subsquid** tab
 
 __Process__
 
-![](weblets/img/subsquid.png)
+![ ](./weblets/img/subsquid.png)
 
 - Enter an instance name.
 
@@ -32,9 +32,9 @@ __Process__
 After that is done you can see a list of all of your deployed instances
 
 
-![](weblets/img/subsquid_list.jpeg)
+![ ](./weblets/img/subsquid_list.jpeg)
 
 Click on ***Visit*** to go to the homepage of your Subsquid indexer instance!
 
-![](weblets/img/subsquid_graphql.png)
+![ ](./weblets/img/subsquid_graphql.png)
 

@@ -1,6 +1,6 @@
 
 
-![](img/terraform_.png)
+![ ](./img/terraform_.png)
 
 # Deploying a ZDB with terraform
 

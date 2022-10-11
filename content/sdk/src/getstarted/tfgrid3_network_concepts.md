@@ -1,10 +1,10 @@
-![](getstarted/img/network_concepts_.jpg)
+![ ](./getstarted/img/network_concepts_.jpg)
 
 # TFGrid Network Concepts
 
 ## Peer 2 Peer Private Network
 
-![](getstarted/img/peer2peer_net_.jpg)
+![ ](./getstarted/img/peer2peer_net_.jpg)
 
 All Zmachines (or kubernetes nodes) are connected to each other over private networks.
 
@@ -14,7 +14,7 @@ When you use IAC or our clients then you can manually specify the name and IP Ne
 
 ## Web Gateway (experts only)
 
-![](getstarted/img/webgw_.jpg)
+![ ](./getstarted/img/webgw_.jpg)
 
 ## More Info
 

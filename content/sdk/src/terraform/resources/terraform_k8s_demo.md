@@ -1,4 +1,4 @@
-![](terraform/img//terraform_.png)
+![ ](../advanced/img//terraform_.png)
 
 ## Demo video showing deploying k8s with terraform
 

@@ -47,9 +47,27 @@ From now on in the document we will assume you already have
 - twin
 - mnemonics
 
-If you don't, please visit the [Get started section](tfgrid3_getstarted)
+If you don't, please visit the [Get started section](../getstarted/tfgrid3_getstarted.md)
 
-We provided set of scripts to play around with in the repository in the `scripts` directory. [check how to run them](grid3_javascript_run_scripts)
+We provided set of scripts to play around with in the repository in the `scripts` directory.
+
+
+
+## How to run the scripts
+
+- Set your grid3 client configuration in `scripts/client_loader.ts` or easily use one of `config.json`
+- update your customized deployments specs
+- Run using [ts-node](https://www.npmjs.com/ts-node)
+
+```bash
+npx ts-node --project tsconfig-node.json scripts/zdb.ts
+```
+
+or
+
+```bash
+yarn run ts-node --project tsconfig-node.json scripts/zdb.ts
+```
 
 
 ## Reference API

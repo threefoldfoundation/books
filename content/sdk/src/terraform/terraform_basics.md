@@ -1,5 +1,5 @@
 
-![](terraform/img//terraform_.png)
+![ ](./advanced/img//terraform_.png)
 
 # terraform basics
 
@@ -9,8 +9,8 @@
 
 Make sure following is done:
 
-- [Get started with your account on TFGrid](getstarted/tfgrid3_getstarted.md)
-- [Install Terraform](terraform/terraform_install.md)
+- [Get started with your account on TFGrid](../getstarted/tfgrid3_getstarted.md)
+- [Install Terraform](../terraform/terraform_install.md)
 
 
 ## Prepare
@@ -51,4 +51,4 @@ The choice of the node is up to the user. They need to do the capacity planning.
 
 Make sure you choose a node which has enough capacity and is available (up and running).
 
-> Check [Exploring Capacity](dashboard/explorer/explorer_home.md) to know which nodes fits your deployment criteria.
+> Check [Exploring Capacity](../dashboard/explorer/explorer_home.md) to know which nodes fits your deployment criteria.

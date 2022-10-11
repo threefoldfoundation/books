@@ -1,4 +1,4 @@
-![](terraform/img//terraform_.png)
+![ ](./advanced/img//terraform_.png)
 
 
 ## Using Terraform
@@ -54,7 +54,7 @@ export NETWORK="....."
 
 ```
 
-For more info see [Provider Manual](terraform/advanced/terraform_provider.md)
+For more info see [Provider Manual](./advanced/terraform_provider.md)
 
 ### output section
 

@@ -1,4 +1,4 @@
-![](img/terraform_.png)
+![ ](./img/terraform_.png)
 
 ## Terraform Quantum Safe Filesystem
 

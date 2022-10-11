@@ -4,12 +4,12 @@ Kubernetes is the standard container orchestration tool.
 
 On the TF grid, Kubernetes clusters can be deployed out of the box. We have implemented [K3S](https://k3s.io/), a full-blown Kubernetes offering that uses only half of the memory footprint. It is packaged as a single binary and made more lightweight to run workloads in resource-constrained locations (fits e.g. IoT, edge, ARM workloads).
 
-- Make sure you have an activated [profile](weblets/weblets_profile_manager) 
+- Make sure you have an activated [profile](./weblets_profile_manager.md) 
 - Click on the **Kubernetes** tab
 
 ### **Configs** tab
 
-![](weblets/img/new_k8s1.png)
+![ ](./img/new_k8s1.png)
 
 - `Name`: Your Kubernetes Cluster name.
 - `Cluster Token`: It's used for authentication between your worker nodes and master node. You could use the auto-generated one or type your own.
@@ -18,8 +18,8 @@ On the TF grid, Kubernetes clusters can be deployed out of the box. We have impl
 
 ### **Master** and **Worker** tabs
 
-![](weblets/img/new_k8s2.png)
-![](weblets/img/new_k8s3.png)
+![ ](./img/new_k8s2.png)
+![ ](./img/new_k8s3.png)
 
 > Currently, we only support "single-master-multi-worker" k8s clusters. So you could always add more than one worker node by clicking on the **+** in the ***Worker*** tab.
 
@@ -70,16 +70,16 @@ Add or Remove workers in any **Kubernetes cluster**.
 ```
 
 - Kubernetes DeployedList Weblet
-![](weblets/img/k8s_dl_1.png)
+![ ](./img/k8s_dl_1.png)
 
 - Manager kubernetes workers
-![](weblets/img/k8s_dl_2.png)
+![ ](./img/k8s_dl_2.png)
 
 - Add a new worker
-![](weblets/img/new_k8s4.png)
+![ ](./img/new_k8s4.png)
 
 - Successfully added new worker
-![](weblets/img/k8s_dl_4.png)
+![ ](./img/k8s_dl_4.png)
 
 - Delete a worker
-![](weblets/img/new_k8s4.png)
+![ ](./img/new_k8s4.png)

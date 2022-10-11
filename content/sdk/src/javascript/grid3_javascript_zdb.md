@@ -1,3 +1,5 @@
+first, make sure you have your [client](./grid3_javascript_loadclient.md) prepared
+
 
 ## Deploying ZDB
 
