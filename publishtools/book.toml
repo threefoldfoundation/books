@@ -1,0 +1,6 @@
+[book]
+authors = ["<sasha-astiadi>"]
+language = "en"
+multilingual = false
+src = "src"
+title = "ThreeFold Publishtools"
