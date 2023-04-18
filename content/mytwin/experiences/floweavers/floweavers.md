@@ -28,8 +28,7 @@ Children, teachers and parents support each other, their school and staff result
 - Kids extend their real life capabilities by practicing new skills
 - Kids are significantly more engaged and happy
 - Increased capacity of the school to effectively handle its objectives
-   
- 
+
 ## Usecase 3:  Social Delivery
 
 **Enterprises to NGOs**
@@ -60,7 +59,7 @@ We demonstrated that applying Floweavers resulted in a win-win-situation both fo
 - Keep their fiat money to better fulfill their core mission
 - Businesses linked their in-kind donations towards their corporate responsibility.
 
-![](img/social_enterprise.png)  
+![](img/social_enterprise_.png)
 
 ## Usecase 4: Community Shipping
 
@@ -76,5 +75,5 @@ Betty needed to pick up an item from a member, on the way back home she delivere
 4. Rachel contacted Betty to schedule a pickup time to get the item
 5. Rachel rewarded Betty with points for delivering the item closer to her home.
 
-![](img/community_shipping.png)  
+![](img/community_shipping_.png)
 

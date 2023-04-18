@@ -1,6 +1,6 @@
 # My Creativity
 
-![Developing Code](img/coding.png)
+![](img/coding.png)
 
 
 I am capable and creative
@@ -26,6 +26,4 @@ And so many more things to explore.
 - TBD for next steps
 
 Capabilities can be used over multiple experiences.
-
-
 

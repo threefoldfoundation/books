@@ -1,6 +1,6 @@
 # My twin has many skills.
 
-![](img/iamtheweb.png)  
+![](img/iamtheweb_.png)  
 
 
 I am powerful and have many skills, these skills are used when we enter in an experience.
@@ -72,3 +72,4 @@ Our twins represent us in our digital life and have following skills:
 <br>
 <br>
 <br>
+

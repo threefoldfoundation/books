@@ -1,7 +1,6 @@
-
 # Internet Sovereignity
 
-![](img/twin_sovereignity.png)  
+![](img/twin_sovereignity_.png)  
 
 In the current internet system I exist many times, each application provider owns my data and provides functionality they own and let me use in return for my data.
 

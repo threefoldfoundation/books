@@ -1,12 +1,10 @@
-
 ## Communication tool: Chat
 
-
-![groups_and_contacts](img/chat_people_invite.png)
+![](img/chat_people_invite_.png)
 
 Private version of the chat:
 
-![private_chat](img/chat_overview.png)
+![](img/chat_overview.png)
 
 
 The chat communication tools presents a simple interface to manage both individuals and group messaging. The interface presented is very similar to mainstream messaging platforms but works in a very different way.
@@ -43,7 +41,6 @@ Decentralized messaging send and receive messages from private messaging instanc
 - _private chat_: private entity to private entity
 - _group chat_: one private entity creates and **hosts** the "group", and all the other members are invited to post and receive message from this group. The entity that starts the group also sets the groups "rules".
 
-
 ### Private Chat
 
 With private chat we mean a chat between two entities. These entities could be individuals, organizations, companies, clubs, basically anything.  The chat is a one to one chat, and information (data) is exchanged between two private, secure and personal messaging platforms.
@@ -74,7 +71,6 @@ The chat functionality allows most (if not all) of the standard functionalities 
 - send photo/file/
 
 From the chat function you can also initiate video conference, and have control over accepting, deleting and blocking users.
-
 
 ### Group Chat
 
@@ -108,10 +104,9 @@ graph LR
     PERSOND(Person D) --> TWIND
 ```
 
-
-
 <div style="text-align: center;">
 
 <!-- ![communication tool chat](img/oc.png) -->
 
 </div>
+

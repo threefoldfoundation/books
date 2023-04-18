@@ -1,6 +1,6 @@
 # Video Share
 
-![](img/video_share.png)  
+![](img/video_share_.png)  
 
 > TODO: explain more
 
@@ -35,7 +35,6 @@ graph LR
     VIDEOPLATFORM .-> INDIVIDUALI
     VIDEOPLATFORM .-> INDIVIDUALJ
     VIDEOPLATFORM .-> INDIVIDUALK
-
 ```
 
 versus a more decentralized approach:
@@ -83,7 +82,5 @@ graph LR
     VIDEOPLATFORMC --> VIDEOPLATFORMA
     VIDEOPLATFORMB --> VIDEOPLATFORMC
     VIDEOPLATFORMC --> VIDEOPLATFORMB
-
-
-
 ```
+

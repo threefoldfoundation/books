@@ -1,7 +1,6 @@
-
 # Web vs real physical life.
 
-![](img/welcome_back.png)  
+![](img/welcome_back_.png)  
 
 Lets make a comparison of how our digital systems work in relation to how we do things in day to day life, in this case we are comparing with an educational event.
 
@@ -21,7 +20,7 @@ We hope you will see how current web experiences are and not logical, they are d
 - If I want to get back to the content of the event, I need to pay again and go through the event again
 - If I would go to another (similar) event from another provider, I would have to restart from scratch, I would have to get other tools, another notebook, I cannot reuse what I have produced on the first event.
 
-However, the good thing is, I don't have to think that much and it is very addictive, they learn very well what we like and keep on improving constantly, so we want to come back. 
+However, the good thing is, I don't have to think that much and it is very addictive, they learn very well what we like and keep on improving constantly, so we want to come back.
 
 ### The Web 3 way
 
@@ -47,6 +46,4 @@ However, the good thing is, I don't have to think that much and it is very addic
 > PS: This event can be single owned or co-owned (like in web3).
 
 Doesn't this sound like a better idea, don't we wanna have a tool which works that way?
-
-
 

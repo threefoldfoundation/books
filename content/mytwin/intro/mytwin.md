@@ -1,6 +1,4 @@
-
-
-![](img/betheinternet.png)  
+![](img/betheinternet_.png)
 
 # My Personal Digita Twin
 
@@ -22,6 +20,4 @@ A crazy world
 
 
 > This is not just a dream, its a dream which is becoming reality.
-
-
 
