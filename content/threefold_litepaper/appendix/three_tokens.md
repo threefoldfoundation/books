@@ -1,7 +1,7 @@
 # The Three Tokens in the ThreeFold Ecosystem
 
 ## 
-![alt_text](img/threefold_tokens.png "image_tooltip")
+![alt_text](img/threefold_tokens.png )
 
 
 

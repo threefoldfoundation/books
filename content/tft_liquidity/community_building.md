@@ -1,6 +1,6 @@
 # Expansion of our community building activities
 
-![image alt text](img/caravan_of_light_picture.png "image_tooltip")
+![image alt text](img/caravan_of_light_picture.png )
 
 Next year, we want to organize a ThreeFold Caravan of Light. 
 

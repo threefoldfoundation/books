@@ -1,6 +1,6 @@
 # Internet of Internets Concept Provides Planetary Scale
 
-![image alt text](img/internet_of_internets_header.png "image_tooltip")
+![image alt text](img/internet_of_internets_header.png )
 
 The Internet of Internets system has one Mother DAI (Decentralized Autonomous Internet), which supports lots of regional Internets protected by Daughter DAIs. Each Regional Internet supports unlimited Community and Neighborhood Clouds which provide the Internet Experiences and Capacity (storage, compute) for its local users.
 

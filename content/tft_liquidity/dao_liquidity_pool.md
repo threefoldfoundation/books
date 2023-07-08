@@ -1,6 +1,6 @@
 # DAO based TFT Liquidity Pool (Q1 2023)
 
-![image alt text](img/TFT_liquidity_pool_infographic.png "image_tooltip")
+![image alt text](img/TFT_liquidity_pool_infographic.png )
 
 There are +-40m USD worth TFT, from which a small minority is liquid, there are billions of TFT required (see [litepaper](http://litepaper.threefold.me) and scarcity simulator below) this will lead to upward price pressure. We believe in organic growth of our token.
 

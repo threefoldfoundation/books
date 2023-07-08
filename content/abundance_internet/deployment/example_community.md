@@ -6,7 +6,7 @@
 
 
 
-![alt_text](img/zanzibar_neighbourhood.png "image_tooltip")
+![alt_text](img/zanzibar_neighbourhood.png )
 
 
 This is an example of a small village of 30 families which might spend 10k USD (can be wholly or in part funded by grants from a DAI) to build out their own peer2peer internet infrastructure. We call this process digital farming.
@@ -71,5 +71,5 @@ This Internet of Internets concept is not only for emerging regions. Each nation
 
 
 
-![alt_text](img/space_orb.png "image_tooltip")
+![alt_text](img/space_orb.png )
 

@@ -32,7 +32,8 @@ _docs/
 *.code-workspace
 .vscode
 .DS_Store
+ds_store
 node_modules/
 .DS_Store
-books/
 book/
+docs/

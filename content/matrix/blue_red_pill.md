@@ -1,7 +1,7 @@
 # The blue or the red pill?
 
 
-![alt_text](img/carbon_dioxide.png "image_tooltip")
+![alt_text](img/carbon_dioxide.png )
 
 
 Everyone is talking about the metaverse these days, personally it makes me scared. Do we really need to become part of some virtual worlds controlled by a few large corporations? Will this resolve all the issues we really face?

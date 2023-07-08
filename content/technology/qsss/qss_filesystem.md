@@ -19,8 +19,8 @@ Unique features:
 - Sites can go down, data not lost
 - Up to 10x more efficient than storing on classic storage cloud systems
 - Can be mounted as filesystem on any OS or any deployment system (OSX, Linux, Windows, Docker, Kubernetes, TFGrid, ...)
-- Compatible with +- all data workloads (not high performance data driven workloads like a database)
-- Self-healing: when a node or disk lost, storage system can get back to original redundancy level
+- Compatible with ± all data workloads (not high performance data driven workloads like a database)
+- Self-healing: when a node or disk is lost, the storage system can get back to the original redundancy level
 - Helps with compliance to regulations like GDPR (as the hosting facility has no view on what is stored, information is encrypted and incomplete)
 - Hybrid: can be installed onsite, public, private, ...
 - Read-write caching on encoding node (the front end)
@@ -31,13 +31,13 @@ Unique features:
 
 The QSFS is a mechanism to mount any file system (in any format) on the grid, in a quantum-secure way. 
 
-This storage layer relies on relies on 3 primitives of the ThreeFold technology : 
+This storage layer relies on 3 primitives of the ThreeFold technology : 
 
 - [0-db](https://github.com/threefoldtech/0-db) is the storage engine.
 It is an always append database, which stores objects in an immutable format. It allows keeping the history out-of-the-box, good performance on disk, low overhead, easy data structure and easy backup (linear copy and immutable files).
 
 - [0-stor-v2](https://github.com/threefoldtech/0-stor_v2) is used to disperse the data into chunks by performing 'forward-looking error-correcting code' (FLECC) on it and send the fragments to safe locations.
-It takes files in any format as input, encrypts this file with AES based on a user-defined key, then FLECC-encodes the file and spreads out the result
+It takes files in any format as input, encrypts the file with AES based on a user-defined key, then FLECC-encodes the file and spreads out the result
 to multiple 0-DBs. The number of generated chunks is configurable to make it more or less robust against data loss through unavailable fragments. Even if some 0-DBs are unreachable, you can still retrieve the original data, and missing 0-DBs can even be rebuilt to have full consistency. It's an essential element of the operational backup. 
 
 - [0-db-fs](https://github.com/threefoldtech/0-db-fs) is the filesystem driver which uses 0-DB as a primary storage engine. It manages the storage of directories and metadata in a dedicated namespace and file payloads in another dedicated namespace.
@@ -59,7 +59,7 @@ This concept scales forever, and you can bring any file system on top of it:
 
 ## Architecture
 
-By using our filesystem inside a Virtual Machine or Kubernetes the TFGrid user can deploy any storage application on top e.g. Minio for S3 storage, OwnCloud as online fileserver.
+By using our filesystem inside a Virtual Machine or Kubernetes, the TFGrid user can deploy any storage application on top e.g. Minio for S3 storage, OwnCloud as online fileserver.
 
 ![](img/qsstorage_architecture.jpg)
 

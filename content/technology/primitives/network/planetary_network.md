@@ -15,7 +15,7 @@ Benefits :
 - It resolves the shortage of IPV4 addresses
 
 
-Whereas current computer networks depend heavily on very centralized design and configuration, this networking concept breaks this mould by making use of a global spanning tree to form a scalable IPv6 encrypted mesh network.  This is a peer2peer implementation of a networking protocol.
+Whereas current computer networks depend heavily on very centralized design and configuration, this networking concept breaks this mould by making use of a global spanning tree to form a scalable IPv6 encrypted mesh network. This is a peer2peer implementation of a networking protocol.
 
 The following table illustrates high-level differences between traditional networks like the internet, and the planetary threefold network:
 
@@ -43,5 +43,5 @@ In addition, wireless meshing requires you to know a lot about the network aroun
 
 ![](img/planetary_net.jpg)
 
-The planetary network is a continuation & implementation of the [Planetary Network](https://Planetary Network-network.github.io/about.html) network initiative. This technology is in beta but has been proven to work already quite well.
+The planetary network is a continuation and implementation of the [Planetary Network](https://Planetary Network-network.github.io/about.html) network initiative. This technology is in beta but has been proven to work already quite well.
 
