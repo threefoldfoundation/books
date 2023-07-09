@@ -22,4 +22,3 @@ Click on connect wallet.
 You can now create a program, make sure your metamask account used to do the transactions has money and is part of the gnosis safe wallet which is the operator.
 
 
-
