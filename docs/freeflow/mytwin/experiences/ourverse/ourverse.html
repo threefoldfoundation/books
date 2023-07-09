@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -144,7 +146,7 @@
                     <main>
                         <h2 id="ourverse"><a class="header" href="#ourverse">OurVerse</a></h2>
 <div style="text-align: center;">
-<p><img src="img/smiley.png" alt="ourverse" /></p>
+<p><img src="img/smiley.png" alt="" /></p>
 </div>
 <blockquote>
 <p>see <a href="/ourtwin/skills/creativity/creativity_metaverse.html">some examples how virtual worlds can be created with OurVerse</a></p>
@@ -160,19 +162,19 @@
 <h2 id="example-experiences"><a class="header" href="#example-experiences">Example experiences</a></h2>
 <h3 id="personal-todo-list"><a class="header" href="#personal-todo-list">Personal ToDo list</a></h3>
 <p>The metaverse presents real work experiences in a new an innovative way.  For example a wall with ToDo list functionality will present different personal ToDo lists for any that is looking at the same wall. Also, when two people want to share their todo lists they can make their private todo list viewable for other digital avatars in the digital space.
-<img src="img/metaverse_todo.png" alt="" /></p>
+<img src="img/metaverse_todo_.jpg" alt="" /></p>
 <h3 id="meeting-and-presentation-capabilities"><a class="header" href="#meeting-and-presentation-capabilities">Meeting and presentation capabilities</a></h3>
 <p>Covid-19 has put digital meetings in everyones agenda.  From business meetings to school classes, we all have been using industry standard video conferencing tools.  This is a step forward from having audio conferences only, but a lot can be improved if all participants are part of and in a virtual space where everyone has 3D virtual representation and experiences the same (virtual) environment as one would in the real world in a conference room.</p>
 <p>This is make possible in the metaverse and proximity of the virtual world rendering makes the experiences high quality and latency free.
-<img src="img/metaverse_conference.png" alt="metaverse" /></p>
+<img src="img/metaverse_conference_.png" alt="" /></p>
 <h3 id="internal-and-outside-work-meet-and-greet-spaces"><a class="header" href="#internal-and-outside-work-meet-and-greet-spaces">Internal and outside work, meet and greet spaces</a></h3>
 <p>Larger rooms allow for digital roaming and impromptu meetings.  Just like working in an office building (or any other physical setting) having a continuous virtual presence in a virtual world allows you to have impromptu conversations, meeting, brains storming sessions or just that little chat near the coffee machine in the cafeteria.</p>
 <div style="text-align: center;">
-<p><img src="img/metaverse_kitchen.png" alt="" /></p>
+<p><img src="img/metaverse_kitchen_.png" alt="" /></p>
 </div>
 <p>Remote working has taken away these little distractions and creative moments and a metaverse is able to bring this back to the remote working / social locations.</p>
 <div style="text-align: center;">
-<p><img src="img/metaverse_pool.png" alt="" /></p>
+<p><img src="img/metaverse_pool_.jpg" alt="" /></p>
 </div>
 
                     </main>
@@ -207,23 +209,24 @@
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../elasticlunr.min.js"></script>
+        <script src="../../../mark.min.js"></script>
+        <script src="../../../searcher.js"></script>
 
-        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../clipboard.min.js"></script>
+        <script src="../../../highlight.js"></script>
+        <script src="../../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="../../../mermaid.min.js"></script>
-        <script type="text/javascript" src="../../../mermaid-init.js"></script>
+        <script src="../../../mermaid.min.js"></script>
+        <script src="../../../mermaid-init.js"></script>
 
 
+    </div>
     </body>
 </html>

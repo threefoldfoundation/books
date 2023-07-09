@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -162,7 +164,7 @@
 <blockquote>
 <p>Web Companies (or anyone who wants to develop experiences) is working with you to let you use your skills inside their experience, using your tools, data and identity. You truly exist only once and own your digital past and future.</p>
 </blockquote>
-<h2 id="to-compare-how-do-i-work-in-the-current-web-web-2"><a class="header" href="#to-compare-how-do-i-work-in-the-current-web-web-2">To Compare: how do I work in the current Web (Web 2)?</a></h2>
+<h2 id="to-compare-how-do-i-work-in-the-current-web"><a class="header" href="#to-compare-how-do-i-work-in-the-current-web">To Compare: how do I work in the current Web?</a></h2>
 <pre class="mermaid">graph TD
     U[YOU as a user] --&gt;|http| A(Centralized Application)
     A --&gt;|owns| C[[Your Data]]
@@ -224,30 +226,6 @@
 </pre>
 <p>BC stands for BlockChain, so BC1.1 is Blockchain 1 Validator Node 1.</p>
 <p>Each DAPP lives on many blockchain nodes, can be thousands. Many dapps live on different blockchain nodes, sometimes on the same. You still exist many times and each Dapp is developed using different technologies and duplicating your digital life which you don't own but now share with others and co-own.</p>
-<h2 id="twin-communication-web4-base-architecture"><a class="header" href="#twin-communication-web4-base-architecture">Twin Communication (web4 base architecture)</a></h2>
-<p>This is a very different design, the experience is using your capabilities, but these are yours, not owned nor provided by the web company.</p>
-<pre class="mermaid">graph TD
-    A---|peer2peer&lt;br&gt;local&lt;br&gt;safe|B
-    B---|p2p|C
-    C---|p2p|A
-
-    U1[User 1] --&gt;|http| A(Your Twin Web Interface)
-    U2[User 2] --&gt;|http| B(Your Twin Web Interface)
-    U3[User 3] --&gt;|http| C(Your Twin Web Interface)
-    subgraph TWIN1[twin 1 private env]
-        A[TWIN 1&lt;br&gt;Process]
-        A --&gt;|owns| X[[Twin1 Data &amp;&lt;br&gt;Capabilities]]
-    end
-    subgraph TWIN2[twin 2 private env]
-        B[TWIN 2&lt;br&gt;Process]
-        B --&gt;|owns| Y[[Twin2 Data &amp;&lt;br&gt;Capabilities]]
-    end
-    subgraph TWIN3[twin 3 private env]
-        C[TWIN 3&lt;br&gt;Process]
-        C --&gt;|owns| Z[[Twin3 Data &amp;&lt;br&gt;Capabilities]]
-    end
-
-</pre>
 
                     </main>
 
@@ -281,23 +259,24 @@
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
 
-        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="../../mermaid.min.js"></script>
-        <script type="text/javascript" src="../../mermaid-init.js"></script>
+        <script src="../../mermaid.min.js"></script>
+        <script src="../../mermaid-init.js"></script>
 
 
+    </div>
     </body>
 </html>

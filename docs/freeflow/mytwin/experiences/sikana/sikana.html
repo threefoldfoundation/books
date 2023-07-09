@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -143,12 +145,12 @@
                 <div id="content" class="content">
                     <main>
                         <h2 id="video-education-platform-sikana"><a class="header" href="#video-education-platform-sikana">Video Education Platform Sikana</a></h2>
-<p><img src="img/sikana.png" alt="" /></p>
-<p>Education is a sector that still relies on traditional teaching methods, a teacher, a classroom, a black (or white) board, books, paper and pencils.  This method has been in use for hundreds of years.  In this digital age there the classroom can be a digital classroom, with a teacher teaching and all of the rest of the required items can be digitised as well.</p>
-<p>Traditional learning is based on a live teacher, teaching an audience in a classroom. This works, however is has a number of restrictions which makes that work for a limited number of pupils, and not everywhere because of the necessity to have live teachers and pupils.  In this digital world we can record end present the learning materials in a digital manner to a much larger audience that a single classroom.  Classes, or better while curriculum can be digitised and share along a much larger group of pupils spanning a vast geographic area.</p>
-<p>The Covid-19 pandemic has proven that remote teaching is possible and that the current technology allow for this.  This experience was still based on the standard teacher - pupil relationship and numbers for live teaching.  Another technology, a video sharing platform has proven that storing videos and sharing videos is a effective manner to reach a very large number of viewers (youtube.com).</p>
-<p><img src="img/sikana2.png" alt="" /></p>
-<p>Taking the learnings from both of these current use cases we have created Sikana. Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 billion views, aiming to deliver quality education and necessary skills to everyone. The software can be installed on threefold nodes and deployed regionally so that bandwidth requirements are minimised because it is a decentralized online education platform.</p>
+<p><img src="img/sikana_.png" alt="" /></p>
+<p>Education is a sector that still relies on traditional teaching methods, a teacher, a classroom, a black (or white) board, books, paper and pencils. This method has been in use for hundreds of years. In the current digital age, the classroom can be a digital classroom, with a teacher teaching while all of the rest of the required items can be digitised.</p>
+<p>Traditional learning is based on a live teacher, teaching an audience in a classroom. This works, however it has a number of restrictions which makes that work for a limited number of pupils, and not everywhere, because of the necessity to have live teachers and pupils. In this digital world we can record and present the learning materials in a digital manner to a much larger audience than a single classroom.  Classes, or better as curriculum can be digitised and shared along a much larger group of pupils spanning a vast geographic area.</p>
+<p>The Covid-19 pandemic has proven that remote teaching is possible and that the current technology allow for this. This experience was still based on the standard teacher - pupil relationship and numbers for live teaching. Another technology, a video sharing platform has proven that storing videos and sharing videos is a effective manner to reach a very large number of viewers (youtube.com).</p>
+<p><img src="img/sikana2_.png" alt="" /></p>
+<p>Taking the learnings from both of these current use cases, we have created Sikana. Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 billion views, aiming to deliver quality education and necessary skills to everyone. The software can be installed on threefold nodes and deployed regionally so that bandwidth requirements are minimised because it is a decentralized online education platform.</p>
 <pre class="mermaid">graph LR
     VIDEOPLATFORM .-&gt; INDIVIDUALA
     VIDEOPLATFORM .-&gt; INDIVIDUALB
@@ -177,10 +179,9 @@
     VIDEOPLATFORM .-&gt; INDIVIDUALI
     VIDEOPLATFORM .-&gt; INDIVIDUALJ
     VIDEOPLATFORM .-&gt; INDIVIDUALK
-
 </pre>
 <p>To scale such a solution for many classrooms in many schools and in many different regions put enormous requirements and stress on the central video sharing platform.</p>
-<p>Decentralized video sharing as an education platform as a platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school.  This allows this education solution to educate everywhere, even if there is no internet connection. A simple wifi router that connects devices to the educational platform is all that is needed.</p>
+<p>Decentralized video sharing as an education platform will lower the requirements on the education / video sharing platform and creates, stores and distributes educational content from within a region, or even from within a school. This brings a solution to educate everywhere, even if there is no internet connection. A simple Wifi router that connects devices to the educational platform is all that is needed.</p>
 <pre class="mermaid">graph LR
     subgraph Region A
     INDIVIDUALAA(Student A)
@@ -261,23 +262,24 @@
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../elasticlunr.min.js"></script>
+        <script src="../../../mark.min.js"></script>
+        <script src="../../../searcher.js"></script>
 
-        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../clipboard.min.js"></script>
+        <script src="../../../highlight.js"></script>
+        <script src="../../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="../../../mermaid.min.js"></script>
-        <script type="text/javascript" src="../../../mermaid-init.js"></script>
+        <script src="../../../mermaid.min.js"></script>
+        <script src="../../../mermaid-init.js"></script>
 
 
+    </div>
     </body>
 </html>

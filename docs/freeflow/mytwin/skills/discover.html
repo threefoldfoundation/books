@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -145,7 +147,7 @@
                         <h1 id="discover"><a class="header" href="#discover">Discover</a></h1>
 <h2 id="find-information-in-neutral-way"><a class="header" href="#find-information-in-neutral-way">Find information in Neutral Way</a></h2>
 <p><img src="img/search.png" alt="" /></p>
-<p>FreeFlow network has built in indexing capabilities and a search engine, imagine the power for you being able to find anything from everywhere.</p>
+<p>FreeFlow network has built-in indexing capabilities and a search engine, imagine the power for you being able to find anything from everywhere.</p>
 <p>When you create your content (website) you can instruct the indexing engine with more information to make it easier for people to find what you are publishing.</p>
 <h2 id="proof-of-authenticity"><a class="header" href="#proof-of-authenticity">Proof of Authenticity</a></h2>
 <p>Rather than giving ratings we can use proof of authenticity to...</p>
@@ -158,16 +160,16 @@
 </blockquote>
 <h2 id="roadmap-vs-experiences"><a class="header" href="#roadmap-vs-experiences">Roadmap vs Experiences</a></h2>
 <p>There will be hundreds (thousands) of experiences eventually, but we mapped our capabilities to some first ones to get started with.</p>
-<table><thead><tr><th><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
-<tr><td>Integrated Internet Wide Search</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Index Engine on FreeFlow Network</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Structured Metadata for Indexing</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Locality Based Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
-<tr><td>Planet/People First Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
-<tr><td>Support any website, wiki, knowledgebase</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
-<tr><td>Proof of Authenticity</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left"><strong>ROADMAP</strong></th><th style="text-align: center">OurLife</th><th style="text-align: center">OurVerse</th><th style="text-align: center">Sikana</th><th style="text-align: center">Floweavers</th><th style="text-align: center">Protocol.me</th></tr></thead><tbody>
+<tr><td style="text-align: left">Integrated Internet Wide Search</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Index Engine on FreeFlow Network</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Structured Metadata for Indexing</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Locality Based Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
+<tr><td style="text-align: left">Planet/People First Index</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">2023</td></tr>
+<tr><td style="text-align: left">Support any website, wiki, knowledgebase</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">NA</td><td style="text-align: center">NA</td><td style="text-align: center">Q1 2023</td></tr>
+<tr><td style="text-align: left">Proof of Authenticity</td><td style="text-align: center">Q1 2023</td><td style="text-align: center">2023</td><td style="text-align: center">2023</td><td style="text-align: center">tbd</td><td style="text-align: center">Q1 2023</td></tr>
 </tbody></table>
-
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
@@ -200,23 +202,24 @@
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
 
-        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="../../mermaid.min.js"></script>
-        <script type="text/javascript" src="../../mermaid-init.js"></script>
+        <script src="../../mermaid.min.js"></script>
+        <script src="../../mermaid-init.js"></script>
 
 
+    </div>
     </body>
 </html>

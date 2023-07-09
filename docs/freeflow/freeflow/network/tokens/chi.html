@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -173,12 +175,13 @@ CU farmed * CU farming rewards
 + IPAddr used * IPAddr farming rewards</p>
 </blockquote>
 <p>The reward for above items are linked (pegged) to the USD</p>
-<table><thead><tr><th>Unit</th><th>USD</th><th>Unit</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Unit</th><th>USD</th><th>Unit</th></tr></thead><tbody>
 <tr><td>Compute Unit (CU)</td><td>2.4</td><td>per month</td></tr>
 <tr><td>Storage Unit (SU)</td><td>1</td><td>per month</td></tr>
 <tr><td>Network Unit (NU)</td><td>0.03</td><td>per GB transfer (as customers use it)</td></tr>
 <tr><td>Public IPv4 Address</td><td>0.005</td><td>per IP address, calculated per hour</td></tr>
 </tbody></table>
+</div>
 <blockquote>
 <p>For the predefined nodes as defined on the &quot;buy node&quot; page the rewards are fixed and described in this manual and expressed in CHI but pegged to USD.</p>
 </blockquote>
@@ -215,13 +218,14 @@ The FFChain tracks capacity utilization and as such the reward can be calculated
 </code></pre>
 <h4 id="resource-units"><a class="header" href="#resource-units">Resource Units</a></h4>
 <p>Resource units (RU) are used to measure and convert capacity on the hardware level into cloud units: CU &amp; SU see above.</p>
-<table><thead><tr><th>Unit Type</th><th>Description</th><th>Code</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Unit Type</th><th>Description</th><th>Code</th></tr></thead><tbody>
 <tr><td>Core Unit</td><td>1 Logical Core (Hyperthreaded Core)</td><td>CRU</td></tr>
 <tr><td>Mem Unit</td><td>1 GB mem</td><td>MRU</td></tr>
 <tr><td>HD Unit</td><td>1 GB</td><td>HRU</td></tr>
 <tr><td>SSD Unit</td><td>1 GB</td><td>SRU</td></tr>
 <tr><td>Network Unit</td><td>1 GB of bandwidth transmitted in/out</td><td>NRU</td></tr>
 </tbody></table>
+</div>
 <p>These are raw capacity resources as measured by the ThreeFold software running on Zero-OS which is the cloud operating system as developped by ThreeFold.</p>
 <h2 id="important-chi-utilization-remarks"><a class="header" href="#important-chi-utilization-remarks">Important CHI Utilization Remarks</a></h2>
 <p>CHI's are needed to use the Internet Capacity as farmed in the FreeFlow Network.</p>
@@ -267,23 +271,24 @@ The FFChain tracks capacity utilization and as such the reward can be calculated
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../elasticlunr.min.js"></script>
+        <script src="../../../mark.min.js"></script>
+        <script src="../../../searcher.js"></script>
 
-        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../clipboard.min.js"></script>
+        <script src="../../../highlight.js"></script>
+        <script src="../../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="../../../mermaid.min.js"></script>
-        <script type="text/javascript" src="../../../mermaid-init.js"></script>
+        <script src="../../../mermaid.min.js"></script>
+        <script src="../../../mermaid-init.js"></script>
 
 
+    </div>
     </body>
 </html>

@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -142,10 +144,10 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p><img src="img/camera.png" alt="comnunication tool video" /></p>
+                        <p><img src="img/camera.png" alt="" /></p>
 <h2 id="communication-tool-video"><a class="header" href="#communication-tool-video">Communication tool: Video</a></h2>
-<p>A truly peer to peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.</p>
-<p>Current world video conferencing services use service provider and centralized software installations to present services to businesses and consumers.  Take for example to users in Zanzibar that wish to communicate through zoom (or google meet, or Microsoft Teams, principle stays the same).  The will connect from their laptops/phones to a centralized service and the traffic will be routed from both of their devices to a centralized service datacenter far away.</p>
+<p>A truly peer2peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.</p>
+<p>Current world video conferencing services use service provider and centralized software installations to present services to businesses and consumers. Take for example two users in Zanzibar who wish to communicate through zoom (or google meet, or Microsoft Teams, principle stays the same), they will connect from their laptops/phones to a centralized service, and the traffic will be routed from both of their devices to a centralized service datacenter far away.</p>
 <p>In principle this looks like</p>
 <pre class="mermaid">graph LR
     
@@ -167,18 +169,18 @@
 mermaid source in: ./includes/centralized_video.md
 -->
 <div style="text-align: left;">
-<p><img src="img/videoconference_central-1.png" alt="alt text" />)</p>
+<p><img src="img/videoconference_central_1.png" alt="" />)</p>
 </div>
 <blockquote>
-<p>TODO: pictures are too small, need to make new ones, also revisit text &amp; flow</p>
+<p>TODO: pictures are too small, need to make new ones, also revisit text &amp; flow.</p>
 </blockquote>
-<p>This does not lead to create the best experience and over all, it is very wasteful with a number of (scarce) resources.</p>
-<p>The solution to this problem is to have a video conference solution that works peer to peer.</p>
+<p>This does not lead to create the best experience, and overall it is very wasteful with a number of (scarce) resources.</p>
+<p>The solution to this problem is to have a video conference solution that works peer2peer.</p>
 <!--
 mermaid source in: ./includes/private_video.md
 -->
 <div style="text-align: center;">
-<p><img src="img/videoconference_decentral.png" alt="" /></p>
+<p><img src="img/example" alt="" /></p>
 </div>
 <pre class="mermaid">graph LR
     
@@ -199,14 +201,13 @@ mermaid source in: ./includes/private_video.md
     subgraph Individual D
     INDIVIDUALD(Person D) --&gt;|Browser| TWINA
     end
-
 </pre>
 <blockquote>
 <p>TODO: not ok</p>
 </blockquote>
-<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier the two people in Zanzibar would be able to communicate as follows:</p>
+<p>If we build a video conferencing system that follows this principle we can be much more effective.  Back to the example earlier, the two people in Zanzibar would be able to communicate as follows:</p>
 <div style="text-align: center;">
-<p><img src="img/videoconference_central-2.png" alt="" /></p>
+<p><img src="img/videoconference_central_2.png" alt="" /></p>
 </div>
 
                     </main>
@@ -241,23 +242,24 @@ mermaid source in: ./includes/private_video.md
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../elasticlunr.min.js"></script>
+        <script src="../../../mark.min.js"></script>
+        <script src="../../../searcher.js"></script>
 
-        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../clipboard.min.js"></script>
+        <script src="../../../highlight.js"></script>
+        <script src="../../../book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript" src="../../../mermaid.min.js"></script>
-        <script type="text/javascript" src="../../../mermaid-init.js"></script>
+        <script src="../../../mermaid.min.js"></script>
+        <script src="../../../mermaid-init.js"></script>
 
 
+    </div>
     </body>
 </html>
