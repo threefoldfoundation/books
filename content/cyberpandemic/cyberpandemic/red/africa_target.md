@@ -1,26 +1,26 @@
 
 
-## **Africa is a target, and is being taken over…**
+## **Africa is a target.**
 
 ![](img/africa.png)  
 
-Africa is super rich in natural resources (food, water, minerals, gold, …). Some large countries seem to do everything they can to destabilize Africa to allow them to extract even more.
+Africa is immensely endowed with natural resources, ranging from agricultural bounty to water, minerals, and gold. However, it appears that certain major global powers are engaged in efforts to destabilize the continent, seemingly to facilitate even greater resource extraction.
 
-Example, why are countries like Tanzania, one of the richest in the world for natural resources, still having one of the lowest GDP per capita?  A reason might be that Tanzania is being taken advantage of?
+Take Tanzania as an example: despite being among the richest countries globally in terms of natural resources, it has one of the lowest GDP per capita figures. This discrepancy raises the question: is Tanzania being exploited?
 
-In the case of Tanzania, we are still lucky that there is a stable government with strong leaders,  a vision and good will to improve their country, but some other countries in Africa are not that lucky.
+Fortunately, Tanzania benefits from a stable government, characterized by strong leadership, a clear vision, and a commitment to national improvement. Regrettably, not all African countries are in a similar position.
 
-In our personal opinion the 3 main tools which make this possible are:
+From our perspective, there are three primary mechanisms enabling this exploitation:
 
-- Investment deals, putting countries in debt, and giving power to external parties.
-- Mass scale, manipulation of internet information (in case of country take over, coup d’etat).
-- Corruption = greed, leads to unfair deals for the country.
+1. **Investment Deals Leading to Debt**: Such arrangements often empower external entities at the expense of the host country's autonomy.
+2. **Mass-Scale Internet Information Manipulation**: This is particularly evident in situations involving country takeovers or coups d'état.
+3. **Corruption and Greed**: This combination results in inequitable agreements that disadvantage the affected countries.
 
-We see right now, there are geo-political movements happening. The big 3 are dividing Africa over themselves to secure their own future.
+Currently, we are witnessing significant geo-political maneuvers. The world's major powers seem to be carving up Africa among themselves, each vying to secure resources for their future needs.
 
 
 * [https://www.bbc.com/news/world-africa-46783600](https://www.bbc.com/news/world-africa-46783600)
 * [https://www.usip.org/publications/2022/02/sixth-coup-africa-west-needs-its-game](https://www.usip.org/publications/2022/02/sixth-coup-africa-west-needs-its-game)
 * [https://media.africaportal.org/documents/KAIPTC-Policy-Brief-3---Coups-detat-in-Africa.pdf](https://media.africaportal.org/documents/KAIPTC-Policy-Brief-3---Coups-detat-in-Africa.pdf)  
 
-We believe information manipulation (cyber warfare, psychological info manipulation) is a requirement and the easiest way to make this possible.
+We are of the view that manipulation of information, encompassing aspects like cyber warfare and psychological information tactics, is not only a critical component but also the most straightforward method to facilitate such geopolitical maneuvers.

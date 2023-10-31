@@ -1,1 +1,0 @@
-../../../content/BOOKS/banking_whitepaper/SUMMARY.md
