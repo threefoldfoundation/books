@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Page not found - DEVXDAO 1-CLICK DEPLOYMENT GRANT 36</title>
+        <title>Page not found - Abdunance Internet</title>
         <base href="/">
 
 
@@ -84,16 +84,38 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="web3grants/intro.html"><strong aria-hidden="true">1.</strong> OurWorld Introduction</a></li><li class="spacer"></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro/intro.html"><strong aria-hidden="true">1.</strong> OurWorld Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ppp/ppp_threefold.html"><strong aria-hidden="true">1.1.</strong> Planet & People First</a></li><li class="chapter-item expanded "><a href="intro/matrix.html"><strong aria-hidden="true">1.2.</strong> We are in the Matrix!</a></li></ol></li><li class="chapter-item expanded "><a href="internet_of_internets/internet_of_internets_why.html"><strong aria-hidden="true">2.</strong> Internet of Internets</a></li><li class="chapter-item expanded "><a href="architecture/internet_bandwidth_problem.html"><strong aria-hidden="true">3.</strong> Bandwidth Problem</a></li><li class="chapter-item expanded "><a href="architecture/internet_today.html"><strong aria-hidden="true">4.</strong> The Internet Today</a></li><li class="chapter-item expanded "><a href="architecture/remade_architecture.html"><strong aria-hidden="true">5.</strong> Web Re-made Architecture</a></li><li class="chapter-item expanded "><a href="deployment/deployment_process.html"><strong aria-hidden="true">6.</strong> Deployment</a></li><li class="chapter-item expanded "><a href="deployment/example_community.html"><strong aria-hidden="true">7.</strong> Example Community</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="conclusion/conclusion.html">Conclusion</a></li><li class="chapter-item expanded affix "><a href="conclusion/join_the_movement.html">Join the Movement</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -113,7 +135,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">DEVXDAO 1-CLICK DEPLOYMENT GRANT 36</h1>
+                    <h1 class="menu-title">Abdunance Internet</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
