@@ -1,6 +1,6 @@
 # My Twin
 
-- [My Twin](mytwin.md) 
+- [My Twin](mytwin/intro/mytwin.md) 
     - [Own Your Digital Life](mytwin/intro/mytwin_sovereignity.md) 
     - [How Does It Work](mytwin/intro/mytwin_how.md) 
     - [Funny Comparison With Life](mytwin/intro/funny_comparison.md)
@@ -47,7 +47,7 @@
     - [Governance and DAO](freeflow/network/tokens/dao.md)
     - [FlowWeavers Detail](mytwin/experiences/floweavers/floweavers_2.md)
 - [What Is](freeflow/whatis/whatis.md)
-    - [The Internet](theinternet/theinternet.md)
+    - [The Internet](tfgrid/theinternet/theinternet.md)
     
 
 
