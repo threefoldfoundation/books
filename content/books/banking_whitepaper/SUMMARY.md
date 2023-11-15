@@ -19,7 +19,7 @@
     - [Reputation System](banking_whitepaper/platform_features/p2p_reputation_system.md)
 - [Technology](banking_whitepaper/solution/technology.md)
     - [Smart Contract For IT](technology/smartcontract_it/smartcontract_it_full.md)
-    - [Development Environment](banking_whitepaper/solution/vlang_dev.md)
+    - [Development Environment]((banking_whitepaper/solution/vlang_dev.md)
     - [3 Layers bring scale](technology/layers/3layer_approach.md)
     - [BlockChain DataBase](banking_whitepaper/solution/blockchain_database.md)
 - [Infrastructure](banking_whitepaper/solution/infrastructure.md)
