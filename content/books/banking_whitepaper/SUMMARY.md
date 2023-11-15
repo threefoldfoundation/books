@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](introduction.md)
+[Introduction](banking_whitepaper/introduction.md)
 
 ---
 
