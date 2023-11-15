@@ -27,7 +27,7 @@
     - [Browser Firewall](banking_whitepaper/infrastructure_features/browser_firewall.md)
     - [Compatibility](banking_whitepaper/infrastructure_features/legacy_blockchain_compatability.md)
     - [Quantum Safe Storage](banking_whitepaper/infrastructure_features/quantum_safe_storage.md)
-    - [Twin Storage System](banking_whitepaper/infrastructure_features/QSS_twin.md)
+    - [Twin Storage System](banking_whitepaper/infrastructure_features/qss_twin.md)
     - [Zero-OS](banking_whitepaper/infrastructure_features/zero_os.md)
     - [Blockchain Pruning](banking_whitepaper/infrastructure_features/blockchain_pruning.md)
     - [Planetary network](banking_whitepaper/infrastructure_features/planetary_network.md)
@@ -37,5 +37,5 @@
 
 # Appendix
 
-- [Appendix A: Quantum Safe Storage](appendix/QSS_internals.md)
+- [Appendix A: Quantum Safe Storage](appendix/qss_internals.md)
 - [Appendix B: Zero-OS](appendix/appendix_zero_os.md)
