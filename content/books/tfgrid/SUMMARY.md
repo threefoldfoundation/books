@@ -20,5 +20,5 @@
         - [Farming Reward Calculation](tfgrid/farming/farming_reward_calculation.md)
         - [Cloud Units](tfgrid/cloudunits/cloudunits_advanced.md)
         - [Resource Units](tfgrid/cloudunits/resourceunits_advanced.md)
-    - [What Is](whatis.md)
+    - [What Is](whatis/whatis.md)
         - [The Internet](tfgrid/theinternet/theinternet.md)
