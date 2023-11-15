@@ -37,5 +37,5 @@
 
 # Appendix
 
-- [Appendix A: Quantum Safe Storage](appendix/qss_internals.md)
-- [Appendix B: Zero-OS](appendix/appendix_zero_os.md)
+- [Appendix A: Quantum Safe Storage](banking_whitepaper/appendix/qss_internals.md)
+- [Appendix B: Zero-OS](banking_whitepaper/appendix/appendix_zero_os.md)
