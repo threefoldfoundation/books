@@ -1,7 +1,7 @@
 
 # WEB 4
 
-- [Introduction](introduction.md)
+- [Introduction](cyberpandemic/introduction.md)
     - [Internet Evolution](web4/architecture_highlevel/internet_evolution.md)
 - [What Is](web4/architecture_highlevel/web4_architecture_intro.md)
     - [Digital Twin](web4/architecture_highlevel/web4_digital_twin.md)
@@ -21,7 +21,7 @@
     - [Blockchain Pruning](web4/ourledger/blockchain_pruning.md)
 - [VLang](web4/vlang/vlang_dev.md)
     - [VLang](web4/executor/executor_vlang.md)
-- [Finance](finance/finance.md)
+- [Finance](web4/finance/finance.md)
     - [Currency Wrapping](web4/finance/digitial_currency_wrapping.md)
     - [Reputation System](web4/finance/p2p_reputation_system.md)
     - [Proof Authenticity](web4/finance/proof_of_authenticity.md)
