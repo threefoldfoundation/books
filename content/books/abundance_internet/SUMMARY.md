@@ -2,7 +2,7 @@
 
 - [OurWorld Introduction](abundance_internet/overview/intro.md)
     - [Planet & People First](ppp/ppp_threefold.md)
-    - [We are in the Matrix!](abundance_internet/intro/matrix.md)
+    - [We are in the Matrix!](abundance_internet/overview/matrix.md)
 - [Internet of Internets](matrix/internet_of_internets.md)
 - [Bandwidth Problem](abundance_internet/architecture/internet_bandwidth_problem.md)
 - [The Internet Today](abundance_internet/architecture/internet_today.md)
