@@ -6,7 +6,7 @@
     - [Funny Comparison With Life](mytwin/intro/funny_comparison.md)
     - [Planet First](ppp/ppp.md)
     - [Architecture](mytwin/intro/twin_architecture.md) 
-- [I want to join](freeflow/contribute.md)
+- [I want to join]()
     - [Buy a twin](freeflow/buy/buy_my_twin.md)
     - [Become a farmer](freeflow/network/farming/farming_intro.md)
         - [buy a node](freeflow/network/farming/node_buy.md)
