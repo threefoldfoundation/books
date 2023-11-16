@@ -4,7 +4,7 @@
     - [The Internet Today](threefold_litepaper/introduction/internet_today.md)
     - [Web Re-Made Architecture](threefold_litepaper/introduction/web_remade.md)
     - [Why a new internet?](threefold_litepaper/introduction/why_new_internet.md)
-    - [Planet & People First](threefold_litepaper/ppp/ppp_threefold.md)
+    - [Planet & People First](ppp/ppp_threefold.md)
     - [How does it work?](threefold_litepaper/introduction/how_it_works.md)
     - [The missing layer](threefold_litepaper/introduction/missing_layer.md)
     - [The BTC for Internet](threefold_litepaper/introduction/like_BTC.md)
