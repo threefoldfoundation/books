@@ -1,4 +1,4 @@
-- [](readme.md)
+- [Technology Introduction](technology/readme.md)
     - [Technology](technology/technology.md)
         - [Compute](technology/layers/capacity_layer_intro.md) 
         - [Storage](technology/qsss/qsss_home.md)
@@ -31,8 +31,8 @@
 	    - [Blockchain Layer](technology/layers/3layer_approach.md)
             - [Smart Contract for IT](technology/smartcontract_it/smartcontract_it_full.md)
             - [IAC = Infrastructure As Code](technology/smartcontract_it/smartcontract_iac.md)
-    - [Concepts](grid/concepts/concepts.md)
-        - [Cloud Units](grid/concepts/cloudunits.md)
+    - [Concepts](technology/grid/concepts/concepts.md)
+        - [Cloud Units](technology/grid/concepts/cloudunits.md)
 	- [Manual](technology/manual.md)
 
 

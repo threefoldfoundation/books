@@ -8,7 +8,7 @@
 - [ThreeFold Project Phases](tft_liquidity/project_phases.md)
 - [TFT Scarcity Simulator](tft_liquidity/scarcity_simulator.md)
 - [Internet of Internets = Planetary Scale](tft_liquidity/internet_of_internets.md)
-- [How do we scale to a Billion People?](liquidity/scale_up.md)
+- [How do we scale to a Billion People?](tft_liquidity/scale_up.md)
 - [TFT Utilization Model](tft_liquidity/utilization_model.md)
 - [Community building activities](tft_liquidity/community_building.md)
 - [More Info](tft_liquidity/more_info.md)
