@@ -20,3 +20,8 @@ This can be done by:
 - Building Education programs to make sure that further systems development can happen in the country.
 - Creating organizations that are reliable and coming from the heart with love and loyalty for their country.
 - Emphasizing the importance of values , this is not a marketing exercise, this needs to be the strong foundation of anyone helping their country to become digitally independent.
+
+
+
+
+
