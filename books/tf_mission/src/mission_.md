@@ -1,1 +1,0 @@
-../../../content/mission/mission_.md

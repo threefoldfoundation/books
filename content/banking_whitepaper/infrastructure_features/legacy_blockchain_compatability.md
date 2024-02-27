@@ -1,1 +1,0 @@
-../../web4/ourledger/legacy_blockchain_compatability.md

@@ -1,1 +1,0 @@
-../../web4/zos/zero_os.md

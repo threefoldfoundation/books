@@ -1,1 +1,0 @@
-{{#include ../architecture_highlevel/web4_storage_architecture.md}}

@@ -1,1 +1,0 @@
-../../../content/BOOKS/inca_litepaper/SUMMARY.md

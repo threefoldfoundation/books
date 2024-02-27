@@ -1,1 +1,0 @@
-../../../content/sdk/SUMMARY.md

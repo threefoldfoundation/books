@@ -1,1 +1,0 @@
-../../web4/security/browser_firewall.md

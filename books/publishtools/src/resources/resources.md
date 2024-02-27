@@ -1,3 +1,0 @@
-# Resources
-
-![](./img/resources.jpeg)

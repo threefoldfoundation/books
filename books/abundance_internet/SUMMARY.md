@@ -1,1 +1,0 @@
-/Users/despiegk1/code/books/content/BOOKS/abundance_internet/SUMMARY.md

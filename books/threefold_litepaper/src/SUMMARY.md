@@ -1,1 +1,0 @@
-../../../content/BOOKS/threefold_litepaper/SUMMARY.md

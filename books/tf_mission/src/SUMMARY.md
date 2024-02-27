@@ -1,1 +1,0 @@
-../../../content/BOOKS/tf_mission/SUMMARY.md

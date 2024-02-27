@@ -1,1 +1,0 @@
-../../web4/architecture_highlevel/inspired_by_nature.md

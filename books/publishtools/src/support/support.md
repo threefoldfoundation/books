@@ -1,3 +1,0 @@
-# Support
-
-![](./img/support.jpeg) 

@@ -1,1 +1,0 @@
-../../web4/ourledger/blockchain_pruning.md
